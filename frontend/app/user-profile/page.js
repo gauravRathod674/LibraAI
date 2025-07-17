@@ -518,7 +518,7 @@ export default function AccountSettings() {
                 <button
                   type="button"
                   onClick={() => setIsEditing(true)}
-                  className="w-full px-6 py-2 font-semibold text-black transition transform rounded-lg shadow-lg sm:w-auto hover:scale-105"
+                  className="w-full px-6 py-2 font-semibold text-black transition cursor-pointer transform rounded-lg shadow-lg sm:w-auto hover:scale-105"
                   style={{
                     background:
                       "linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%)",
