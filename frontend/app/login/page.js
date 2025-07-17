@@ -8,6 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLock, faUser } from "@fortawesome/free-solid-svg-icons";
 import UserRoleDropdown from "@/components/ui/UserRoleDropdown";
 import { useTheme } from "../context/ThemeContext";
+import { toast } from "sonner";
+
 
 export default function AuthPage() {
   const { darkMode } = useTheme();
@@ -17,7 +19,7 @@ export default function AuthPage() {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
   const [role, setRole] = useState("");
-  const [alert, setAlert] = useState({ message: "", success: false });
+  // const [alert, setAlert] = useState({ message: "", success: false });
 
   // Fetch a welcome message on load (optional)
   useEffect(() => {
@@ -28,63 +30,68 @@ export default function AuthPage() {
   }, []);
 
   // Auto-fade alert after 5s then clear after animation
-  useEffect(() => {
-    if (!alert.message) return;
-    const t1 = setTimeout(() => {
-      const el = document.querySelector(".custom-alert");
-      if (el) el.classList.add("hid");
-      const t2 = setTimeout(
-        () => setAlert({ message: "", success: false }),
-        3000
-      );
-      return () => clearTimeout(t2);
-    }, 5000);
-    return () => clearTimeout(t1);
-  }, [alert.message]);
+  // useEffect(() => {
+  //   if (!alert.message) return;
+  //   const t1 = setTimeout(() => {
+  //     const el = document.querySelector(".custom-alert");
+  //     if (el) el.classList.add("hid");
+  //     const t2 = setTimeout(
+  //       () => setAlert({ message: "", success: false }),
+  //       3000
+  //     );
+  //     return () => clearTimeout(t2);
+  //   }, 5000);
+  //   return () => clearTimeout(t1);
+  // }, [alert.message]);
 
-  const onSubmitLogin = async (e) => {
-    e.preventDefault();
-    try {
-      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
-        action: "login",
-        username,
-        password,
-      });
-      setAlert({ message: res.data.message, success: res.data.success });
-      if (res.data.token) {
-        localStorage.setItem("token", res.data.token);
-      }
-      if (res.data.success) window.location.href = "/";
-    } catch (err) {
-      console.error("Login error:", err);
-      setAlert({ message: "Login failed. Try again.", success: false });
+ const onSubmitLogin = async (e) => {
+  e.preventDefault();
+  try {
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
+      action: "login",
+      username,
+      password,
+    });
+
+    if (res.data.success) {
+      toast.success(res.data.message);
+      if (res.data.token) localStorage.setItem("token", res.data.token);
+      window.location.href = "/";
+    } else {
+      toast.error(res.data.message || "Login failed.");
     }
-  };
+  } catch (err) {
+    console.error("Login error:", err);
+    toast.error("Login failed. Try again.");
+  }
+};
+
 
   const onSubmitRegister = async (e) => {
-    e.preventDefault();
-    console.log("Role:", role); // Add this line to check the role value
+  e.preventDefault();
+  try {
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
+      action: "register",
+      username,
+      email,
+      password,
+      role,
+    });
 
-    try {
-      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
-        action: "register",
-        username,
-        email,
-        password,
-        role,
-      });
-      setAlert({ message: res.data.message, success: res.data.success });
-      if (res.data.success) {
-        handleToggle();
-      }
-    } catch (err) {
-      console.error("Register error:", err);
-      setAlert({ message: "Registration failed. Try again.", success: false });
+    if (res.data.success) {
+      toast.success(res.data.message);
+      handleToggle();
+    } else {
+      toast.error(res.data.message || "Registration failed.");
     }
-  };
+  } catch (err) {
+    console.error("Register error:", err);
+    toast.error("Registration failed. Try again.");
+  }
+};
 
   const handleToggle = () => {
-    setAlert({ message: "", success: false });
+    // setAlert({ message: "", success: false });
     setAnimationPhase("stretch");
     setTimeout(() => {
       setIsRegistering((prev) => !prev);
@@ -157,11 +164,11 @@ export default function AuthPage() {
       <Navbar />
 
       {/* Global Alert */}
-      {alert.message && (
+      {/* {alert.message && (
         <div className={`custom-alert ${alert.success ? "success" : ""} show`}>
           {alert.message}
         </div>
-      )}
+      )} */}
 
       <div
         className={`relative w-full max-w-2xl min-h-[470px] rounded-3xl
