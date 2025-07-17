@@ -5,7 +5,6 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import Navbar from "@/components/ui/Navbar";
 import { useTheme } from "../context/ThemeContext"; 
 import Footer from "@/components/ui/Footer";
-import { Darker_Grotesque } from "next/font/google";
 import { book } from "../data";
 
 const BookDetailPage = () => {
@@ -114,14 +113,14 @@ const BookDetailPage = () => {
       <Navbar />
 
       {/* Main Container */}
-      <div className="container mx-auto px-4 py-8 mt-30">
+      <div className="container mx-auto px-4 py-8 mt-20">
         <div className="flex flex-col lg:flex-row">
           {/* Left Section (Sticky) */}
-          <div className="lg:w-1/3 h-fit sticky top-20 flex flex-col items-center lg:items-start space-y-4 px-20">
+          <div className="w-full sm:w-3/4 lg:w-1/3 h-fit lg:sticky lg:top-20 flex flex-col items-center lg:items-start space-y-4 px-4 sm:px-8 lg:px-20">
             <img
               src={book.image_src}
               alt={book.title}
-              className="w-75 rounded-md shadow-lg"
+              className="w-full max-w-xs sm:max-w-sm rounded-md shadow-lg"
             />
 
             <div className="flex flex-col space-y-2 w-75">
@@ -159,7 +158,7 @@ const BookDetailPage = () => {
           </div>
 
           {/* Right Section (Scrollable Content) */}
-          <div className="lg:w-2/3 lg:ml-8 mt-8 lg:mt-0 space-y-8">
+          <div className="w-full lg:w-2/3 lg:ml-8 mt-8 lg:mt-0 space-y-8">
           <motion.div
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
@@ -479,10 +478,10 @@ const BookDetailPage = () => {
                       editionsCardRef.current = el.firstChild;
                     }
                   }}
-                  className="flex space-x-4 overflow-x-auto scroll-smooth scrollbar-hide px-2 pr-6"
+                  className="flex space-x-4 overflow-x-auto scroll-smooth touch-pan-x px-2 pr-6"
                 >
                   {book.moreEditions.map((edition, index) => (
-                    <div key={index} className="min-w-[120px] max-w-[180px] text-start flex-shrink-0">
+                    <div key={index} className="min-w-[120px] sm:min-w-[140px] md:min-w-[160px] text-start flex-shrink-0">
                       <img
                         src={edition.image_src}
                         alt={edition.title}
@@ -599,12 +598,12 @@ const BookDetailPage = () => {
       ref={(el) => {
         readersScrollRef.current = el;
       }}
-      className="flex space-x-4 overflow-x-auto scroll-smooth scrollbar-hide px-2"
+      className="flex space-x-4 overflow-x-auto scroll-smooth touch-pan-x px-2"
     >
       {book.readersAlsoEnjoyed.map((rec, index) => (
         <div
           key={index}
-          className="min-w-[120px] max-w-[180px] text-start flex-shrink-0"
+          className="min-w-[120px] sm:min-w-[140px] md:min-w-[160px] text-start flex-shrink-0"
           ref={index === 0 ? readersCardRef : null}
         >
           <img
@@ -769,3 +768,4 @@ const BookDetailPage = () => {
 };
 
 export default BookDetailPage;
+
