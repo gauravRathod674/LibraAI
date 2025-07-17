@@ -55,7 +55,17 @@ export default function CatalogPage() {
     }
     animate();
 
-    return () => cancelAnimationFrame(animationFrameId);
+    const handleResize = () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  };
+
+  window.addEventListener("resize", handleResize);
+
+  return () => {
+    window.removeEventListener("resize", handleResize);
+    cancelAnimationFrame(animationFrameId);
+  };
   }, [darkMode]);
 
   // Local form state
@@ -102,8 +112,9 @@ export default function CatalogPage() {
       {/* Particle Background */}
       <canvas
         id="backgroundCanvas"
-        className="absolute top-0 left-0 w-full h-full z-0"
+        className="fixed top-0 left-0 w-full h-full z-0 pointer-events-none"
       />
+
       
       {/* Navbar (assumes it can toggle darkMode; remove if your global theme is different) */}
       <Navbar darkMode={darkMode}/>
@@ -112,12 +123,12 @@ export default function CatalogPage() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="z-10 w-full px-4 mt-32 flex flex-col items-center"
+        className="z-10 w-full px-4 mt-50 sm:mt-32 flex flex-col items-center"
       >
         <div
-          className={`w-full max-w-xl backdrop-blur rounded-2xl shadow-xl p-8 transition-all ${
-            darkMode ? "bg-[#E7F0FD] text-black" : "bg-gray-800 text-white"
-          }`}
+          className={`w-full max-w-3xl mx-auto backdrop-blur rounded-2xl shadow-xl px-4 py-8 sm:px-6 md:px-8 lg:px-10 transition-all ${
+              darkMode ? "bg-[#E7F0FD] text-black" : "bg-gray-800 text-white"
+            }`}
         >
           <h1 className="text-3xl font-bold mb-6">Cataloging</h1>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -177,7 +188,7 @@ export default function CatalogPage() {
             <div className="mb-4">
               <label className="block mb-2 text-sm font-semibold">Cover Image</label>
 
-              <div className="flex items-center gap-4">
+              <div className="flex flex-col sm:flex-row items-start gap-4">
                 {/* Image Preview Box (left) */}
                 <div
                   className={`w-32 h-24 rounded-md border-2 border-dashed flex items-center justify-center overflow-hidden transition-all duration-300 ${
@@ -410,7 +421,7 @@ export default function CatalogPage() {
             </div>
 
             {/* Actions */}
-            <div className="flex gap-4 pt-4">
+            <div className="flex flex-wrap gap-4 justify-center sm:justify-start pt-4">
               <button
                 type="submit"
                 className="px-6 py-2 rounded-full font-semibold text-black shadow-md hover:scale-105 transition-transform"
