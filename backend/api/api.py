@@ -8,13 +8,14 @@ import re
 
 
 from django.conf import settings
+from django.shortcuts import get_object_or_404
 from django.views.decorators.csrf import csrf_exempt
 from api.pages.auth_page import router as auth_router
-from ninja import NinjaAPI, Schema
 from api.pages.item_page import router as item_router
 from api.pages.auth_page import AuthSchema, LoginPage
 from api.models.models_transactions import BorrowingTransaction
 from api.models.models_items import LibraryItem
+from api.models.models_users import LibraryUser
 from services.openlibrary.search_page import (
     SearchByBookStrategy,
     SearchByAuthorStrategy,
@@ -149,6 +150,35 @@ def get_borrow_history(request):
         })
 
     return result
+
+# -------------------------------
+# 🧑‍💼 USER PROFILE ENDPOINTS
+# -------------------------------
+
+@api.get("/user/profile/", auth=JWTAuth())
+def get_user_profile(request):
+    user = request.user
+    return {
+        "name": user.name,
+        "email": user.email,
+        "role": user.role,
+        "profile_photo_url": request.build_absolute_uri(user.profile_photo.url)
+        if user.profile_photo
+        else request.build_absolute_uri("/media/profile_photos/default.png")  # fallback default
+    }
+
+@api.put("/user/profile/", auth=JWTAuth())
+def update_profile_photo(request, profile_photo: NinjaUploadedFile = File(...)):
+    user = request.user
+    user.profile_photo = profile_photo
+    user.save()
+    return {"message": "✅ Profile photo updated successfully."}
+
+@api.delete("/user/profile/", auth=JWTAuth())
+def delete_user_account(request):
+    user = request.user
+    user.delete()
+    return {"message": "⚠️ User account deleted permanently."}
 
 # ------------------------------
 # Summary Endpoint with Gemini Integration

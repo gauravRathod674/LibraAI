@@ -26,3 +26,4 @@ urlpatterns = [
     path('api/', api.urls),  # This includes your /hello endpoint from the NinjaAPI instance
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+
