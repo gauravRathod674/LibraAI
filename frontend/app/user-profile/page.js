@@ -430,7 +430,7 @@ const handleCancel = () => {
             }
         </motion.div>
       </div>
-      <Footer className="mt-auto" />
+      <Footer className="mt-auto"  darkMode={darkMode}/>
     </div>
   );
 }
