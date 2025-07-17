@@ -1,8 +1,9 @@
 "use client";
-import React, { useEffect, useState, useMemo } from "react";
-import { motion } from "framer-motion";
-import Navbar from "@/components/ui/Navbar";
-import Footer from "@/components/ui/Footer";
+ import React, { useEffect, useState, useMemo } from "react";
+ import { motion } from "framer-motion";
+ import dynamic from "next/dynamic";
+ const Navbar = dynamic(() => import("@/components/ui/Navbar"), { ssr: false });
+ const Footer = dynamic(() => import("@/components/ui/Footer"), { ssr: false });
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/Tabs";
 import { useTheme } from "../context/ThemeContext";
 import { dummyBorrowed, dummyReserved } from "../data";
@@ -45,7 +46,7 @@ const BorrowCard = ({ rec, darkMode, onReturn }) => {
   return (
     <motion.div
       initial={{ opacity:0,y:20 }} animate={{ opacity:1,y:0 }} transition={{duration:0.3}}
-      className={`relative w-full rounded-xl p-4 shadow-md hover:scale-[1.01] transition flex flex-col sm:flex-row gap-6 justify-center items-center ${
+      className={`relative w-full rounded-xl p-4 shadow-md hover:scale-[1.01] transition  flex flex-col sm:flex-row gap-6 justify-center items-center ${
         darkMode ? "bg-white text-black" : "bg-gray-800 text-white"
       }`}
     >
@@ -53,7 +54,7 @@ const BorrowCard = ({ rec, darkMode, onReturn }) => {
         {status}
       </span>
       <img src={rec.coverImage} alt={rec.title}
-           className="w-24 h-36 object-cover rounded-md border" />
+           className="w-24 h-36 object-contain rounded-md border" />
       <div className="flex-1 flex flex-col justify-center items-start">
         <h2 className="text-lg font-bold">{rec.title}</h2>
         <p className="text-sm font-medium mb-2">by {rec.author}</p>
@@ -83,9 +84,8 @@ const LateFeeCard = ({ rec, darkMode, onPay }) => {
   return (
     <motion.div
       initial={{ opacity:0,y:20 }} animate={{ opacity:1,y:0 }} transition={{duration:0.3}}
-      className={`relative w-full rounded-xl p-4 shadow-md hover:scale-[1.01] transition flex flex-col sm:flex-row gap-6 justify-center items-center ${
-        darkMode ? "bg-white text-black" : "bg-gray-800 text-white"
-      }`}
+      className={`relative w-full sm:max-w-2xl mx-auto rounded-xl p-4 shadow-md hover:scale-[1.01] transition flex flex-col sm:flex-row gap-6 justify-center items-center ${darkMode ? "bg-white text-black" : "bg-gray-800 text-white"}`}
+
     >
       <span className="absolute top-4 right-4 px-2 py-1 rounded-full bg-red-600 text-white text-xs font-semibold">
         Fee: ${fee}
@@ -111,7 +111,7 @@ const LateFeeCard = ({ rec, darkMode, onPay }) => {
 const ReservedCard = ({ rec, darkMode, onCancel, onPickup }) => (
   <motion.div
     initial={{ opacity:0,y:20 }} animate={{ opacity:1,y:0 }} transition={{duration:0.3}}
-    className={`relative w-full rounded-xl p-4 shadow-md hover:scale-[1.01] transition flex flex-col sm:flex-row gap-6 justify-center items-center ${
+    className={`relative w-full sm:max-w-2xl mx-auto rounded-xl p-4 shadow-md hover:scale-[1.01] transition flex flex-col sm:flex-row gap-6 justify-center items-center ${
       darkMode ? "bg-white text-black" : "bg-gray-800 text-white"
     }`}
   >
@@ -151,6 +151,8 @@ const ReservedCard = ({ rec, darkMode, onCancel, onPickup }) => (
 
 // --- Main Component ---
 export default function TransactionPage() {
+
+  const [mounted, setMounted] = useState(false);
   const { darkMode } = useTheme();
   const tabs = ["All","Borrowed","Overdue","Returned","Late Fees","Reserved"];
   const [tab, setTab] = useState("All");
@@ -161,7 +163,8 @@ export default function TransactionPage() {
   const [commandStack, setCommandStack] = useState([]);
   const [undoRecord, setUndoRecord] = useState(null);
 
-  // Return / Undo
+  useEffect(() => { setMounted(true) }, []);
+
   const handleReturn = book => {
     const cmd = new ReturnBookCommand(book,setBorrowedRecords);
     cmd.execute();
@@ -246,12 +249,14 @@ export default function TransactionPage() {
     return ()=>cancelAnimationFrame(anim);
   },[darkMode]);
 
+  if (!mounted) return <div className="min-h-screen bg-gray-900" />;
+
   return (
     <div className={`relative min-h-screen flex flex-col ${darkMode?"bg-white text-black":"bg-gray-900 text-white"}`}>
-      <canvas id="backgroundCanvas" className="absolute inset-0" />
+      <canvas id="backgroundCanvas" className="absolute top-0 left-0 w-screen h-screen z-0" />
       <Navbar />
 
-      <main className="z-10 mt-32 px-4 w-full flex flex-col items-center">
+      <main className="relative z-10 mt-56 sm:mt-32 px-4 w-full flex-1 flex flex-col items-center">
         <motion.h1 initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} transition={{duration:0.8}}
                    className="text-4xl font-bold mb-6">
           Transactions & Fees
@@ -262,7 +267,7 @@ export default function TransactionPage() {
         }`}>
 
           <Tabs value={tab} onValueChange={setTab} className="w-full">
-            <TabsList className="p-1 flex justify-center mb-4">
+            <TabsList className="p-1 flex flex-wrap justify-center gap-2 mb-4 sm:overflow-visible overflow-x-auto whitespace-nowrap scrollbar-hide">
               {tabs.map(t=>(
                 <TabsTrigger
                   key={t} value={t}
@@ -276,11 +281,11 @@ export default function TransactionPage() {
             </TabsList>
           </Tabs>
 
-          <div className="flex flex-wrap justify-center items-center gap-4">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <input
               type="text" placeholder="Search title, author…"
               value={searchTerm} onChange={e=>setSearchTerm(e.target.value)}
-              className={`w-full sm:w-1/2 px-5 py-3 rounded-full shadow-md focus:outline-none transition ${
+              className={`w-full sm:w-1/2 min-w-0 px-5 py-3 rounded-full shadow-md focus:outline-none transition ${
                 darkMode?"bg-white text-gray-900 placeholder-gray-600":"bg-gray-800 text-white placeholder-gray-400"
               }`}
             />
@@ -288,7 +293,7 @@ export default function TransactionPage() {
             {["All","Borrowed","Overdue","Returned","Late Fees"].includes(tab)&&(
             <select
               value={sortBy} onChange={e=>setSortBy(e.target.value)}
-              className={`w-full sm:w-1/4 px-4 py-3 rounded-full shadow-md focus:outline-none transition ${
+              className={`w-full sm:w-1/4 min-w-0 px-4 py-3 rounded-full shadow-md focus:outline-none transition ${
                 darkMode?"bg-white text-gray-900":"bg-gray-800 text-white"
               }`}
             >
@@ -317,7 +322,7 @@ export default function TransactionPage() {
 
         {undoRecord && (
           <motion.div initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} exit={{opacity:0}}
-            className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white dark:bg-gray-800 text-black dark:text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-4 z-50"
+            className="fixed bottom-4 left-4 right-4 sm:left-1/2 sm:-translate-x-1/2 sm:right-auto bg-white dark:bg-gray-800 text-black dark:text-white px-4 py-3 rounded-lg shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4 z-50"
           >
             <span>Book “{undoRecord.title}” marked returned.</span>
             <button onClick={handleUndo}
