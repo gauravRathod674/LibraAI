@@ -33,11 +33,11 @@ To overcome these, our engineering team rebuilt the system using a clean, scalab
   - 🌐 **Google Translate API**: Real-time multilingual content translation
   - 🔊 **Google Text-to-Speech API**: Seamless read-aloud for accessibility
 - 🌐 **Web Scraping Pipelines** for open-access resources:
-  - E-Books & Journals → Open Library, Google Books  
-  - Research Papers → Semantic Scholar, Google Scholar, arXiv
+  - E-Books & Journals → Open Library, Google 
+  - Research Papers → Semantic Scholar
 - 📚 **Role-Based Access Control**:
   - Guest, Student, Researcher, Faculty, Librarian  
-  - Librarians manage physical inventory (barcodes, conditions, stock)
+  - Librarians manage physical inventory
 - 🔎 **Advanced Search Engine**:
   - Strategy-based: Keyword, genre, author, type
 - 📩 Notifications & Reminders using Observer Pattern
@@ -53,7 +53,6 @@ To overcome these, our engineering team rebuilt the system using a clean, scalab
 
 ### 🏗️ Structural Patterns
 - **Facade Pattern**: Unified interface for user operations (borrow, return, reserve)
-- **Adapter Pattern**: Legacy catalog compatibility
 - **Decorator Pattern**: Extend item features like priority access
 
 ### 🔄 Behavioral Patterns
@@ -83,25 +82,6 @@ To overcome these, our engineering team rebuilt the system using a clean, scalab
 - 🧩 **40% faster** feature development using reusable patterns
 - 📈 **30% increased** reader engagement through AI-enhanced reading experience
 
----
-
-## 📎 Future Enhancements
-
-- 📥 Bulk digital uploads with auto-tagging  
-- 🧠 Personal reading assistant with voice interaction  
-- 🔐 Role-based approval system for restricted materials  
-
----
-
-## 📸 Demo Screenshots
-
-> _Add GIFs or screenshots here for authentication flow, AI assistant, and search._
-
----
-
-## 📄 License
-
-MIT License – Free for educational and academic use.
 
 ---
 
