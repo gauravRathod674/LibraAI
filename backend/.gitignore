@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtualenv
+venv/
+env/
+
+# System
+.DS_Store
+.vscode/
+.env
+*.db
