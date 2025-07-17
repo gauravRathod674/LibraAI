@@ -1,0 +1,41 @@
+{
+  "query": "Rithvik Singh",
+  "page_1": {
+    "total_hits": "1 hit",
+    "authors": [
+      {
+        "author_name": "Rithvik Singh",
+        "author_url": "https://openlibrary.org/authors/OL13815321A",
+        "image_src": "https://covers.openlibrary.org/a/olid/OL13815321A-M.jpg",
+        "about": "3 booksabout Poetry, Love poetry,\n           includingThank You for Leaving",
+        "books": [
+          {
+            "title": "Warmth",
+            "book_url": "https://openlibrary.org/works/OL38390356W/Warmth?edition=key%3A/books/OL52221185M",
+            "image_src": "https://covers.openlibrary.org/b/id/14638564-M.jpg",
+            "author": "Rithvik Singh",
+            "first_published": "First published in 2024",
+            "editions": "1 edition"
+          },
+          {
+            "title": "Thank You for Leaving",
+            "book_url": "https://openlibrary.org/works/OL42577236W/Thank_You_for_Leaving?edition=key%3A/books/OL57796756M",
+            "image_src": "https://covers.openlibrary.org/b/id/14847895-M.jpg",
+            "author": "Rithvik Singh",
+            "first_published": "First published in 2025",
+            "editions": "1 edition"
+          },
+          {
+            "title": "I Don't Love You Anymore: Moving on and Living Your Best Life",
+            "book_url": "https://openlibrary.org/works/OL38382569W/I_Don't_Love_You_Anymore?edition=key%3A/books/OL52209936M",
+            "image_src": "https://covers.openlibrary.org/b/id/14975781-M.jpg",
+            "author": "Rithvik Singh",
+            "first_published": "First published in 2024",
+            "editions": "1 edition"
+          }
+        ],
+        "total_pages": 1
+      }
+    ]
+  }
+}

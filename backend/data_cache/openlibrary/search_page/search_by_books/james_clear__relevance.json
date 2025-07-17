@@ -1,0 +1,219 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14987737-M.jpg",
+        "title": "Atomic Habits: The life-changing million copy bestseller",
+        "url": "https://openlibrary.org/works/OL17930368W/Atomic_Habits?edition=key%3A/books/OL27918581M",
+        "author": "James Clear",
+        "rating": "4.0",
+        "num_ratings": "1,051",
+        "first_published": "2016",
+        "num_editions": "41 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14591837-M.jpg",
+        "title": "Hábitos Atómicos",
+        "url": "https://openlibrary.org/works/OL37767407W/Hábitos_atómicos_Atomic_Habits?edition=key%3A/books/OL51155019M",
+        "author": "James Clear",
+        "rating": "4.1",
+        "num_ratings": "21",
+        "first_published": "2016",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Summary of Atomic Habits by James Clear",
+        "url": "https://openlibrary.org/works/OL27928969W/Summary_of_Atomic_Habits_by_James_Clear?edition=key%3A/books/OL38171388M",
+        "author": "Scott, James",
+        "rating": "4.7",
+        "num_ratings": "3",
+        "first_published": "2022",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/7995450-M.jpg",
+        "title": "James Fenimore Cooper's The last of the Mohicans",
+        "url": "https://openlibrary.org/works/OL77958W/The_Last_of_the_Mohicans?edition=key%3A/books/OL6973647M",
+        "author": "James Fenimore Cooper",
+        "rating": "3.7",
+        "num_ratings": "15",
+        "first_published": "1826",
+        "num_editions": "862 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12687005-M.jpg",
+        "title": "The Bible, King James Version, Complete",
+        "url": "https://openlibrary.org/works/OL17732W/Bible?edition=key%3A/books/OL37779472M",
+        "author": "Bible",
+        "rating": "3.9",
+        "num_ratings": "69",
+        "first_published": "1200",
+        "num_editions": "3174 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/2998472-M.jpg",
+        "title": "Villette (Clear Print)",
+        "url": "https://openlibrary.org/works/OL1095403W/Villette_a_novel?edition=key%3A/books/OL11915993M",
+        "author": "Charlotte Brontë",
+        "rating": "3.0",
+        "num_ratings": "3",
+        "first_published": "1853",
+        "num_editions": "518 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/2998467-M.jpg",
+        "title": "Return of the Native (Clear Print)",
+        "url": "https://openlibrary.org/works/OL44994W/The_Return_of_the_Native?edition=key%3A/books/OL11915988M",
+        "author": "Thomas Hardy",
+        "rating": "4.0",
+        "num_ratings": "7",
+        "first_published": "1878",
+        "num_editions": "205 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Lady Susan: Comfortable Reading - Large and Clear Print",
+        "url": "https://openlibrary.org/works/OL66614W/Lady_Susan?edition=key%3A/books/OL42109481M",
+        "author": "Jane Austen",
+        "rating": "3.0",
+        "num_ratings": "9",
+        "first_published": "1925",
+        "num_editions": "599 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/756290-M.jpg",
+        "title": "Grimms' Fairy Tales (Clear Print)",
+        "url": "https://openlibrary.org/works/OL45361W/Kinder-_und_Hausmärchen?edition=key%3A/books/OL8411241M",
+        "author": "Brothers Grimm",
+        "rating": "4.6",
+        "num_ratings": "7",
+        "first_published": "1812",
+        "num_editions": "207 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/5791314-M.jpg",
+        "title": "Text-book to Kant: the Critique of pure reason : aesthetic, categories, schematism : y James Hutchison Stirling ...",
+        "url": "https://openlibrary.org/works/OL99844W/Kritik_der_reinen_Vernunft?edition=key%3A/books/OL14044963M",
+        "author": "Immanuel Kant",
+        "rating": "3.0",
+        "num_ratings": "1 rating",
+        "first_published": "1781",
+        "num_editions": "153 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/2998457-M.jpg",
+        "title": "Emma (Clear Print)",
+        "url": "https://openlibrary.org/works/OL66513W/Emma?edition=key%3A/books/OL11915980M",
+        "author": "Jane Austen",
+        "rating": "4.0",
+        "num_ratings": "46",
+        "first_published": "1815",
+        "num_editions": "2260 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1758934-M.jpg",
+        "title": "Riddle of the Sands (Clear Print)",
+        "url": "https://openlibrary.org/works/OL23797W/The_Riddle_of_the_Sands?edition=key%3A/books/OL8411236M",
+        "author": "Erskine Childers",
+        "rating": "3.3",
+        "num_ratings": "3",
+        "first_published": "1903",
+        "num_editions": "530 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1758926-M.jpg",
+        "title": "The Moonstone, A Romance (Clear Print)",
+        "url": "https://openlibrary.org/works/OL176092W/The_Moonstone?edition=key%3A/books/OL9823598M",
+        "author": "Wilkie Collins",
+        "rating": "4.0",
+        "num_ratings": "21",
+        "first_published": "1868",
+        "num_editions": "636 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1758910-M.jpg",
+        "title": "Much Ado About Nothing (Clear Print)",
+        "url": "https://openlibrary.org/works/OL362691W/Much_Ado_About_Nothing?edition=key%3A/books/OL8411212M",
+        "author": "William Shakespeare",
+        "rating": "4.3",
+        "num_ratings": "9",
+        "first_published": "1600",
+        "num_editions": "397 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Northanger Abbey (Isis Clear TypeClassic)",
+        "url": "https://openlibrary.org/works/OL66534W/Northanger_Abbey?edition=key%3A/books/OL11948419M",
+        "author": "Jane Austen",
+        "rating": "3.9",
+        "num_ratings": "33",
+        "first_published": "1818",
+        "num_editions": "1011 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/2997293-M.jpg",
+        "title": "The Wind in the Willows (Clear Print)",
+        "url": "https://openlibrary.org/works/OL28570037W/Wind_in_the_Willows?edition=key%3A/books/OL11914607M",
+        "author": "Kenneth Grahame",
+        "rating": "4.1",
+        "num_ratings": "50",
+        "first_published": "1908",
+        "num_editions": "1346 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/2037735-M.jpg",
+        "title": "As You Like It (Clear Print)",
+        "url": "https://openlibrary.org/works/OL362698W/As_You_Like_It?edition=key%3A/books/OL8963311M",
+        "author": "William Shakespeare",
+        "rating": "3.6",
+        "num_ratings": "18",
+        "first_published": "1734",
+        "num_editions": "465 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/8771455-M.jpg",
+        "title": "The Complete Works of William Shakespeare: containing the plays and poems with special introductory matter, index of characters & glossary of unfamiliar terms [introd. by St. John Ervine].",
+        "url": "https://openlibrary.org/works/OL259028W/Works_37_plays_6_poems_sonnets?edition=key%3A/books/OL22878052M",
+        "author": "William Shakespeare",
+        "rating": "3.5",
+        "num_ratings": "11",
+        "first_published": "1730",
+        "num_editions": "213 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/2998468-M.jpg",
+        "title": "Tess of the d'Urbervilles (Clear Print)",
+        "url": "https://openlibrary.org/works/OL44927W/Tess_of_the_d'Urbervilles?edition=key%3A/books/OL11915989M",
+        "author": "Thomas Hardy",
+        "rating": "3.8",
+        "num_ratings": "10",
+        "first_published": "1707",
+        "num_editions": "747 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/2997266-M.jpg",
+        "title": "Hard Times (Clear Print)",
+        "url": "https://openlibrary.org/works/OL8193387W/Hard_Times?edition=key%3A/books/OL11914583M",
+        "author": "Charles Dickens",
+        "rating": "3.8",
+        "num_ratings": "15",
+        "first_published": "1854",
+        "num_editions": "1030 editions"
+      }
+    ]
+  },
+  "last_page": 33,
+  "hits": 654,
+  "sidebar_info": {
+    "eBook?": [],
+    "Language": [],
+    "Author": [],
+    "Subjects": [],
+    "First published": [],
+    "Publisher": [],
+    "People": [],
+    "Places": [],
+    "Times": []
+  }
+}

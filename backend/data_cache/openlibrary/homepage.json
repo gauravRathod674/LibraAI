@@ -1,0 +1,208 @@
+{
+  "trending_books": [
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/980232-M.jpg",
+      "title": "The Eye of the World (The Wheel of Time Book 1) by Robert Jordan"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/14315081-M.jpg",
+      "title": "A Court of Mist and Fury by Sarah J. Maas"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/13768581-M.jpg",
+      "title": "Rich Dad Poor Dad Book Review by Robert T. Kiyosaki"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/9269962-M.jpg",
+      "title": "A Game of Thrones by George R. R. Martin"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/12648183-M.jpg",
+      "title": "Fifty Shades of Grey by E. L. James"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/14638562-M.jpg",
+      "title": "I Don't Love You Anymore by Rithvik Singh"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Charlotte's Web by E. B. White"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Red, White & Royal Blue by Casey McQuiston"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Onyx Storm by Rebecca Yarros, Elizabeth Turner Stokes, Melanie Korte, Mar\u00eda Jos\u00e9 D\u00edez P\u00e9rez, V\u00edctor Ruiz Aldana"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The Final Empire by Brandon Sanderson"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Twisted Lies by Ana Huang, Mariona Gast\u00f3 Jim\u00e9nez"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "How to Win Friends and Influence People by Dale Carnegie"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The Psychology of Money by Morgan Housel"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Harry Potter and the Philosopher's Stone by J. K. Rowling"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "A Gentle Reminder by Bianca Sparacino"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The Silent Patient by Alex Michaelides"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Thank You for Leaving by Rithvik Singh"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Thinking, fast and slow by Daniel Kahneman"
+    }
+  ],
+  "classic_books": [
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/12783422-M.jpg",
+      "title": "Don Juan"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/12622142-M.jpg",
+      "title": "Shirley"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/14068034-M.jpg",
+      "title": "Blind Corner"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/12622228-M.jpg",
+      "title": "The Sketch-Book of Geoffrey Crayon, Gent."
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/12738732-M.jpg",
+      "title": "The Collected Verse of Lewis Carroll"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/b/id/8051824-M.jpg",
+      "title": "Kiss of youth"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The Sea of Adventure"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "A Tangled Web"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "En Pocas Palabras"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Write it Right"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Constance Fenimore Woolson"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Pan"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Bar-20"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Sir Philip Sidney"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Selected Stories (Penguin Modern Classics)"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The long rope"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "John Barleycorn or Alcoholic Memoirs"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Three Railway Engines"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The Odd Women"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Black Beetles in Amber"
+    }
+  ],
+  "books_we_love": [
+    {
+      "imgSrc": "//covers.openlibrary.org/w/id/11610624-M.jpg",
+      "title": "The Hired Girl by Laura Amy Schlitz"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/w/id/8295312-M.jpg",
+      "title": "Forbidden knowledge by Roger Shattuck"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/w/id/12818862-M.jpg",
+      "title": "Wuthering Heights by Emily Bronte\u0308"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/w/id/14348537-M.jpg",
+      "title": "Pride and Prejudice by Jane Austen"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/w/id/9156872-M.jpg",
+      "title": "Fear no evil by Anatoly Shcharansky"
+    },
+    {
+      "imgSrc": "//covers.openlibrary.org/w/id/10527843-M.jpg",
+      "title": "Alice's Adventures in Wonderland by Lewis Carroll"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The worldly philosophers by Robert Louis Heilbroner"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The Sign of Four by Arthur Conan Doyle"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The jungle by Upton Sinclair"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Runaway Ralph by Beverly Cleary"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "Stellaluna by Janell Cannon"
+    },
+    {
+      "imgSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+      "title": "The Glass Menagerie by Tennessee Williams"
+    }
+  ]
+}

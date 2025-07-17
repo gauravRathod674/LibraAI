@@ -1,0 +1,72 @@
+{
+  "query": "james clear",
+  "page_1": {
+    "total_hits": "1 hit",
+    "authors": [
+      {
+        "author_name": "James Clear",
+        "author_url": "https://openlibrary.org/authors/OL7422948A",
+        "image_src": "https://covers.openlibrary.org/a/olid/OL7422948A-M.jpg",
+        "about": "6 booksabout Psychology, Personal Growth, PSYCHOLOGY / Social Psychology, New York Times bestseller, Learning, Habit breaking, Habit, Gabriela Moya, Business, Behavior modification,\n           includingAtomic Habits",
+        "books": [
+          {
+            "title": "Atomic Habits: The life-changing million copy bestseller",
+            "book_url": "https://openlibrary.org/works/OL17930368W/Atomic_Habits?edition=key%3A/books/OL27918581M",
+            "image_src": "https://covers.openlibrary.org/b/id/14855834-M.jpg",
+            "author": "James Clear",
+            "first_published": "First published in 2016",
+            "editions": "41 editions"
+          },
+          {
+            "title": "Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career",
+            "book_url": "https://openlibrary.org/works/OL20846121W/Ultralearning?edition=key%3A/books/OL35973370M",
+            "image_src": "https://covers.openlibrary.org/b/id/14595853-M.jpg",
+            "author": "Scott H. Young",
+            "first_published": "First published in 2019",
+            "editions": "9 editions"
+          },
+          {
+            "title": "Hábitos Atómicos",
+            "book_url": "https://openlibrary.org/works/OL37767407W/Hábitos_atómicos_Atomic_Habits?edition=key%3A/books/OL51155019M",
+            "image_src": "https://covers.openlibrary.org/b/id/14591837-M.jpg",
+            "author": "James Clear",
+            "first_published": "First published in 2016",
+            "editions": "2 editions"
+          },
+          {
+            "title": "Shoot at Millions: How to Positively Influence More Lives and Results with Every Single Opportunity",
+            "book_url": "https://openlibrary.org/works/OL27846247W/Shoot_at_Millions?edition=key%3A/books/OL38057843M",
+            "image_src": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+            "author": "James Clear",
+            "first_published": "First published in 2021",
+            "editions": "1 edition"
+          },
+          {
+            "title": "Atomic Habits, I Will Teach You To Be Rich, Mindset, The One Thing 4 Books Collection Set",
+            "book_url": "https://openlibrary.org/works/OL37490159W/Atomic_Habits_I_Will_Teach_You_To_Be_Rich_Mindset_The_One_Thing_4_Books_Collection_Set?edition=key%3A/books/OL50511899M",
+            "image_src": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+            "author": "James Clear",
+            "first_published": "First published in 2020",
+            "editions": "1 edition"
+          },
+          {
+            "title": "Atomowe nawyki: Drobne zmiany, niezwykłe efekty",
+            "book_url": "https://openlibrary.org/works/OL36006752W/Atomowe_nawyki?edition=key%3A/books/OL48603033M",
+            "image_src": "https://covers.openlibrary.org/b/id/14377344-M.jpg",
+            "author": "James Clear",
+            "first_published": "First published in 2023",
+            "editions": "1 edition"
+          },
+          {
+            "title": "Atomik Alışkanlıklar: Küçük Değişiklikler, Büyük Sonuçlar",
+            "book_url": "https://openlibrary.org/works/OL42823080W/Atomik_Alışlanlıklar?edition=key%3A/books/OL58324635M",
+            "image_src": "https://covers.openlibrary.org/b/id/14856366-M.jpg",
+            "author": "James Clear",
+            "first_published": "First published in 2020",
+            "editions": "1 edition"
+          }
+        ]
+      }
+    ]
+  }
+}

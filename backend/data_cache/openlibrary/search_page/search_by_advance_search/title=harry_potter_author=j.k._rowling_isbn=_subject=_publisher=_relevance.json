@@ -1,0 +1,219 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14822158-M.jpg",
+        "title": "Harry Potter and the Deathly Hallows: Hebrew edition",
+        "url": "https://openlibrary.org/works/OL82586W/Harry_Potter_and_the_Deathly_Hallows?edition=key%3A/books/OL39794425M",
+        "author": "J. K. Rowling",
+        "rating": "4.3",
+        "num_ratings": "378",
+        "first_published": "2007",
+        "num_editions": "121 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14815558-M.jpg",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "url": "https://openlibrary.org/works/OL82563W/Harry_Potter_and_the_Philosopher's_Stone?edition=key%3A/books/OL26629979M",
+        "author": "J. K. Rowling",
+        "rating": "4.2",
+        "num_ratings": "823",
+        "first_published": "1997",
+        "num_editions": "339 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14852024-M.jpg",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "url": "https://openlibrary.org/works/OL82536W/Harry_Potter_and_the_Prisoner_of_Azkaban?edition=key%3A/books/OL49950319M",
+        "author": "J. K. Rowling",
+        "rating": "4.3",
+        "num_ratings": "564",
+        "first_published": "1999",
+        "num_editions": "260 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12703523-M.jpg",
+        "title": "Harry Potter & the Goblet of Fire",
+        "url": "https://openlibrary.org/works/OL82560W/Harry_Potter_and_the_Goblet_of_Fire?edition=key%3A/books/OL28150821M",
+        "author": "J. K. Rowling",
+        "rating": "4.3",
+        "num_ratings": "273",
+        "first_published": "1993",
+        "num_editions": "223 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14650715-M.jpg",
+        "title": "Harry Potter and the Chamber of Secrets",
+        "url": "https://openlibrary.org/works/OL82537W/Harry_Potter_and_the_Chamber_of_Secrets?edition=key%3A/books/OL48124905M",
+        "author": "J. K. Rowling",
+        "rating": "4.2",
+        "num_ratings": "428",
+        "first_published": "1998",
+        "num_editions": "272 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14453781-M.jpg",
+        "title": "Harry Potter and the Half-Blood Prince",
+        "url": "https://openlibrary.org/works/OL82565W/Harry_Potter_and_the_Half-Blood_Prince?edition=key%3A/books/OL39794151M",
+        "author": "J. K. Rowling",
+        "rating": "4.4",
+        "num_ratings": "183",
+        "first_published": "2005",
+        "num_editions": "136 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14342026-M.jpg",
+        "title": "Harry Potter i Zakon Feniksa",
+        "url": "https://openlibrary.org/works/OL82548W/Harry_Potter_and_the_Order_of_the_Phoenix?edition=key%3A/books/OL26486989M",
+        "author": "J. K. Rowling",
+        "rating": "4.3",
+        "num_ratings": "265",
+        "first_published": "2003",
+        "num_editions": "193 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14820713-M.jpg",
+        "title": "Harry Potter and the Cursed Child: Parts One And Two Playscript",
+        "url": "https://openlibrary.org/works/OL17360811W/Harry_Potter_and_the_Cursed_Child?edition=key%3A/books/OL32050621M",
+        "author": "Jack Thorne",
+        "rating": "3.9",
+        "num_ratings": "106",
+        "first_published": "2001",
+        "num_editions": "35 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1278800-M.jpg",
+        "title": "Harry Potter Boxset Books 1-7",
+        "url": "https://openlibrary.org/works/OL14981609W/Harry_Potter_(series)_1-7?edition=key%3A/books/OL9893727M",
+        "author": "J. K. Rowling",
+        "rating": "4.6",
+        "num_ratings": "43",
+        "first_published": "1999",
+        "num_editions": "16 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13926527-M.jpg",
+        "title": "Harry Potter i la pedra filosofal",
+        "url": "https://openlibrary.org/works/OL29254523W/Harry_Potter_e_a_Pedra_Filosofal?edition=key%3A/books/OL47338145M",
+        "author": "J. K. Rowling",
+        "rating": "4.7",
+        "num_ratings": "3",
+        "first_published": "1999",
+        "num_editions": "12 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10522626-M.jpg",
+        "title": "Harry Potter",
+        "url": "https://openlibrary.org/works/OL21385222W/Harry_Potter?edition=key%3A/books/OL28967061M",
+        "author": "J. K. Rowling",
+        "rating": "3.5",
+        "num_ratings": "8",
+        "first_published": "2001",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/276758-M.jpg",
+        "title": "Harry Potter Hardcover Boxed Set (Books 1-4)",
+        "url": "https://openlibrary.org/works/OL8460139W/Harry_Potter_(series)_1-4?edition=key%3A/books/OL7511329M",
+        "author": "J. K. Rowling",
+        "rating": "3.2",
+        "num_ratings": "4",
+        "first_published": "1999",
+        "num_editions": "12 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Harry Potter y la piedra filosofal",
+        "url": "https://openlibrary.org/works/OL32112531W/Harry_Potter_y_la_piedra_filosofal?edition=key%3A/books/OL43846173M",
+        "author": "J. K. Rowling",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2020",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10229037-M.jpg",
+        "title": "Harry Potter: The Complete Collection",
+        "url": "https://openlibrary.org/works/OL20895240W/Harry_Potter?edition=key%3A/books/OL28302550M",
+        "author": "J. K. Rowling",
+        "rating": "1.0",
+        "num_ratings": "1 rating",
+        "first_published": "2013",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/11535975-M.jpg",
+        "title": "Harry Potter and the Cursed Child, Parts 1 & 2 and Harry Potter and the Philosopher's Stone 2 Books Bundle Collection",
+        "url": "https://openlibrary.org/works/OL24779727W/Harry_Potter_and_the_Cursed_Child_Parts_1_2_and_Harry_Potter_and_the_Philosopher's_Stone_2_Books_Bun?edition=key%3A/books/OL32909006M",
+        "author": "J. K. Rowling",
+        "rating": "1.0",
+        "num_ratings": "1 rating",
+        "first_published": "2016",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/488136-M.jpg",
+        "title": "Harry Potter Box Set",
+        "url": "https://openlibrary.org/works/OL15267443W/Harry_Potter_(series)_1-5?edition=key%3A/books/OL7962495M",
+        "author": "J. K. Rowling",
+        "rating": "4.6",
+        "num_ratings": "5",
+        "first_published": "2003",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13729612-M.jpg",
+        "title": "Harry Potter Boxed Set: Harry Potter and the Sorcerer's Stone; Harry Potter and the Chamber of Secrets; Harry Potter and the Prisoner of Azkaban; Harry Potter and the Goblet of Fire",
+        "url": "https://openlibrary.org/works/OL21190029W/Harry_Potter_Boxed_Set?edition=key%3A/books/OL28967549M",
+        "author": "J. K. Rowling",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "2000",
+        "num_editions": "8 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10485911-M.jpg",
+        "title": "Harry Potter e la maledizione dell'erede",
+        "url": "https://openlibrary.org/works/OL22682340W/Harry_Potter_e_la_maledizione_dell'erede?edition=key%3A/books/OL30682879M",
+        "author": "J. K. Rowling",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2016",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14552560-M.jpg",
+        "title": "Harry Potter e la camera dei segreti",
+        "url": "https://openlibrary.org/works/OL27297398W/Harry_Potter_e_la_camera_dei_segreti?edition=key%3A/books/OL37053826M",
+        "author": "J. K. Rowling",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1998",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/11541746-M.jpg",
+        "title": "Harry Potter: A Magical Year -- The Illustrations of Jim Kay",
+        "url": "https://openlibrary.org/works/OL24311521W/Harry_Potter?edition=key%3A/books/OL32916892M",
+        "author": "J. K. Rowling",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      }
+    ]
+  },
+  "last_page": 12,
+  "hits": 239,
+  "sidebar_info": {
+    "eBook?": [],
+    "Language": [],
+    "Author": [],
+    "Subjects": [],
+    "First published": [],
+    "Publisher": [],
+    "People": [],
+    "Places": [],
+    "Times": []
+  }
+}

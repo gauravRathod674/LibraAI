@@ -1,0 +1,316 @@
+{
+  "query": "data science",
+  "total_hits": "62 hits",
+  "subjects": [
+    {
+      "subject": "Data structures (Computer science)",
+      "url": "https://openlibrary.org/subjects/data_structures_(computer_science)",
+      "book_count": "1635 books"
+    },
+    {
+      "subject": "Data encryption (Computer science)",
+      "url": "https://openlibrary.org/subjects/data_encryption_(computer_science)",
+      "book_count": "1304 books"
+    },
+    {
+      "subject": "Data encryption (computer science)",
+      "url": "https://openlibrary.org/subjects/data_encryption_(computer_science)",
+      "book_count": "500 books"
+    },
+    {
+      "subject": "Data structures (computer science)",
+      "url": "https://openlibrary.org/subjects/data_structures_(computer_science)",
+      "book_count": "452 books"
+    },
+    {
+      "subject": "Science, data processing",
+      "url": "https://openlibrary.org/subjects/science_data_processing",
+      "book_count": "354 books"
+    },
+    {
+      "subject": "Data recovery (Computer science)",
+      "url": "https://openlibrary.org/subjects/data_recovery_(computer_science)",
+      "book_count": "241 books"
+    },
+    {
+      "subject": "Social sciences, data processing",
+      "url": "https://openlibrary.org/subjects/social_sciences_data_processing",
+      "book_count": "183 books"
+    },
+    {
+      "subject": "Library science, data processing",
+      "url": "https://openlibrary.org/subjects/library_science_data_processing",
+      "book_count": "172 books"
+    },
+    {
+      "subject": "Data compression (Computer science)",
+      "url": "https://openlibrary.org/subjects/data_compression_(computer_science)",
+      "book_count": "128 books"
+    },
+    {
+      "subject": "Data compression (computer science)",
+      "url": "https://openlibrary.org/subjects/data_compression_(computer_science)",
+      "book_count": "125 books"
+    },
+    {
+      "subject": "Abstract data types (Computer science)",
+      "url": "https://openlibrary.org/subjects/abstract_data_types_(computer_science)",
+      "book_count": "102 books"
+    },
+    {
+      "subject": "Data recovery (computer science)",
+      "url": "https://openlibrary.org/subjects/data_recovery_(computer_science)",
+      "book_count": "76 books"
+    },
+    {
+      "subject": "Data integration (Computer science)",
+      "url": "https://openlibrary.org/subjects/data_integration_(computer_science)",
+      "book_count": "66 books"
+    },
+    {
+      "subject": "Professional, career & trade -> computer science -> data processing",
+      "url": "https://openlibrary.org/subjects/professional_career_&_trade_->_computer_science_->_data_processing",
+      "book_count": "48 books"
+    },
+    {
+      "subject": "Military art and science, data processing",
+      "url": "https://openlibrary.org/subjects/military_art_and_science_data_processing",
+      "book_count": "45 books"
+    },
+    {
+      "subject": "Earth sciences, data processing",
+      "url": "https://openlibrary.org/subjects/earth_sciences_data_processing",
+      "book_count": "37 books"
+    },
+    {
+      "subject": "Political science, data processing",
+      "url": "https://openlibrary.org/subjects/political_science_data_processing",
+      "book_count": "33 books"
+    },
+    {
+      "subject": "Abstract data types (computer science)",
+      "url": "https://openlibrary.org/subjects/abstract_data_types_(computer_science)",
+      "book_count": "28 books"
+    },
+    {
+      "subject": "Professional, career & trade -> computer science -> data modeling & design",
+      "url": "https://openlibrary.org/subjects/professional_career_&_trade_->_computer_science_->_data_modeling_&_design",
+      "book_count": "22 books"
+    },
+    {
+      "subject": "Social sciences--statistics & numerical data",
+      "url": "https://openlibrary.org/subjects/social_sciences--statistics_&_numerical_data",
+      "book_count": "9 books"
+    },
+    {
+      "subject": "Science--data processing",
+      "url": "https://openlibrary.org/subjects/science--data_processing",
+      "book_count": "7 books"
+    },
+    {
+      "subject": "Data Science",
+      "url": "https://openlibrary.org/subjects/data_science",
+      "book_count": "7 books"
+    },
+    {
+      "subject": "Professional, career & trade -> computer science -> data transmission systems",
+      "url": "https://openlibrary.org/subjects/professional_career_&_trade_->_computer_science_->_data_transmission_systems",
+      "book_count": "6 books"
+    },
+    {
+      "subject": "data science",
+      "url": "https://openlibrary.org/subjects/data_science",
+      "book_count": "3 books"
+    },
+    {
+      "subject": "National Space Science Data Center",
+      "url": "https://openlibrary.org/subjects/national_space_science_data_center",
+      "book_count": "2 books"
+    },
+    {
+      "subject": "Science -- Data processing",
+      "url": "https://openlibrary.org/subjects/science_--_data_processing",
+      "book_count": "2 books"
+    },
+    {
+      "subject": "Professional, career & trade -> computer science -> optical data processing",
+      "url": "https://openlibrary.org/subjects/professional_career_&_trade_->_computer_science_->_optical_data_processing",
+      "book_count": "2 books"
+    },
+    {
+      "subject": "Social sciences--statistical methods--data processing",
+      "url": "https://openlibrary.org/subjects/social_sciences--statistical_methods--data_processing",
+      "book_count": "2 books"
+    },
+    {
+      "subject": "Data encryption (Computer Science)",
+      "url": "https://openlibrary.org/subjects/data_encryption_(computer_science)",
+      "book_count": "2 books"
+    },
+    {
+      "subject": "Data science and analysis: general",
+      "url": "https://openlibrary.org/subjects/data_science_and_analysis:_general",
+      "book_count": "2 books"
+    },
+    {
+      "subject": "Data structure (Computer science)",
+      "url": "https://openlibrary.org/subjects/data_structure_(computer_science)",
+      "book_count": "2 books"
+    },
+    {
+      "subject": "Materials science--data processing",
+      "url": "https://openlibrary.org/subjects/materials_science--data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Military art and science -- Data processing -- Congresses",
+      "url": "https://openlibrary.org/subjects/military_art_and_science_--_data_processing_--_congresses",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Environmental sciences--data processing",
+      "url": "https://openlibrary.org/subjects/environmental_sciences--data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Library science -- Data processing",
+      "url": "https://openlibrary.org/subjects/library_science_--_data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Science -- Mathematics -- Data processing",
+      "url": "https://openlibrary.org/subjects/science_--_mathematics_--_data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Science : study and teaching (Secondary) : data processing",
+      "url": "https://openlibrary.org/subjects/science_:_study_and_teaching_(secondary)_:_data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Science--experiments--data processing",
+      "url": "https://openlibrary.org/subjects/science--experiments--data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Science--mathematics--data processing",
+      "url": "https://openlibrary.org/subjects/science--mathematics--data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Social sciences -- Mathematics -- Data processing",
+      "url": "https://openlibrary.org/subjects/social_sciences_--_mathematics_--_data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "National Science Research Data Processing and Information Retrieval Systems",
+      "url": "https://openlibrary.org/subjects/national_science_research_data_processing_and_information_retrieval_systems",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Queen's University (Kingston, Ont.). Social Science and Business Data Centre",
+      "url": "https://openlibrary.org/subjects/queen's_university_(kingston_ont.)._social_science_and_business_data_centre",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "United States. Science Information Data Processing Center (Proposed)",
+      "url": "https://openlibrary.org/subjects/united_states._science_information_data_processing_center_(proposed)",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "science data archive",
+      "url": "https://openlibrary.org/subjects/science_data_archive",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Computer science -- Theory of data -- Data structures",
+      "url": "https://openlibrary.org/subjects/computer_science_--_theory_of_data_--_data_structures",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Environmental sciences -- Data processing",
+      "url": "https://openlibrary.org/subjects/environmental_sciences_--_data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Dyadic data analysis (Social sciences)",
+      "url": "https://openlibrary.org/subjects/dyadic_data_analysis_(social_sciences)",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Forensic sciences--statistics & numerical data",
+      "url": "https://openlibrary.org/subjects/forensic_sciences--statistics_&_numerical_data",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "COMPUTER AND INFORMATION SCIENCE:Data Communications and Networks",
+      "url": "https://openlibrary.org/subjects/computer_and_information_science:data_communications_and_networks",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Communication in science--data processing",
+      "url": "https://openlibrary.org/subjects/communication_in_science--data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Earth sciences--data processing",
+      "url": "https://openlibrary.org/subjects/earth_sciences--data_processing",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Electronic data processing -- Social sciences",
+      "url": "https://openlibrary.org/subjects/electronic_data_processing_--_social_sciences",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Australian National University. Social Science Data Archives",
+      "url": "https://openlibrary.org/subjects/australian_national_university._social_science_data_archives",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data Compression (Computer Science)",
+      "url": "https://openlibrary.org/subjects/data_compression_(computer_science)",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data encryption (Computer scienc",
+      "url": "https://openlibrary.org/subjects/data_encryption_(computer_scienc",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data encryption (Computer science) -- Congresses.",
+      "url": "https://openlibrary.org/subjects/data_encryption_(computer_science)_--_congresses.",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data encryption (computer science)--history",
+      "url": "https://openlibrary.org/subjects/data_encryption_(computer_science)--history",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data processing. Neural networks (Computer science)",
+      "url": "https://openlibrary.org/subjects/data_processing._neural_networks_(computer_science)",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data recovery (Computer scienc",
+      "url": "https://openlibrary.org/subjects/data_recovery_(computer_scienc",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data science",
+      "url": "https://openlibrary.org/subjects/data_science",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data structures (Compter science)",
+      "url": "https://openlibrary.org/subjects/data_structures_(compter_science)",
+      "book_count": "1 book"
+    },
+    {
+      "subject": "Data structures (computer science)--laboratory manuals",
+      "url": "https://openlibrary.org/subjects/data_structures_(computer_science)--laboratory_manuals",
+      "book_count": "1 book"
+    }
+  ]
+}

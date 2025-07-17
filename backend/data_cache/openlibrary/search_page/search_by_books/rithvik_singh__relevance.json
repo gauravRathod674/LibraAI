@@ -1,0 +1,49 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14638564-M.jpg",
+        "title": "Warmth",
+        "url": "https://openlibrary.org/works/OL38390356W/Warmth?edition=key%3A/books/OL52221185M",
+        "author": "Rithvik Singh",
+        "rating": "4.0",
+        "num_ratings": "5",
+        "first_published": "2024",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14847895-M.jpg",
+        "title": "Thank You for Leaving",
+        "url": "https://openlibrary.org/works/OL42577236W/Thank_You_for_Leaving?edition=key%3A/books/OL57796756M",
+        "author": "Rithvik Singh",
+        "rating": "2.8",
+        "num_ratings": "18",
+        "first_published": "2025",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14975781-M.jpg",
+        "title": "I Don't Love You Anymore: Moving on and Living Your Best Life",
+        "url": "https://openlibrary.org/works/OL38382569W/I_Don't_Love_You_Anymore?edition=key%3A/books/OL52209936M",
+        "author": "Rithvik Singh",
+        "rating": "3.6",
+        "num_ratings": "189",
+        "first_published": "2024",
+        "num_editions": "1 edition"
+      }
+    ]
+  },
+  "last_page": 1,
+  "hits": 3,
+  "sidebar_info": {
+    "eBook?": [],
+    "Language": [],
+    "Author": [],
+    "Subjects": [],
+    "First published": [],
+    "Publisher": [],
+    "People": [],
+    "Places": [],
+    "Times": []
+  }
+}

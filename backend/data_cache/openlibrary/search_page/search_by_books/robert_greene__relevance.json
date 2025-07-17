@@ -1,0 +1,4238 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14943851-M.jpg",
+        "title": "The 48 laws of power",
+        "url": "https://openlibrary.org/works/OL1968368W/The_48_Laws_of_Power?edition=key%3A/books/OL25418275M",
+        "author": "Robert Greene",
+        "rating": "4.1",
+        "num_ratings": "948",
+        "first_published": "1998",
+        "num_editions": "55 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14652363-M.jpg",
+        "title": "Mastery",
+        "url": "https://openlibrary.org/works/OL17429337W/Mastery?edition=key%3A/books/OL27139399M",
+        "author": "Robert Greene",
+        "rating": "3.9",
+        "num_ratings": "28",
+        "first_published": "2012",
+        "num_editions": "9 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14855364-M.jpg",
+        "title": "The Laws of human nature",
+        "url": "https://openlibrary.org/works/OL19761410W/The_Laws_of_Human_Nature?edition=key%3A/books/OL26974419M",
+        "author": "Robert Greene",
+        "rating": "4.1",
+        "num_ratings": "78",
+        "first_published": "2018",
+        "num_editions": "9 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14640349-M.jpg",
+        "title": "Anne of Green Gables",
+        "url": "https://openlibrary.org/works/OL77746W/Anne_of_Green_Gables?edition=key%3A/books/OL49814359M",
+        "author": "Lucy Maud Montgomery",
+        "rating": "4.2",
+        "num_ratings": "77",
+        "first_published": "1908",
+        "num_editions": "1299 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Daily Robert Greene: 366 Meditations on Power, Seduction, Mastery, Strategy and Human Nature",
+        "url": "https://openlibrary.org/works/OL24777278W/The_Daily_Laws?edition=key%3A/books/OL33854386M",
+        "author": "Robert Greene",
+        "rating": "3.9",
+        "num_ratings": "14",
+        "first_published": "2021",
+        "num_editions": "7 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/11486475-M.jpg",
+        "title": "Las 48 leyes del poder",
+        "url": "https://openlibrary.org/works/OL24745356W/Las_48_leyes_del_poder?edition=key%3A/books/OL32853632M",
+        "author": "Robert Greene",
+        "rating": "3.9",
+        "num_ratings": "29",
+        "first_published": "1998",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "POWER: Les 48 LOIS du POUVOIR de Robert Greene",
+        "url": "https://openlibrary.org/works/OL30466719W/POWER?edition=key%3A/books/OL41884173M",
+        "author": "Richesse Durable",
+        "rating": "3.0",
+        "num_ratings": "2",
+        "first_published": "2019",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14911145-M.jpg",
+        "title": "Summary of the 48 Laws of Power by Robert Greene",
+        "url": "https://openlibrary.org/works/OL27903945W/Summary_of_the_48_Laws_of_Power_by_Robert_Greene?edition=key%3A/books/OL38137172M",
+        "author": "Podium PRESS",
+        "rating": "3.2",
+        "num_ratings": "4",
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/3199411-M.jpg",
+        "title": "Die 24 Gesetze der Verführung. Ein Joost- Elffers- Buch.",
+        "url": "https://openlibrary.org/works/OL1968366W/Die_24_Gesetze_der_Verführung._Ein_Joost-_Elffers-_Buch?edition=key%3A/books/OL12712867M",
+        "author": "Robert Greene",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "2002",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/5815762-M.jpg",
+        "title": "Strange case of Dr. Jekyll and Mr. Hyde.",
+        "url": "https://openlibrary.org/works/OL24156W/The_Strange_Case_of_Dr._Jekyll_and_Mr._Hyde?edition=key%3A/books/OL6081781M",
+        "author": "Robert Louis Stevenson",
+        "rating": "3.9",
+        "num_ratings": "120",
+        "first_published": "1875",
+        "num_editions": "360 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12818022-M.jpg",
+        "title": "Robert Louis Stevenson's Treasure Island",
+        "url": "https://openlibrary.org/works/OL24034W/Treasure_Island?edition=key%3A/books/OL38583482M",
+        "author": "Robert Louis Stevenson",
+        "rating": "3.7",
+        "num_ratings": "82",
+        "first_published": "1880",
+        "num_editions": "1984 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/663299-M.jpg",
+        "title": "Robert Louis Stevenson's Kidnapped, or, The lad with the silver button: the original text",
+        "url": "https://openlibrary.org/works/OL24166W/Kidnapped?edition=key%3A/books/OL389094M",
+        "author": "Robert Louis Stevenson",
+        "rating": "3.6",
+        "num_ratings": "14",
+        "first_published": "1886",
+        "num_editions": "352 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/109370-M.jpg",
+        "title": "The Art of Seduction",
+        "url": "https://openlibrary.org/works/OL1968364W/The_Art_of_Seduction?edition=key%3A/books/OL7360173M",
+        "author": "Robert Greene",
+        "rating": "3.9",
+        "num_ratings": "80",
+        "first_published": "1901",
+        "num_editions": "20 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14542857-M.jpg",
+        "title": "Our man in Havana",
+        "url": "https://openlibrary.org/works/OL106074W/Our_Man_in_Havana?edition=key%3A/books/OL6265401M",
+        "author": "Graham Greene",
+        "rating": "3.1",
+        "num_ratings": "11",
+        "first_published": "1958",
+        "num_editions": "74 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14844022-M.jpg",
+        "title": "The 33 Strategies of War",
+        "url": "https://openlibrary.org/works/OL9290241W/The_33_Strategies_of_War?edition=key%3A/books/OL9891207M",
+        "author": "Robert Greene",
+        "rating": "4.4",
+        "num_ratings": "11",
+        "first_published": "1998",
+        "num_editions": "18 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Robert Greene ....",
+        "url": "https://openlibrary.org/works/OL11538125W/Robert_Greene_...?edition=key%3A/books/OL16434922M",
+        "author": "John Clark Jordan",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1915",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12325377-M.jpg",
+        "title": "Las leyes de la naturaleza humana",
+        "url": "https://openlibrary.org/works/OL26378772W/Las_leyes_de_la_naturaleza_humana?edition=key%3A/books/OL35618196M",
+        "author": "Robert Greene",
+        "rating": "4.0",
+        "num_ratings": "4",
+        "first_published": "2020",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/6472316-M.jpg",
+        "title": "A child's garden of verses",
+        "url": "https://openlibrary.org/works/OL24165W/A_child's_garden_of_verses?edition=key%3A/books/OL7025007M",
+        "author": "Robert Louis Stevenson",
+        "rating": "4.3",
+        "num_ratings": "3",
+        "first_published": "1885",
+        "num_editions": "115 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/5815325-M.jpg",
+        "title": "Robert Greene.",
+        "url": "https://openlibrary.org/works/OL6568807W/Robert_Greene?edition=key%3A/books/OL5952626M",
+        "author": "John Clark Jordan",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1915",
+        "num_editions": "9 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12775625-M.jpg",
+        "title": "The power and the glory.",
+        "url": "https://openlibrary.org/works/OL106084W/The_power_and_the_Glory?edition=key%3A/books/OL4442590M",
+        "author": "Graham Greene",
+        "rating": "4.2",
+        "num_ratings": "9",
+        "first_published": "1940",
+        "num_editions": "65 editions"
+      }
+    ]
+  },
+  "last_page": 394,
+  "hits": 7863,
+  "sidebar_info": {
+    "eBook?": [
+      {
+        "label": "yes",
+        "count": "3,331",
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&has_fulltext=true"
+      },
+      {
+        "label": "no",
+        "count": "4,532",
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&has_fulltext=false"
+      }
+    ],
+    "Language": [
+      {
+        "label": "English",
+        "count": "6,843",
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=eng"
+      },
+      {
+        "label": "German",
+        "count": 246,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ger"
+      },
+      {
+        "label": "French",
+        "count": 243,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=fre"
+      },
+      {
+        "label": "Spanish",
+        "count": 188,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=spa"
+      },
+      {
+        "label": "Latin",
+        "count": 140,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=lat"
+      },
+      {
+        "label": "Italian",
+        "count": 128,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ita"
+      },
+      {
+        "label": "Russian",
+        "count": 100,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=rus"
+      },
+      {
+        "label": "Chinese",
+        "count": 91,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=chi"
+      },
+      {
+        "label": "Undetermined",
+        "count": 89,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=und"
+      },
+      {
+        "label": "Hebrew",
+        "count": 86,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=heb"
+      },
+      {
+        "label": "Japanese",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=jpn"
+      },
+      {
+        "label": "Dutch",
+        "count": 57,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=dut"
+      },
+      {
+        "label": "Multiple languages",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=mul"
+      },
+      {
+        "label": "Portuguese",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=por"
+      },
+      {
+        "label": "Polish",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=pol"
+      },
+      {
+        "label": "Modern Greek",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=gre"
+      },
+      {
+        "label": "Ancient Greek",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=grc"
+      },
+      {
+        "label": "Welsh",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=wel"
+      },
+      {
+        "label": "Danish",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=dan"
+      },
+      {
+        "label": "Yiddish",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=yid"
+      },
+      {
+        "label": "Arabic",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ara"
+      },
+      {
+        "label": "Finnish",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=fin"
+      },
+      {
+        "label": "Swedish",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=swe"
+      },
+      {
+        "label": "Czech",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=cze"
+      },
+      {
+        "label": "Ukrainian",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ukr"
+      },
+      {
+        "label": "Catalan",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=cat"
+      },
+      {
+        "label": "Korean",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=kor"
+      },
+      {
+        "label": "Irish",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=gle"
+      },
+      {
+        "label": "Hungarian",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=hun"
+      },
+      {
+        "label": "Turkish",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=tur"
+      },
+      {
+        "label": "Urdu",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=urd"
+      },
+      {
+        "label": "Armenian",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=arm"
+      },
+      {
+        "label": "Esperanto",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=epo"
+      },
+      {
+        "label": "Persian",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=per"
+      },
+      {
+        "label": "Romanian",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=rum"
+      },
+      {
+        "label": "Scottish Gaelic",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=gla"
+      },
+      {
+        "label": "Gujarati",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=guj"
+      },
+      {
+        "label": "Vietnamese",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=vie"
+      },
+      {
+        "label": "Serbian",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=srp"
+      },
+      {
+        "label": "Hindi",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=hin"
+      },
+      {
+        "label": "Croatian",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=hrv"
+      },
+      {
+        "label": "Icelandic",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ice"
+      },
+      {
+        "label": "Marathi",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=mar"
+      },
+      {
+        "label": "Slovak",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=slo"
+      },
+      {
+        "label": "Afrikaans",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=afr"
+      },
+      {
+        "label": "Scots",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=sco"
+      },
+      {
+        "label": "English, Middle (1100-1500)",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=enm"
+      },
+      {
+        "label": "Norwegian",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=nor"
+      },
+      {
+        "label": "Punjabi",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=pan"
+      },
+      {
+        "label": "Sanskrit",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=san"
+      },
+      {
+        "label": "Swahili",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=swa"
+      },
+      {
+        "label": "Albanian",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=alb"
+      },
+      {
+        "label": "Malayalam",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=mal"
+      },
+      {
+        "label": "Mongolian",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=mon"
+      },
+      {
+        "label": "Thai",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=tha"
+      },
+      {
+        "label": "Algonquian (Other)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=alg"
+      },
+      {
+        "label": "English, Old (ca. 450-1100)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ang"
+      },
+      {
+        "label": "Lithuanian",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=lit"
+      },
+      {
+        "label": "Telugu",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=tel"
+      },
+      {
+        "label": "Amharic",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=amh"
+      },
+      {
+        "label": "Belarusian",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=bel"
+      },
+      {
+        "label": "Bulgarian",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=bul"
+      },
+      {
+        "label": "Faroese",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=fao"
+      },
+      {
+        "label": "Romance (Other)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=roa"
+      },
+      {
+        "label": "Tamil",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=tam"
+      },
+      {
+        "label": "Bengali",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ben"
+      },
+      {
+        "label": "Cornish",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=cor"
+      },
+      {
+        "label": "Galician",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=glg"
+      },
+      {
+        "label": "Indonesian",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ind"
+      },
+      {
+        "label": "Kannada",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=kan"
+      },
+      {
+        "label": "Latvian",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=lav"
+      },
+      {
+        "label": "Niger-Kordofanian (Other)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=nic"
+      },
+      {
+        "label": "Syriac, Modern",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=syr"
+      },
+      {
+        "label": "Tagalog",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=tgl"
+      },
+      {
+        "label": "Basque",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=baq"
+      },
+      {
+        "label": "Creoles and Pidgins, English-based (Other)",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=cpe"
+      },
+      {
+        "label": "Cree",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=cre"
+      },
+      {
+        "label": "Dakota",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=dak"
+      },
+      {
+        "label": "French, Middle (ca. 1300-1600)",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=frm"
+      },
+      {
+        "label": "West Frisian",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=fry"
+      },
+      {
+        "label": "Friulian",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=fur"
+      },
+      {
+        "label": "Hawaiian",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=haw"
+      },
+      {
+        "label": "Kazakh",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=kaz"
+      },
+      {
+        "label": "Kyrgyz",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=kir"
+      },
+      {
+        "label": "Ladino",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=lad"
+      },
+      {
+        "label": "Nepali",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=nep"
+      },
+      {
+        "label": "Odia",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ori"
+      },
+      {
+        "label": "Oromo",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=orm"
+      },
+      {
+        "label": "Turkish, Ottoman",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=ota"
+      },
+      {
+        "label": "Pashto",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=pus"
+      },
+      {
+        "label": "Slovene",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=slv"
+      },
+      {
+        "label": "Sardinian",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=srd"
+      },
+      {
+        "label": "Tswana",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=tsn"
+      },
+      {
+        "label": "Afroasiatic (Other)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=afa"
+      },
+      {
+        "label": "Altai",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=alt"
+      },
+      {
+        "label": "Aramaic",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=arc"
+      },
+      {
+        "label": "Artificial (Other)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=art"
+      },
+      {
+        "label": "Assamese",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=asm"
+      },
+      {
+        "label": "Bashkir",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=bak"
+      },
+      {
+        "label": "Bemba",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&language=bem"
+      }
+    ],
+    "Author": [
+      {
+        "label": "Erle Stanley Gardner",
+        "count": 332,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL23222A"
+      },
+      {
+        "label": "Robert Green Ingersoll",
+        "count": 326,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL208112A"
+      },
+      {
+        "label": "Robert Greene",
+        "count": 211,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL18262A"
+      },
+      {
+        "label": "Robert Green Ingersoll",
+        "count": 150,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL5262253A"
+      },
+      {
+        "label": "Robert Green",
+        "count": 84,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2621595A"
+      },
+      {
+        "label": "Green, Robert",
+        "count": 63,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2360494A"
+      },
+      {
+        "label": "Robert Greene Lee",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL588561A"
+      },
+      {
+        "label": "Robert Louis Stevenson",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL25963A"
+      },
+      {
+        "label": "Robert Southey",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL133662A"
+      },
+      {
+        "label": "Graham Greene",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL20243A"
+      },
+      {
+        "label": "Robert Greene",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL236414A"
+      },
+      {
+        "label": "Robert Edward Green",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL6398794A"
+      },
+      {
+        "label": "Green, Robert",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL28640A"
+      },
+      {
+        "label": "Robert Greene",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL13116287A"
+      },
+      {
+        "label": "Robert Hugh Benson",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL31012A"
+      },
+      {
+        "label": "Keith A. Roberts",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL580614A"
+      },
+      {
+        "label": "Thomas Babington Macaulay",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL124940A"
+      },
+      {
+        "label": "William Shakespeare",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL9388A"
+      },
+      {
+        "label": "Robert Ewell Greene",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL186870A"
+      },
+      {
+        "label": "Robert Venditti",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL3073561A"
+      },
+      {
+        "label": "Jeanne H. Ballantine",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL542002A"
+      },
+      {
+        "label": "Robert Greene - undifferentiated",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL10653395A"
+      },
+      {
+        "label": "Edgar Allan Poe",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL28127A"
+      },
+      {
+        "label": "Theodore Dreiser",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL32271A"
+      },
+      {
+        "label": "J. M. Barrie",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL26997A"
+      },
+      {
+        "label": "Gardner, Robert",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL188128A"
+      },
+      {
+        "label": "John Robert Greene",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL27875A"
+      },
+      {
+        "label": "Mark Twain",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL18319A"
+      },
+      {
+        "label": "Robert C. Greene",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL709650A"
+      },
+      {
+        "label": "Robert Alexander Houstoun",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2265709A"
+      },
+      {
+        "label": "Nathaniel Hawthorne",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL26681A"
+      },
+      {
+        "label": "Mrs. Anna Jameson",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL884919A"
+      },
+      {
+        "label": "Matthew Arnold",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL136194A"
+      },
+      {
+        "label": "Gardner F. Fox",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1398318A"
+      },
+      {
+        "label": "Robert W. Green",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2031676A"
+      },
+      {
+        "label": "Rudyard Kipling",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL24461A"
+      },
+      {
+        "label": "Charles Dickens",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL24638A"
+      },
+      {
+        "label": "Great Britain. Public Record Office",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL4613363A"
+      },
+      {
+        "label": "Gabriel Harvey",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL113958A"
+      },
+      {
+        "label": "John Henry Newman",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL116295A"
+      },
+      {
+        "label": "Arthur Conan Doyle",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL161167A"
+      },
+      {
+        "label": "Carol Greene",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL184882A"
+      },
+      {
+        "label": "William Morris",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL28409A"
+      },
+      {
+        "label": "Robert J. Schwalb",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2876069A"
+      },
+      {
+        "label": "Robert Green 1833-1899 Ingersoll",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL9296571A"
+      },
+      {
+        "label": "Robert Macey Rayner",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL120653A"
+      },
+      {
+        "label": "Andrew Ure",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL166263A"
+      },
+      {
+        "label": "Richard Francis Burton",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL16934A"
+      },
+      {
+        "label": "Thomas Moore",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL16997A"
+      },
+      {
+        "label": "Ambrose Bierce",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL21093A"
+      },
+      {
+        "label": "R. Torrens",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL838455A"
+      },
+      {
+        "label": "Thomas Lodge",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL114141A"
+      },
+      {
+        "label": "G. R. Gleig",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL114202A"
+      },
+      {
+        "label": "Fairbairn, William Sir",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1373713A"
+      },
+      {
+        "label": "Robert Henry Aders Plimmer",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL155968A"
+      },
+      {
+        "label": "Robert James Havighurst",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1746722A"
+      },
+      {
+        "label": "Robert J. Hoare",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1819089A"
+      },
+      {
+        "label": "Joseph Conrad",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL19441A"
+      },
+      {
+        "label": "F. Max Müller",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1950A"
+      },
+      {
+        "label": "J. Lane Notter",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2354874A"
+      },
+      {
+        "label": "Robert S. Shiels",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL265724A"
+      },
+      {
+        "label": "Robert A. Greene, MD",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2675355A"
+      },
+      {
+        "label": "Jacqueline Dembar Greene",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL386335A"
+      },
+      {
+        "label": "Kingsley Amis",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL4326658A"
+      },
+      {
+        "label": "Robert Liveing",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL5721144A"
+      },
+      {
+        "label": "Robert Kee",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL615067A"
+      },
+      {
+        "label": "John Milton",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL68333A"
+      },
+      {
+        "label": "Public Record Office",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL82345A"
+      },
+      {
+        "label": "Howitt, William",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1165143A"
+      },
+      {
+        "label": "Eliza Acton",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1825930A"
+      },
+      {
+        "label": "Thomas Hardy",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL18277A"
+      },
+      {
+        "label": "Washington Irving",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL19725A"
+      },
+      {
+        "label": "Stephen Crane",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL24527A"
+      },
+      {
+        "label": "Thomas Kyd",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL446582A"
+      },
+      {
+        "label": "Robert Everist Greene",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL535480A"
+      },
+      {
+        "label": "Ranulf Higden",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL6926659A"
+      },
+      {
+        "label": "Kathleen Odell Korgen",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL7664048A"
+      },
+      {
+        "label": "Robert Friedberg",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL778143A"
+      },
+      {
+        "label": "Robert Alan Green",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1011861A"
+      },
+      {
+        "label": "Robert Graves",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1097266A"
+      },
+      {
+        "label": "Robert Hooper M.D.",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1172390A"
+      },
+      {
+        "label": "Ernest Hemingway",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL13640A"
+      },
+      {
+        "label": "James Martineau",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1385046A"
+      },
+      {
+        "label": "Charles Waterton",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1438534A"
+      },
+      {
+        "label": "Hind, Henry Youle",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL162558A"
+      },
+      {
+        "label": "Mary Anne Galton Schimmelpenninck",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL17042A"
+      },
+      {
+        "label": "Robert Lee Green",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1808275A"
+      },
+      {
+        "label": "John Bunyan",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL18112A"
+      },
+      {
+        "label": "Jane Yolen",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL18722A"
+      },
+      {
+        "label": "G. W. Septimus Piesse",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1929537A"
+      },
+      {
+        "label": "Baden Powell",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL1993077A"
+      },
+      {
+        "label": "O. Henry",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2101175A"
+      },
+      {
+        "label": "Samuel Johnson",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL21070A"
+      },
+      {
+        "label": "Robert Baker Girdlestone",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2241005A"
+      },
+      {
+        "label": "Greene, Robert",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2405917A"
+      },
+      {
+        "label": "J. S. Howson",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2501466A"
+      },
+      {
+        "label": "John Steinbeck",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL25788A"
+      },
+      {
+        "label": "Robert Gardner",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL27306A"
+      },
+      {
+        "label": "Robert L. Green",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2935227A"
+      },
+      {
+        "label": "Robert M. Rayner",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&author_key=OL2957327A"
+      }
+    ],
+    "Subjects": [
+      {
+        "label": "History",
+        "count": 645,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=History"
+      },
+      {
+        "label": "Fiction",
+        "count": 407,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Fiction"
+      },
+      {
+        "label": "Biography",
+        "count": 262,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Biography"
+      },
+      {
+        "label": "Description and travel",
+        "count": 190,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Description+and+travel"
+      },
+      {
+        "label": "Early works to 1800",
+        "count": 188,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Early+works+to+1800"
+      },
+      {
+        "label": "Fiction, mystery & detective, general",
+        "count": 150,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Fiction%2C+mystery+%26+detective%2C+general"
+      },
+      {
+        "label": "Large type books",
+        "count": 136,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Large+type+books"
+      },
+      {
+        "label": "Juvenile literature",
+        "count": 125,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Juvenile+literature"
+      },
+      {
+        "label": "Bible",
+        "count": 118,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Bible"
+      },
+      {
+        "label": "Fiction, general",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Fiction%2C+general"
+      },
+      {
+        "label": "Children's fiction",
+        "count": 103,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Children%27s+fiction"
+      },
+      {
+        "label": "Perry Mason (Fictitious character)",
+        "count": 99,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Perry+Mason+%28Fictitious+character%29"
+      },
+      {
+        "label": "Politics and government",
+        "count": 97,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Politics+and+government"
+      },
+      {
+        "label": "History and criticism",
+        "count": 95,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=History+and+criticism"
+      },
+      {
+        "label": "Drama",
+        "count": 94,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Drama"
+      },
+      {
+        "label": "Poetry",
+        "count": 93,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Poetry"
+      },
+      {
+        "label": "Sources",
+        "count": 92,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Sources"
+      },
+      {
+        "label": "Social life and customs",
+        "count": 91,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Social+life+and+customs"
+      },
+      {
+        "label": "Sermons",
+        "count": 90,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Sermons"
+      },
+      {
+        "label": "Juvenile fiction",
+        "count": 83,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Juvenile+fiction"
+      },
+      {
+        "label": "Criticism and interpretation",
+        "count": 82,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Criticism+and+interpretation"
+      },
+      {
+        "label": "Detective and mystery stories",
+        "count": 82,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Detective+and+mystery+stories"
+      },
+      {
+        "label": "English literature",
+        "count": 78,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=English+literature"
+      },
+      {
+        "label": "Classic Literature",
+        "count": 77,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Classic+Literature"
+      },
+      {
+        "label": "Histoire",
+        "count": 72,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Histoire"
+      },
+      {
+        "label": "English language",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=English+language"
+      },
+      {
+        "label": "British and irish fiction (fictional works by one author)",
+        "count": 67,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=British+and+irish+fiction+%28fictional+works+by+one+author%29"
+      },
+      {
+        "label": "Dictionaries",
+        "count": 67,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Dictionaries"
+      },
+      {
+        "label": "Bibliography",
+        "count": 66,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Bibliography"
+      },
+      {
+        "label": "Trials (Murder)",
+        "count": 62,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Trials+%28Murder%29"
+      },
+      {
+        "label": "Criticism, interpretation",
+        "count": 60,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Criticism%2C+interpretation"
+      },
+      {
+        "label": "Lawyers, fiction",
+        "count": 60,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Lawyers%2C+fiction"
+      },
+      {
+        "label": "Fiction, legal",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Fiction%2C+legal"
+      },
+      {
+        "label": "Free thought",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Free+thought"
+      },
+      {
+        "label": "Translations into English",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Translations+into+English"
+      },
+      {
+        "label": "English poetry",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=English+poetry"
+      },
+      {
+        "label": "Mason, perry (fictitious character), fiction",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Mason%2C+perry+%28fictitious+character%29%2C+fiction"
+      },
+      {
+        "label": "Philosophy",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Philosophy"
+      },
+      {
+        "label": "Christianity",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Christianity"
+      },
+      {
+        "label": "Education",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Education"
+      },
+      {
+        "label": "Los angeles (calif.), fiction",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Los+angeles+%28calif.%29%2C+fiction"
+      },
+      {
+        "label": "Great Britain",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Great+Britain"
+      },
+      {
+        "label": "Long Now Manual for Civilization",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Long+Now+Manual+for+Civilization"
+      },
+      {
+        "label": "American Detective and mystery stories",
+        "count": 51,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=American+Detective+and+mystery+stories"
+      },
+      {
+        "label": "California, fiction",
+        "count": 51,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=California%2C+fiction"
+      },
+      {
+        "label": "Congresses",
+        "count": 51,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Congresses"
+      },
+      {
+        "label": "Catholic Church",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Catholic+Church"
+      },
+      {
+        "label": "General",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=General"
+      },
+      {
+        "label": "Poetry (poetic works by one author)",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Poetry+%28poetic+works+by+one+author%29"
+      },
+      {
+        "label": "Church history",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Church+history"
+      },
+      {
+        "label": "Readers",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Readers"
+      },
+      {
+        "label": "Church of England",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Church+of+England"
+      },
+      {
+        "label": "Correspondence",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Correspondence"
+      },
+      {
+        "label": "Fiction, historical, general",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Fiction%2C+historical%2C+general"
+      },
+      {
+        "label": "Geology",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Geology"
+      },
+      {
+        "label": "Literature",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Literature"
+      },
+      {
+        "label": "Women",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Women"
+      },
+      {
+        "label": "American Sermons",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=American+Sermons"
+      },
+      {
+        "label": "Open Library Staff Picks",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Open+Library+Staff+Picks"
+      },
+      {
+        "label": "Environmental aspects",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Environmental+aspects"
+      },
+      {
+        "label": "Religion",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Religion"
+      },
+      {
+        "label": "Controversial literature",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Controversial+literature"
+      },
+      {
+        "label": "Fiction in English",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Fiction+in+English"
+      },
+      {
+        "label": "United States",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=United+States"
+      },
+      {
+        "label": "Antiquities",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Antiquities"
+      },
+      {
+        "label": "Conduct of life",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Conduct+of+life"
+      },
+      {
+        "label": "Comic books, strips",
+        "count": 39,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Comic+books%2C+strips"
+      },
+      {
+        "label": "Diseases",
+        "count": 39,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Diseases"
+      },
+      {
+        "label": "Science",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Science"
+      },
+      {
+        "label": "England, fiction",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=England%2C+fiction"
+      },
+      {
+        "label": "Law",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Law"
+      },
+      {
+        "label": "Baptists",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Baptists"
+      },
+      {
+        "label": "Catalogs",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Catalogs"
+      },
+      {
+        "label": "Economics",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Economics"
+      },
+      {
+        "label": "English drama",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=English+drama"
+      },
+      {
+        "label": "English fiction",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=English+fiction"
+      },
+      {
+        "label": "Psychology",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Psychology"
+      },
+      {
+        "label": "Crime",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Crime"
+      },
+      {
+        "label": "Medicine",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Medicine"
+      },
+      {
+        "label": "Natural history",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Natural+history"
+      },
+      {
+        "label": "Romans, nouvelles",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Romans%2C+nouvelles"
+      },
+      {
+        "label": "British and irish drama (dramatic works by one author)",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=British+and+irish+drama+%28dramatic+works+by+one+author%29"
+      },
+      {
+        "label": "Manners and customs",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Manners+and+customs"
+      },
+      {
+        "label": "Nonfiction",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Nonfiction"
+      },
+      {
+        "label": "Translations into Russian",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Translations+into+Russian"
+      },
+      {
+        "label": "Christian life",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Christian+life"
+      },
+      {
+        "label": "Genealogy",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Genealogy"
+      },
+      {
+        "label": "Law and legislation",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Law+and+legislation"
+      },
+      {
+        "label": "Sermons, American",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Sermons%2C+American"
+      },
+      {
+        "label": "Pictorial works",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Pictorial+works"
+      },
+      {
+        "label": "Social conditions",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Social+conditions"
+      },
+      {
+        "label": "Art",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Art"
+      },
+      {
+        "label": "Clergy",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Clergy"
+      },
+      {
+        "label": "Exhibitions",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Exhibitions"
+      },
+      {
+        "label": "Specimens",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Specimens"
+      },
+      {
+        "label": "Study and teaching",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Study+and+teaching"
+      },
+      {
+        "label": "Travel",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Travel"
+      },
+      {
+        "label": "Adaptations",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=Adaptations"
+      },
+      {
+        "label": "American literature",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=American+literature"
+      },
+      {
+        "label": "English Sermons",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&subject_facet=English+Sermons"
+      }
+    ],
+    "First published": [
+      {
+        "label": "1860",
+        "count": 195,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1860"
+      },
+      {
+        "label": "1861",
+        "count": 189,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1861"
+      },
+      {
+        "label": "1864",
+        "count": 180,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1864"
+      },
+      {
+        "label": "1863",
+        "count": 179,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1863"
+      },
+      {
+        "label": "1858",
+        "count": 178,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1858"
+      },
+      {
+        "label": "1862",
+        "count": 164,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1862"
+      },
+      {
+        "label": "1859",
+        "count": 162,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1859"
+      },
+      {
+        "label": "1865",
+        "count": 162,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1865"
+      },
+      {
+        "label": "1857",
+        "count": 156,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1857"
+      },
+      {
+        "label": "2015",
+        "count": 131,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2015"
+      },
+      {
+        "label": "2018",
+        "count": 120,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2018"
+      },
+      {
+        "label": "2005",
+        "count": 107,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2005"
+      },
+      {
+        "label": "2011",
+        "count": 84,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2011"
+      },
+      {
+        "label": "2007",
+        "count": 80,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2007"
+      },
+      {
+        "label": "2014",
+        "count": 80,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2014"
+      },
+      {
+        "label": "2021",
+        "count": 79,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2021"
+      },
+      {
+        "label": "2017",
+        "count": 76,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2017"
+      },
+      {
+        "label": "2008",
+        "count": 75,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2008"
+      },
+      {
+        "label": "2013",
+        "count": 75,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2013"
+      },
+      {
+        "label": "2022",
+        "count": 70,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2022"
+      },
+      {
+        "label": "2010",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2010"
+      },
+      {
+        "label": "1967",
+        "count": 65,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1967"
+      },
+      {
+        "label": "2009",
+        "count": 63,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2009"
+      },
+      {
+        "label": "2016",
+        "count": 62,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2016"
+      },
+      {
+        "label": "2020",
+        "count": 61,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2020"
+      },
+      {
+        "label": "1856",
+        "count": 60,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1856"
+      },
+      {
+        "label": "2006",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2006"
+      },
+      {
+        "label": "1999",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1999"
+      },
+      {
+        "label": "2019",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2019"
+      },
+      {
+        "label": "2001",
+        "count": 57,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2001"
+      },
+      {
+        "label": "1973",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1973"
+      },
+      {
+        "label": "2012",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2012"
+      },
+      {
+        "label": "1989",
+        "count": 54,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1989"
+      },
+      {
+        "label": "2000",
+        "count": 54,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2000"
+      },
+      {
+        "label": "1993",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1993"
+      },
+      {
+        "label": "2023",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2023"
+      },
+      {
+        "label": "1991",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1991"
+      },
+      {
+        "label": "1995",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1995"
+      },
+      {
+        "label": "1996",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1996"
+      },
+      {
+        "label": "1998",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1998"
+      },
+      {
+        "label": "1992",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1992"
+      },
+      {
+        "label": "1981",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1981"
+      },
+      {
+        "label": "1982",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1982"
+      },
+      {
+        "label": "1994",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1994"
+      },
+      {
+        "label": "1997",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1997"
+      },
+      {
+        "label": "2003",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2003"
+      },
+      {
+        "label": "1962",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1962"
+      },
+      {
+        "label": "1964",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1964"
+      },
+      {
+        "label": "1969",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1969"
+      },
+      {
+        "label": "1984",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1984"
+      },
+      {
+        "label": "1956",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1956"
+      },
+      {
+        "label": "1972",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1972"
+      },
+      {
+        "label": "1980",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1980"
+      },
+      {
+        "label": "1970",
+        "count": 39,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1970"
+      },
+      {
+        "label": "1983",
+        "count": 39,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1983"
+      },
+      {
+        "label": "1955",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1955"
+      },
+      {
+        "label": "1971",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1971"
+      },
+      {
+        "label": "1975",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1975"
+      },
+      {
+        "label": "1977",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1977"
+      },
+      {
+        "label": "2004",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2004"
+      },
+      {
+        "label": "1951",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1951"
+      },
+      {
+        "label": "1966",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1966"
+      },
+      {
+        "label": "1988",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1988"
+      },
+      {
+        "label": "1990",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1990"
+      },
+      {
+        "label": "1985",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1985"
+      },
+      {
+        "label": "2002",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=2002"
+      },
+      {
+        "label": "1978",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1978"
+      },
+      {
+        "label": "1950",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1950"
+      },
+      {
+        "label": "1976",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1976"
+      },
+      {
+        "label": "1986",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1986"
+      },
+      {
+        "label": "1987",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1987"
+      },
+      {
+        "label": "1974",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1974"
+      },
+      {
+        "label": "1938",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1938"
+      },
+      {
+        "label": "1957",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1957"
+      },
+      {
+        "label": "1959",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1959"
+      },
+      {
+        "label": "1948",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1948"
+      },
+      {
+        "label": "1958",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1958"
+      },
+      {
+        "label": "1968",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1968"
+      },
+      {
+        "label": "1800",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1800"
+      },
+      {
+        "label": "1913",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1913"
+      },
+      {
+        "label": "1924",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1924"
+      },
+      {
+        "label": "1881",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1881"
+      },
+      {
+        "label": "1907",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1907"
+      },
+      {
+        "label": "1947",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1947"
+      },
+      {
+        "label": "1949",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1949"
+      },
+      {
+        "label": "1890",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1890"
+      },
+      {
+        "label": "1894",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1894"
+      },
+      {
+        "label": "1895",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1895"
+      },
+      {
+        "label": "1912",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1912"
+      },
+      {
+        "label": "1915",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1915"
+      },
+      {
+        "label": "1953",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1953"
+      },
+      {
+        "label": "1961",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1961"
+      },
+      {
+        "label": "1898",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1898"
+      },
+      {
+        "label": "1905",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1905"
+      },
+      {
+        "label": "1963",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1963"
+      },
+      {
+        "label": "1965",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1965"
+      },
+      {
+        "label": "1979",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1979"
+      },
+      {
+        "label": "1849",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1849"
+      },
+      {
+        "label": "1926",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1926"
+      },
+      {
+        "label": "1855",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&first_publish_year=1855"
+      }
+    ],
+    "Publisher": [
+      {
+        "label": "Longmans, Green",
+        "count": 603,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans%2C+Green"
+      },
+      {
+        "label": "Longman, Green, Longman, and Roberts",
+        "count": 366,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Green%2C+Longman%2C+and+Roberts"
+      },
+      {
+        "label": "CreateSpace Independent Publishing Platform",
+        "count": 334,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=CreateSpace+Independent+Publishing+Platform"
+      },
+      {
+        "label": "Creative Media Partners, LLC",
+        "count": 307,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Creative+Media+Partners%2C+LLC"
+      },
+      {
+        "label": "Longman, Green, Longman, Roberts, & Green",
+        "count": 261,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Green%2C+Longman%2C+Roberts%2C+%26+Green"
+      },
+      {
+        "label": "Independently Published",
+        "count": 248,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Independently+Published"
+      },
+      {
+        "label": "Longman, Brown, Green, Longmans, & Roberts",
+        "count": 181,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Brown%2C+Green%2C+Longmans%2C+%26+Roberts"
+      },
+      {
+        "label": "Kessinger Publishing",
+        "count": 172,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Kessinger+Publishing"
+      },
+      {
+        "label": "Kessinger Publishing, LLC",
+        "count": 172,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Kessinger+Publishing%2C+LLC"
+      },
+      {
+        "label": "Oxford University Press",
+        "count": 162,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Oxford+University+Press"
+      },
+      {
+        "label": "Longman, Brown, Green, Longmans, and Roberts",
+        "count": 161,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Brown%2C+Green%2C+Longmans%2C+and+Roberts"
+      },
+      {
+        "label": "Penguin Books",
+        "count": 155,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Penguin+Books"
+      },
+      {
+        "label": "Longmans",
+        "count": 152,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans"
+      },
+      {
+        "label": "Sine nomine",
+        "count": 150,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Sine+nomine"
+      },
+      {
+        "label": "Longman, Brown, Green, and Longmans",
+        "count": 147,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Brown%2C+Green%2C+and+Longmans"
+      },
+      {
+        "label": "Longmans, Green, and Co.",
+        "count": 145,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans%2C+Green%2C+and+Co."
+      },
+      {
+        "label": "Macmillan",
+        "count": 137,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Macmillan"
+      },
+      {
+        "label": "Longman, Green, Longman, Roberts, and Green",
+        "count": 135,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Green%2C+Longman%2C+Roberts%2C+and+Green"
+      },
+      {
+        "label": "Penguin",
+        "count": 131,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Penguin"
+      },
+      {
+        "label": "Longman, Green, Longman, Roberts & Green",
+        "count": 126,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Green%2C+Longman%2C+Roberts+%26+Green"
+      },
+      {
+        "label": "Longman, Green, Longman and Roberts",
+        "count": 123,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Green%2C+Longman+and+Roberts"
+      },
+      {
+        "label": "Pocket Books",
+        "count": 123,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Pocket+Books"
+      },
+      {
+        "label": "Longmans, Green and Co.",
+        "count": 120,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans%2C+Green+and+Co."
+      },
+      {
+        "label": "Heinemann",
+        "count": 119,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Heinemann"
+      },
+      {
+        "label": "Dover Publications",
+        "count": 118,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Dover+Publications"
+      },
+      {
+        "label": "Longman",
+        "count": 118,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman"
+      },
+      {
+        "label": "Longmans, Green, and co.",
+        "count": 118,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans%2C+Green%2C+and+co."
+      },
+      {
+        "label": "Dent",
+        "count": 115,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Dent"
+      },
+      {
+        "label": "Franklin Classics",
+        "count": 114,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Franklin+Classics"
+      },
+      {
+        "label": "Franklin Classics Trade Press",
+        "count": 112,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Franklin+Classics+Trade+Press"
+      },
+      {
+        "label": "BiblioBazaar",
+        "count": 109,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=BiblioBazaar"
+      },
+      {
+        "label": "IndyPublish.com",
+        "count": 105,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=IndyPublish.com"
+      },
+      {
+        "label": "Cambridge University Press",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Cambridge+University+Press"
+      },
+      {
+        "label": "Orion Publishing Group, Limited",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Orion+Publishing+Group%2C+Limited"
+      },
+      {
+        "label": "Longmans, Green and co.",
+        "count": 101,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans%2C+Green+and+co."
+      },
+      {
+        "label": "Penguin Classics",
+        "count": 96,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Penguin+Classics"
+      },
+      {
+        "label": "Adamant Media Corporation",
+        "count": 88,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Adamant+Media+Corporation"
+      },
+      {
+        "label": "Clarendon Press",
+        "count": 88,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Clarendon+Press"
+      },
+      {
+        "label": "Longman, Brown, Green, Longmans & Roberts",
+        "count": 84,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Brown%2C+Green%2C+Longmans+%26+Roberts"
+      },
+      {
+        "label": "Oxford University Press, USA",
+        "count": 83,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Oxford+University+Press%2C+USA"
+      },
+      {
+        "label": "Dutton",
+        "count": 81,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Dutton"
+      },
+      {
+        "label": "Echo Library",
+        "count": 80,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Echo+Library"
+      },
+      {
+        "label": "HardPress",
+        "count": 78,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=HardPress"
+      },
+      {
+        "label": "J.M. Dent",
+        "count": 78,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=J.M.+Dent"
+      },
+      {
+        "label": "Morrow",
+        "count": 78,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Morrow"
+      },
+      {
+        "label": "Tandem Library",
+        "count": 76,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Tandem+Library"
+      },
+      {
+        "label": "Independently published",
+        "count": 75,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Independently+published"
+      },
+      {
+        "label": "Routledge",
+        "count": 75,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Routledge"
+      },
+      {
+        "label": "Dodo Press",
+        "count": 74,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Dodo+Press"
+      },
+      {
+        "label": "Createspace Independent Publishing Platform",
+        "count": 73,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Createspace+Independent+Publishing+Platform"
+      },
+      {
+        "label": "Modern Library",
+        "count": 71,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Modern+Library"
+      },
+      {
+        "label": "eBooksLib",
+        "count": 70,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=eBooksLib"
+      },
+      {
+        "label": "Ballantine Books",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Ballantine+Books"
+      },
+      {
+        "label": "New American Library",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=New+American+Library"
+      },
+      {
+        "label": "Harper",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Harper"
+      },
+      {
+        "label": "Lulu Press, Inc.",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Lulu+Press%2C+Inc."
+      },
+      {
+        "label": "Pocket",
+        "count": 64,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Pocket"
+      },
+      {
+        "label": "Brilliance Audio",
+        "count": 63,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Brilliance+Audio"
+      },
+      {
+        "label": "AMS Press",
+        "count": 62,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=AMS+Press"
+      },
+      {
+        "label": "Blackstone Audiobooks",
+        "count": 62,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Blackstone+Audiobooks"
+      },
+      {
+        "label": "Collins",
+        "count": 62,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Collins"
+      },
+      {
+        "label": "The Floating Press",
+        "count": 62,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=The+Floating+Press"
+      },
+      {
+        "label": "Heritage Press",
+        "count": 61,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Heritage+Press"
+      },
+      {
+        "label": "University Press",
+        "count": 61,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=University+Press"
+      },
+      {
+        "label": "Digireads.com",
+        "count": 60,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Digireads.com"
+      },
+      {
+        "label": "Signet Classics",
+        "count": 60,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Signet+Classics"
+      },
+      {
+        "label": "Bantam Books",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Bantam+Books"
+      },
+      {
+        "label": "Methuen",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Methuen"
+      },
+      {
+        "label": "Penguin Books, Limited",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Penguin+Books%2C+Limited"
+      },
+      {
+        "label": "Longman, Brown, Green and Longmans",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longman%2C+Brown%2C+Green+and+Longmans"
+      },
+      {
+        "label": "Barnes & Noble",
+        "count": 57,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Barnes+%26+Noble"
+      },
+      {
+        "label": "Arkose Press",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Arkose+Press"
+      },
+      {
+        "label": "HarperCollins Publishers",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=HarperCollins+Publishers"
+      },
+      {
+        "label": "Barnes & Noble, Incorporated",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Barnes+%26+Noble%2C+Incorporated"
+      },
+      {
+        "label": "Dover Publications, Incorporated",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Dover+Publications%2C+Incorporated"
+      },
+      {
+        "label": "Harper & Brothers",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Harper+%26+Brothers"
+      },
+      {
+        "label": "Penguin Books Ltd",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Penguin+Books+Ltd"
+      },
+      {
+        "label": "Digireads.com Publishing",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Digireads.com+Publishing"
+      },
+      {
+        "label": "Folio Society",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Folio+Society"
+      },
+      {
+        "label": "Hard Press",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Hard+Press"
+      },
+      {
+        "label": "Project Gutenberg",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Project+Gutenberg"
+      },
+      {
+        "label": "Penguin Random House",
+        "count": 51,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Penguin+Random+House"
+      },
+      {
+        "label": "Start Publishing LLC",
+        "count": 51,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Start+Publishing+LLC"
+      },
+      {
+        "label": "Longmans, Green & Co.",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans%2C+Green+%26+Co."
+      },
+      {
+        "label": "G.K. Hall",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=G.K.+Hall"
+      },
+      {
+        "label": "Cassell",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Cassell"
+      },
+      {
+        "label": "Washington Square Press",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Washington+Square+Press"
+      },
+      {
+        "label": "Harper & brothers",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Harper+%26+brothers"
+      },
+      {
+        "label": "Limited Editions Club",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Limited+Editions+Club"
+      },
+      {
+        "label": "Open Road Integrated Media, Inc.",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Open+Road+Integrated+Media%2C+Inc."
+      },
+      {
+        "label": "Standard Ebooks",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Standard+Ebooks"
+      },
+      {
+        "label": "Taylor & Francis Group",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Taylor+%26+Francis+Group"
+      },
+      {
+        "label": "1st World Library",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=1st+World+Library"
+      },
+      {
+        "label": "Classic Books",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Classic+Books"
+      },
+      {
+        "label": "E.P. Dutton",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=E.P.+Dutton"
+      },
+      {
+        "label": "Franklin Library",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Franklin+Library"
+      },
+      {
+        "label": "HarperCollins Publishers Limited",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=HarperCollins+Publishers+Limited"
+      },
+      {
+        "label": "Harvard University Press",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Harvard+University+Press"
+      },
+      {
+        "label": "Longmans, Green, Reader, and Dyer",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=Longmans%2C+Green%2C+Reader%2C+and+Dyer"
+      },
+      {
+        "label": "ReadHowYouWant.com, Limited",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&publisher_facet=ReadHowYouWant.com%2C+Limited"
+      }
+    ],
+    "People": [
+      {
+        "label": "Robert Green Ingersoll (1833-1899)",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Green+Ingersoll+%281833-1899%29"
+      },
+      {
+        "label": "William Shakespeare (1564-1616)",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=William+Shakespeare+%281564-1616%29"
+      },
+      {
+        "label": "Robert Greene (1558?-1592)",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Greene+%281558%3F-1592%29"
+      },
+      {
+        "label": "Jesus Christ",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Jesus+Christ"
+      },
+      {
+        "label": "Robert Greene (1558-1592)",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Greene+%281558-1592%29"
+      },
+      {
+        "label": "Robert Burns (1759-1796)",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Burns+%281759-1796%29"
+      },
+      {
+        "label": "Abraham Lincoln (1809-1865)",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Abraham+Lincoln+%281809-1865%29"
+      },
+      {
+        "label": "Robert Louis Stevenson (1850-1894)",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Louis+Stevenson+%281850-1894%29"
+      },
+      {
+        "label": "Thomas Paine (1737-1809)",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Thomas+Paine+%281737-1809%29"
+      },
+      {
+        "label": "Green Lantern (Fictitious character)",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Green+Lantern+%28Fictitious+character%29"
+      },
+      {
+        "label": "Robert Browning (1812-1889)",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Browning+%281812-1889%29"
+      },
+      {
+        "label": "Robert Southey (1774-1843)",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Southey+%281774-1843%29"
+      },
+      {
+        "label": "Arthur Wellesley Wellington Duke of (1769-1852)",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Arthur+Wellesley+Wellington+Duke+of+%281769-1852%29"
+      },
+      {
+        "label": "Sherlock Holmes",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Sherlock+Holmes"
+      },
+      {
+        "label": "Walt Whitman (1819-1892)",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Walt+Whitman+%281819-1892%29"
+      },
+      {
+        "label": "Graham Greene (1904-)",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Graham+Greene+%281904-%29"
+      },
+      {
+        "label": "Graham Greene (1904-1991)",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Graham+Greene+%281904-1991%29"
+      },
+      {
+        "label": "John H. Watson",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=John+H.+Watson"
+      },
+      {
+        "label": "Perry Mason",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Perry+Mason"
+      },
+      {
+        "label": "Samuel Johnson (1709-1784)",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Samuel+Johnson+%281709-1784%29"
+      },
+      {
+        "label": "Charles Dickens (1812-1870)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Charles+Dickens+%281812-1870%29"
+      },
+      {
+        "label": "Dante Alighieri (1265-1321)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Dante+Alighieri+%281265-1321%29"
+      },
+      {
+        "label": "Elizabeth I Queen of England (1533-1603)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Elizabeth+I+Queen+of+England+%281533-1603%29"
+      },
+      {
+        "label": "Green family",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Green+family"
+      },
+      {
+        "label": "Oscar Wilde (1854-1900)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Oscar+Wilde+%281854-1900%29"
+      },
+      {
+        "label": "Peyton Farquhar",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Peyton+Farquhar"
+      },
+      {
+        "label": "Robert Stephenson (1803-1859)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Stephenson+%281803-1859%29"
+      },
+      {
+        "label": "William Ellery Channing (1780-1842)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=William+Ellery+Channing+%281780-1842%29"
+      },
+      {
+        "label": "William Wordsworth (1770-1850)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=William+Wordsworth+%281770-1850%29"
+      },
+      {
+        "label": "Aristotle",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Aristotle"
+      },
+      {
+        "label": "Arthur King",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Arthur+King"
+      },
+      {
+        "label": "Edmund Berry Godfrey Sir (1621-1678)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Edmund+Berry+Godfrey+Sir+%281621-1678%29"
+      },
+      {
+        "label": "George Washington (1732-1799)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=George+Washington+%281732-1799%29"
+      },
+      {
+        "label": "Henry Havelock Sir (1795-1857)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Henry+Havelock+Sir+%281795-1857%29"
+      },
+      {
+        "label": "John Milton (1608-1674)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=John+Milton+%281608-1674%29"
+      },
+      {
+        "label": "John Wesley (1703-1791)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=John+Wesley+%281703-1791%29"
+      },
+      {
+        "label": "Joshua Reynolds Sir (1723-1792)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Joshua+Reynolds+Sir+%281723-1792%29"
+      },
+      {
+        "label": "Mark Twain (1835-1910)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Mark+Twain+%281835-1910%29"
+      },
+      {
+        "label": "Napoleon I Emperor of the French (1769-1821)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Napoleon+I+Emperor+of+the+French+%281769-1821%29"
+      },
+      {
+        "label": "Nathanael Greene (1742-1786)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Nathanael+Greene+%281742-1786%29"
+      },
+      {
+        "label": "Robert Hugh Benson (1871-1914)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Hugh+Benson+%281871-1914%29"
+      },
+      {
+        "label": "Virgil",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Virgil"
+      },
+      {
+        "label": "Walter Scott Sir (1771-1832)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Walter+Scott+Sir+%281771-1832%29"
+      },
+      {
+        "label": "William Wilberforce (1759-1833)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=William+Wilberforce+%281759-1833%29"
+      },
+      {
+        "label": "Alexander Pope (1688-1744)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Alexander+Pope+%281688-1744%29"
+      },
+      {
+        "label": "Caedmon",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Caedmon"
+      },
+      {
+        "label": "Charles Waterton (1782-1865)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Charles+Waterton+%281782-1865%29"
+      },
+      {
+        "label": "Euripides",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Euripides"
+      },
+      {
+        "label": "Friedrich Schiller (1759-1805)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Friedrich+Schiller+%281759-1805%29"
+      },
+      {
+        "label": "Gabriel Harvey (1550?-1631)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Gabriel+Harvey+%281550%3F-1631%29"
+      },
+      {
+        "label": "Gerald R. Ford (1913-)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Gerald+R.+Ford+%281913-%29"
+      },
+      {
+        "label": "Henry V King of England (1387-1422)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Henry+V+King+of+England+%281387-1422%29"
+      },
+      {
+        "label": "Homer",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Homer"
+      },
+      {
+        "label": "James IV King of Scotland (1473-1513)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=James+IV+King+of+Scotland+%281473-1513%29"
+      },
+      {
+        "label": "Johann Wolfgang von Goethe (1749-1832)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Johann+Wolfgang+von+Goethe+%281749-1832%29"
+      },
+      {
+        "label": "John Henry Newman (1801-1890)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=John+Henry+Newman+%281801-1890%29"
+      },
+      {
+        "label": "Lawrence Hill (d. 1679)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Lawrence+Hill+%28d.+1679%29"
+      },
+      {
+        "label": "Martin Luther King Jr. (1929-1968)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Martin+Luther+King+Jr.+%281929-1968%29"
+      },
+      {
+        "label": "Perry Mason (Fictitious character)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Perry+Mason+%28Fictitious+character%29"
+      },
+      {
+        "label": "Ralph Waldo Emerson (1803-1882)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Ralph+Waldo+Emerson+%281803-1882%29"
+      },
+      {
+        "label": "Robert E. Lee (1807-1870)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+E.+Lee+%281807-1870%29"
+      },
+      {
+        "label": "Robert Emmet (1778-1803)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Emmet+%281778-1803%29"
+      },
+      {
+        "label": "Robert Greene Lee (1886-)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Greene+Lee+%281886-%29"
+      },
+      {
+        "label": "Robert Isaac Wilberforce (1802-1857)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Robert+Isaac+Wilberforce+%281802-1857%29"
+      },
+      {
+        "label": "Roderick Usher",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Roderick+Usher"
+      },
+      {
+        "label": "Samuel Taylor Coleridge (1772-1834)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Samuel+Taylor+Coleridge+%281772-1834%29"
+      },
+      {
+        "label": "Al Gore (1948-)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Al+Gore+%281948-%29"
+      },
+      {
+        "label": "Aldo Leopold (1886-1948)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Aldo+Leopold+%281886-1948%29"
+      },
+      {
+        "label": "Alfonso V King of Aragon (1396-1458)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Alfonso+V+King+of+Aragon+%281396-1458%29"
+      },
+      {
+        "label": "Alice (Fictitious character from Carroll)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Alice+%28Fictitious+character+from+Carroll%29"
+      },
+      {
+        "label": "Andrea Dworkin",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Andrea+Dworkin"
+      },
+      {
+        "label": "Andrew Lumisden (1720-1801)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Andrew+Lumisden+%281720-1801%29"
+      },
+      {
+        "label": "Archie",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Archie"
+      },
+      {
+        "label": "Arundhati Roy (1961-)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Arundhati+Roy+%281961-%29"
+      },
+      {
+        "label": "Barack Obama",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Barack+Obama"
+      },
+      {
+        "label": "Benjamin Franklin (1706-1790)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Benjamin+Franklin+%281706-1790%29"
+      },
+      {
+        "label": "C. Auguste Dupin",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=C.+Auguste+Dupin"
+      },
+      {
+        "label": "Colonel Sartoris",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Colonel+Sartoris"
+      },
+      {
+        "label": "David Ross Brower (1912-)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=David+Ross+Brower+%281912-%29"
+      },
+      {
+        "label": "Derrick Jensen (1960-)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Derrick+Jensen+%281960-%29"
+      },
+      {
+        "label": "Duncan Ross",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Duncan+Ross"
+      },
+      {
+        "label": "E. B. Pusey (1800-1882)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=E.+B.+Pusey+%281800-1882%29"
+      },
+      {
+        "label": "Edward Abbey (1927-1989)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Edward+Abbey+%281927-1989%29"
+      },
+      {
+        "label": "Edward Robert Bulwer Lytton Lytton Earl of (1831-1891)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Edward+Robert+Bulwer+Lytton+Lytton+Earl+of+%281831-1891%29"
+      },
+      {
+        "label": "Emily Grierson",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Emily+Grierson"
+      },
+      {
+        "label": "Emmeline Pankhurst (1858-1928)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Emmeline+Pankhurst+%281858-1928%29"
+      },
+      {
+        "label": "Ethelred",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Ethelred"
+      },
+      {
+        "label": "George Bush (1924-)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=George+Bush+%281924-%29"
+      },
+      {
+        "label": "George Ranken (1828-1856)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=George+Ranken+%281828-1856%29"
+      },
+      {
+        "label": "Girolamo Savonarola (1452-1498)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Girolamo+Savonarola+%281452-1498%29"
+      },
+      {
+        "label": "Godfrey Benning Greene",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Godfrey+Benning+Greene"
+      },
+      {
+        "label": "Harriet Tubman (1822-1913)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Harriet+Tubman+%281822-1913%29"
+      },
+      {
+        "label": "Henry VII King of England (1457-1509)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Henry+VII+King+of+England+%281457-1509%29"
+      },
+      {
+        "label": "Hester Lynch Piozzi (1741-1821)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Hester+Lynch+Piozzi+%281741-1821%29"
+      },
+      {
+        "label": "Homer Barron",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Homer+Barron"
+      },
+      {
+        "label": "Horatio Nelson Nelson Viscount (1758-1805)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Horatio+Nelson+Nelson+Viscount+%281758-1805%29"
+      },
+      {
+        "label": "Howard Zinn (1922-2010)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Howard+Zinn+%281922-2010%29"
+      },
+      {
+        "label": "Inspector G. Lestrade",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Inspector+G.+Lestrade"
+      },
+      {
+        "label": "Jabez Wilson",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=Jabez+Wilson"
+      },
+      {
+        "label": "James E. Hansen (1941-)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&person_facet=James+E.+Hansen+%281941-%29"
+      }
+    ],
+    "Places": [
+      {
+        "label": "Great Britain",
+        "count": 361,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Great+Britain"
+      },
+      {
+        "label": "United States",
+        "count": 304,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=United+States"
+      },
+      {
+        "label": "England",
+        "count": 173,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=England"
+      },
+      {
+        "label": "France",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=France"
+      },
+      {
+        "label": "Scotland",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Scotland"
+      },
+      {
+        "label": "Ireland",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Ireland"
+      },
+      {
+        "label": "London",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=London"
+      },
+      {
+        "label": "Canada",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Canada"
+      },
+      {
+        "label": "Europe",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Europe"
+      },
+      {
+        "label": "Italy",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Italy"
+      },
+      {
+        "label": "London (England)",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=London+%28England%29"
+      },
+      {
+        "label": "India",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=India"
+      },
+      {
+        "label": "Massachusetts",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Massachusetts"
+      },
+      {
+        "label": "Rome",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Rome"
+      },
+      {
+        "label": "New York (State)",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=New+York+%28State%29"
+      },
+      {
+        "label": "California",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=California"
+      },
+      {
+        "label": "Australia",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Australia"
+      },
+      {
+        "label": "Greece",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Greece"
+      },
+      {
+        "label": "New York",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=New+York"
+      },
+      {
+        "label": "Germany",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Germany"
+      },
+      {
+        "label": "Spain",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Spain"
+      },
+      {
+        "label": "Africa",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Africa"
+      },
+      {
+        "label": "Mexico",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Mexico"
+      },
+      {
+        "label": "Texas",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Texas"
+      },
+      {
+        "label": "Pennsylvania",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Pennsylvania"
+      },
+      {
+        "label": "Alps",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Alps"
+      },
+      {
+        "label": "Arctic regions",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Arctic+regions"
+      },
+      {
+        "label": "America",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=America"
+      },
+      {
+        "label": "Greene County (Ohio)",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Greene+County+%28Ohio%29"
+      },
+      {
+        "label": "Kentucky",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Kentucky"
+      },
+      {
+        "label": "New England",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=New+England"
+      },
+      {
+        "label": "Ohio",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Ohio"
+      },
+      {
+        "label": "British Columbia",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=British+Columbia"
+      },
+      {
+        "label": "China",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=China"
+      },
+      {
+        "label": "New York (N.Y.)",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=New+York+%28N.Y.%29"
+      },
+      {
+        "label": "Russia",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Russia"
+      },
+      {
+        "label": "Vermont",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Vermont"
+      },
+      {
+        "label": "Virginia",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Virginia"
+      },
+      {
+        "label": "Alabama",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Alabama"
+      },
+      {
+        "label": "Amérique du Nord",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Am%C3%A9rique+du+Nord"
+      },
+      {
+        "label": "Grande-Bretagne",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Grande-Bretagne"
+      },
+      {
+        "label": "Paris",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Paris"
+      },
+      {
+        "label": "Philadelphia",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Philadelphia"
+      },
+      {
+        "label": "Somerset (England)",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Somerset+%28England%29"
+      },
+      {
+        "label": "Soviet Union",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Soviet+Union"
+      },
+      {
+        "label": "West (U.S.)",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=West+%28U.S.%29"
+      },
+      {
+        "label": "Alberta",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Alberta"
+      },
+      {
+        "label": "Georgia",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Georgia"
+      },
+      {
+        "label": "Hawaii",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Hawaii"
+      },
+      {
+        "label": "Mississippi",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Mississippi"
+      },
+      {
+        "label": "North America",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=North+America"
+      },
+      {
+        "label": "Palenque Site (Mexico)",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Palenque+Site+%28Mexico%29"
+      },
+      {
+        "label": "Wales",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Wales"
+      },
+      {
+        "label": "Washington (State)",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Washington+%28State%29"
+      },
+      {
+        "label": "Wells (England)",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Wells+%28England%29"
+      },
+      {
+        "label": "États-Unis",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=%C3%89tats-Unis"
+      },
+      {
+        "label": "Arizona",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Arizona"
+      },
+      {
+        "label": "Baja California (Mexico)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Baja+California+%28Mexico%29"
+      },
+      {
+        "label": "Dublin",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Dublin"
+      },
+      {
+        "label": "Egypt",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Egypt"
+      },
+      {
+        "label": "Japan",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Japan"
+      },
+      {
+        "label": "Los Angeles",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Los+Angeles"
+      },
+      {
+        "label": "Owl Creek Bridge",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Owl+Creek+Bridge"
+      },
+      {
+        "label": "Rome (Italy)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Rome+%28Italy%29"
+      },
+      {
+        "label": "Saudi Arabia",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Saudi+Arabia"
+      },
+      {
+        "label": "South Africa",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=South+Africa"
+      },
+      {
+        "label": "Southern States",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Southern+States"
+      },
+      {
+        "label": "Switzerland",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Switzerland"
+      },
+      {
+        "label": "Tasmania",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Tasmania"
+      },
+      {
+        "label": "Turkey",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Turkey"
+      },
+      {
+        "label": "Utah",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Utah"
+      },
+      {
+        "label": "Vancouver Island (B.C.)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Vancouver+Island+%28B.C.%29"
+      },
+      {
+        "label": "Wisconsin",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Wisconsin"
+      },
+      {
+        "label": "Algeria",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Algeria"
+      },
+      {
+        "label": "Angleterre",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Angleterre"
+      },
+      {
+        "label": "Baker Street",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Baker+Street"
+      },
+      {
+        "label": "Boston",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Boston"
+      },
+      {
+        "label": "Central Africa",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Central+Africa"
+      },
+      {
+        "label": "Central America",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Central+America"
+      },
+      {
+        "label": "Florida",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Florida"
+      },
+      {
+        "label": "Illinois",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Illinois"
+      },
+      {
+        "label": "Iran",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Iran"
+      },
+      {
+        "label": "Maryland",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Maryland"
+      },
+      {
+        "label": "New Jersey",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=New+Jersey"
+      },
+      {
+        "label": "North Carolina",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=North+Carolina"
+      },
+      {
+        "label": "Northwest Passage",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Northwest+Passage"
+      },
+      {
+        "label": "Ontario",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Ontario"
+      },
+      {
+        "label": "Québec (Province)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Qu%C3%A9bec+%28Province%29"
+      },
+      {
+        "label": "Sri Lanka",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Sri+Lanka"
+      },
+      {
+        "label": "Victoria",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Victoria"
+      },
+      {
+        "label": "Ying guo",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Ying+guo"
+      },
+      {
+        "label": "Asia",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Asia"
+      },
+      {
+        "label": "Athens (Greece)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Athens+%28Greece%29"
+      },
+      {
+        "label": "Canadian Northwest",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Canadian+Northwest"
+      },
+      {
+        "label": "Connecticut",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Connecticut"
+      },
+      {
+        "label": "Denmark",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Denmark"
+      },
+      {
+        "label": "Florence",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Florence"
+      },
+      {
+        "label": "Gloucester",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Gloucester"
+      },
+      {
+        "label": "Hampshire",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Hampshire"
+      },
+      {
+        "label": "Iceland",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&place_facet=Iceland"
+      }
+    ],
+    "Times": [
+      {
+        "label": "19th century",
+        "count": 99,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=19th+century"
+      },
+      {
+        "label": "20th century",
+        "count": 98,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=20th+century"
+      },
+      {
+        "label": "18th century",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=18th+century"
+      },
+      {
+        "label": "17th century",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=17th+century"
+      },
+      {
+        "label": "Early modern, 1500-1700",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Early+modern%2C+1500-1700"
+      },
+      {
+        "label": "16th century",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=16th+century"
+      },
+      {
+        "label": "To 1485",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=To+1485"
+      },
+      {
+        "label": "Early works to 1800",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Early+works+to+1800"
+      },
+      {
+        "label": "Middle English, 1100-1500",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Middle+English%2C+1100-1500"
+      },
+      {
+        "label": "Revolution, 1775-1783",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Revolution%2C+1775-1783"
+      },
+      {
+        "label": "British occupation, 1765-1947",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=British+occupation%2C+1765-1947"
+      },
+      {
+        "label": "Civil War, 1861-1865",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Civil+War%2C+1861-1865"
+      },
+      {
+        "label": "Anglo-Saxon period, 449-1066",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Anglo-Saxon+period%2C+449-1066"
+      },
+      {
+        "label": "Lancaster and York, 1399-1485",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Lancaster+and+York%2C+1399-1485"
+      },
+      {
+        "label": "Tudors, 1485-1603",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Tudors%2C+1485-1603"
+      },
+      {
+        "label": "1861-1865",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1861-1865"
+      },
+      {
+        "label": "1775-1783",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1775-1783"
+      },
+      {
+        "label": "Early modern and Elizabethan, 1500-1600",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Early+modern+and+Elizabethan%2C+1500-1600"
+      },
+      {
+        "label": "1789-1815",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1789-1815"
+      },
+      {
+        "label": "1837-1901",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1837-1901"
+      },
+      {
+        "label": "Charles VII, 1422-1461",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Charles+VII%2C+1422-1461"
+      },
+      {
+        "label": "Colonial period, ca. 1600-1775",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Colonial+period%2C+ca.+1600-1775"
+      },
+      {
+        "label": "Commonwealth and Protectorate, 1649-1660",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Commonwealth+and+Protectorate%2C+1649-1660"
+      },
+      {
+        "label": "Jin dai",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Jin+dai"
+      },
+      {
+        "label": "Medieval period, 1066-1485",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Medieval+period%2C+1066-1485"
+      },
+      {
+        "label": "Plantagenets, 1154-1399",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Plantagenets%2C+1154-1399"
+      },
+      {
+        "label": "Stuarts, 1603-1714",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Stuarts%2C+1603-1714"
+      },
+      {
+        "label": "Xian dai",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Xian+dai"
+      },
+      {
+        "label": "1066-1485",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1066-1485"
+      },
+      {
+        "label": "1764-1867",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1764-1867"
+      },
+      {
+        "label": "1783-1865",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1783-1865"
+      },
+      {
+        "label": "1861-65",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1861-65"
+      },
+      {
+        "label": "1918-1945",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1918-1945"
+      },
+      {
+        "label": "1930's",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1930%27s"
+      },
+      {
+        "label": "1945-",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1945-"
+      },
+      {
+        "label": "1950's",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1950%27s"
+      },
+      {
+        "label": "Elizabeth, 1558-1603",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Elizabeth%2C+1558-1603"
+      },
+      {
+        "label": "Emmet's Rebellion, 1803",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Emmet%27s+Rebellion%2C+1803"
+      },
+      {
+        "label": "Eocene",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Eocene"
+      },
+      {
+        "label": "Henry III, 1216-1272",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Henry+III%2C+1216-1272"
+      },
+      {
+        "label": "Henry IV, 1399-1413",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Henry+IV%2C+1399-1413"
+      },
+      {
+        "label": "Henry VIII, 1509-1547",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Henry+VIII%2C+1509-1547"
+      },
+      {
+        "label": "Revolution, 1789-1799",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Revolution%2C+1789-1799"
+      },
+      {
+        "label": "Siglo XIX",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Siglo+XIX"
+      },
+      {
+        "label": "To 1775",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=To+1775"
+      },
+      {
+        "label": "Victoria, 1837-1901",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Victoria%2C+1837-1901"
+      },
+      {
+        "label": "War of 1859",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=War+of+1859"
+      },
+      {
+        "label": "1154-1399",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1154-1399"
+      },
+      {
+        "label": "1760-1820",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1760-1820"
+      },
+      {
+        "label": "1848-1865",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1848-1865"
+      },
+      {
+        "label": "1974-1977",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1974-1977"
+      },
+      {
+        "label": "1975-",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1975-"
+      },
+      {
+        "label": "21st century",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=21st+century"
+      },
+      {
+        "label": "American Civil War",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=American+Civil+War"
+      },
+      {
+        "label": "Anne, 1702-1714",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Anne%2C+1702-1714"
+      },
+      {
+        "label": "Antebellum era",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Antebellum+era"
+      },
+      {
+        "label": "Civil War",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Civil+War"
+      },
+      {
+        "label": "Early works to 1900",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Early+works+to+1900"
+      },
+      {
+        "label": "Edward I, 1272-1307",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Edward+I%2C+1272-1307"
+      },
+      {
+        "label": "James I, 1603-1625",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=James+I%2C+1603-1625"
+      },
+      {
+        "label": "Republic, 265-30 B.C.",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Republic%2C+265-30+B.C."
+      },
+      {
+        "label": "To 1066",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=To+1066"
+      },
+      {
+        "label": "To 449",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=To+449"
+      },
+      {
+        "label": "Trojan War",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Trojan+War"
+      },
+      {
+        "label": "1172-1603",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1172-1603"
+      },
+      {
+        "label": "1517-1648",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1517-1648"
+      },
+      {
+        "label": "15th and 16th centuries",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=15th+and+16th+centuries"
+      },
+      {
+        "label": "1600s",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1600s"
+      },
+      {
+        "label": "1648-1789",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1648-1789"
+      },
+      {
+        "label": "1649-1660",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1649-1660"
+      },
+      {
+        "label": "1689-1714",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1689-1714"
+      },
+      {
+        "label": "1789-1820",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1789-1820"
+      },
+      {
+        "label": "1789-1900",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1789-1900"
+      },
+      {
+        "label": "1797-1801",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1797-1801"
+      },
+      {
+        "label": "1800-1870",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1800-1870"
+      },
+      {
+        "label": "1847",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1847"
+      },
+      {
+        "label": "1848-1860",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1848-1860"
+      },
+      {
+        "label": "1849-1870",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1849-1870"
+      },
+      {
+        "label": "1850s",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1850s"
+      },
+      {
+        "label": "1857-1861",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1857-1861"
+      },
+      {
+        "label": "1871-1918",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1871-1918"
+      },
+      {
+        "label": "1878",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1878"
+      },
+      {
+        "label": "1881",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1881"
+      },
+      {
+        "label": "1890",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1890"
+      },
+      {
+        "label": "19 w.",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=19+w."
+      },
+      {
+        "label": "1912",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1912"
+      },
+      {
+        "label": "1914-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1914-"
+      },
+      {
+        "label": "1940's",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1940%27s"
+      },
+      {
+        "label": "1969-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1969-"
+      },
+      {
+        "label": "1969-1974",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1969-1974"
+      },
+      {
+        "label": "1989-1993",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=1989-1993"
+      },
+      {
+        "label": "19e siècle",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=19e+si%C3%A8cle"
+      },
+      {
+        "label": "19th Cent",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=19th+Cent"
+      },
+      {
+        "label": "2009-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=2009-"
+      },
+      {
+        "label": "476-1268",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=476-1268"
+      },
+      {
+        "label": "Charles I, 1625-1649",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Charles+I%2C+1625-1649"
+      },
+      {
+        "label": "Empire, 30 B.C.-476 A.D.",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Empire%2C+30+B.C.-476+A.D."
+      },
+      {
+        "label": "European intervention, 1861-1867",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=European+intervention%2C+1861-1867"
+      },
+      {
+        "label": "Explorations, 1857-1858",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=Explorations%2C+1857-1858"
+      },
+      {
+        "label": "February revolution, 1848",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=Robert+Greene&mode=everything&time_facet=February+revolution%2C+1848"
+      }
+    ]
+  }
+}

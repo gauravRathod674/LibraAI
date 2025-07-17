@@ -1,0 +1,369 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14987737-M.jpg",
+        "title": "Atomic Habits: The life-changing million copy bestseller",
+        "url": "https://openlibrary.org/works/OL17930368W/Atomic_Habits?edition=key%3A/books/OL27918581M",
+        "author": "James Clear",
+        "rating": "4.0",
+        "num_ratings": "1,051",
+        "first_published": "2016",
+        "num_editions": "41 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Hábitos atómicos. Edición Especial / Atomic Habits",
+        "url": "https://openlibrary.org/works/OL37767407W/Hábitos_atómicos_Atomic_Habits?edition=key%3A/books/OL50964528M",
+        "author": "James Clear",
+        "rating": "4.1",
+        "num_ratings": "21",
+        "first_published": "2016",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Atomic Habits, I Will Teach You To Be Rich, Mindset, The One Thing 4 Books Collection Set",
+        "url": "https://openlibrary.org/works/OL37490159W/Atomic_Habits_I_Will_Teach_You_To_Be_Rich_Mindset_The_One_Thing_4_Books_Collection_Set?edition=key%3A/books/OL50511899M",
+        "author": "James Clear",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2020",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Atomic Habits for Self Discipline: How to Change Your Bad Habits in Good Habits , Control Your Attention, Get Self-Esteem Affirmations and Stop Procrastinating",
+        "url": "https://openlibrary.org/works/OL30257012W/Atomic_Habits_for_Self_Discipline?edition=key%3A/books/OL41594158M",
+        "author": "John Clear",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2019",
+        "num_editions": "1 edition"
+      }
+    ]
+  },
+  "last_page": 1,
+  "hits": 4,
+  "sidebar_info": {
+    "eBook?": [
+      {
+        "label": "yes",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&has_fulltext=true"
+      },
+      {
+        "label": "no",
+        "count": 3,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&has_fulltext=false"
+      }
+    ],
+    "Language": [
+      {
+        "label": "English",
+        "count": 3,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&language=eng"
+      },
+      {
+        "label": "Spanish",
+        "count": 2,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&language=spa"
+      },
+      {
+        "label": "French",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&language=fre"
+      },
+      {
+        "label": "Indonesian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&language=ind"
+      },
+      {
+        "label": "Portuguese",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&language=por"
+      },
+      {
+        "label": "Turkish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&language=tur"
+      }
+    ],
+    "Author": [
+      {
+        "label": "James Clear",
+        "count": 3,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&author_key=OL7422948A"
+      },
+      {
+        "label": "John Clear",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&author_key=OL10691828A"
+      },
+      {
+        "label": "Gary Keller Dr Carol Dweck",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&author_key=OL13496324A"
+      },
+      {
+        "label": "James Winters",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&author_key=OL2828540A"
+      },
+      {
+        "label": "Ramit Sethi",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&author_key=OL3119395A"
+      }
+    ],
+    "Subjects": [
+      {
+        "label": "BUSINESS & ECONOMICS / Organizational Behavior",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=BUSINESS+%26+ECONOMICS+%2F+Organizational+Behavior"
+      },
+      {
+        "label": "Behavior modification",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=Behavior+modification"
+      },
+      {
+        "label": "Business",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=Business"
+      },
+      {
+        "label": "Habit",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=Habit"
+      },
+      {
+        "label": "Habit breaking",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=Habit+breaking"
+      },
+      {
+        "label": "New York Times bestseller",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=New+York+Times+bestseller"
+      },
+      {
+        "label": "PSYCHOLOGY / Social Psychology",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=PSYCHOLOGY+%2F+Social+Psychology"
+      },
+      {
+        "label": "Personal Growth",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=Personal+Growth"
+      },
+      {
+        "label": "SELF-HELP / Personal Growth / General.",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=SELF-HELP+%2F+Personal+Growth+%2F+General."
+      },
+      {
+        "label": "Self-actualization (psychology)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=Self-actualization+%28psychology%29"
+      },
+      {
+        "label": "Self-help / personal growth / general",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=Self-help+%2F+personal+growth+%2F+general"
+      },
+      {
+        "label": "psychology",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&subject_facet=psychology"
+      }
+    ],
+    "First published": [
+      {
+        "label": "2016",
+        "count": 2,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&first_publish_year=2016"
+      },
+      {
+        "label": "2019",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&first_publish_year=2019"
+      },
+      {
+        "label": "2020",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&first_publish_year=2020"
+      }
+    ],
+    "Publisher": [
+      {
+        "label": "Editorial Planeta, S. A.",
+        "count": 2,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Editorial+Planeta%2C+S.+A."
+      },
+      {
+        "label": "Independently Published",
+        "count": 2,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Independently+Published"
+      },
+      {
+        "label": "Alta Books",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Alta+Books"
+      },
+      {
+        "label": "Ara Llibres",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Ara+Llibres"
+      },
+      {
+        "label": "Avery",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Avery"
+      },
+      {
+        "label": "Avery, an Imprint of Penguin Random House LLC",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Avery%2C+an+Imprint+of+Penguin+Random+House+LLC"
+      },
+      {
+        "label": "Diana",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Diana"
+      },
+      {
+        "label": "Editora Alta Life",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Editora+Alta+Life"
+      },
+      {
+        "label": "Goldmann Verlag",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Goldmann+Verlag"
+      },
+      {
+        "label": "Gramedia Pustaka Utama",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Gramedia+Pustaka+Utama"
+      },
+      {
+        "label": "James Clear",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=James+Clear"
+      },
+      {
+        "label": "James clear",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=James+clear"
+      },
+      {
+        "label": "LAROUSSE",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=LAROUSSE"
+      },
+      {
+        "label": "Larousse",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Larousse"
+      },
+      {
+        "label": "Lifestyle Publishing",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Lifestyle+Publishing"
+      },
+      {
+        "label": "Manjul Publishing House",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Manjul+Publishing+House"
+      },
+      {
+        "label": "PAIDOS",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=PAIDOS"
+      },
+      {
+        "label": "Paidos",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Paidos"
+      },
+      {
+        "label": "Pegasus",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Pegasus"
+      },
+      {
+        "label": "Penguin Audio",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Penguin+Audio"
+      },
+      {
+        "label": "Penguin Random House",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Penguin+Random+House"
+      },
+      {
+        "label": "Penguin Random House USA",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Penguin+Random+House+USA"
+      },
+      {
+        "label": "Penguin Random house",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Penguin+Random+house"
+      },
+      {
+        "label": "Penguin random house",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Penguin+random+house"
+      },
+      {
+        "label": "Planeta Publishing",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Planeta+Publishing"
+      },
+      {
+        "label": "Portfolio",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Portfolio+"
+      },
+      {
+        "label": "Random House Business",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Random+House+Business"
+      },
+      {
+        "label": "Random House Business Books",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Random+House+Business+Books"
+      },
+      {
+        "label": "Random House Business/Yellow Kite/Robinson/John Murray Learning",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Random+House+Business%2FYellow+Kite%2FRobinson%2FJohn+Murray+Learning"
+      },
+      {
+        "label": "Random House, Incorporated",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=Random+House%2C+Incorporated"
+      },
+      {
+        "label": "editora alta books",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=editora+alta+books"
+      },
+      {
+        "label": "paidos",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&publisher_facet=paidos"
+      }
+    ],
+    "People": [
+      {
+        "label": "Gabriela Moya",
+        "count": 1,
+        "url": "https://openlibrary.org/search?title=atomic+habit&author=James+clear&mode=everything&person_facet=Gabriela+Moya"
+      }
+    ]
+  }
+}

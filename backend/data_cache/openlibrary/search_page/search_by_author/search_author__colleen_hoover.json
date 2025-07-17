@@ -1,0 +1,177 @@
+{
+  "query": " Colleen Hoover",
+  "page_1": {
+    "total_hits": "6 hitsRelevanceRelevanceWork CountRandom",
+    "authors": [
+      {
+        "author_name": "Colleen Hoover",
+        "author_url": "https://openlibrary.org/authors/OL7315784A",
+        "image_src": "https://covers.openlibrary.org/a/olid/OL7315784A-M.jpg",
+        "about": "102 booksabout Fiction, romance, contemporary, Fiction, New York Times bestseller, Fiction, women, Fiction, romance, new adult, Fiction, romance, general, Fiction, Romance, Contemporary, Life change events, American literature, Man-woman relationships, Life change events,\n           includingIt Ends With Us",
+        "books": [
+          {
+            "title": "It Ends With Us",
+            "book_url": "https://openlibrary.org/works/OL18020194W/It_Ends_With_Us?edition=key%3A/books/OL39223386M",
+            "image_src": "https://covers.openlibrary.org/b/id/14604614-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2012",
+            "editions": "34 editions"
+          },
+          {
+            "title": "It Starts with Us",
+            "book_url": "https://openlibrary.org/works/OL27733867W/It_Starts_with_Us?edition=key%3A/books/OL38323115M",
+            "image_src": "https://covers.openlibrary.org/b/id/14656586-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2022",
+            "editions": "16 editions"
+          },
+          {
+            "title": "Verity",
+            "book_url": "https://openlibrary.org/works/OL20068530W/Verity?edition=key%3A/books/OL39128605M",
+            "image_src": "https://covers.openlibrary.org/b/id/13009038-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2018",
+            "editions": "16 editions"
+          },
+          {
+            "title": "Ugly Love",
+            "book_url": "https://openlibrary.org/works/OL20577143W/Ugly_Love?edition=key%3A/books/OL29191495M",
+            "image_src": "https://covers.openlibrary.org/b/id/14809993-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2014",
+            "editions": "12 editions"
+          },
+          {
+            "title": "Point Of Retreat: A Novel",
+            "book_url": "https://openlibrary.org/works/OL17444354W/Point_Of_Retreat?edition=key%3A/books/OL26040729M",
+            "image_src": "https://covers.openlibrary.org/b/id/7614159-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2012",
+            "editions": "12 editions"
+          },
+          {
+            "title": "All Your Perfects: A Novel",
+            "book_url": "https://openlibrary.org/works/OL19747970W/All_your_perfects?edition=key%3A/books/OL38325202M",
+            "image_src": "https://covers.openlibrary.org/b/id/12983718-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2018",
+            "editions": "11 editions"
+          },
+          {
+            "title": "Hopeless: a novel",
+            "book_url": "https://openlibrary.org/works/OL20564687W/Hopeless?edition=key%3A/books/OL31129806M",
+            "image_src": "https://archive.org/download/hopelessnovel0000hoov/page/cover_w180_h360.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2013",
+            "editions": "11 editions"
+          },
+          {
+            "title": "Colleen Hoover It Ends with Us Boxed Set: It Ends with Us, It Starts with Us - Box Set",
+            "book_url": "https://openlibrary.org/works/OL36474980W/Colleen_Hoover_It_Ends_with_Us_Boxed_Set?edition=key%3A/books/OL49294668M",
+            "image_src": "https://covers.openlibrary.org/b/id/14607864-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2016",
+            "editions": "10 editions"
+          },
+          {
+            "title": "Too Late",
+            "book_url": "https://openlibrary.org/works/OL22879514W/Too_Late?edition=key%3A/books/OL32072100M",
+            "image_src": "https://covers.openlibrary.org/b/id/10724633-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2016",
+            "editions": "10 editions"
+          },
+          {
+            "title": "Without Merit: A Novel",
+            "book_url": "https://openlibrary.org/works/OL20885951W/Without_Merit?edition=key%3A/books/OL34637582M",
+            "image_src": "https://covers.openlibrary.org/b/id/12455013-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2017",
+            "editions": "10 editions"
+          },
+          {
+            "title": "Slammed",
+            "book_url": "https://openlibrary.org/works/OL19964677W/Slammed?edition=key%3A/books/OL37747470M",
+            "image_src": "https://covers.openlibrary.org/b/id/12661471-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2012",
+            "editions": "10 editions"
+          },
+          {
+            "title": "Maybe someday: a novel",
+            "book_url": "https://openlibrary.org/works/OL19977306W/Maybe_someday?edition=key%3A/books/OL27157462M",
+            "image_src": "https://covers.openlibrary.org/b/id/12856715-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2014",
+            "editions": "9 editions"
+          },
+          {
+            "title": "Losing hope: a novel",
+            "book_url": "https://openlibrary.org/works/OL19705711W/Losing_hope?edition=key%3A/books/OL26918886M",
+            "image_src": "https://covers.openlibrary.org/b/id/12861657-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2013",
+            "editions": "8 editions"
+          },
+          {
+            "title": "This girl: a novel",
+            "book_url": "https://openlibrary.org/works/OL19970235W/This_girl?edition=key%3A/books/OL27150431M",
+            "image_src": "https://covers.openlibrary.org/b/id/14328438-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2013",
+            "editions": "8 editions"
+          },
+          {
+            "title": "Heart Bones",
+            "book_url": "https://openlibrary.org/works/OL24244528W/Heart_Bones?edition=key%3A/books/OL32071253M",
+            "image_src": "https://covers.openlibrary.org/b/id/10724219-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2021",
+            "editions": "8 editions"
+          },
+          {
+            "title": "November 9",
+            "book_url": "https://openlibrary.org/works/OL20018811W/November_9?edition=key%3A/books/OL33498539M",
+            "image_src": "https://covers.openlibrary.org/b/id/14596126-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2015",
+            "editions": "8 editions"
+          },
+          {
+            "title": "Confess: a novel",
+            "book_url": "https://openlibrary.org/works/OL19998163W/Confess?edition=key%3A/books/OL27178267M",
+            "image_src": "https://covers.openlibrary.org/b/id/12670028-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2015",
+            "editions": "7 editions"
+          },
+          {
+            "title": "Tal vez mañana",
+            "book_url": "https://openlibrary.org/works/OL20641106W/Tal_vez_mañana?edition=key%3A/books/OL47659851M",
+            "image_src": "https://covers.openlibrary.org/b/id/14286234-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2017",
+            "editions": "7 editions"
+          },
+          {
+            "title": "Never Never",
+            "book_url": "https://openlibrary.org/works/OL30794416W/Never_Never?edition=key%3A/books/OL46057123M",
+            "image_src": "https://covers.openlibrary.org/b/id/13830994-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2023",
+            "editions": "6 editions"
+          },
+          {
+            "title": "Finding Cinderella: A Novella",
+            "book_url": "https://openlibrary.org/works/OL20238397W/Finding_Cinderella?edition=key%3A/books/OL35493118M",
+            "image_src": "https://covers.openlibrary.org/b/id/14733268-M.jpg",
+            "author": "Colleen Hoover",
+            "first_published": "First published in 2013",
+            "editions": "6 editions"
+          }
+        ],
+        "total_pages": 6
+      }
+    ]
+  }
+}

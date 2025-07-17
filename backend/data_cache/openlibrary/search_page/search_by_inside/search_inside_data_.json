@@ -1,0 +1,1602 @@
+{
+  "page_1": {
+    "query": "data ",
+    "stats": "About 3,135,174 results found in 1.41 seconds",
+    "results": [
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/14376632-M.jpg",
+        "title": "Data Strategy: How to Profit from a World of Big Data, Analytics and the Internet of Things",
+        "book_url": "https://openlibrary.org/books/OL28621851M/Data_Strategy",
+        "authors": [
+          {
+            "name": "Bernard Marr",
+            "url": "https://openlibrary.org/authors/OL3149792A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…the right",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": ", not all",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "33\nMaking a strong business case for",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "35\nEndnotes 36\nUsing",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "to improve…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/datastrategyhowt0000marr?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…newer types of",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "93 Gathering your internal",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "96 Accessing external",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "97 When the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "you want doesn’t…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/datastrategyhowt0000marr?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/302137-M.jpg",
+        "title": "Mastering the SAP Business Information Warehouse",
+        "book_url": "https://openlibrary.org/books/OL7613557M/Mastering_the_SAP_Business_Information_Warehouse",
+        "authors": [
+          {
+            "name": "Kevin McDonald",
+            "url": "https://openlibrary.org/authors/OL920146A"
+          },
+          {
+            "name": "Andreas Wilmsmeier",
+            "url": "https://openlibrary.org/authors/OL2737187A"
+          },
+          {
+            "name": "David C. Dixon",
+            "url": "https://openlibrary.org/authors/OL2737188A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Granular",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Historical",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Timestamping",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Relationships\nGeneric",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "versus Specific",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Quality…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/masteringsapbusi0000unse?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…SAP BW Meta",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model Master-",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model The InfoCube",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model The ODS Object",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model Understanding…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/masteringsapbusi0000unse?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/2614697-M.jpg",
+        "title": "Unlocking OLAP With SQL Server 7 and Excel 2000",
+        "book_url": "https://openlibrary.org/books/OL10932977M/Unlocking_OLAP_With_SQL_Server_7_and_Excel_2000",
+        "authors": [
+          {
+            "name": "Wayne S. Freeze",
+            "url": "https://openlibrary.org/authors/OL246546A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…maintain your",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "warehouse.\n@ Microsoft SQL Server 7,",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Transformation Services to convert",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "from your…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/unlockingolapwit0000free?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…Choosing",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Elements from an External Source ............ 80",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Elements for the JustPC",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Warehouse…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/unlockingolapwit0000free?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/4065202-M.jpg",
+        "title": "The data dictionary: concepts and uses",
+        "book_url": "https://openlibrary.org/books/OL2053380M/The_data_dictionary",
+        "authors": [
+          {
+            "name": "Charles J. Wertz",
+            "url": "https://openlibrary.org/authors/OL953599A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Relational",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "11.3  Conceptual  Schema",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "11.4  External  Schema",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "11.5  Internal  Schema",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "11.6…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/datadictionaryco00wert?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…DATABASE",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Analysis:  The  Key  to",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Base  Design Diagnostic  Techniques  for  IMS",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Bases…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/datadictionaryco00wert?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/13721855-M.jpg",
+        "title": "Strengthening Data Science Methods for Department of Defense Personnel and Readiness Missions",
+        "book_url": "https://openlibrary.org/books/OL29340910M/Strengthening_Data_Science_Methods_for_Department_of_Defense_Personnel_and_Readiness_Missions",
+        "authors": [
+          {
+            "name": "National Academies of Sciences, Engineer...",
+            "url": "https://openlibrary.org/authors/OL8248078A"
+          },
+          {
+            "name": "Division on Engineering and Physical Sci...",
+            "url": "https://openlibrary.org/authors/OL7925499A"
+          },
+          {
+            "name": "Board on Mathematical Sciences and Their...",
+            "url": "https://openlibrary.org/authors/OL8044940A"
+          },
+          {
+            "name": "Committee on Applied and Theoretical Sta...",
+            "url": "https://openlibrary.org/authors/OL3426362A"
+          },
+          {
+            "name": "Committee on Strengthening Data Science ...",
+            "url": "https://openlibrary.org/authors/OL8263493A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…CONTENTS\n4 OVERVIEW OF",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "SCIENCE METHODS 53 Introduction, 53",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Preparation, 56",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Analytics, 61 References…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/strengtheningdat0000nati?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…aspect involves",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "systems and",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "preparation, includ- ing databases and warehousing,",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "cleaning and…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/strengtheningdat0000nati?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/4766688-M.jpg",
+        "title": "Managing database: four critical factors",
+        "book_url": "https://openlibrary.org/books/OL3196110M/Managing_database",
+        "authors": [
+          {
+            "name": "Michael M. Gorman",
+            "url": "https://openlibrary.org/authors/OL714807A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Network",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model\nHierarchical",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model\nIndependent Logical File",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model\nRelational",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model ;…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/managingdatabase0000gorm?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…DATABASE AND",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "ADMINISTRATION 4,1 The",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Administration Role\n4.2 Word Processing\n4,3",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Communications…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/managingdatabase0000gorm?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/2931514-M.jpg",
+        "title": "Refining Common Sense: Moving from Data to Information",
+        "book_url": "https://openlibrary.org/books/OL12245950M/Refining_Common_Sense",
+        "authors": [
+          {
+            "name": "Phelps Vickie Williams",
+            "url": "https://openlibrary.org/authors/OL3854700A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…get the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "?\nAre the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "clean and accurate?\nWhat has to be done to clean the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "?\nAre the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "available…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/refiningcommonse0000phel?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…Getting Started with",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "1 1 Thinking about",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "3 2 Answering Questions Using",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "7 3 Assessing Your…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/refiningcommonse0000phel?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/11445117-M.jpg",
+        "title": "Business intelligence: the savvy manager's guide, getting onboard with emerging IT",
+        "book_url": "https://openlibrary.org/books/OL18188828M/Business_intelligence",
+        "authors": [
+          {
+            "name": "David Loshin",
+            "url": "https://openlibrary.org/authors/OL231844A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Business Rules",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Cleansing",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Enhancement",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Integration",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Mart",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Mining",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Model\nCONTENTS…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/businessintellig0000losh?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…Available",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "The Business Case Management Issues Public",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Resources Semistructured",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "The Myth…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/businessintellig0000losh?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/10531436-M.jpg",
+        "title": "The Use of Computers for Laboratory Automation",
+        "book_url": "https://openlibrary.org/books/OL9895301M/The_Use_of_Computers_for_Laboratory_Automation",
+        "authors": [
+          {
+            "name": "S. P. Maj",
+            "url": "https://openlibrary.org/authors/OL748508A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Relational Databases Relational",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Structures",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Analysis 7.9.1",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Normalization 7.9.1.1 Unnormalized…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/useofcomputersfo0000majs?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…keeps little-used",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "in the slower devices and current",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "in the faster devices.",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "stored on disk…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/useofcomputersfo0000majs?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/4228108-M.jpg",
+        "title": "Handbook of data communications",
+        "book_url": "https://openlibrary.org/books/OL3173730M/Handbook_of_data_communications",
+        "authors": [
+          {
+            "name": "John D. Lenk",
+            "url": "https://openlibrary.org/authors/OL233343A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Introduction  to",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Communications",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "bus\nBus\ncontrol\nReceive",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "reg\nTransmit",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "reg\nControl…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/handbookofdataco0000lenk?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…lines)\n3.",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "byte  transfer  control  (handshake)  (three  signal  lines)",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Bus.  The",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "bus …",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/handbookofdataco0000lenk?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/5025726-M.jpg",
+        "title": "Introduction to Data Communications and Lan Technology",
+        "book_url": "https://openlibrary.org/books/OL9913231M/Introduction_to_Data_Communications_and_Lan_Technology",
+        "authors": [
+          {
+            "name": "Ed Da Silva",
+            "url": "https://openlibrary.org/authors/OL3344799A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Le A BA TRANSMITTED",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "103 TRANSMITTED",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "BB RECEIVED",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "104 RECEIVED",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "at tt tein Nd OV at…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/introductiontoda0000silv?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…or sample the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "in syn- chronism with the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "rate (bits per second) at which the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "is being sent…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/introductiontoda0000silv?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/4430905-M.jpg",
+        "title": "Distributed processing and data communications",
+        "book_url": "https://openlibrary.org/books/OL4714892M/Distributed_processing_and_data_communications",
+        "authors": [
+          {
+            "name": "Daniel R. McGlynn",
+            "url": "https://openlibrary.org/authors/OL1456470A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…Networks Industry",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Networks\nEuropean",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Networks\nSatellite Networks\neight",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "COMMUNICATIONS APPLICATIONS…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/distributedproce0000mcgl?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…role of",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "communications in the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "processing services area, and the potential role of",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "communications…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/distributedproce0000mcgl?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/1938803-M.jpg",
+        "title": "Carpenter's Complete Guide to the SAS Macro Language",
+        "book_url": "https://openlibrary.org/books/OL9583396M/Carpenter's_Complete_Guide_to_the_SAS_Macro_Language",
+        "authors": [
+          {
+            "name": "Art Carpenter",
+            "url": "https://openlibrary.org/authors/OL3093606A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…observations).\nPROC CONTENTS",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "=CLINICS; TITLE ‘",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "SET CLINICS’; RUN;\nPROC PRINT",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "=CLINICS (OBS=10); RUN;…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/carpenterscomple0000carp?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "set name. The program becomes\nSLET DSN = CLINICS;@\nPROC CONTENTS",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "=&dsn;@ TITLE “",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "SET…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/carpenterscomple0000carp?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/12909854-M.jpg",
+        "title": "Auditing EDP systems",
+        "book_url": "https://openlibrary.org/books/OL17410918M/Auditing_EDP_systems",
+        "authors": [
+          {
+            "name": "Donald A. Watne",
+            "url": "https://openlibrary.org/authors/OL1006825A"
+          },
+          {
+            "name": "Donald Watne",
+            "url": "https://openlibrary.org/authors/OL2650596A"
+          },
+          {
+            "name": "Peter B.B. Turney",
+            "url": "https://openlibrary.org/authors/OL2650597A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…45",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Communication Devices 51",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Communication Concepts ae)\nSmall Computer Systems oT,",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "-Base…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/auditingedpsyste0000watn_r6u8?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…Chapter 9",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Capture and Batch",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Entry Controls 304\nControls Methodology 305 Audit Trail 310",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Capture…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/auditingedpsyste0000watn_r6u8?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/7593793-M.jpg",
+        "title": "Database Systems Design Implementation And Management",
+        "book_url": "https://openlibrary.org/books/OL26029919M/Database_Systems_Design_Implementation_And_Management",
+        "authors": [
+          {
+            "name": "Carlos Coronel",
+            "url": "https://openlibrary.org/authors/OL2734503A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…32 CHAPTER 2",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "MODELS 34 2.1",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Modeling and",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Models 35 2.2 The Importance of",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Models 35 2…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/databasesystemsd0000coro?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…Emerging",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Models: Big",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "and NoSQL 48 22597",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Models: A Summary 53 2.6 Degrees of",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Abstraction…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/databasesystemsd0000coro?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/1075192-M.jpg",
+        "title": "A practical guide to logical data modeling",
+        "book_url": "https://openlibrary.org/books/OL1418820M/A_practical_guide_to_logical_data_modeling",
+        "authors": [
+          {
+            "name": "George Tillmann",
+            "url": "https://openlibrary.org/authors/OL717548A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…methods show algorithms, movement show",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "definitions and",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "of",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": ", and flow of control relationships…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/practicalguideto0000till?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…Developers model",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "to ensure that they understand:\na The user’s perspective of",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": ".",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "modeling, like…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/practicalguideto0000till?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/8048048-M.jpg",
+        "title": "Records, computers, and the rights of citizens: report.",
+        "book_url": "https://openlibrary.org/books/OL5420242M/Records_computers_and_the_rights_of_citizens",
+        "authors": [
+          {
+            "name": "United States. Dept. of Health, Educatio...",
+            "url": "https://openlibrary.org/authors/OL2068362A"
+          },
+          {
+            "name": "Education Heath",
+            "url": "https://openlibrary.org/authors/OL3401497A"
+          },
+          {
+            "name": "Welfare Department",
+            "url": "https://openlibrary.org/authors/OL3335500A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…of  such",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": ";  and\n(8)  Eliminate",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "from  computer-accessible  files  when  the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "are  no …",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/recordscomputers00unit?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…Automated  Personal",
+                "highlighted": false
+              },
+              {
+                "text": "Data",
+                "highlighted": true
+              },
+              {
+                "text": "Systems\nSECRETARY’S  ADVISORY  COMMITTEE ON  AUTOMATED  PERSONAL",
+                "highlighted": false
+              },
+              {
+                "text": "DATA",
+                "highlighted": true
+              },
+              {
+                "text": "SYSTEMS*\nWILLIS…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/recordscomputers00unit?ref=ol&access=1#search/data "
+          }
+        ]
+      },
+      {
+        "image_src": "https://covers.openlibrary.org/b/id/11450348-M.jpg",
+        "title": "Data base selection, design, and administration",
+        "book_url": "https://openlibrary.org/books/OL4239750M/Data_base_selection_design_and_administration",
+        "authors": [
+          {
+            "name": "Jon D. Clark",
+            "url": "https://openlibrary.org/authors/OL1655844A"
+          }
+        ],
+        "highlighted_snippets": [
+          {
+            "snippet_parts": [
+              {
+                "text": "…information.\nThe",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "dictionary/directory, Number 4, contains meta-",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "or",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "about",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": ".\nThe DD/D has…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/databaseselectio0000clar?ref=ol&access=1#search/data "
+          },
+          {
+            "snippet_parts": [
+              {
+                "text": "…general maturing of the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "base concept. The management of the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "resource by the",
+                "highlighted": false
+              },
+              {
+                "text": "data",
+                "highlighted": true
+              },
+              {
+                "text": "base administrator…",
+                "highlighted": false
+              }
+            ],
+            "url": "https://archive.org/stream/databaseselectio0000clar?ref=ol&access=1#search/data "
+          }
+        ]
+      }
+    ]
+  }
+}

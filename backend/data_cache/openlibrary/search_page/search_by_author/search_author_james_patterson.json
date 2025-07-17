@@ -1,0 +1,513 @@
+{
+  "query": "James Patterson",
+  "page_1": {
+    "total_hits": "100 hitsRelevanceRelevanceWork CountRandom",
+    "authors": [
+      {
+        "author_name": "James Patterson",
+        "author_url": "https://openlibrary.org/authors/OL22258A",
+        "image_src": "https://covers.openlibrary.org/a/olid/OL22258A-M.jpg",
+        "about": "1109 booksabout Fiction, New York Times bestseller, Fiction, thrillers, general, Children's fiction, Fiction, thrillers, suspense, Fiction, thrillers, Murder, Fiction, mystery & detective, police procedural, collectionid:jpsat, Fiction, suspense,\n           including1st to Die",
+        "books": [
+          {
+            "title": "1st to die: a novel",
+            "book_url": "https://openlibrary.org/works/OL167189W/1st_to_Die?edition=key%3A/books/OL6793725M",
+            "image_src": "https://covers.openlibrary.org/b/id/14333293-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2001",
+            "editions": "60 editions"
+          },
+          {
+            "title": "2nd Chance",
+            "book_url": "https://openlibrary.org/works/OL167157W/2nd_Chance?edition=key%3A/books/OL7960374M",
+            "image_src": "https://covers.openlibrary.org/b/id/13261846-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2002",
+            "editions": "51 editions"
+          },
+          {
+            "title": "Along came a Spider",
+            "book_url": "https://openlibrary.org/works/OL167178W/Along_Came_a_Spider?edition=key%3A/books/OL43654208M",
+            "image_src": "https://covers.openlibrary.org/b/id/13321060-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1993",
+            "editions": "50 editions"
+          },
+          {
+            "title": "Roses Are Red",
+            "book_url": "https://openlibrary.org/works/OL167175W/Roses_Are_Red?edition=key%3A/books/OL7537517M",
+            "image_src": "https://covers.openlibrary.org/b/id/13151930-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1752",
+            "editions": "49 editions"
+          },
+          {
+            "title": "Jack and Jill",
+            "book_url": "https://openlibrary.org/works/OL167185W/Jack_Jill?edition=key%3A/books/OL43408666M",
+            "image_src": "https://covers.openlibrary.org/b/id/13260190-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1714",
+            "editions": "49 editions"
+          },
+          {
+            "title": "The Big Bad Wolf",
+            "book_url": "https://openlibrary.org/works/OL167179W/The_Big_Bad_Wolf?edition=key%3A/books/OL9858874M",
+            "image_src": "https://covers.openlibrary.org/b/id/13318229-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2001",
+            "editions": "47 editions"
+          },
+          {
+            "title": "Step on a Crack",
+            "book_url": "https://openlibrary.org/works/OL167155W/Step_on_a_Crack?edition=key%3A/books/OL46526008M",
+            "image_src": "https://covers.openlibrary.org/b/id/13393502-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1658",
+            "editions": "44 editions"
+          },
+          {
+            "title": "Virgin",
+            "book_url": "https://openlibrary.org/works/OL167167W/Virgin?edition=key%3A/books/OL4097248M",
+            "image_src": "https://covers.openlibrary.org/b/id/13154635-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1980",
+            "editions": "43 editions"
+          },
+          {
+            "title": "Honeymoon",
+            "book_url": "https://openlibrary.org/works/OL167160W/Honeymoon?edition=key%3A/books/OL7537771M",
+            "image_src": "https://covers.openlibrary.org/b/id/13151987-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2001",
+            "editions": "43 editions"
+          },
+          {
+            "title": "Violets are Blue",
+            "book_url": "https://openlibrary.org/works/OL167166W/Violets_Are_Blue?edition=key%3A/books/OL33870430M",
+            "image_src": "https://covers.openlibrary.org/b/id/13153112-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2001",
+            "editions": "42 editions"
+          },
+          {
+            "title": "4th of July",
+            "book_url": "https://openlibrary.org/works/OL167168W/4th_of_July?edition=key%3A/books/OL46525502M",
+            "image_src": "https://covers.openlibrary.org/b/id/13154534-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1947",
+            "editions": "42 editions"
+          },
+          {
+            "title": "Cat and mouse",
+            "book_url": "https://openlibrary.org/works/OL167169W/Cat_Mouse?edition=key%3A/books/OL32084209M",
+            "image_src": "https://covers.openlibrary.org/b/id/10737987-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1997",
+            "editions": "42 editions"
+          },
+          {
+            "title": "The jester",
+            "book_url": "https://openlibrary.org/works/OL167161W/The_Jester?edition=key%3A/books/OL32111323M",
+            "image_src": "https://covers.openlibrary.org/b/id/13259207-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2003",
+            "editions": "41 editions"
+          },
+          {
+            "title": "Black Market",
+            "book_url": "https://openlibrary.org/works/OL167147W/Black_Friday?edition=key%3A/books/OL46539948M",
+            "image_src": "https://covers.openlibrary.org/b/id/13261782-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1986",
+            "editions": "41 editions"
+          },
+          {
+            "title": "Cross",
+            "book_url": "https://openlibrary.org/works/OL167148W/Cross?edition=key%3A/books/OL46525085M",
+            "image_src": "https://covers.openlibrary.org/b/id/13153050-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1684",
+            "editions": "39 editions"
+          },
+          {
+            "title": "The Lake House",
+            "book_url": "https://openlibrary.org/works/OL167172W/The_Lake_House?edition=key%3A/books/OL9668500M",
+            "image_src": "https://covers.openlibrary.org/b/id/13260267-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1662",
+            "editions": "39 editions"
+          },
+          {
+            "title": "When the wind blows",
+            "book_url": "https://openlibrary.org/works/OL167187W/When_the_wind_blows?edition=key%3A/books/OL46545234M",
+            "image_src": "https://covers.openlibrary.org/b/id/13316460-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1847",
+            "editions": "38 editions"
+          },
+          {
+            "title": "The beach house",
+            "book_url": "https://openlibrary.org/works/OL167183W/The_beach_house?edition=key%3A/books/OL46528642M",
+            "image_src": "https://covers.openlibrary.org/b/id/13161230-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2001",
+            "editions": "37 editions"
+          },
+          {
+            "title": "Sam's Letters to Jennifer",
+            "book_url": "https://openlibrary.org/works/OL167165W/Sam's_Letters_to_Jennifer?edition=key%3A/books/OL46529238M",
+            "image_src": "https://covers.openlibrary.org/b/id/13169073-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1874",
+            "editions": "36 editions"
+          },
+          {
+            "title": "Kiss the girls",
+            "book_url": "https://openlibrary.org/works/OL167171W/Kiss_the_Girls?edition=key%3A/books/OL31925951M",
+            "image_src": "https://covers.openlibrary.org/b/id/10608083-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1995",
+            "editions": "36 editions"
+          }
+        ],
+        "total_pages": 56
+      }
+    ]
+  },
+  "page_2": {
+    "authors": [
+      {
+        "books": [
+          {
+            "title": "Lifeguard",
+            "book_url": "https://openlibrary.org/works/OL167162W/Lifeguard?edition=key%3A/books/OL46528752M",
+            "image_src": "https://covers.openlibrary.org/b/id/13161505-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2005",
+            "editions": "34 editions"
+          },
+          {
+            "title": "Suzanne's diary for Nicholas",
+            "book_url": "https://openlibrary.org/works/OL167188W/Suzanne's_diary_for_Nicholas?edition=key%3A/books/OL46545468M",
+            "image_src": "https://covers.openlibrary.org/b/id/13318198-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2001",
+            "editions": "34 editions"
+          },
+          {
+            "title": "Double Cross",
+            "book_url": "https://openlibrary.org/works/OL167150W/Double_Cross?edition=key%3A/books/OL46533006M",
+            "image_src": "https://covers.openlibrary.org/b/id/13208320-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2000",
+            "editions": "34 editions"
+          },
+          {
+            "title": "Saving the world",
+            "book_url": "https://openlibrary.org/works/OL5337360W/Saving_the_World_and_Other_Extreme_Sports?edition=key%3A/books/OL26443392M",
+            "image_src": "https://covers.openlibrary.org/b/id/13161317-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1998",
+            "editions": "34 editions"
+          },
+          {
+            "title": "Pop goes the weasel",
+            "book_url": "https://openlibrary.org/works/OL167182W/Pop_goes_the_weasel?edition=key%3A/books/OL46525492M",
+            "image_src": "https://covers.openlibrary.org/b/id/13154511-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1999",
+            "editions": "33 editions"
+          },
+          {
+            "title": "Hide and seek",
+            "book_url": "https://openlibrary.org/works/OL167159W/Hide_and_Seek?edition=key%3A/books/OL32104983M",
+            "image_src": "https://covers.openlibrary.org/b/id/14819822-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1986",
+            "editions": "33 editions"
+          },
+          {
+            "title": "Beach road",
+            "book_url": "https://openlibrary.org/works/OL167146W/Beach_Road?edition=key%3A/books/OL24629697M",
+            "image_src": "https://covers.openlibrary.org/b/id/13152966-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2006",
+            "editions": "33 editions"
+          },
+          {
+            "title": "The Quickie",
+            "book_url": "https://openlibrary.org/works/OL167152W/The_Quickie?edition=key%3A/books/OL9305666M",
+            "image_src": "https://covers.openlibrary.org/b/id/13233404-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2007",
+            "editions": "33 editions"
+          },
+          {
+            "title": "Maximum Ride: The Angel Experiment",
+            "book_url": "https://openlibrary.org/works/OL167174W/The_Angel_Experiment?edition=key%3A/books/OL8137105M",
+            "image_src": "https://covers.openlibrary.org/b/id/13208037-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2001",
+            "editions": "33 editions"
+          },
+          {
+            "title": "Private",
+            "book_url": "https://openlibrary.org/works/OL14920152W/Private?edition=key%3A/books/OL25390453M",
+            "image_src": "https://covers.openlibrary.org/b/id/13260246-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2008",
+            "editions": "32 editions"
+          },
+          {
+            "title": "London Bridges",
+            "book_url": "https://openlibrary.org/works/OL167163W/London_Bridges?edition=key%3A/books/OL9659962M",
+            "image_src": "https://covers.openlibrary.org/b/id/13151981-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2004",
+            "editions": "32 editions"
+          },
+          {
+            "title": "Middle School: How I Survived Bullies, Broccoli, and Snake Hill",
+            "book_url": "https://openlibrary.org/works/OL17050972W/How_I_survived_bullies_broccoli_and_Snake_Hill?edition=key%3A/books/OL28497816M",
+            "image_src": "https://covers.openlibrary.org/b/id/13195782-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2012",
+            "editions": "32 editions"
+          },
+          {
+            "title": "Swimsuit",
+            "book_url": "https://openlibrary.org/works/OL14920164W/Swimsuit?edition=key%3A/books/OL27951201M",
+            "image_src": "https://covers.openlibrary.org/b/id/13153056-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1997",
+            "editions": "31 editions"
+          },
+          {
+            "title": "Four blind mice",
+            "book_url": "https://openlibrary.org/works/OL167180W/Four_Blind_Mice?edition=key%3A/books/OL23246835M",
+            "image_src": "https://covers.openlibrary.org/b/id/13261806-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2002",
+            "editions": "30 editions"
+          },
+          {
+            "title": "3rd Degree",
+            "book_url": "https://openlibrary.org/works/OL167144W/3rd_Degree?edition=key%3A/books/OL7992786M",
+            "image_src": "https://covers.openlibrary.org/b/id/13215721-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2004",
+            "editions": "30 editions"
+          },
+          {
+            "title": "5th horseman",
+            "book_url": "https://openlibrary.org/works/OL167145W/The_5th_horseman?edition=key%3A/books/OL46539244M",
+            "image_src": "https://covers.openlibrary.org/b/id/13259178-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2006",
+            "editions": "30 editions"
+          },
+          {
+            "title": "The Thomas Berryman number",
+            "book_url": "https://openlibrary.org/works/OL167176W/The_Thomas_Berryman_number?edition=key%3A/books/OL46539934M",
+            "image_src": "https://covers.openlibrary.org/b/id/13261765-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1976",
+            "editions": "30 editions"
+          },
+          {
+            "title": "Mary, Mary",
+            "book_url": "https://openlibrary.org/works/OL167173W/Mary_Mary?edition=key%3A/books/OL30112834M",
+            "image_src": "https://covers.openlibrary.org/b/id/10435190-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1857",
+            "editions": "30 editions"
+          },
+          {
+            "title": "The midnight club, James Patterson",
+            "book_url": "https://openlibrary.org/works/OL167181W/The_Midnight_Club?edition=key%3A/books/OL32125468M",
+            "image_src": "https://covers.openlibrary.org/b/id/14849582-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1989",
+            "editions": "30 editions"
+          },
+          {
+            "title": "The Dangerous Days of Daniel X",
+            "book_url": "https://openlibrary.org/works/OL5337421W/The_Dangerous_Days_of_Daniel_X?edition=key%3A/books/OL10426205M",
+            "image_src": "https://covers.openlibrary.org/b/id/13258183-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1998",
+            "editions": "30 editions"
+          }
+        ]
+      }
+    ]
+  },
+  "page_3": {
+    "authors": [
+      {
+        "books": [
+          {
+            "title": "The final warning",
+            "book_url": "https://openlibrary.org/works/OL5337410W/The_Final_Warning?edition=key%3A/books/OL46539185M",
+            "image_src": "https://covers.openlibrary.org/b/id/13259065-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1998",
+            "editions": "29 editions"
+          },
+          {
+            "title": "Judge and jury",
+            "book_url": "https://openlibrary.org/works/OL5337430W/Judge_and_jury?edition=key%3A/books/OL46527091M",
+            "image_src": "https://covers.openlibrary.org/b/id/13158216-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2006",
+            "editions": "29 editions"
+          },
+          {
+            "title": "Sail",
+            "book_url": "https://openlibrary.org/works/OL167153W/Sail?edition=key%3A/books/OL24627013M",
+            "image_src": "https://covers.openlibrary.org/b/id/13258182-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1998",
+            "editions": "29 editions"
+          },
+          {
+            "title": "Run for your life",
+            "book_url": "https://openlibrary.org/works/OL14920188W/Run_for_your_life?edition=key%3A/books/OL26343218M",
+            "image_src": "https://covers.openlibrary.org/b/id/13154483-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2008",
+            "editions": "29 editions"
+          },
+          {
+            "title": "Witch & Wizard",
+            "book_url": "https://openlibrary.org/works/OL14920182W/Witch_wizard?edition=key%3A/books/OL23851250M",
+            "image_src": "https://covers.openlibrary.org/b/id/13263866-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1999",
+            "editions": "29 editions"
+          },
+          {
+            "title": "The 6th Target",
+            "book_url": "https://openlibrary.org/works/OL5337429W/The_6th_Target?edition=key%3A/books/OL9795034M",
+            "image_src": "https://covers.openlibrary.org/b/id/13153124-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1728",
+            "editions": "28 editions"
+          },
+          {
+            "title": "Middle School: The Worst Years of My Life",
+            "book_url": "https://openlibrary.org/works/OL15815082W/The_Worst_Years_of_My_Life?edition=key%3A/books/OL46539533M",
+            "image_src": "https://covers.openlibrary.org/b/id/13260328-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1976",
+            "editions": "28 editions"
+          },
+          {
+            "title": "You've Been Warned",
+            "book_url": "https://openlibrary.org/works/OL167156W/You've_Been_Warned?edition=key%3A/books/OL9690249M",
+            "image_src": "https://covers.openlibrary.org/b/id/13151861-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2007",
+            "editions": "27 editions"
+          },
+          {
+            "title": "Kill Alex Cross",
+            "book_url": "https://openlibrary.org/works/OL15951484W/Kill_Alex_Cross?edition=key%3A/books/OL46525921M",
+            "image_src": "https://covers.openlibrary.org/b/id/13156027-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2011",
+            "editions": "26 editions"
+          },
+          {
+            "title": "Alex Cross",
+            "book_url": "https://openlibrary.org/works/OL14920187W/I_Alex_Cross?edition=key%3A/books/OL27140680M",
+            "image_src": "https://covers.openlibrary.org/b/id/10996317-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2007",
+            "editions": "26 editions"
+          },
+          {
+            "title": "Worst Case",
+            "book_url": "https://openlibrary.org/works/OL14920173W/Worst_Case?edition=key%3A/books/OL24128225M",
+            "image_src": "https://covers.openlibrary.org/b/id/13154485-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2010",
+            "editions": "25 editions"
+          },
+          {
+            "title": "8th Confession",
+            "book_url": "https://openlibrary.org/works/OL14920186W/The_8th_confession?edition=key%3A/books/OL42994401M",
+            "image_src": "https://covers.openlibrary.org/b/id/13316417-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1998",
+            "editions": "25 editions"
+          },
+          {
+            "title": "First love",
+            "book_url": "https://openlibrary.org/works/OL17308058W/First_love?edition=key%3A/books/OL25881647M",
+            "image_src": "https://covers.openlibrary.org/b/id/13161187-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2013",
+            "editions": "25 editions"
+          },
+          {
+            "title": "7th heaven",
+            "book_url": "https://openlibrary.org/works/OL167177W/7th_Heaven?edition=key%3A/books/OL46539928M",
+            "image_src": "https://covers.openlibrary.org/b/id/13261753-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 1998",
+            "editions": "25 editions"
+          },
+          {
+            "title": "Sundays at Tiffany's",
+            "book_url": "https://openlibrary.org/works/OL14920191W/Sundays_at_Tiffany's?edition=key%3A/books/OL24381985M",
+            "image_src": "https://covers.openlibrary.org/b/id/6632898-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2008",
+            "editions": "24 editions"
+          },
+          {
+            "title": "Burn",
+            "book_url": "https://openlibrary.org/works/OL17079190W/Burn?edition=key%3A/books/OL29307359M",
+            "image_src": "https://covers.openlibrary.org/b/id/13259110-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2014",
+            "editions": "24 editions"
+          },
+          {
+            "title": "Cross country",
+            "book_url": "https://openlibrary.org/works/OL167149W/Cross_Country?edition=key%3A/books/OL31944087M",
+            "image_src": "https://covers.openlibrary.org/b/id/10625212-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2008",
+            "editions": "24 editions"
+          },
+          {
+            "title": "Middle School Get Me Out of Here",
+            "book_url": "https://openlibrary.org/works/OL16713182W/Middle_school_get_me_out_of_here!?edition=key%3A/books/OL43432287M",
+            "image_src": "https://covers.openlibrary.org/b/id/13161345-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2012",
+            "editions": "24 editions"
+          },
+          {
+            "title": "The postcard killers",
+            "book_url": "https://openlibrary.org/works/OL15383088W/The_Postcard_Killers?edition=key%3A/books/OL23963242M",
+            "image_src": "https://covers.openlibrary.org/b/id/13262027-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2008",
+            "editions": "24 editions"
+          },
+          {
+            "title": "10th Anniversary",
+            "book_url": "https://openlibrary.org/works/OL15719783W/10th_Anniversary?edition=key%3A/books/OL40362487M",
+            "image_src": "https://covers.openlibrary.org/b/id/13261795-M.jpg",
+            "author": "James Patterson",
+            "first_published": "First published in 2008",
+            "editions": "23 editions"
+          }
+        ]
+      }
+    ]
+  }
+}

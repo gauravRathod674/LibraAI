@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nexus-text-to-speech",
+  "private_key_id": "50d75f778774d100a88d3a3fc0663825d0defdb0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCMfSWmd4E34UFs\nw/LZdc/74PjTk49GnGmoVuCslh6A8UkE7pgZdmbYJawCNXuFEkwYmVt8Ld/ngPOE\nHxIDZ6oeoU5jQjldbdJx9JAXjWcnOHBAX97O+Iixnv2PtTrs7rybQTnK0667DYAH\n9QEqz/K917iiDkG6Kk/1axUWuon+zPeBs//JZuqXYL8RA0mEzSwtkfYM9nVRPwio\noNvnu54o5tsuG/OSlsf9Zs41NoJF102gSZPxfWHT86I59Bg185BnCET618qS25jo\nsU074+9mgIaQXajfr5+LZr0WXsnn8V9i7+RIYI2y7lgt7lLZ01cLyN6TQ6e3wjWh\nQLbFI5U1AgMBAAECggEAIRka1a0x9EhNcaJ4hGMNLPpDpRUOnEQdYFuXcxGq/hXa\nbh8IFneeoy286IhRIXi+FM2MkCT+qzvmIypuw/6YRb8bCKeBfFFzUwWbLPFTbBoP\n2Bq+E2TaT351nnXD/C4CoVEsnGxirg7wKu+95qg3OCKqjQNu2L0/OUKRJVmtSSoH\niN9cDSvB3FvUtMGJbDt1moD8i7E+rQLOyHHMywEIJlV2jtywYmTifOJDE9m+uwj4\nsUaxVY3hlwbgyKGQZlZjzXyikSRfNz5cMVCOrS/n56piaWAiLDrrXqc/N6JKGhtB\nzvHS+nOv5ck/fwxL6PBz8Z3a/Os/CHOBszjnPBFyAQKBgQC/XzKz1PNQ9GjGRzAr\n2IdJpzxrIE9tC19GoOJemerZok3bwu+7pzXyLXeOIr8mJgGJnuEU9gq0Jy8UdLhe\n+PqWj7fbLVCcpR/UJ91PXh7JbPS3PX+51hVGAp/xENKI6EqBjv0niwTu/0sDdYb/\nY/igH+RKh4L0k5ZGrJiLP+1mPQKBgQC77uzrtsamgEEsPnJRLNrxz/lfNRylnail\n/R9/NsWSy5x/esVM5GS7yPVaO+dEb0r1tYwAPPyCFjX3XKwN/5RDypK70BDbO4CN\nlFBpFC1SJt81IXtSUHtzX50uueqqpE4QVAVGe/y92SgmsD/h1OL9c/RJUnr/N37M\nn1Ma/YHSWQKBgCEFIA5/c+xH/7wWlG08UzuWK4qgbJP4Hlxlbim8jRU4OA7vN8Y9\nN8Wtqq9Pt4OxkxpX26ZuPbKQAEObUCSy+Sn5alPbIcmlhDRrHHiRWOaQcjkb12oN\nUmZeFZLWwDz3N8PbFDs6dYN3cU4LfVubuE6Isi9Z6nKg9JEFPtzoDuJRAoGAbza6\nD9evARM+/i7KOc2Al78KhNQKatu81NXRUNgZ3YAO0cXWgmVaU2JeB5MRjgcKZhOU\nkQOGLnl0YDkAPJx1ohR79xbvEr3ImoAdgcGF/Gqyhl+U+iZUl/cKLn+pJmhrJfCC\n2q4+6B5dS1/bvgncdj6rXsSnsuala/QRGxTQQakCgYAD/rqV8tlTi9crxj56jeOp\nBDYSqiEut/Gi7IDOhh/YB71rPjR83mfn9sTHEPkzJsiXxLRUH/6WECkoADWMAyhA\n9mMqPAVAcYuQABBOEF8CQpj67wDfn9Aiebs8ea/qNcslnz3ilxUm8TXzypaFrzzW\n51P9m36dPEh/qH7ZzxWKbQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "gaurav-rathod@nexus-text-to-speech.iam.gserviceaccount.com",
+  "client_id": "116831566106562885025",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gaurav-rathod%40nexus-text-to-speech.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
