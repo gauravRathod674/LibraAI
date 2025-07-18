@@ -14,8 +14,6 @@ export default function ResearchPage() {
     setIsClient(true);
   }, []);
 
- 
-
   const filteredPapers = papers;
 
   useEffect(() => {

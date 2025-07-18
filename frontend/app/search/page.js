@@ -13,7 +13,8 @@ import ResultsHeader from "@/components/ui/ResultsHeader";
 import Footer from "@/components/ui/Footer";
 import SearchInsideCard from "@/components/ui/SearchInsideCard";
 import { useTheme } from "@/app/context/ThemeContext";
-import { dummyBooks, dummyGenres } from "../data";
+import { dummyBooks, dummyGenres, papers } from "../data";
+import Research from "@/components/ui/Research";
 
 const MODE_MAP = {
   Books: {
@@ -38,9 +39,17 @@ const STATIC_SECTIONS = {
   Authors: dummyBooks,
   Genres: dummyGenres,
   "Search Inside": dummyBooks,
+  Research: papers,
 };
 
-const TABS = ["Books", "Authors", "Genres", "Search Inside", "Advanced Search"];
+const TABS = [
+  "Books",
+  "Authors",
+  "Genres",
+  "Search Inside",
+  "Advanced Search",
+  "Research",
+];
 
 const SearchPage = () => {
   const { darkMode } = useTheme();
@@ -131,6 +140,13 @@ const SearchPage = () => {
       ),
       "Search Inside": STATIC_SECTIONS["Search Inside"].filter((item) =>
         (item.description || "").toLowerCase().includes(q)
+      ),
+      Research: STATIC_SECTIONS.Research.filter(
+        (p) =>
+          p.title.toLowerCase().includes(q) ||
+          p.subtitle.toLowerCase().includes(q) ||
+          p.author.toLowerCase().includes(q) ||
+          p.description.toLowerCase().includes(q)
       ),
     };
   }, [searchTerm]);
@@ -305,6 +321,10 @@ const SearchPage = () => {
                                   index={idx}
                                 />
                               ))}
+                              
+                            {tab === "Research" && (
+                              <Research papers={staticFiltered.Research} searchTerm={searchTerm} />
+                            )}
 
                             {(tab === "Books" && filteredBooks.length === 0) ||
                             (tab !== "Books" &&

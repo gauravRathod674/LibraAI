@@ -1,0 +1,219 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12621679-M.jpg",
+        "title": "The Time Machine",
+        "url": "https://openlibrary.org/works/OL52267W/The_Time_Machine?edition=key%3A/books/OL37044446M",
+        "author": "H. G. Wells",
+        "rating": "3.9",
+        "num_ratings": "101",
+        "first_published": "1895",
+        "num_editions": "1151 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14330525-M.jpg",
+        "title": "Machine learning: a probabilistic perspective",
+        "url": "https://openlibrary.org/works/OL16571885W/Machine_learning?edition=key%3A/books/OL25259559M",
+        "author": "Kevin P. Murphy",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2012",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12660847-M.jpg",
+        "title": "Machine learning: the new AI",
+        "url": "https://openlibrary.org/works/OL19723604W/Machine_learning?edition=key%3A/books/OL26936724M",
+        "author": "Ethem Alpaydin",
+        "rating": "4.0",
+        "num_ratings": "2",
+        "first_published": "2016",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13141163-M.jpg",
+        "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+        "url": "https://openlibrary.org/works/OL20709638W/Hands-On_Machine_Learning_with_Scikit-Learn_Keras_and_TensorFlow?edition=key%3A/books/OL40322335M",
+        "author": "Aurélien Géron",
+        "rating": "4.0",
+        "num_ratings": "4",
+        "first_published": "2019",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13167969-M.jpg",
+        "title": "Introduction to Machine Learning with Python: A Guide for Data Scientists",
+        "url": "https://openlibrary.org/works/OL17357597W/Introduction_to_Machine_Learning_with_Python?edition=key%3A/books/OL36729824M",
+        "author": "Andreas C. Mueller",
+        "rating": "4.5",
+        "num_ratings": "2",
+        "first_published": "2016",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/5172198-M.jpg",
+        "title": "Machine learning: proceedings of the Twelfth International Conference on Machine Learning [held in] Tahoe City, California, July 9-12, 1995",
+        "url": "https://openlibrary.org/works/OL8856024W/Machine_Learning_Proceedings_1995?edition=key%3A/books/OL22412566M",
+        "author": "Machine Learning",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "1995",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Machine Learning: Master Machine Learning Fundamentals for Beginners",
+        "url": "https://openlibrary.org/works/OL30078590W/Machine_Learning?edition=key%3A/books/OL41345326M",
+        "author": "Mg Martin",
+        "rating": "1.0",
+        "num_ratings": "1 rating",
+        "first_published": "2019",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "The war of the worlds: and the time machine",
+        "url": "https://openlibrary.org/works/OL52114W/The_War_of_the_Worlds?edition=key%3A/books/OL25105198M",
+        "author": "H. G. Wells",
+        "rating": "3.8",
+        "num_ratings": "143",
+        "first_published": null,
+        "num_editions": null
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/15102717-M.jpg",
+        "title": "Introduction to machine learning",
+        "url": "https://openlibrary.org/works/OL5743132W/Introduction_to_machine_learning?edition=key%3A/books/OL23197794M",
+        "author": "Ethem Alpaydin",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2004",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Why Machines Learn: The Elegant Maths Behind Modern AI",
+        "url": "https://openlibrary.org/works/OL37831042W/Why_Machines_Learn?edition=key%3A/books/OL51048061M",
+        "author": "Anil Ananthaswamy",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "2024",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/6627643-M.jpg",
+        "title": "The invisible man: The island of Dr. Moreau",
+        "url": "https://openlibrary.org/works/OL52266W/The_Invisible_Man?edition=key%3A/books/OL24377466M",
+        "author": "H. G. Wells",
+        "rating": "3.8",
+        "num_ratings": "92",
+        "first_published": null,
+        "num_editions": null
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Alice in Wonderland - Alice au Pays des Merveilles: Learn French Fast and Easy ... Parallel Text Books",
+        "url": "https://openlibrary.org/works/OL138052W/Alice's_Adventures_in_Wonderland?edition=key%3A/books/OL39812285M",
+        "author": "Lewis Carroll",
+        "rating": "4.0",
+        "num_ratings": "191",
+        "first_published": "1865",
+        "num_editions": "3546 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1881379-M.jpg",
+        "title": "Machine Learning Proceedings 1990",
+        "url": "https://openlibrary.org/works/OL8856020W/Machine_Learning_Proceedings_1990?edition=key%3A/books/OL8606393M",
+        "author": "Machine Learning",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1990",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/5172292-M.jpg",
+        "title": "Machine Learning Proceedings 1993",
+        "url": "https://openlibrary.org/works/OL8856023W/Machine_Learning_Proceedings_1993?edition=key%3A/books/OL12089784M",
+        "author": "Machine Learning",
+        "rating": "1.0",
+        "num_ratings": "1 rating",
+        "first_published": "1993",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Machine Learning for Dummies",
+        "url": "https://openlibrary.org/works/OL19546858W/Machine_Learning_For_Dummies?edition=key%3A/books/OL34528620M",
+        "author": "John Paul Mueller",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2016",
+        "num_editions": "6 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/4823724-M.jpg",
+        "title": "Machine Learning Proceedings 1989",
+        "url": "https://openlibrary.org/works/OL8856019W/Machine_Learning_Proceedings_1989?edition=key%3A/books/OL8606378M",
+        "author": "Machine Learning",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1989",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Machine Learning Proceedings 1991 (Ml91)",
+        "url": "https://openlibrary.org/works/OL8856021W/Machine_Learning_Proceedings_1991_(Ml91)?edition=key%3A/books/OL8606406M",
+        "author": "Machine Learning",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1991",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/4823387-M.jpg",
+        "title": "Machine Learning Proceedings 1992 (Ml92)",
+        "url": "https://openlibrary.org/works/OL8856022W/Machine_Learning_Proceedings_1992_(Ml92)?edition=key%3A/books/OL8606417M",
+        "author": "Machine Learning",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1992",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Machine-Learning Basics for Beginners : Machine Learning Methods: Enterprise Machine Learning Guide",
+        "url": "https://openlibrary.org/works/OL28710463W/Machine-Learning_Basics_for_Beginners_Machine_Learning_Methods?edition=key%3A/books/OL39402963M",
+        "author": "Valentin Cholewa",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10691271-M.jpg",
+        "title": "Machine Learning",
+        "url": "https://openlibrary.org/works/OL24227753W/Machine_Learning?edition=key%3A/books/OL32025571M",
+        "author": "Vincy Joseph Anuradha Srinivasaraghavan",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "2018",
+        "num_editions": "1 edition"
+      }
+    ]
+  },
+  "last_page": 261,
+  "hits": 5214,
+  "sidebar_info": {
+    "eBook?": [],
+    "Language": [],
+    "Author": [],
+    "Subjects": [],
+    "First published": [],
+    "Publisher": [],
+    "People": [],
+    "Places": [],
+    "Times": []
+  }
+}
