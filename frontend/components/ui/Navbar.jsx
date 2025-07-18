@@ -14,8 +14,7 @@ import {
   ChevronRight,
   BookMarked,
   Bell,
-  Download
-
+  Download,
 } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
@@ -89,7 +88,6 @@ const Navbar = ({
   handleFullScreen,
   pdfDoc,
   toc,
-  
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -144,20 +142,37 @@ const Navbar = ({
   useEffect(() => {
     setMounted(true);
     const token = localStorage.getItem("token");
+
+    const fetchUserProfile = async (authToken) => {
+      try {
+        const { data } = await axios.get(
+          `${process.env.NEXT_PUBLIC_API_URL}/user/profile/`,
+          {
+            headers: { Authorization: `Bearer ${authToken}` },
+            withCredentials: true,
+          }
+        );
+        setUser({
+          username: data.name,
+          profile_photo: data.profile_photo_url,
+        });
+      } catch (error) {
+        console.error("Failed to fetch user profile:", error);
+        handleLogout(true); // Logout if fetching profile fails
+      }
+    };
+
     if (token) {
       try {
         const decoded = jwtDecode(token);
         if (decoded.exp * 1000 > Date.now()) {
-          setUser({
-            username: decoded.username,
-            profile_photo:
-              localStorage.getItem("profile_photo") || "/default-avatar.jpg",
-          });
+          fetchUserProfile(token);
         } else {
-          handleLogout(true);
+          handleLogout(true); // Token expired
         }
-      } catch {
-        handleLogout(true);
+      } catch (e) {
+        console.error("Invalid token:", e);
+        handleLogout(true); // Invalid token format
       }
     }
   }, [pathname]);
@@ -173,38 +188,37 @@ const Navbar = ({
   }, [moreOpen]);
 
   useEffect(() => {
-  if (pathname === "/notification") {
-    setHasNotification(false);
-  } else {
-    setHasNotification(true);
-  }
-}, [pathname]);
+    if (pathname === "/notification") {
+      setHasNotification(false);
+    } else {
+      setHasNotification(true);
+    }
+  }, [pathname]);
 
   const navLinks = [
-  { name: "Home", path: "/" },
-  {
-    name: "My Books",
-    children: [
-      { name: "Book Details", path: "/book-detail" },
-      { name: "Borrow History", path: "/borrow-history" },
-      { name: "Transactions", path: "/transaction" },
-    ],
-  },
-  {
-    name: "Search",
-    children: [
-      { name: "Search Page", path: "/search" },
-      { name: "Research", path: "/research" },
-      { name: "Genres", path: "/genres" },
-      { name: "PDF Viewer", path: "/pdf_viewer" },
-    ],
-  },
-];
-
+    { name: "Home", path: "/" },
+    {
+      name: "My Books",
+      children: [
+        { name: "Book Details", path: "/book-detail" },
+        { name: "Borrow History", path: "/borrow-history" },
+        { name: "Transactions", path: "/transaction" },
+      ],
+    },
+    {
+      name: "Search",
+      children: [
+        { name: "Search Page", path: "/search" },
+        { name: "Research", path: "/research" },
+        { name: "Genres", path: "/genres" },
+        { name: "PDF Viewer", path: "/pdf_viewer" },
+      ],
+    },
+  ];
 
   const handleLogout = (isAutoLogout = false) => {
     localStorage.removeItem("token");
-    localStorage.removeItem("user"); 
+    localStorage.removeItem("user");
     setUser(null);
     if (!isAutoLogout) {
       router.push("/login");
@@ -218,70 +232,79 @@ const Navbar = ({
   const UserStatus = () => (
     <>
       {user ? (
-      <div className="flex items-center gap-2 sm:gap-4">
-        {/* Profile icon + user name */}
-        <Link
-          href="/user-profile"
-          className="relative flex items-center gap-2 group transition-all duration-300"
-        >
-          <img
-            src={user.profile_photo}
-            alt="Profile"
-            className="w-8 h-8 rounded-full object-cover"
-          />  
-          <span className="text-lg font-medium">{user.username}</span>
-          <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
-                          group-hover:w-full transition-all duration-300" />
-        </Link>
-
-        {/* Logout button */}
-        <button
-          onClick={handleLogout}
-          className="text-red-500 hover:text-red-700 text-lg font-medium"
-        >
-          Logout
-        </button>
-      </div>
-    ) : (
-      <Link
-        href="/login"
-        className={`relative group text-lg font-medium transition-all duration-300 ${
-          darkMode ? "text-gray-900" : "text-white"
-        }`}
-      >
-        Login
-        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
-                        group-hover:w-full transition-all duration-300" />
-      </Link>
-    )}
-
-    <Tooltip text="Notifications">
-    <Link href="/notification" className="relative">
-      <Bell className="w-5 h-5 sm:w-6 sm:h-6 hover:text-blue-400 transition" />
-      {hasNotification && (
-        <span
-          className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-600 rounded-full
+        <div className="flex items-center gap-2 sm:gap-4">
+          <Tooltip text="Notifications">
+            <Link href="/notification" className="relative">
+              <Bell className="w-5 h-5 sm:w-6 sm:h-6 hover:text-blue-400 transition" />
+              {hasNotification && (
+                <span
+                  className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-600 rounded-full
                     ring-2 ring-white dark:ring-gray-900"
-        />
+                />
+              )}
+            </Link>
+          </Tooltip>
+
+          {/* Download Icon */}
+          <Tooltip text="Download PDF">
+            <button
+              className={`p-1.5 rounded-full ${
+                darkMode
+                  ? "bg-[#E7F0FD] text-gray-900"
+                  : "bg-gray-900 text-white"
+              }`}
+              title="Download PDF"
+              onClick={() => {
+                const pdfUrl = "/pdfs/your-document.pdf";
+                window.open(pdfUrl, "_blank");
+              }}
+            >
+              <Download size={27} className={`hover:text-blue-400`} />
+            </button>
+          </Tooltip>
+          {/* Profile icon + user name */}
+          <Link
+            href="/user-profile"
+            className="relative flex items-center gap-2 group transition-all duration-300"
+          >
+            <img
+              src={user.profile_photo}
+              alt="Profile"
+              className="w-8 h-8 rounded-full object-cover"
+            />
+            <span className="text-lg font-medium">{user.username}</span>
+            <span
+              className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
+                          group-hover:w-full transition-all duration-300"
+            />
+          </Link>
+
+          {/* Logout button */}
+          <button
+            onClick={handleLogout}
+            className="text-red-500 hover:text-red-700 text-lg font-medium"
+          >
+            Logout
+          </button>
+        </div>
+      ) : (
+        <Link
+          href="/login"
+          className={`relative group text-lg font-medium transition-all duration-300 ${
+            darkMode ? "text-gray-900" : "text-white"
+          }`}
+        >
+          Login
+          <span
+            className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
+                        group-hover:w-full transition-all duration-300"
+          />
+        </Link>
       )}
-    </Link>
-    </Tooltip>
 
-
-    {/* Download Icon */}
-    <Tooltip text="Download PDF">
-      <button
-        className={`p-1.5 rounded-full ${darkMode ? "bg-[#E7F0FD] text-gray-900 hover:bg-gray-300" : "bg-gray-900 text-white           hover:bg-gray-700"}`}
-        title="Download PDF"
-        onClick={() => {
-          const pdfUrl = "/pdfs/your-document.pdf";
-          window.open(pdfUrl, "_blank");
-        }}
-      >
-        <Download size={27} />
-      </button>
-    </Tooltip>
-    <span className={`w-px h-6 mx-1 ${darkMode ? "bg-gray-400" :"bg-gray-600}"}`}/>
+      {/* <span
+        className={`w-px h-6 mx-1 ${darkMode ? "bg-gray-400" : "bg-gray-600}"}`}
+      /> */}
     </>
   );
 
@@ -668,58 +691,57 @@ const Navbar = ({
   }, [askInput, askMeOpen]);
 
   function Dropdown({ link }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
-      className="cursor-pointer"
-    >
-      <div className="flex items-center space-x-1 group">
-        <span>{link.name}</span>
-        <ChevronRight
-          size={16}
-          className={`transition-transform ${
-            open ? "rotate-90" : "rotate-0"
-          }`}
-        />
-      </div>
+    const [open, setOpen] = useState(false);
+    return (
+      <div
+        onMouseEnter={() => setOpen(true)}
+        onMouseLeave={() => setOpen(false)}
+        className="cursor-pointer"
+      >
+        <div className="flex items-center space-x-1 group">
+          <span>{link.name}</span>
+          <ChevronRight
+            size={16}
+            className={`transition-transform ${
+              open ? "rotate-90" : "rotate-0"
+            }`}
+          />
+        </div>
 
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.15 }}
-            className={`absolute top-full left-0 mt-2 w-44 rounded-md shadow-lg overflow-hidden z-20
-              ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
+        <AnimatePresence>
+          {open && (
+            <motion.div
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.15 }}
+              className={`absolute top-full left-0 mt-2 w-44 rounded-md shadow-lg overflow-hidden z-20
+              ${
+                darkMode
+                  ? "bg-[#E7F0FD] text-gray-900"
+                  : "bg-gray-900 text-white"
+              }
               `}
-          >
-            {link.children.map((child) => (
-              <Link
-                key={child.name}
-                href={child.path}
-                className="relative block px-4 py-2 text-lg font-medium transition-all duration-300 group"
-              >
-                <span
-                  className="block"
-                  aria-hidden="true"
+            >
+              {link.children.map((child) => (
+                <Link
+                  key={child.name}
+                  href={child.path}
+                  className="relative block px-4 py-2 text-lg font-medium transition-all duration-300 group"
                 >
-                  {child.name}
-                </span>
-                {/* underline on hover */}
-                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current group-hover:w-full transition-all duration-300" />
-              </Link>
-            ))}
-          </motion.div>
-
-                  )}
-      </AnimatePresence>
-    </div>
-  );
-}
-
+                  <span className="block" aria-hidden="true">
+                    {child.name}
+                  </span>
+                  {/* underline on hover */}
+                  <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current group-hover:w-full transition-all duration-300" />
+                </Link>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    );
+  }
 
   if (!mounted) {
     return (
@@ -743,7 +765,11 @@ const Navbar = ({
                     px-2 sm:px-4 md:px-6 lg:px-8 xl:px-12 py-3
                     flex items-center justify-between
                     bg-opacity-90 backdrop-blur-lg
-                    ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
+                    ${
+                      darkMode
+                        ? "bg-[#E7F0FD] text-gray-900"
+                        : "bg-gray-900 text-white"
+                    }
       `}
       >
         {/* PDF VIEWER NAVBAR */}
@@ -771,7 +797,9 @@ const Navbar = ({
                   <LuTableOfContents size={20} />
                 </button>
               )}
-              <h1 className="text-lg sm:text-xl font-bold truncate">Nexus Library</h1>
+              <h1 className="text-lg sm:text-xl font-bold truncate">
+                Nexus Library
+              </h1>
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
               {/* Summary */}
               <Tooltip text="Summary">
@@ -895,7 +923,6 @@ const Navbar = ({
             </div>
             {/* Right Section */}
             <div className="flex items-center gap-4">
-
               {/* Download Icon */}
               <Tooltip text="Download PDF">
                 <button
@@ -911,7 +938,7 @@ const Navbar = ({
                 </button>
               </Tooltip>
               <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600" />
-          
+
               {/* Search Icon */}
               <Tooltip text="Search">
                 <button
@@ -947,12 +974,11 @@ const Navbar = ({
               <UserStatus />
               <button
                 className="sm:hidden p-2"
-                onClick={() => setMenuOpen(open => !open)}
+                onClick={() => setMenuOpen((open) => !open)}
                 aria-label="Toggle menu"
               >
                 {menuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
-
             </div>
             {/* PDF Search Box (floating, only for /pdf_viewer) */}
             {showPdfSearch && (
@@ -1016,21 +1042,20 @@ const Navbar = ({
           // NON-PDF VIEWER NAVBAR
           <>
             <div className="flex items-center gap-2 z-10">
-            <h1 className="text-xl font-bold">Nexus Library</h1>
-            <button
-              className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white"
-              onClick={toggleDarkMode}
-            >
-              {darkMode ? (
-                <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
-              ) : (
-                <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
-              )}
-            </button>
-          </div>
-
-            <div className="z-10 flex items-center gap-6">
+              <h1 className="text-xl font-bold">Nexus Library</h1>
+                 <span className="hidden md:block"></span>
+              <button
+                className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white"
+                onClick={toggleDarkMode}
+              >
+                {darkMode ? (
+                  <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
+                ) : (
+                  <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
+                )}
+              </button>
               <div className="hidden md:flex items-center gap-6 text-lg font-medium">
+                <span className="hidden md:block"></span>
                 {navLinks.map((link) => (
                   <div key={link.name} className="relative">
                     {link.children ? (
@@ -1038,15 +1063,18 @@ const Navbar = ({
                     ) : (
                       <Link href={link.path} className="relative group">
                         {link.name}
-                        <span className="absolute left-0 -bottom-1 w-0 h-0.5
-                                        bg-current group-hover:w-full transition-all duration-300" />
+                        <span
+                          className="absolute left-0 -bottom-1 w-0 h-0.5
+                                        bg-current group-hover:w-full transition-all duration-300"
+                        />
                       </Link>
                     )}
                   </div>
                 ))}
               </div>
+            </div>
 
-              
+            <div className="z-10 flex items-center gap-6">
               <UserStatus />
             </div>
           </>
@@ -1062,19 +1090,23 @@ const Navbar = ({
                 exit={{ opacity: 0, y: -12 }}
                 transition={{ duration: 0.2 }}
                 className={`sm:hidden absolute top-full left-0 w-full max-h-[60vh] overflow-y-auto bg-opacity-90 backdrop-blur-lg
-                  ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}`}
+                  ${
+                    darkMode
+                      ? "bg-[#E7F0FD] text-gray-900"
+                      : "bg-gray-900 text-white"
+                  }`}
               >
                 <div className="flex flex-col items-center py-4 space-y-4">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.name}
-                    href={link.path}
-                    onClick={() => setMenuOpen(false)}
-                    className="text-lg font-medium transition-all duration-300 hover:underline"
-                  >
-                    {link.name}
-                  </Link>
-                ))}
+                  {navLinks.map((link) => (
+                    <Link
+                      key={link.name}
+                      href={link.path}
+                      onClick={() => setMenuOpen(false)}
+                      className="text-lg font-medium transition-all duration-300 hover:underline"
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
                 </div>
               </motion.div>
             )}
@@ -1087,10 +1119,10 @@ const Navbar = ({
             className={`w-full sm:w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2
                         h-[80vh] sm:h-[75vh] md:h-[70vh]
                         rounded-2xl mx-2 sm:mx-auto flex flex-col shadow-lg ${
-              darkMode
-                ? "bg-white text-gray-900 border border-gray-200"
-                : "bg-[#1e293b] text-white border border-[#334155]"
-            }`}
+                          darkMode
+                            ? "bg-white text-gray-900 border border-gray-200"
+                            : "bg-[#1e293b] text-white border border-[#334155]"
+                        }`}
           >
             {/* Header */}
             <div
