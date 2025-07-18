@@ -8,8 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLock, faUser } from "@fortawesome/free-solid-svg-icons";
 import UserRoleDropdown from "@/components/ui/UserRoleDropdown";
 import { useTheme } from "../context/ThemeContext";
-import { toast } from "sonner";
-
+import { CheckCircle, XCircle } from "lucide-react";
 
 export default function AuthPage() {
   const { darkMode } = useTheme();
@@ -19,7 +18,7 @@ export default function AuthPage() {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
   const [role, setRole] = useState("");
-  // const [alert, setAlert] = useState({ message: "", success: false });
+  const [alert, setAlert] = useState({ message: "", success: false });
 
   // Fetch a welcome message on load (optional)
   useEffect(() => {
@@ -30,68 +29,62 @@ export default function AuthPage() {
   }, []);
 
   // Auto-fade alert after 5s then clear after animation
-  // useEffect(() => {
-  //   if (!alert.message) return;
-  //   const t1 = setTimeout(() => {
-  //     const el = document.querySelector(".custom-alert");
-  //     if (el) el.classList.add("hid");
-  //     const t2 = setTimeout(
-  //       () => setAlert({ message: "", success: false }),
-  //       3000
-  //     );
-  //     return () => clearTimeout(t2);
-  //   }, 5000);
-  //   return () => clearTimeout(t1);
-  // }, [alert.message]);
+  // auto-hide our motion-alert after 5s
+  useEffect(() => {
+    if (!alert.message) return;
+    const timer = setTimeout(() => {
+      setAlert({ message: "", success: false });
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, [alert.message]);
 
- const onSubmitLogin = async (e) => {
-  e.preventDefault();
-  try {
-    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
-      action: "login",
-      username,
-      password,
-    });
-
-    if (res.data.success) {
-      toast.success(res.data.message);
-      if (res.data.token) localStorage.setItem("token", res.data.token);
-      window.location.href = "/";
-    } else {
-      toast.error(res.data.message || "Login failed.");
+  const onSubmitLogin = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
+        action: "login",
+        username,
+        password,
+      });
+      setAlert({ message: res.data.message, success: res.data.success });
+      if (res.data.token) {
+        localStorage.setItem("token", res.data.token);
+      }
+      if (res.data.success) {
+          setTimeout(() => {
+            window.location.href = "/";
+          }, 3000);
+        }
+    } catch (err) {
+      console.error("Login error:", err);
+      setAlert({ message: "Login failed. Try again.", success: false });
     }
-  } catch (err) {
-    console.error("Login error:", err);
-    toast.error("Login failed. Try again.");
-  }
-};
-
+  };
 
   const onSubmitRegister = async (e) => {
-  e.preventDefault();
-  try {
-    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
-      action: "register",
-      username,
-      email,
-      password,
-      role,
-    });
+    e.preventDefault();
+    console.log("Role:", role); // Add this line to check the role value
 
-    if (res.data.success) {
-      toast.success(res.data.message);
-      handleToggle();
-    } else {
-      toast.error(res.data.message || "Registration failed.");
+    try {
+      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
+        action: "register",
+        username,
+        email,
+        password,
+        role,
+      });
+      setAlert({ message: res.data.message, success: res.data.success });
+      if (res.data.success) {
+        handleToggle();
+      }
+    } catch (err) {
+      console.error("Register error:", err);
+      setAlert({ message: "Registration failed. Try again.", success: false });
     }
-  } catch (err) {
-    console.error("Register error:", err);
-    toast.error("Registration failed. Try again.");
-  }
-};
+  };
 
   const handleToggle = () => {
-    // setAlert({ message: "", success: false });
+    setAlert({ message: "", success: false });
     setAnimationPhase("stretch");
     setTimeout(() => {
       setIsRegistering((prev) => !prev);
@@ -164,11 +157,44 @@ export default function AuthPage() {
       <Navbar />
 
       {/* Global Alert */}
-      {/* {alert.message && (
-        <div className={`custom-alert ${alert.success ? "success" : ""} show`}>
-          {alert.message}
-        </div>
-      )} */}
+      <AnimatePresence>
+  {alert.message && (
+    <motion.div
+      key="auth-alert"
+      className={`absolute left-1/2 z-20 px-4 py-2 rounded-lg shadow-2xl flex items-center space-x-3 text-sm sm:text-base
+                  transform -translate-x-1/2 font-semibold
+                  ${
+                    alert.success
+                      ? darkMode
+                        ? "bg-green-500 text-white"
+                        : "bg-green-400 text-black"
+                      : darkMode
+                      ? "bg-red-500 text-white"
+                      : "bg-red-400 text-black"
+                  }`}
+      style={{
+        top: "4.5rem",
+        minWidth: "200px",
+        maxWidth: "90vw",
+      }}
+      initial={{ x: "100vw", opacity: 0, scale: 0.8 }}
+      animate={{ x: 0, opacity: 1, scale: 1 }}
+      exit={{ x: "-100vw", opacity: 0, scale: 0.8 }}
+      transition={{
+        x: { type: "spring", stiffness: 300, damping: 30 },
+        opacity: { duration: 0.3 },
+        scale: { duration: 0.3 },
+      }}
+    >
+      {alert.success ? (
+        <CheckCircle className="w-5 h-5" />
+      ) : (
+        <XCircle className="w-5 h-5" />
+      )}
+      <span>{alert.message}</span>
+    </motion.div>
+  )}
+</AnimatePresence>
 
       <div
         className={`relative w-full max-w-2xl min-h-[470px] rounded-3xl
@@ -365,3 +391,4 @@ export default function AuthPage() {
     </div>
   );
 }
+
