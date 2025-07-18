@@ -1,0 +1,219 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Study Guide: The Girls of Atomic City by Denise Kiernan",
+        "url": "https://openlibrary.org/works/OL21885963W/Study_Guide?edition=key%3A/books/OL41957383M",
+        "author": "SuperSummary",
+        "rating": "3.8",
+        "num_ratings": "5",
+        "first_published": "2019",
+        "num_editions": "308 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14352261-M.jpg",
+        "title": "Twilight",
+        "url": "https://openlibrary.org/works/OL5720023W/Twilight?edition=key%3A/books/OL27051265M",
+        "author": "Stephenie Meyer",
+        "rating": "3.6",
+        "num_ratings": "380",
+        "first_published": "2005",
+        "num_editions": "118 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14861150-M.jpg",
+        "title": "Ender's Game",
+        "url": "https://openlibrary.org/works/OL49488W/Ender's_Game?edition=key%3A/books/OL8770768M",
+        "author": "Orson Scott Card",
+        "rating": "4.4",
+        "num_ratings": "382",
+        "first_published": "1985",
+        "num_editions": "104 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Man's Search for Meaning",
+        "url": "https://openlibrary.org/works/OL1268413W/..._Trotzdem_Ja_zum_Leben_sagen?edition=key%3A/books/OL38248756M",
+        "author": "Viktor E. Frankl",
+        "rating": "4.3",
+        "num_ratings": "174",
+        "first_published": "1946",
+        "num_editions": "111 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10396110-M.jpg",
+        "title": "New moon",
+        "url": "https://openlibrary.org/works/OL5720027W/New_Moon?edition=key%3A/books/OL29549715M",
+        "author": "Stephenie Meyer",
+        "rating": "4.0",
+        "num_ratings": "66",
+        "first_published": "2006",
+        "num_editions": "88 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10750841-M.jpg",
+        "title": "Eclipse",
+        "url": "https://openlibrary.org/works/OL5720025W/Eclipse?edition=key%3A/books/OL32095483M",
+        "author": "Stephenie Meyer",
+        "rating": "3.5",
+        "num_ratings": "103",
+        "first_published": "2006",
+        "num_editions": "87 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10317595-M.jpg",
+        "title": "Breaking Dawn",
+        "url": "https://openlibrary.org/works/OL5720022W/Breaking_Dawn?edition=key%3A/books/OL28417811M",
+        "author": "Stephenie Meyer",
+        "rating": "3.5",
+        "num_ratings": "102",
+        "first_published": "2008",
+        "num_editions": "86 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/15102424-M.jpg",
+        "title": "Atomic Habits: The life-changing million copy bestseller",
+        "url": "https://openlibrary.org/works/OL17930368W/Atomic_Habits?edition=key%3A/books/OL27918581M",
+        "author": "James Clear",
+        "rating": "4.0",
+        "num_ratings": "1,131",
+        "first_published": "2016",
+        "num_editions": "43 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12678742-M.jpg",
+        "title": "The making of the atomic bomb",
+        "url": "https://openlibrary.org/works/OL2617750W/The_making_of_the_atomic_bomb?edition=key%3A/books/OL27143073M",
+        "author": "Richard Rhodes",
+        "rating": "4.5",
+        "num_ratings": "11",
+        "first_published": "1986",
+        "num_editions": "11 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/15095106-M.jpg",
+        "title": "Companion Workbook : Atomic Habits: Start Developing Great Habits",
+        "url": "https://openlibrary.org/works/OL30048054W/Companion_Workbook_Atomic_Habits?edition=key%3A/books/OL41304541M",
+        "author": "Julie Ann Price",
+        "rating": "4.0",
+        "num_ratings": "10",
+        "first_published": "2019",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/9452223-M.jpg",
+        "title": "University physics: electricity and magnetism; optics and atomic physics",
+        "url": "https://openlibrary.org/works/OL4797379W/University_physics?edition=key%3A/books/OL25585844M",
+        "author": "Francis Weston Sears",
+        "rating": "3.8",
+        "num_ratings": "8",
+        "first_published": "1949",
+        "num_editions": "40 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14844733-M.jpg",
+        "title": "Atomic Habits Daily Journal: Stay Away from Negative Habits",
+        "url": "https://openlibrary.org/works/OL26072826W/Atomic_Habits_Daily_Journal?edition=key%3A/books/OL35188503M",
+        "author": "Rondyy Rondyy Roo",
+        "rating": "5.0",
+        "num_ratings": "3",
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13315443-M.jpg",
+        "title": "Atomic Habits Journal: A Daily Motivational Atomic Habits Journal and Planner for Habits Tracking to Guide You Achieve Your Goal",
+        "url": "https://openlibrary.org/works/OL25953594W/Atomic_Habits_Journal?edition=key%3A/books/OL35028489M",
+        "author": "Atomic Habit Journal",
+        "rating": "4.3",
+        "num_ratings": "6",
+        "first_published": "2020",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/950636-M.jpg",
+        "title": "The Great Hunt",
+        "url": "https://openlibrary.org/works/OL7924135W/The_Great_Hunt_(The_Wheel_of_Time_Book_2)?edition=key%3A/books/OL8770802M",
+        "author": "Robert Jordan",
+        "rating": "4.1",
+        "num_ratings": "85",
+        "first_published": "1990",
+        "num_editions": "46 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12737540-M.jpg",
+        "title": "Atomic Thunder: The Maralinga Story",
+        "url": "https://openlibrary.org/works/OL21129543W/Atomic_Thunder?edition=key%3A/books/OL28601588M",
+        "author": "Elizabeth Tynan",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2016",
+        "num_editions": "8 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/15095145-M.jpg",
+        "title": "Summary of Atomic Habits by James Clear",
+        "url": "https://openlibrary.org/works/OL27928969W/Summary_of_Atomic_Habits_by_James_Clear?edition=key%3A/books/OL38171388M",
+        "author": "Scott, James",
+        "rating": "4.0",
+        "num_ratings": "5",
+        "first_published": "2022",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Clear and Present Danger",
+        "url": "https://openlibrary.org/works/OL448924W/Clear_and_Present_Danger?edition=key%3A/books/OL34418709M",
+        "author": "Tom Clancy",
+        "rating": "3.9",
+        "num_ratings": "22",
+        "first_published": "1989",
+        "num_editions": "42 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/5209364-M.jpg",
+        "title": "Beilstein Handbook of Organic Chemistry: Supplement 5: Heterocyclic Compounds with One Ring-Nitrogen Atom: Carboxylic Acids, Sulfonic Acids, Amines Etc.",
+        "url": "https://openlibrary.org/works/OL9335728W/Beilstein_Handbook_of_Organic_Chemistry_Fourth_Edition_Beilsteins_Handbuch_Der_Organischen_Chemie_4.?edition=key%3A/books/OL12775990M",
+        "author": "Reiner Luckenbach",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1984",
+        "num_editions": "143 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/950633-M.jpg",
+        "title": "Sword of Shannara",
+        "url": "https://openlibrary.org/works/OL5683445W/The_Sword_of_Shannara?edition=key%3A/books/OL8770798M",
+        "author": "Terry Brooks",
+        "rating": "3.6",
+        "num_ratings": "17",
+        "first_published": "1976",
+        "num_editions": "39 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "The Land of Stories: The Wishing Spell",
+        "url": "https://openlibrary.org/works/OL16585191W/The_Wishing_Spell?edition=key%3A/books/OL43041387M",
+        "author": "Chris Colfer",
+        "rating": "4.3",
+        "num_ratings": "18",
+        "first_published": "1990",
+        "num_editions": "38 editions"
+      }
+    ]
+  },
+  "last_page": 1370,
+  "hits": 27387,
+  "sidebar_info": {
+    "eBook?": [],
+    "Language": [],
+    "Author": [],
+    "Subjects": [],
+    "First published": [],
+    "Publisher": [],
+    "People": [],
+    "Places": [],
+    "Times": []
+  }
+}

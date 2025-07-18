@@ -18,9 +18,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 
+
 def scrape_semantic_scholar(query: str):
     options = uc.ChromeOptions()
-    # options.add_argument("--headless=new")  # or remove this to see the browser
+    # options.add_argument("--headless=chrome") 
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-extensions")
+    options.add_argument("--window-size=1920,1080")
     driver = uc.Chrome(options=options)
 
     try:
@@ -35,6 +42,7 @@ def scrape_semantic_scholar(query: str):
 
         paper_elements = driver.find_elements(By.CLASS_NAME, "cl-paper-row")
 
+        results = []
         for paper in paper_elements:
             try:
                 title = paper.find_element(By.CLASS_NAME, "cl-paper-title").text
@@ -42,13 +50,21 @@ def scrape_semantic_scholar(query: str):
                 title = "N/A"
 
             try:
-                relative_link = paper.find_element(By.CLASS_NAME, "link-button--show-visited").get_attribute("href")
-                paper_link = "https://www.semanticscholar.org" + relative_link if relative_link.startswith("/") else relative_link
+                relative_link = paper.find_element(
+                    By.CLASS_NAME, "link-button--show-visited"
+                ).get_attribute("href")
+                paper_link = (
+                    "https://www.semanticscholar.org" + relative_link
+                    if relative_link.startswith("/")
+                    else relative_link
+                )
             except:
                 paper_link = "N/A"
 
             try:
-                author_elems = paper.find_elements(By.CLASS_NAME, "cl-paper-authors__author-box")
+                author_elems = paper.find_elements(
+                    By.CLASS_NAME, "cl-paper-authors__author-box"
+                )
                 authors = [a.text for a in author_elems]
             except:
                 authors = ["N/A"]
@@ -64,7 +80,9 @@ def scrape_semantic_scholar(query: str):
                 pub_date = "N/A"
 
             try:
-                tldr = paper.find_element(By.CLASS_NAME, "tldr-abstract-replacement").text
+                tldr = paper.find_element(
+                    By.CLASS_NAME, "tldr-abstract-replacement"
+                ).text
             except:
                 tldr = "N/A"
 
@@ -88,16 +106,17 @@ def scrape_semantic_scholar(query: str):
             # except Exception as e:
             #     full_abstract = "N/A"
 
-
-
-
             try:
-                citations = paper.find_element(By.CLASS_NAME, "cl-paper-stats__v2-citations").text
+                citations = paper.find_element(
+                    By.CLASS_NAME, "cl-paper-stats__v2-citations"
+                ).text
             except:
                 citations = "N/A"
 
             try:
-                pdf_elem = paper.find_element(By.CSS_SELECTOR, "a[data-heap-link-type='arxiv']")
+                pdf_elem = paper.find_element(
+                    By.CSS_SELECTOR, "a[data-heap-link-type='arxiv']"
+                )
                 pdf_link = pdf_elem.get_attribute("href")
             except:
                 pdf_link = "N/A"
@@ -113,9 +132,23 @@ def scrape_semantic_scholar(query: str):
             print("PDF Link:", pdf_link)
             print("-" * 100)
 
+            item = {
+                "title": title,
+                # "link": paper_link,
+                "authors": authors,
+                "venue": venue,
+                "pub_date": pub_date,
+                "tldr": tldr,
+                # "citations": citations,
+                "pdf_link": pdf_link,
+            }
+            results.append(item)
+
     finally:
         driver.quit()
         uc.Chrome.__del__ = lambda self: None
+    return results
+
 
 # Example usage
-scrape_semantic_scholar("machine learning")
+print(scrape_semantic_scholar("machine learning"))

@@ -1,0 +1,219 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12978138-M.jpg",
+        "title": "Deep Learning",
+        "url": "https://openlibrary.org/works/OL17801809W/Deep_Learning?edition=key%3A/books/OL40220570M",
+        "author": "Ian Goodfellow",
+        "rating": "3.7",
+        "num_ratings": "3",
+        "first_published": "2016",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Twenty Thousand Leagues under the Sea : Twenty Thousand Leagues under the Sea: English-Spanish Learning Edition",
+        "url": "https://openlibrary.org/works/OL1099280W/Vingt_mille_lieues_sous_les_mers?edition=key%3A/books/OL54899838M",
+        "author": "Jules Verne",
+        "rating": "4.1",
+        "num_ratings": "51",
+        "first_published": "1870",
+        "num_editions": "382 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14368430-M.jpg",
+        "title": "Of Mice and Men",
+        "url": "https://openlibrary.org/works/OL23204W/Of_Mice_and_Men?edition=key%3A/books/OL11346328M",
+        "author": "John Steinbeck",
+        "rating": "4.0",
+        "num_ratings": "265",
+        "first_published": "1937",
+        "num_editions": "194 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Paradise lost.: A poem, in twelve books. The author John Milton. With historical, philosophical, and explanatory notes. Translated from the French of the learned Raymond de St Maur. ... A new edition. ...",
+        "url": "https://openlibrary.org/works/OL810991W/Paradise_Lost?edition=key%3A/books/OL13461061M",
+        "author": "John Milton",
+        "rating": "3.8",
+        "num_ratings": "31",
+        "first_published": "1667",
+        "num_editions": "393 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Hitchhiker's Guide to the Galaxy",
+        "url": "https://openlibrary.org/works/OL2163649W/The_Hitch_Hiker's_Guide_to_the_Galaxy?edition=key%3A/books/OL34817728M",
+        "author": "Douglas Adams",
+        "rating": "4.5",
+        "num_ratings": "144",
+        "first_published": "1979",
+        "num_editions": "120 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/11205973-M.jpg",
+        "title": "To Kill a Mockingbird",
+        "url": "https://openlibrary.org/works/OL3140822W/To_Kill_a_Mockingbird?edition=key%3A/books/OL32560886M",
+        "author": "Harper Lee",
+        "rating": "4.1",
+        "num_ratings": "207",
+        "first_published": "1960",
+        "num_editions": "187 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "The Two Towers",
+        "url": "https://openlibrary.org/works/OL27479W/The_Two_Towers?edition=key%3A/books/OL11346374M",
+        "author": "J.R.R. Tolkien",
+        "rating": "4.4",
+        "num_ratings": "209",
+        "first_published": "1954",
+        "num_editions": "277 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13335663-M.jpg",
+        "title": "Wind in the Willows",
+        "url": "https://openlibrary.org/works/OL28570037W/Wind_in_the_Willows?edition=key%3A/books/OL40016704M",
+        "author": "Kenneth Grahame",
+        "rating": "4.1",
+        "num_ratings": "50",
+        "first_published": "1908",
+        "num_editions": "1346 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Adventures of Sherlock Holmes",
+        "url": "https://openlibrary.org/works/OL262421W/The_Adventures_of_Sherlock_Holmes_12_stories?edition=key%3A/books/OL28427391M",
+        "author": "Arthur Conan Doyle",
+        "rating": "4.1",
+        "num_ratings": "165",
+        "first_published": "1892",
+        "num_editions": "1132 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12046748-M.jpg",
+        "title": "Deep Learning: AI Technology",
+        "url": "https://openlibrary.org/works/OL25769940W/Deep_Learning?edition=key%3A/books/OL34699038M",
+        "author": "Paul Christoph Feichtinger",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2019",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Deep Learning Revolution",
+        "url": "https://openlibrary.org/works/OL19764607W/The_deep_learning_revolution?edition=key%3A/books/OL29801435M",
+        "author": "Terrence J. Sejnowski",
+        "rating": "2.0",
+        "num_ratings": "1 rating",
+        "first_published": "2018",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Deep Learning: Concepts and Architectures",
+        "url": "https://openlibrary.org/works/OL20808556W/Deep_Learning?edition=key%3A/books/OL37318549M",
+        "author": "Witold Pedrycz",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2019",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Deep Learning with Python",
+        "url": "https://openlibrary.org/works/OL19541947W/Deep_Learning_with_Python?edition=key%3A/books/OL34153741M",
+        "author": "Francois Chollet",
+        "rating": "3.0",
+        "num_ratings": "1 rating",
+        "first_published": "2017",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13165501-M.jpg",
+        "title": "Deep Learning: Research and Applications",
+        "url": "https://openlibrary.org/works/OL21659646W/Deep_Learning?edition=key%3A/books/OL29455627M",
+        "author": "Siddhartha Bhattacharyya",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2020",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Deep Learning",
+        "url": "https://openlibrary.org/works/OL25335853W/Deep_Learning?edition=key%3A/books/OL35873339M",
+        "author": "Shriram K. Vasudevan",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2021",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13205710-M.jpg",
+        "title": "Deep Reading, Deep Learning: Deep Reading Volume 2",
+        "url": "https://openlibrary.org/works/OL27892126W/Deep_Reading_Deep_Learning?edition=key%3A/books/OL38120828M",
+        "author": "Patrick Sullivan",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2022",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13184323-M.jpg",
+        "title": "Deep Learning: A Visual Approach",
+        "url": "https://openlibrary.org/works/OL21687468W/Deep_Learning?edition=key%3A/books/OL29503211M",
+        "author": "Andrew Glassner",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2020",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Deep Learning: Hardware Design",
+        "url": "https://openlibrary.org/works/OL22257639W/Deep_Learning?edition=key%3A/books/OL30321954M",
+        "author": "Albert Liu Oscar Law",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2020",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Deep Learning: A Practical Introduction",
+        "url": "https://openlibrary.org/works/OL25807598W/Deep_Learning?edition=key%3A/books/OL48519901M",
+        "author": "Manel Martinez-Ramon",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2023",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14649511-M.jpg",
+        "title": "Deep Learning: Foundations and Concepts",
+        "url": "https://openlibrary.org/works/OL36653161W/Deep_Learning?edition=key%3A/books/OL49509158M",
+        "author": "Christopher M. Bishop",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2023",
+        "num_editions": "1 edition"
+      }
+    ]
+  },
+  "last_page": 76,
+  "hits": 1513,
+  "sidebar_info": {
+    "eBook?": [],
+    "Language": [],
+    "Author": [],
+    "Subjects": [],
+    "First published": [],
+    "Publisher": [],
+    "People": [],
+    "Places": [],
+    "Times": []
+  }
+}

@@ -24,6 +24,8 @@ from services.openlibrary.search_page import (
     SearchByAdvanceSearchtrategy,
     SearchContext,
 )
+from services.semantic_scholar.search_page import scrape_semantic_scholar
+
 from typing import Optional, List
 from django.views.decorators.csrf import csrf_exempt
 from api.AI_Features.gemini_summary import GeminiSummarizer
@@ -104,6 +106,35 @@ def advanced_search_api(
     )
     context = SearchContext(strategy)
     return context.search(page=page)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Response schema for a single research paper
+class ResearchPaperOut(Schema):
+    title:        str
+    # link:         str
+    authors:      List[str]
+    venue:        str
+    pub_date:     str
+    tldr:         str
+    # citations:    str
+    pdf_link:     str
+
+@api.get(
+    "/search/research",
+    response=List[ResearchPaperOut],
+    auth=JWTAuth()
+)
+def research_search_api(request, title: str):
+    """
+    Scrape Semantic Scholar for `title` and return up to ~50 matching papers.
+    """
+    try:
+        papers = scrape_semantic_scholar(title)
+        return papers
+    except Exception as e:
+        # log and return a 500
+        print("❌ research_search_api failed:", e)
+        raise HttpError(500, f"Failed to fetch research papers: {e}")
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Response schema for a single borrowing transaction
