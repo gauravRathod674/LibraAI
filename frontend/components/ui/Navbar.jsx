@@ -13,6 +13,9 @@ import {
   ChevronLeft,
   ChevronRight,
   BookMarked,
+  Bell,
+  Download
+
 } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
@@ -23,7 +26,6 @@ import { IoLanguage, IoVolumeHigh } from "react-icons/io5";
 import { MdSummarize } from "react-icons/md"; // Add this for summary icon
 import { FiSearch } from "react-icons/fi";
 import { BiFullscreen } from "react-icons/bi";
-
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "@/app/context/ThemeContext";
 import Link from "next/link";
@@ -87,6 +89,7 @@ const Navbar = ({
   handleFullScreen,
   pdfDoc,
   toc,
+  
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -115,6 +118,9 @@ const Navbar = ({
   const [translating, setTranslating] = useState(false);
   const [translation, setTranslation] = useState("");
   const [reading, setReading] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
+  const moreRef = useRef(null);
+  const [hasNotification, setHasNotification] = useState(false);
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_API_URL}/test/`, {
@@ -156,19 +162,54 @@ const Navbar = ({
     }
   }, [pathname]);
 
+  useEffect(() => {
+    function onClickOutside(e) {
+      if (moreOpen && moreRef.current && !moreRef.current.contains(e.target)) {
+        setMoreOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", onClickOutside);
+    return () => document.removeEventListener("mousedown", onClickOutside);
+  }, [moreOpen]);
+
+  useEffect(() => {
+  if (pathname === "/notification") {
+    setHasNotification(false);
+  } else {
+    setHasNotification(true);
+  }
+}, [pathname]);
+
   const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "My Books", path: "/book-detail" },
-    { name: "Search", path: "/search" },
-  ];
+  { name: "Home", path: "/" },
+  {
+    name: "My Books",
+    children: [
+      { name: "Book Details", path: "/book-detail" },
+      { name: "Borrow History", path: "/borrow-history" },
+      { name: "Transactions", path: "/transaction" },
+    ],
+  },
+  {
+    name: "Search",
+    children: [
+      { name: "Search Page", path: "/search" },
+      { name: "Research", path: "/research" },
+      { name: "Genres", path: "/genres" },
+      { name: "PDF Viewer", path: "/pdf_viewer" },
+    ],
+  },
+];
+
 
   const handleLogout = (isAutoLogout = false) => {
     localStorage.removeItem("token");
-    localStorage.removeItem("profile_photo");
+    localStorage.removeItem("user"); 
     setUser(null);
     if (!isAutoLogout) {
       router.push("/login");
     }
+    router.push("/login");
   };
 
   const isPdfViewer = pathname.startsWith("/pdf_viewer/");
@@ -177,20 +218,70 @@ const Navbar = ({
   const UserStatus = () => (
     <>
       {user ? (
-        <div className="flex items-center gap-4">
-          <span className="hidden sm:inline">{user.username}</span>
-          <button
-            onClick={() => handleLogout()}
-            className="font-medium text-red-500 text-md hover:text-red-700"
-          >
-            Logout
-          </button>
-        </div>
-      ) : (
-        <Link href="/login" className="font-medium text-blue-500 text-md">
-          Login
+      <div className="flex items-center gap-2 sm:gap-4">
+        {/* Profile icon + user name */}
+        <Link
+          href="/user-profile"
+          className="relative flex items-center gap-2 group transition-all duration-300"
+        >
+          <img
+            src={user.profile_photo}
+            alt="Profile"
+            className="w-8 h-8 rounded-full object-cover"
+          />  
+          <span className="text-lg font-medium">{user.username}</span>
+          <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
+                          group-hover:w-full transition-all duration-300" />
         </Link>
+
+        {/* Logout button */}
+        <button
+          onClick={handleLogout}
+          className="text-red-500 hover:text-red-700 text-lg font-medium"
+        >
+          Logout
+        </button>
+      </div>
+    ) : (
+      <Link
+        href="/login"
+        className={`relative group text-lg font-medium transition-all duration-300 ${
+          darkMode ? "text-gray-900" : "text-white"
+        }`}
+      >
+        Login
+        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
+                        group-hover:w-full transition-all duration-300" />
+      </Link>
+    )}
+
+    <Tooltip text="Notifications">
+    <Link href="/notification" className="relative">
+      <Bell className="w-5 h-5 sm:w-6 sm:h-6 hover:text-blue-400 transition" />
+      {hasNotification && (
+        <span
+          className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-600 rounded-full
+                    ring-2 ring-white dark:ring-gray-900"
+        />
       )}
+    </Link>
+    </Tooltip>
+
+
+    {/* Download Icon */}
+    <Tooltip text="Download PDF">
+      <button
+        className={`p-1.5 rounded-full ${darkMode ? "bg-[#E7F0FD] text-gray-900 hover:bg-gray-300" : "bg-gray-900 text-white           hover:bg-gray-700"}`}
+        title="Download PDF"
+        onClick={() => {
+          const pdfUrl = "/pdfs/your-document.pdf";
+          window.open(pdfUrl, "_blank");
+        }}
+      >
+        <Download size={27} />
+      </button>
+    </Tooltip>
+    <span className={`w-px h-6 mx-1 ${darkMode ? "bg-gray-400" :"bg-gray-600}"}`}/>
     </>
   );
 
@@ -576,6 +667,60 @@ const Navbar = ({
     return () => document.removeEventListener("keydown", handleKeyDown);
   }, [askInput, askMeOpen]);
 
+  function Dropdown({ link }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+      className="cursor-pointer"
+    >
+      <div className="flex items-center space-x-1 group">
+        <span>{link.name}</span>
+        <ChevronRight
+          size={16}
+          className={`transition-transform ${
+            open ? "rotate-90" : "rotate-0"
+          }`}
+        />
+      </div>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, y: -8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.15 }}
+            className={`absolute top-full left-0 mt-2 w-44 rounded-md shadow-lg overflow-hidden z-20
+              ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
+              `}
+          >
+            {link.children.map((child) => (
+              <Link
+                key={child.name}
+                href={child.path}
+                className="relative block px-4 py-2 text-lg font-medium transition-all duration-300 group"
+              >
+                <span
+                  className="block"
+                  aria-hidden="true"
+                >
+                  {child.name}
+                </span>
+                {/* underline on hover */}
+                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current group-hover:w-full transition-all duration-300" />
+              </Link>
+            ))}
+          </motion.div>
+
+                  )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+
   if (!mounted) {
     return (
       <div
@@ -594,15 +739,18 @@ const Navbar = ({
         initial={{ y: -60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className={`w-full fixed top-0 left-0 z-50 px-6 py-4 flex items-center justify-between bg-opacity-90 shadow-md backdrop-blur-lg
-        ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
+        className={`w-full fixed top-0 left-0 z-50
+                    px-2 sm:px-4 md:px-6 lg:px-8 xl:px-12 py-3
+                    flex items-center justify-between
+                    bg-opacity-90 backdrop-blur-lg
+                    ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
       `}
       >
         {/* PDF VIEWER NAVBAR */}
         {isPdfViewer ? (
           <>
             {/* Left Section */}
-            <div className="flex items-center gap-2">
+            <div className="flex flex-1 items-center gap-1 sm:gap-2 lg:gap-4">
               {/* Table of Contents Button */}
               {!showToc ? (
                 <Tooltip text="Table of Contents" offsetX={8}>
@@ -623,7 +771,7 @@ const Navbar = ({
                   <LuTableOfContents size={20} />
                 </button>
               )}
-              <h1 className="text-xl font-bold">Nexus Library</h1>
+              <h1 className="text-lg sm:text-xl font-bold truncate">Nexus Library</h1>
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
               {/* Summary */}
               <Tooltip text="Summary">
@@ -677,7 +825,7 @@ const Navbar = ({
             {/* Center Section */}
             <div className="flex justify-center flex-1">
               <div
-                className={`flex items-center gap-2 sm:gap-3 p-1 rounded-lg pdf-viewer-controls ${
+                className={`hidden sm:flex items-center gap-1 md:gap-2 lg:gap-3 p-1 sm:p-2 rounded-lg pdf-viewer-controls ${
                   darkMode
                     ? "bg-[#E7F0FD] text-gray-900 "
                     : "bg-gray-800 text-white "
@@ -747,6 +895,23 @@ const Navbar = ({
             </div>
             {/* Right Section */}
             <div className="flex items-center gap-4">
+
+              {/* Download Icon */}
+              <Tooltip text="Download PDF">
+                <button
+                  className="p-1.5 rounded-full hover:bg-gray-600 dark:hover:bg-gray-700"
+                  title="Download PDF"
+                  onClick={() => {
+                    // replace with your actual PDF path or dynamic variable
+                    const pdfUrl = "/pdfs/your-document.pdf";
+                    window.open(pdfUrl, "_blank");
+                  }}
+                >
+                  <Download size={22} />
+                </button>
+              </Tooltip>
+              <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600" />
+          
               {/* Search Icon */}
               <Tooltip text="Search">
                 <button
@@ -774,17 +939,27 @@ const Navbar = ({
                 title="Toggle Theme"
               >
                 {darkMode ? (
-                  <Sun className="w-6 h-6 text-yellow-500" />
+                  <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
                 ) : (
-                  <Moon className="w-6 h-6 text-gray-800" />
+                  <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
                 )}
               </button>
               <UserStatus />
+              <button
+                className="sm:hidden p-2"
+                onClick={() => setMenuOpen(open => !open)}
+                aria-label="Toggle menu"
+              >
+                {menuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+
             </div>
             {/* PDF Search Box (floating, only for /pdf_viewer) */}
             {showPdfSearch && (
               <div
-                className="fixed top-[5.2rem] right-8 z-50 flex items-center gap-2 bg-white dark:bg-[#23272f] rounded-full shadow px-3 py-1"
+                className="fixed top-[5.2rem] right-2 sm:right-8 left-2 sm:left-auto z-50
+                            flex items-center space-x-1 sm:space-x-2 bg-white dark:bg-[#23272f]
+                            rounded-full shadow px-2 sm:px-3 py-1 text-xs sm:text-sm"
                 style={{ minWidth: 220 }}
               >
                 <input
@@ -840,64 +1015,39 @@ const Navbar = ({
         ) : (
           // NON-PDF VIEWER NAVBAR
           <>
-            <h1 className="z-10 text-xl font-bold">Nexus Library</h1>
-            <div className="flex justify-center flex-1">
-              {pathname !== "/" && pathname !== "/search" && (
-                <div className="relative w-[260px] md:w-[320px]">
-                  <input
-                    type="text"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Search books, articles..."
-                    className={`w-full px-4 py-2 rounded-full shadow-md focus:outline-none transition-all duration-300 pr-12 ${
-                      darkMode
-                        ? "bg-[#E7F0FD] text-gray-900 placeholder-gray-600"
-                        : "bg-gray-800 text-white placeholder-gray-400"
-                    }`}
-                  />
-                  <button
-                    className="absolute right-2 top-1/2 transform -translate-y-1/2 px-3 py-1.5 text-white rounded-full shadow-md hover:shadow-lg transition-transform hover:scale-105"
-                    style={{
-                      background:
-                        "linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%)",
-                    }}
-                  >
-                    🔍
-                  </button>
-                </div>
+            <div className="flex items-center gap-2 z-10">
+            <h1 className="text-xl font-bold">Nexus Library</h1>
+            <button
+              className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white"
+              onClick={toggleDarkMode}
+            >
+              {darkMode ? (
+                <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
+              ) : (
+                <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
               )}
-            </div>
+            </button>
+          </div>
+
             <div className="z-10 flex items-center gap-6">
-              <div className="hidden gap-6 text-lg font-medium md:flex">
+              <div className="hidden md:flex items-center gap-6 text-lg font-medium">
                 {navLinks.map((link) => (
-                  <Link
-                    key={link.name}
-                    href={link.path}
-                    className="relative transition-all duration-300 group"
-                  >
-                    {link.name}
-                    <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current group-hover:w-full transition-all duration-300"></span>
-                  </Link>
+                  <div key={link.name} className="relative">
+                    {link.children ? (
+                      <Dropdown link={link} />
+                    ) : (
+                      <Link href={link.path} className="relative group">
+                        {link.name}
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5
+                                        bg-current group-hover:w-full transition-all duration-300" />
+                      </Link>
+                    )}
+                  </div>
                 ))}
               </div>
-              <button
-                className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white"
-                onClick={toggleDarkMode}
-              >
-                {darkMode ? (
-                  <Sun className="w-6 h-6 text-yellow-500" />
-                ) : (
-                  <Moon className="w-6 h-6 text-gray-800" />
-                )}
-              </button>
+
+              
               <UserStatus />
-              <button
-                className="md:hidden"
-                onClick={() => setMenuOpen(!menuOpen)}
-                aria-label="Toggle Menu"
-              >
-                {menuOpen ? <X size={28} /> : <Menu size={28} />}
-              </button>
             </div>
           </>
         )}
@@ -907,25 +1057,25 @@ const Navbar = ({
           <AnimatePresence>
             {menuOpen && (
               <motion.div
-                initial={{ opacity: 0, y: -20 }}
+                initial={{ opacity: 0, y: -12 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.3 }}
-                className={`md:hidden absolute top-full left-0 w-full mt-2 px-6 py-4 flex flex-col gap-4 text-center text-lg font-medium ${
-                  darkMode
-                    ? "text-gray-800 bg-[#E7F0FD]"
-                    : "text-white bg-gray-900"
-                }`}
+                exit={{ opacity: 0, y: -12 }}
+                transition={{ duration: 0.2 }}
+                className={`sm:hidden absolute top-full left-0 w-full max-h-[60vh] overflow-y-auto bg-opacity-90 backdrop-blur-lg
+                  ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}`}
               >
+                <div className="flex flex-col items-center py-4 space-y-4">
                 {navLinks.map((link) => (
                   <Link
                     key={link.name}
                     href={link.path}
-                    className="transition-all duration-300 hover:underline"
+                    onClick={() => setMenuOpen(false)}
+                    className="text-lg font-medium transition-all duration-300 hover:underline"
                   >
                     {link.name}
                   </Link>
                 ))}
+                </div>
               </motion.div>
             )}
           </AnimatePresence>
@@ -934,7 +1084,9 @@ const Navbar = ({
       {askMeOpen && (
         <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 backdrop-blur-md">
           <div
-            className={`w-[50%] h-[75%] rounded-2xl flex flex-col shadow-lg ${
+            className={`w-full sm:w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2
+                        h-[80vh] sm:h-[75vh] md:h-[70vh]
+                        rounded-2xl mx-2 sm:mx-auto flex flex-col shadow-lg ${
               darkMode
                 ? "bg-white text-gray-900 border border-gray-200"
                 : "bg-[#1e293b] text-white border border-[#334155]"
@@ -1087,7 +1239,7 @@ const Navbar = ({
                   value={askInput}
                   onChange={(e) => setAskInput(e.target.value)}
                   placeholder="Type your question here..."
-                  className={`flex-1 px-4 py-2 rounded-full outline-none ${
+                  className={`flex-1 px-2 py-1 sm:px-4 sm:py-2 rounded-full text-sm sm:text-base outline-none ${
                     darkMode
                       ? "bg-white text-gray-900 placeholder-gray-400"
                       : "bg-[#0f172a] text-white placeholder-gray-400"
@@ -1095,7 +1247,7 @@ const Navbar = ({
                 />
                 <button
                   onClick={handleAskSubmit}
-                  className={`px-4 py-2 rounded-full font-semibold transition ${
+                  className={`px-2 py-1 sm:px-4 sm:py-2 rounded-full text-sm sm:text-base font-semibold transition ${
                     darkMode
                       ? "bg-indigo-500 text-white hover:bg-indigo-600"
                       : "bg-[#6366f1] text-white hover:bg-[#4f46e5]"
