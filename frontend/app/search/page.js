@@ -179,7 +179,7 @@ const SearchPage = () => {
 
       <main className="z-10 mt-32 px-6 w-full">
         <h1 className="text-4xl font-bold text-center mb-6">
-          Explore the Nexus Library
+          Explore the LibraAI
         </h1>
 
         <div className="flex justify-center mb-10 gap-4 flex-wrap">

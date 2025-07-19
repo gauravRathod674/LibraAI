@@ -750,7 +750,7 @@ const Navbar = ({
         ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
       `}
       >
-        <h1 className="text-xl font-bold">Nexus Library</h1>
+        <h1 className="text-xl font-bold">LibraAI</h1>
       </div>
     );
   }
@@ -797,9 +797,7 @@ const Navbar = ({
                   <LuTableOfContents size={20} />
                 </button>
               )}
-              <h1 className="text-lg sm:text-xl font-bold truncate">
-                Nexus Library
-              </h1>
+              <h1 className="text-lg sm:text-xl font-bold truncate">LibraAI</h1>
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
               {/* Summary */}
               <Tooltip text="Summary">
@@ -1041,11 +1039,20 @@ const Navbar = ({
         ) : (
           // NON-PDF VIEWER NAVBAR
           <>
-            <div className="flex items-center gap-2 z-10">
-              <h1 className="text-xl font-bold">Nexus Library</h1>
-                 <span className="hidden md:block"></span>
+            <div className="flex items-center gap-4 z-10">
+              <Link href="/" className="flex items-center">
+                <img
+                  src={
+                    darkMode
+                      ? "/LibraAI_Light_Logo.png" // Light logo for dark mode
+                      : "/LibraAI_Dark_Logo.jpg" // Dark logo for light mode
+                  }
+                  alt="LibraAI Logo"
+                  className="h-10 w-auto" // Sets height to 40px, width adjusts automatically
+                />
+              </Link>
               <button
-                className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white"
+                className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg cursor-pointer dark:bg-gray-800 dark:text-white"
                 onClick={toggleDarkMode}
               >
                 {darkMode ? (
@@ -1054,8 +1061,10 @@ const Navbar = ({
                   <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
                 )}
               </button>
+            </div>
+
+            <div className="z-10 flex items-center gap-6">
               <div className="hidden md:flex items-center gap-6 text-lg font-medium">
-                <span className="hidden md:block"></span>
                 {navLinks.map((link) => (
                   <div key={link.name} className="relative">
                     {link.children ? (
@@ -1072,9 +1081,6 @@ const Navbar = ({
                   </div>
                 ))}
               </div>
-            </div>
-
-            <div className="z-10 flex items-center gap-6">
               <UserStatus />
             </div>
           </>

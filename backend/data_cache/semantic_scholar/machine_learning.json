@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
+    "authors": ["Han Xiao", "Kashif Rasul", "Roland Vollgraf"],
+    "venue": "arXiv.org",
+    "pub_date": "25 August 2017",
+    "tldr": "Fashion-MNIST is intended to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms, as it shares the same image size, data format and the structure of training and testing splits.",
+    "pdf_link": "https://arxiv.org/pdf/1708.07747.pdf"
+  },
+  {
+    "title": "TensorFlow: A system for large-scale machine learning",
+    "authors": ["Martín Abadi", "P. Barham", "Xiaoqiang Zhang"],
+    "venue": "USENIX Symposium on Operating Systems Design and…",
+    "pub_date": "27 May 2016",
+    "tldr": "The TensorFlow dataflow model is described and the compelling performance that TensorFlow achieves for several real-world applications is demonstrated.",
+    "pdf_link": "https://arxiv.org/pdf/1605.08695.pdf"
+  },
+  {
+    "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems",
+    "authors": ["Martín Abadi", "Ashish Agarwal", "Xiaoqiang Zheng"],
+    "venue": "arXiv.org",
+    "pub_date": "14 March 2016",
+    "tldr": "The TensorFlow interface and an implementation of that interface that is built at Google are described, which has been used for conducting research and for deploying machine learning systems into production across more than a dozen areas of computer science and other fields.",
+    "pdf_link": "https://arxiv.org/pdf/1603.04467.pdf"
+  },
+  {
+    "title": "A Survey on Bias and Fairness in Machine Learning",
+    "authors": ["Ninareh Mehrabi", "Fred Morstatter", "N. Saxena", "Kristina Lerman", "A. Galstyan"],
+    "venue": "ACM Computing Surveys",
+    "pub_date": "23 August 2019",
+    "tldr": "This survey investigated different real-world applications that have shown biases in various ways, and created a taxonomy for fairness definitions that machine learning researchers have defined to avoid the existing bias in AI systems.",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+    "authors": ["C. Rudin"],
+    "venue": "Nature Machine Intelligence",
+    "pub_date": "26 November 2018",
+    "tldr": "This Perspective clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare and computer vision.",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Membership Inference Attacks Against Machine Learning Models",
+    "authors": ["R. Shokri", "M. Stronati", "Congzheng Song", "Vitaly Shmatikov"],
+    "venue": "IEEE Symposium on Security and Privacy",
+    "pub_date": "18 October 2016",
+    "tldr": "This work quantitatively investigates how machine learning models leak information about the individual data records on which they were trained and empirically evaluates the inference techniques on classification models trained by commercial \"machine learning as a service\" providers such as Google and Amazon.",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "An Introduction to Machine Learning",
+    "authors": ["M. Kubát"],
+    "venue": "Cambridge International Law Journal",
+    "pub_date": "2017",
+    "tldr": "The first € price and the £ and $ price are net prices, subject to local VAT, and the second € price and the £ and $ price are net prices, subject to local VAT.",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting",
+    "authors": ["Xingjian Shi", "Zhourong Chen", "Hao Wang", "D. Yeung", "W. Wong", "W. Woo"],
+    "venue": "Neural Information Processing Systems",
+    "pub_date": "13 June 2015",
+    "tldr": "This paper proposes the convolutional LSTM (ConvLSTM) and uses it to build an end-to-end trainable model for the precipitation nowcasting problem and shows that it captures spatiotemporal correlations better and consistently outperforms FC-LSTM and the state-of-the-art operational ROVER algorithm.",
+    "pdf_link": "https://arxiv.org/pdf/1506.04214.pdf"
+  },
+  {
+    "title": "Physics-informed machine learning",
+    "authors": ["G. Karniadakis", "I. Kevrekidis", "Lu Lu", "P. Perdikaris", "Sifan Wang", "Liu Yang"],
+    "venue": "Nature Reviews Physics",
+    "pub_date": "24 May 2021",
+    "tldr": "Some of the prevailing trends in embedding physics into machine learning are reviewed, some of the current capabilities and limitations are presented and diverse applications of physics-informed learning both for forward and inverse problems, including discovering hidden physics and tackling high-dimensional problems are discussed.",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Pattern Recognition And Machine Learning",
+    "authors": ["Laura Strauss"],
+    "venue": "N/A",
+    "pub_date": "2016",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  }
+]

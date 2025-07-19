@@ -247,7 +247,7 @@ export default function Home() {
                   }`}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Join the Nexus Library Community
+            Join the LibraAI Community
           </h2>
 
           <p className="text-md md:text-lg mb-6 opacity-90">
@@ -344,14 +344,14 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Why Nexus Library Section */}
+      {/* Why LibraAI Section */}
       <section
         className={`relative z-10 w-full py-16 px-6 md:px-12 transition-all duration-500 ${
           darkMode ? "bg-[#e7f0fd] text-gray-900" : "bg-gray-800 text-white"
         }`}
       >
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Why Choose Nexus Library?</h2>
+          <h2 className="text-4xl font-bold mb-6">Why Choose LibraAI?</h2>
           <p className="text-lg opacity-80 mb-12">
             A modern platform redefining how you explore, borrow, and enjoy
             books.

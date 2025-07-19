@@ -16,7 +16,7 @@ output_audio_filename = "ikigai_chapter_audio_storyteller.mp3"
 # GOOGLE_APPLICATION_CREDENTIALS environment variable.
 # Ensure you have set it in your terminal/PowerShell session BEFORE running this script:
 # Example for PowerShell:
-# $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Gaurav Rathod.LAPTOP-V427NTHN\Documents\Nexus Library\backend\AI_Features\Google Text to Speech\nexus-text-to-speech-50d75f778774.json"
+# $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Gaurav Rathod.LAPTOP-V427NTHN\Documents\LibraAI\backend\AI_Features\Google Text to Speech\nexus-text-to-speech-50d75f778774.json"
 
 # --- Step 1: Initialize the Text-to-Speech client ---
 try:

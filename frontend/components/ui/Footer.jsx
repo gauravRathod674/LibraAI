@@ -17,7 +17,7 @@ const Footer = ({ darkMode }) => {
         {/* Left - Copyright */}
         <p className="text-sm opacity-80">
           © {new Date().getFullYear()}{" "}
-          <span className="font-semibold">Nexus Library</span>. All rights reserved.
+          <span className="font-semibold">LibraAI</span>. All rights reserved.
         </p>
 
         {/* Right - Social Icons */}

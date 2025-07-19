@@ -1,48 +1,55 @@
-# # https://www.semanticscholar.org/search?q=machine%20learning&sort=relevance
-# import urllib.parse
-
-# def generate_semantic_scholar_url(query: str) -> str:
-#     base_url = "https://www.semanticscholar.org/search"
-#     encoded_query = urllib.parse.quote(query, safe='')
-#     return f"{base_url}?q={encoded_query}&sort=relevance"
-
-# # Example usage
-# search_term = "machine learning"
-# url = generate_semantic_scholar_url(search_term)
-# print(url)
+import os
+import json
 import time
+import urllib.parse
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.action_chains import ActionChains
+
+
+def safe_filename(query: str) -> str:
+    return query.replace(" ", "_").lower() + ".json"
 
 
 def scrape_semantic_scholar(query: str):
+    # Custom cache path
+    cache_dir = os.path.join("backend", "data_cache", "semantic_scholar")
+    os.makedirs(cache_dir, exist_ok=True)
+
+    filename = safe_filename(query)
+    cache_path = os.path.join(cache_dir, filename)
+
+    # Return from cache if it exists
+    if os.path.exists(cache_path):
+        with open(cache_path, "r", encoding="utf-8") as f:
+            print(f"[CACHE HIT] Returning cached data for: '{query}'")
+            return json.load(f)
+
+    # Start scraping
+    print(f"[CACHE MISS] Scraping Semantic Scholar for: '{query}'")
     options = uc.ChromeOptions()
-    # options.add_argument("--headless=chrome") 
+    # options.add_argument("--headless=chrome")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--disable-extensions")
     options.add_argument("--window-size=1920,1080")
+
     driver = uc.Chrome(options=options)
+    results = []
 
     try:
-        encoded_query = query.replace(" ", "%20")
+        encoded_query = urllib.parse.quote(query)
         url = f"https://www.semanticscholar.org/search?q={encoded_query}&sort=relevance"
         driver.get(url)
 
-        # Wait until papers load
         WebDriverWait(driver, 20).until(
             EC.presence_of_all_elements_located((By.CLASS_NAME, "cl-paper-row"))
         )
-
         paper_elements = driver.find_elements(By.CLASS_NAME, "cl-paper-row")
 
-        results = []
         for paper in paper_elements:
             try:
                 title = paper.find_element(By.CLASS_NAME, "cl-paper-title").text
@@ -86,33 +93,6 @@ def scrape_semantic_scholar(query: str):
             except:
                 tldr = "N/A"
 
-            # Click expand if available and wait for full abstract relative to current paper
-            # try:
-            #     # Click the expand button (if it exists)
-            #     expand_button = paper.find_element(By.CLASS_NAME, "more-toggle")
-            #     driver.execute_script("arguments[0].click();", expand_button)
-            #     time.sleep(0.3)  # Let content expand
-
-            #     # Scope inside tldr-abstract-replacement block
-            #     tldr_block = paper.find_element(By.CLASS_NAME, "tldr-abstract-replacement")
-
-            #     # Look for full abstract inside that expanded block
-            #     full_abstract_span = tldr_block.find_element(
-            #         By.XPATH,
-            #         ".//div[contains(@class, 'tldr-abstract__pill')]/following-sibling::span"
-            #     )
-            #     full_abstract = full_abstract_span.text.strip()
-
-            # except Exception as e:
-            #     full_abstract = "N/A"
-
-            try:
-                citations = paper.find_element(
-                    By.CLASS_NAME, "cl-paper-stats__v2-citations"
-                ).text
-            except:
-                citations = "N/A"
-
             try:
                 pdf_elem = paper.find_element(
                     By.CSS_SELECTOR, "a[data-heap-link-type='arxiv']"
@@ -121,25 +101,12 @@ def scrape_semantic_scholar(query: str):
             except:
                 pdf_link = "N/A"
 
-            print("Title:", title)
-            print("Link:", paper_link)
-            print("Authors:", ", ".join(authors))
-            print("Venue:", venue)
-            print("Published on:", pub_date)
-            print("TLDR:", tldr)
-            # print("Full abstract:", full_abstract)
-            print("Citations:", citations)
-            print("PDF Link:", pdf_link)
-            print("-" * 100)
-
             item = {
                 "title": title,
-                # "link": paper_link,
                 "authors": authors,
                 "venue": venue,
                 "pub_date": pub_date,
                 "tldr": tldr,
-                # "citations": citations,
                 "pdf_link": pdf_link,
             }
             results.append(item)
@@ -147,8 +114,13 @@ def scrape_semantic_scholar(query: str):
     finally:
         driver.quit()
         uc.Chrome.__del__ = lambda self: None
+
+    # Save to cache
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+        print(f"[CACHE SAVE] Results cached at: {cache_path}")
+
     return results
 
-
-# Example usage
-print(scrape_semantic_scholar("machine learning"))
+# data = scrape_semantic_scholar("deep learning")
+# print(json.dumps(data, indent=2, ensure_ascii=False))

@@ -20,7 +20,7 @@ ROLE_CLASS_MAPPING = {
 
 class LibraryUser(models.Model):
     """
-    Minimal user model for Nexus Library.
+    Minimal user model for LibraAI.
     Stores data essential for authentication, authorization, and tracking user actions.
     """
 

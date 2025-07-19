@@ -132,7 +132,7 @@
 #     faculty = DummyLibraryUser("Alice", "Faculty")
 #     student = DummyLibraryUser("Bob", "Student")
 
-#     print("=== Initializing Test Scenarios for Nexus Library Transactions ===")
+#     print("=== Initializing Test Scenarios for LibraAI Transactions ===")
     
 #     # --- Scenario 1: Borrow Transaction (Available -> CheckedOut) ---
 #     print("\n--- Scenario 1: Borrow Transaction ---")

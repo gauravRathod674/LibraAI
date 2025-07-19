@@ -41,7 +41,7 @@ api = NinjaAPI()
 
 @api.get("/test/")
 def test_api(request):
-    return {"message": "Nexus Library API is working!"}
+    return {"message": "LibraAI API is working!"}
 
 
 login_page = LoginPage()

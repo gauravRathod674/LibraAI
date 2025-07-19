@@ -11,7 +11,7 @@ from google.cloud import texttospeech
 # --- Step 1: Ensure your Google Cloud credentials are set ---
 # This environment variable MUST be set in your PowerShell session
 # before running this script:
-# $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Gaurav Rathod.LAPTOP-V427NTHN\Documents\Nexus Library\backend\AI_Features\Google Text to Speech\nexus-text-to-speech-50d75f778774.json"
+# $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Gaurav Rathod.LAPTOP-V427NTHN\Documents\LibraAI\backend\AI_Features\Google Text to Speech\nexus-text-to-speech-50d75f778774.json"
 
 # --- Step 2: Initialize the Text-to-Speech client ---
 try:
@@ -20,7 +20,7 @@ try:
 except Exception as e:
     print(f"Error initializing client. Make sure GOOGLE_APPLICATION_CREDENTIALS is set correctly: {e}")
     print("Please set the environment variable in PowerShell like this:")
-    print(r'$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Gaurav Rathod.LAPTOP-V427NTHN\Documents\Nexus Library\backend\AI_Features\Google Text to Speech\nexus-text-to-speech-50d75f778774.json"')
+    print(r'$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Gaurav Rathod.LAPTOP-V427NTHN\Documents\LibraAI\backend\AI_Features\Google Text to Speech\nexus-text-to-speech-50d75f778774.json"')
     exit() # Exit if authentication fails
 
 # --- Step 3: Define the text to be synthesized using SSML for enhanced storytelling ---

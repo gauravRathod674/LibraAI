@@ -728,7 +728,7 @@ const Navbar = ({
         ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
       `}
       >
-        <h1 className="text-xl font-bold">Nexus Library</h1>
+        <h1 className="text-xl font-bold">LibraAI</h1>
       </div>
     );
   }
@@ -771,7 +771,7 @@ const Navbar = ({
                   <LuTableOfContents size={20} />
                 </button>
               )}
-              <h1 className="text-lg sm:text-xl font-bold truncate">Nexus Library</h1>
+              <h1 className="text-lg sm:text-xl font-bold truncate">LibraAI</h1>
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
               {/* Summary */}
               <Tooltip text="Summary">
@@ -1016,7 +1016,7 @@ const Navbar = ({
           // NON-PDF VIEWER NAVBAR
           <>
             <div className="flex items-center gap-2 z-10">
-            <h1 className="text-xl font-bold">Nexus Library</h1>
+            <h1 className="text-xl font-bold">LibraAI</h1>
             <button
               className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white"
               onClick={toggleDarkMode}
