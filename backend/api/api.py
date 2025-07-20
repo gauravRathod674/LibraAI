@@ -425,36 +425,57 @@ def generate_summary(request, data: SummaryRequest):
 
 
 @api.post("/pdf_assistant/")
-def pdf_assistant(
-    request,
-    file: Optional[NinjaUploadedFile] = File(default=None),  # ✅ now truly optional
-):
+def pdf_assistant(request):
+    """
+    Handles questions about a PDF. Dynamically finds the PDF in the 'downloads'
+    directory based on the URL provided by the frontend.
+    """
     try:
+        # The frontend sends the web path, e.g., "/downloads/My-File.pdf"
         pdf_url = request.POST.get("pdf_url")
         question = request.POST.get("question")
 
         if not pdf_url or not question:
-            return {"error": "Missing 'pdf_url' or 'question'."}
+            raise HttpError(400, "Missing 'pdf_url' or 'question'.")
 
         print(f"📥 Received question: {question}")
-        print(f"🔗 PDF URL: {pdf_url}")
+        print(f"🔗 PDF URL from frontend: {pdf_url}")
+
+        # --- DYNAMIC PATH LOGIC ---
+        # 1. Extract the filename from the URL path
+        filename = os.path.basename(pdf_url)
+        if not filename:
+            raise HttpError(400, "Invalid 'pdf_url' format. Could not extract filename.")
+
+        # 2. Construct the full, absolute path to the file in the `backend/downloads` directory
+        #    This assumes your settings.BASE_DIR points to the `backend` folder.
+        file_path = os.path.join(settings.BASE_DIR, 'downloads', filename)
+        print(f"🗺️  Resolved file path on server: {file_path}")
+
+        # 3. Check if the file actually exists on the server before proceeding
+        if not os.path.exists(file_path):
+            raise HttpError(404, f"PDF file '{filename}' not found on the server.")
+        # --- END DYNAMIC PATH LOGIC ---
 
         service = GeminiPDFAssistant()
 
-        # ✅ Get cached file or upload again
-        file_ref, temp_path = service.get_file_ref(pdf_url, upload_file=file)
+        # Call the refactored service method.
+        # We use the original pdf_url as the unique key for caching.
+        file_ref, resolved_path = service.get_file_ref(cache_key=pdf_url, file_path=file_path)
 
-        # ✅ Ask with fallback support
-        answer = service.ask_question(file_ref, question, fallback_path=temp_path)
+        # Ask the question using the file reference
+        answer = service.ask_question(file_ref, question, fallback_path=resolved_path)
 
-        return {"answer": answer, "fallback_used": False if file else True}
+        return {"answer": answer}
 
+    except HttpError as e:
+        # Re-raise known HTTP errors to let Ninja handle the response
+        raise e
     except Exception as e:
-        print("❌ Exception in /pdf_assistant/:")
-        import traceback
-
+        # Catch any other unexpected errors
+        print("❌ Unhandled exception in /pdf_assistant/:")
         traceback.print_exc()
-        raise HttpError(500, f"Failed to process: {str(e)}")
+        raise HttpError(500, f"An unexpected error occurred: {str(e)}")
 
 
 class TranslateRequest(Schema):

@@ -80,9 +80,9 @@ export default function PdfViewerPage() {
   };
 
   return (
-    // This main container takes up the full screen and prevents body scrolling
     <div style={{ height: "100vh", display: "flex", flexDirection: "column", overflow: "hidden" }}>
       <Navbar
+        fileUrl={fileUrl} // Pass the fileUrl prop here
         pageNumber={pageNumber}
         setPageNumber={setPageNumber}
         zoomLevel={zoomLevel}
@@ -112,14 +112,13 @@ export default function PdfViewerPage() {
         toc={toc}
         setToc={setToc}
       />
-      {/* This container holds the viewer and is the ONLY scrolling element */}
       <div
         style={{
-          flex: 1, // Use flex: 1 instead of flexGrow
-          overflowY: "auto", // Explicitly set to scroll on the Y-axis
+          flex: 1,
+          overflowY: "auto",
           backgroundColor: darkMode ? "#1f2937" : "#F2F7FF",
         }}
-        className="mt-12"
+        className="mt-16" // Adjusted margin for navbar height
         ref={viewerRef}
       >
         <PdfViewer
@@ -141,7 +140,7 @@ export default function PdfViewerPage() {
           searchResults={searchResults}
           currentSearchIndex={currentSearchIndex}
           highlightSearch={highlightSearch}
-      handleFullScreen={handleFullScreen}
+          handleFullScreen={handleFullScreen}
           viewerRef={viewerRef}
           toc={toc}
           setToc={setToc}

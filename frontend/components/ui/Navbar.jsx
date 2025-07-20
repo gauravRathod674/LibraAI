@@ -34,7 +34,9 @@ import SummaryDrawer from "./SummaryDrawer";
 import axios from "axios";
 import { getCookie } from "@/lib/csrf";
 import TranslateDrawer from "./TranslateDrawer";
+import AskMeModal from "./AskMeModal"
 import { pdfjs } from "react-pdf";
+
 
 // Custom Tooltip (shows below, with gradient background and dark text)
 const Tooltip = ({ text, children, offsetX = 0 }) => (
@@ -88,6 +90,7 @@ const Navbar = ({
   handleFullScreen,
   pdfDoc,
   toc,
+  fileUrl
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -1118,185 +1121,12 @@ const Navbar = ({
           </AnimatePresence>
         )}
       </motion.div>
-      {askMeOpen && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 backdrop-blur-md">
-          <div
-            className={`w-full sm:w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2
-                        h-[80vh] sm:h-[75vh] md:h-[70vh]
-                        rounded-2xl mx-2 sm:mx-auto flex flex-col shadow-lg ${
-                          darkMode
-                            ? "bg-white text-gray-900 border border-gray-200"
-                            : "bg-[#1e293b] text-white border border-[#334155]"
-                        }`}
-          >
-            {/* Header */}
-            <div
-              className={`flex items-center justify-between px-4 py-3 rounded-t-2xl ${
-                darkMode
-                  ? "bg-gradient-to-r from-[#a78bfa] to-[#818cf8] text-white"
-                  : "bg-gradient-to-r from-[#4f46e5] to-[#6366f1] text-white"
-              }`}
-            >
-              <h2 className="flex items-center gap-2 text-lg font-bold">
-                <FontAwesomeIcon icon={faRobot} />
-                Nexus Chatbot
-              </h2>
-              <button
-                className="text-xl transition hover:text-red-500"
-                onClick={() => setAskMeOpen(false)}
-                aria-label="Close"
-              >
-                <X size={24} />
-              </button>
-            </div>
-
-            {/* Chat Body */}
-            <div
-              className={`flex-1 overflow-y-auto p-4 space-y-5 ${
-                darkMode ? "bg-[#f8fafc]" : "bg-[#101828]"
-              }`}
-            >
-              {isLoading && (
-                <motion.div
-                  className={`text-sm italic text-center animate-pulse ${
-                    darkMode ? "text-gray-600" : "text-gray-300"
-                  }`}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                >
-                  {/* 🤖 Generating response... */}
-                </motion.div>
-              )}
-
-              {askMessages.map((msg, index) => (
-                <div
-                  key={index}
-                  className={`flex ${
-                    msg.from === "user" ? "justify-end" : "justify-start"
-                  }`}
-                >
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.3 }}
-                    className={`relative max-w-xs md:max-w-md px-4 py-2 rounded-lg text-base break-words shadow-sm ${
-                      msg.from === "user"
-                        ? darkMode
-                          ? "bg-indigo-100 text-indigo-800"
-                          : "bg-[#4f46e5] text-white"
-                        : darkMode
-                        ? "bg-[#E7F0FD] text-gray-900"
-                        : "bg-[#2b3c6e] text-gray-300"
-                    }`}
-                  >
-                    <ReactMarkdown
-                      components={{
-                        h2: ({ node, ...props }) => (
-                          <h2
-                            className="mt-2 mb-1 font-bold text-blue-500"
-                            {...props}
-                          />
-                        ),
-                        ul: ({ node, ...props }) => (
-                          <ul className="ml-5 space-y-1 list-disc" {...props} />
-                        ),
-                        li: ({ node, ...props }) => (
-                          <li className="leading-snug" {...props} />
-                        ),
-                        strong: ({ node, ...props }) => (
-                          <strong
-                            className="font-semibold text-indigo-500"
-                            {...props}
-                          />
-                        ),
-                      }}
-                    >
-                      {msg.text}
-                    </ReactMarkdown>
-
-                    {/* Tools below the bot message */}
-                    {msg.from === "bot" && (
-                      <div className="flex gap-2 mt-2">
-                        <button onClick={() => handleSpeak(msg.text)}>
-                          <Volume2
-                            size={16}
-                            className={`${
-                              isSpeaking
-                                ? "animate-pulse text-red-500"
-                                : "text-gray-500"
-                            } hover:text-indigo-400`}
-                          />
-                        </button>
-                        <button onClick={() => handleCopy(msg.text)}>
-                          <ClipboardCopy
-                            size={16}
-                            className="text-gray-500 hover:text-indigo-400"
-                          />
-                        </button>
-                      </div>
-                    )}
-                  </motion.div>
-                </div>
-              ))}
-
-              {/* Inline loading message box styled like bot message */}
-              {isLoading && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className={`flex ${
-                    darkMode ? "justify-start" : "justify-start"
-                  }`}
-                >
-                  <div
-                    className={`max-w-xs md:max-w-md px-4 py-2 rounded-lg text-base italic animate-pulse ${
-                      darkMode
-                        ? "bg-[#E7F0FD] text-gray-600"
-                        : "bg-[#2b3c6e] text-gray-300"
-                    }`}
-                  >
-                    🤖 Generating response...
-                  </div>
-                </motion.div>
-              )}
-            </div>
-
-            {/* Input Section */}
-            <div
-              className={`p-4 rounded-b-2xl ${
-                darkMode
-                  ? "bg-[#f1f5f9] border-t border-gray-200"
-                  : "bg-[#1e293b] border-t border-[#334155]"
-              }`}
-            >
-              <div className="flex items-center gap-3">
-                <input
-                  ref={askInputRef}
-                  type="text"
-                  value={askInput}
-                  onChange={(e) => setAskInput(e.target.value)}
-                  placeholder="Type your question here..."
-                  className={`flex-1 px-2 py-1 sm:px-4 sm:py-2 rounded-full text-sm sm:text-base outline-none ${
-                    darkMode
-                      ? "bg-white text-gray-900 placeholder-gray-400"
-                      : "bg-[#0f172a] text-white placeholder-gray-400"
-                  }`}
-                />
-                <button
-                  onClick={handleAskSubmit}
-                  className={`px-2 py-1 sm:px-4 sm:py-2 rounded-full text-sm sm:text-base font-semibold transition ${
-                    darkMode
-                      ? "bg-indigo-500 text-white hover:bg-indigo-600"
-                      : "bg-[#6366f1] text-white hover:bg-[#4f46e5]"
-                  }`}
-                >
-                  Send
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      
+     <AskMeModal 
+        isOpen={askMeOpen} 
+        onClose={() => setAskMeOpen(false)} 
+        fileUrl={fileUrl} 
+      />
 
       {/* Summary Drawer */}
       <SummaryDrawer
