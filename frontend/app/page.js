@@ -10,6 +10,7 @@ import Footer from "@/components/ui/Footer";
 import FeaturedBooks from "@/components/ui/FloatBooks";
 import { useTheme } from "./context/ThemeContext";
 import LovedBooks from "@/components/ui/LovedBooks";
+import Link from "next/link";
 import { useRouter } from 'next/navigation';
 
 export default function Home() {
@@ -153,7 +154,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <motion.h1
-        className="text-5xl font-bold mb-6 text-center relative z-10 mt-40 flex flex-wrap justify-center gap-2"
+        className="flex items-center justify-center text-5xl font-bold mb-6 relative z-10 mt-40 gap-2"
         initial="hidden"
         animate="visible"
         variants={{
@@ -175,7 +176,19 @@ export default function Home() {
           >
             {word}
           </motion.span>
+          
         ))}
+        <Link href="/" className="flex items-center ml-3.6">
+        <img
+          src={
+            darkMode
+             ?"/LibraAI_Light_Logo-icon.png" // Dark logo for light mode
+             :"/LibraAi_Dark_Icon.png" // Light logo for dark mode
+          }
+          alt="LibraAI Logo"
+          className="h-15 w-auto" // Sets height to 40px, width adjusts automatically
+        />
+      </Link>
       </motion.h1>
 
       <p className="text-lg mb-6 text-center opacity-80 relative z-10">
@@ -269,8 +282,9 @@ export default function Home() {
       </div>
 
       {/* Call-to-Action */}
+      <Link href="/login" passHref>
       <motion.button
-        className="mt-10 px-6 py-3 rounded-full shadow-lg font-semibold transition-all duration-300 text-black"
+        className="mt-20 px-6 py-3 transform -translate-y-1/2 text-black rounded-full shadow-md hover:shadow-lg transition-transform hover:scale-105"
         style={{
           background:
             "linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%)",
@@ -278,9 +292,11 @@ export default function Home() {
         whileHover={{ scale: 1.06, y: -4 }}
         whileTap={{ scale: 0.97 }}
         transition={{ type: "spring", stiffness: 100, damping: 12 }}
+        
       >
         Get Started
       </motion.button>
+      </Link>
 
       <FeaturedBooks darkMode={darkMode} />
 
