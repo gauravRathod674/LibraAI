@@ -182,7 +182,7 @@ export default function Home() {
         <img
           src={
             darkMode
-             ?"/LibraAI_Light_Logo-icon.png" // Dark logo for light mode
+             ?"//LibraAI_Light_Icon_Logo.png" // Dark logo for light mode
              :"/LibraAi_Dark_Icon.png" // Light logo for dark mode
           }
           alt="LibraAI Logo"
