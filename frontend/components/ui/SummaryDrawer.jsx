@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ClipboardCopy, Volume2 } from "lucide-react";
 import { useTheme } from "@/app/context/ThemeContext";
 import ReactMarkdown from "react-markdown";
-import { toast } from "react-hot-toast";
+import { toast } from "sonner";
 
 export default function SummaryDrawer({
   isOpen,

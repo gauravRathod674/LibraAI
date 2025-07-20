@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <AuthProvider>
           <ThemeProvider>
-            <ToasterClient /> 
+            <ToasterClient /> {/* ✅ Now correctly wrapped in client component */}
             {children}
           </ThemeProvider>
         </AuthProvider>
