@@ -321,9 +321,12 @@ const SearchPage = () => {
                                   index={idx}
                                 />
                               ))}
-                              
+
                             {tab === "Research" && (
-                              <Research papers={staticFiltered.Research} searchTerm={searchTerm} />
+                              <Research
+                                searchTerm={searchTerm}
+                                hasSearched={hasSearched}
+                              />
                             )}
 
                             {(tab === "Books" && filteredBooks.length === 0) ||

@@ -1,0 +1,111 @@
+[
+  {
+    "title": "USING MATHEMATICAL MODELS IN DEEP LEARNIN",
+    "authors": [
+      "A. Krylov"
+    ],
+    "venue": "GRAPHICON 2024",
+    "pub_date": "1 November 2024",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Efficient Pavement Distress Detection and Visual Management in Lean Construction Based on BIM and Deep Learnin",
+    "authors": [
+      "Ting Deng",
+      "Yi Tan"
+    ],
+    "venue": "Proceedings of the 31st Annual Conference of the…",
+    "pub_date": "26 June 2023",
+    "tldr": "TLDR\nA lean management framework that integrates BIM and deep learning technology to guide lean production applications in road maintenance management and the predicted information of distress is integrated and visualized in BIM model can provide a better maintenance guidance and well promote the transformation of pavement intelligent maintenance management.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Improvement of Remote Sensing Target Tracking Method Based on Deep Learnin",
+    "authors": [
+      "Xuhao Wang",
+      "Long Ma"
+    ],
+    "venue": "International Journal of Advanced Network…",
+    "pub_date": "1 January 2025",
+    "tldr": "TLDR\nA neural network for remote sensing object tracking based on SiamRPN++ is proposed, which introduces an improved network structure incorporating the C3Minus module and a coordinate attention mechanism within the backbone extraction network.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Development of Physics-Based Transition Models for Unstructured-Mesh CFD Codes Using Deep Learnin...",
+    "authors": [],
+    "venue": "N/A",
+    "pub_date": "2 August 2021",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Solar Panel Recognition of Non-cooperative Spacecraft Based on Deep Learnin",
+    "authors": [
+      "Bingyu Xu",
+      "Shuquan Wang",
+      "Liping Zhao"
+    ],
+    "venue": "2019 3rd International Conference on Robotics and…",
+    "pub_date": "1 June 2019",
+    "tldr": "TLDR\nThe position of solar panels on space non-cooperative objects is detected based on the deep learning technique and the object detection algorithm does not need manual design features, and the detection performance is more robust.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Exploring the Role of Teaching Leadership in Enhancing Deep Learning Among Chinese Vocational Students: Mediating Effects of Academic Self-Efficacy and Teacher-Student Interaction in Blended Learnin",
+    "authors": [
+      "Qiujin Lu",
+      "Chunying Wang"
+    ],
+    "venue": "Salud, Ciencia y Tecnología",
+    "pub_date": "1 January 2025",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Classifying Diverse Material Images based on Transfer Learnin",
+    "authors": [
+      "I. Kansal",
+      "Vikas Khullar",
+      "Kinny Garg",
+      "Preeti Sharma",
+      "Renu Popli"
+    ],
+    "venue": "2023 International Conference on Research…",
+    "pub_date": "1 November 2023",
+    "tldr": "TLDR\nThe impact of pre-training upon a sizeable dataset is evaluated, adjusting on a more compact target dataset is investigated, and accuracy and efficiency improvements are assessed.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Crop and Pest Classification Using Deep Learning",
+    "authors": [
+      "Sandeep K.H"
+    ],
+    "venue": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN…",
+    "pub_date": "30 March 2025",
+    "tldr": "TLDR\nConvolutional Neural Networks (CNNs), a type of deep learning, are used in this study to effectively classify pests and suggest suitable herbicides.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Comparison Between Bare-metal, Container and VM using Tensorflow Image Classification Benchmarks for Deep Learning Cloud Platform",
+    "authors": [
+      "Chan-Yi Lin",
+      "Hsin-Yu Pai",
+      "J. Chou"
+    ],
+    "venue": "International Conference on Cloud Computing and…",
+    "pub_date": "2018",
+    "tldr": "TLDR\nThis work built an in-house OpenS tack cloud platform to enable various resource orchestrations, including virtual machine, container and bare-metal, and systematically evaluates the performance of different orchestration choices using Tensorfl ow image classification benchmarks to quantify the performance impact.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Graph Representation Learning",
+    "authors": [
+      "William L. Hamilton"
+    ],
+    "venue": "Synthesis Lectures on Artificial Intelligence and…",
+    "pub_date": "15 September 2020",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  }
+]

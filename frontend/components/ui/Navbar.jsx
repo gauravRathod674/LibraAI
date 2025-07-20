@@ -768,7 +768,8 @@ const Navbar = ({
                     ${
                       darkMode
                         ? "bg-[#E7F0FD] text-gray-900"
-                        : "bg-gray-900 text-white"
+                        : "bg-[rgba(30,41,57,0.2)] text-white"
+                        // : "bg-gray-900 text-white"
                     }
       `}
       >
@@ -1045,7 +1046,7 @@ const Navbar = ({
                   src={
                     darkMode
                       ? "/LibraAI_Light_Logo.png" // Light logo for dark mode
-                      : "/LibraAI_Dark_Logo.jpg" // Dark logo for light mode
+                      : "/LibraAI_Dark_Logo.png" // Dark logo for light mode
                   }
                   alt="LibraAI Logo"
                   className="h-10 w-auto" // Sets height to 40px, width adjusts automatically

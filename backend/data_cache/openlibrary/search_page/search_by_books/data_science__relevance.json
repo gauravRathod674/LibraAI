@@ -1,0 +1,3613 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12672936-M.jpg",
+        "title": "Data science from scratch: first principles with Python",
+        "url": "https://openlibrary.org/works/OL20006690W/Data_science_from_scratch?edition=key%3A/books/OL27186779M",
+        "author": "Joel Grus",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "2015",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14849807-M.jpg",
+        "title": "Data Science",
+        "url": "https://openlibrary.org/works/OL26768447W/Data_Science?edition=key%3A/books/OL37993173M",
+        "author": "Tiffany-Anne Timbers",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "2022",
+        "num_editions": "6 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Data Science for Business: What You Need to Know about Data Mining and Data-Analytic Thinking",
+        "url": "https://openlibrary.org/works/OL17363116W/Data_Science_for_Business?edition=key%3A/books/OL36721180M",
+        "author": "Foster Provost",
+        "rating": "4.0",
+        "num_ratings": "2",
+        "first_published": "2013",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/11942032-M.jpg",
+        "title": "Ace the Data Science Interview: 201 Real Interview Questions Asked By FAANG, Tech Startups, & Wall Street",
+        "url": "https://openlibrary.org/works/OL24999191W/Ace_the_Data_Science_Interview?edition=key%3A/books/OL33231517M",
+        "author": "Nick Singh",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "NASA/DoD aerospace knowledge diffusion research project.",
+        "url": "https://openlibrary.org/works/OL8894965W/NASA_DoD_aerospace_knowledge_diffusion_research_project?edition=key%3A/books/OL17684864M",
+        "author": "Thomas E. Pinelli",
+        "rating": "4.0",
+        "num_ratings": "5",
+        "first_published": "1990",
+        "num_editions": "101 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Saggi morali.: Opera nuoua corretta, e data in luce dal sig. cavalier Andrea Cioli ... Et vn Trattato della sapienza degl'antichi ...",
+        "url": "https://openlibrary.org/works/OL69382W/Essays?edition=key%3A/books/OL20920251M",
+        "author": "Francis Bacon",
+        "rating": "3.6",
+        "num_ratings": "11",
+        "first_published": "1618",
+        "num_editions": "188 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Pride and Prejudice: Lit for Little Hands",
+        "url": "https://openlibrary.org/works/OL66554W/Pride_and_Prejudice?edition=key%3A/books/OL36287157M",
+        "author": "Jane Austen",
+        "rating": "4.2",
+        "num_ratings": "318",
+        "first_published": "1813",
+        "num_editions": "4036 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/10637436-M.jpg",
+        "title": "Python Data Science Handbook: Essential Tools for Working with Data",
+        "url": "https://openlibrary.org/works/OL19545956W/Python_Data_Science_Handbook?edition=key%3A/books/OL26836556M",
+        "author": "Jake VanderPlas",
+        "rating": "4.0",
+        "num_ratings": "2",
+        "first_published": "2016",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Financial management: NASA's financial reports are based on unreliable data : report to the Congress",
+        "url": "https://openlibrary.org/works/OL565227W/Financial_Management?edition=key%3A/books/OL14686050M",
+        "author": "United States. General Accounting Office",
+        "rating": "3.5",
+        "num_ratings": "11",
+        "first_published": "1987",
+        "num_editions": "93 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13285377-M.jpg",
+        "title": "Data Science for Dummies",
+        "url": "https://openlibrary.org/works/OL20050776W/Data_science_for_dummies?edition=key%3A/books/OL40055983M",
+        "author": "Lillian Pierson",
+        "rating": "4.0",
+        "num_ratings": "1 rating",
+        "first_published": "2015",
+        "num_editions": "9 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "[Security weaknesses at IRS' Cyberfile data center]",
+        "url": "https://openlibrary.org/works/OL565229W/Financial_audit?edition=key%3A/books/OL15444117M",
+        "author": "United States. General Accounting Office",
+        "rating": "4.3",
+        "num_ratings": "3",
+        "first_published": "1943",
+        "num_editions": "402 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Data Science: a Practical Understanding of Data Science",
+        "url": "https://openlibrary.org/works/OL34408050W/Data_Science?edition=key%3A/books/OL46674503M",
+        "author": "Ebonie Slough",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2022",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Doing Data Science",
+        "url": "https://openlibrary.org/works/OL17581302W/Doing_Data_Science?edition=key%3A/books/OL36728745M",
+        "author": "Rachel Schutt",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2013",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Spatial Data Science: Spatial Data Science",
+        "url": "https://openlibrary.org/works/OL37588675W/Spatial_Data_Science?edition=key%3A/books/OL50658794M",
+        "author": "Wilson, John P.",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2024",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Thinking Data Science: A Data Science Practitioner's Guidebook",
+        "url": "https://openlibrary.org/works/OL27819093W/Thinking_Data_Science?edition=key%3A/books/OL38011560M",
+        "author": "Poornachandra Sarang",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2022",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13249109-M.jpg",
+        "title": "Data Science: Measuring Uncertainties",
+        "url": "https://openlibrary.org/works/OL34317959W/Data_Science?edition=key%3A/books/OL46537775M",
+        "author": "Carlos Alberto de Bragança Pereira",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Houghton Mifflin Science: Science Support Reader Chapter 10 Grade 4 Level 4 Using Weather Data",
+        "url": "https://openlibrary.org/works/OL27467516W/Houghton_Mifflin_Science?edition=key%3A/books/OL37449736M",
+        "author": "Houghton Mifflin Company Staff",
+        "rating": "1.0",
+        "num_ratings": "1 rating",
+        "first_published": "2000",
+        "num_editions": "104 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14763513-M.jpg",
+        "title": "Secure Data Science",
+        "url": "https://openlibrary.org/works/OL26517188W/Secure_Data_Science?edition=key%3A/books/OL49262972M",
+        "author": "Bhavani Thuraisingham",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2022",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14714177-M.jpg",
+        "title": "Confident Data Science: Discover the Essential Skills of Data Science",
+        "url": "https://openlibrary.org/works/OL34081640W/Confident_Data_Science?edition=key%3A/books/OL49505809M",
+        "author": "Adam Ross Nelson",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2023",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13678385-M.jpg",
+        "title": "Data Science: Techniques and Intelligent Applications",
+        "url": "https://openlibrary.org/works/OL27412932W/Data_Science?edition=key%3A/books/OL38429254M",
+        "author": "Pallavi Vijay Chavan",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2022",
+        "num_editions": "5 editions"
+      }
+    ]
+  },
+  "last_page": 887,
+  "hits": 17725,
+  "sidebar_info": {
+    "eBook?": [
+      {
+        "label": "yes",
+        "count": "3,005",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&has_fulltext=true"
+      },
+      {
+        "label": "no",
+        "count": "14,720",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&has_fulltext=false"
+      }
+    ],
+    "Language": [
+      {
+        "label": "English",
+        "count": "16,225",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=eng"
+      },
+      {
+        "label": "German",
+        "count": 97,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=ger"
+      },
+      {
+        "label": "French",
+        "count": 96,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=fre"
+      },
+      {
+        "label": "Undetermined",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=und"
+      },
+      {
+        "label": "Japanese",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=jpn"
+      },
+      {
+        "label": "Chinese",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=chi"
+      },
+      {
+        "label": "Russian",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=rus"
+      },
+      {
+        "label": "Multiple languages",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=mul"
+      },
+      {
+        "label": "Italian",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=ita"
+      },
+      {
+        "label": "Polish",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=pol"
+      },
+      {
+        "label": "Spanish",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=spa"
+      },
+      {
+        "label": "Korean",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=kor"
+      },
+      {
+        "label": "Dutch",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=dut"
+      },
+      {
+        "label": "Indonesian",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=ind"
+      },
+      {
+        "label": "Arabic",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=ara"
+      },
+      {
+        "label": "Hindi",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=hin"
+      },
+      {
+        "label": "Latin",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=lat"
+      },
+      {
+        "label": "Swedish",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=swe"
+      },
+      {
+        "label": "Norwegian",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=nor"
+      },
+      {
+        "label": "Portuguese",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=por"
+      },
+      {
+        "label": "Ukrainian",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=ukr"
+      },
+      {
+        "label": "Mandarin",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=cmn"
+      },
+      {
+        "label": "Czech",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=cze"
+      },
+      {
+        "label": "Danish",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=dan"
+      },
+      {
+        "label": "Finnish",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=fin"
+      },
+      {
+        "label": "Hebrew",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=heb"
+      },
+      {
+        "label": "Hungarian",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=hun"
+      },
+      {
+        "label": "Punjabi",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=pan"
+      },
+      {
+        "label": "Turkish",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=tur"
+      },
+      {
+        "label": "Afrikaans",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=afr"
+      },
+      {
+        "label": "Bengali",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=ben"
+      },
+      {
+        "label": "Cornish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=cor"
+      },
+      {
+        "label": "Germanic (Other)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=gem"
+      },
+      {
+        "label": "Georgian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=geo"
+      },
+      {
+        "label": "Gujarati",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=guj"
+      },
+      {
+        "label": "Croatian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=hrv"
+      },
+      {
+        "label": "Indo-European (Other)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=ine"
+      },
+      {
+        "label": "Sinhala",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=sin"
+      },
+      {
+        "label": "Serbian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=srp"
+      },
+      {
+        "label": "Tamil",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=tam"
+      },
+      {
+        "label": "Thai",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=tha"
+      },
+      {
+        "label": "Vietnamese",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&language=vie"
+      }
+    ],
+    "Author": [
+      {
+        "label": "National Research Council (US)",
+        "count": 113,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1901196A"
+      },
+      {
+        "label": "National Research Council",
+        "count": 113,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7316249A"
+      },
+      {
+        "label": "M. Schottenbauer",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7705776A"
+      },
+      {
+        "label": "Division of Behavioral and Social Sciences and Education",
+        "count": 67,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7327544A"
+      },
+      {
+        "label": "National Academies of Sciences, Engineering, and Medicine",
+        "count": 66,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7840564A"
+      },
+      {
+        "label": "Jerry Ramonyai",
+        "count": 61,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL10079743A"
+      },
+      {
+        "label": "IEEE Staff",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL9477657A"
+      },
+      {
+        "label": "Committee on National Statistics",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3297641A"
+      },
+      {
+        "label": "Division on Engineering and Physical Sciences",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7925499A"
+      },
+      {
+        "label": "Division on Earth and Life Studies",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7301250A"
+      },
+      {
+        "label": "Engineering Sciences Data Unit.",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL4489712A"
+      },
+      {
+        "label": "United States. General Accounting Office",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL4489781A"
+      },
+      {
+        "label": "Canada. Department of Indian Affairs and Northern Development. Northern Economic Development Branch. Economic Staff Group.",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL5824905A"
+      },
+      {
+        "label": "Abdelkader Hameurlain",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7199870A"
+      },
+      {
+        "label": "Wayne H. Warren",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL4654656A"
+      },
+      {
+        "label": "Policy and Global Affairs",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3427037A"
+      },
+      {
+        "label": "National Research Council Staff",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3426518A"
+      },
+      {
+        "label": "United States. Congress. Senate. Committee on Commerce, Science, and Transportation.",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL51624A"
+      },
+      {
+        "label": "Smithsonian Science Information Exchange. Current Cancer Research Project Analysis Center.",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1948592A"
+      },
+      {
+        "label": "Roland Wagner",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3144720A"
+      },
+      {
+        "label": "Alan Agresti",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL446660A"
+      },
+      {
+        "label": "Marina L. Gavrilova",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7073946A"
+      },
+      {
+        "label": "Computer Science and Telecommunications Board",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3247814A"
+      },
+      {
+        "label": "Josef Küng",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7838933A"
+      },
+      {
+        "label": "Baby Professor",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7573597A"
+      },
+      {
+        "label": "Health and Medicine Division",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7882454A"
+      },
+      {
+        "label": "Michael T. Goodrich",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1482827A"
+      },
+      {
+        "label": "Board on Health Sciences Policy",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3426984A"
+      },
+      {
+        "label": "Beniamino Murgante",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7203515A"
+      },
+      {
+        "label": "Institute of Electrical and Electronics Engineers",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL251874A"
+      },
+      {
+        "label": "Institute of Medicine",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3246797A"
+      },
+      {
+        "label": "Prentice-Hall, inc.",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1653259A"
+      },
+      {
+        "label": "United States. Environmental Data Service",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL4522134A"
+      },
+      {
+        "label": "Board on Earth Sciences and Resources",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3426245A"
+      },
+      {
+        "label": "Committee on Applied and Theoretical Statistics",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3426362A"
+      },
+      {
+        "label": "Bernhard Klingenberg",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7673944A"
+      },
+      {
+        "label": "Ellis Horowitz",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL390537A"
+      },
+      {
+        "label": "Dummer, G. W. A.",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL395422A"
+      },
+      {
+        "label": "W. Martienssen",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7573297A"
+      },
+      {
+        "label": "J. Mackenzie Robertson",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL10056775A"
+      },
+      {
+        "label": "Mark Allen Weiss",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL235133A"
+      },
+      {
+        "label": "Yun Q. Shi",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2909148A"
+      },
+      {
+        "label": "Hutchison, David - undifferentiated",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL401127A"
+      },
+      {
+        "label": "Wolfgang E. Nagel",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7134939A"
+      },
+      {
+        "label": "C. William Gear",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL147834A"
+      },
+      {
+        "label": "United States",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL18485A"
+      },
+      {
+        "label": "Ahmed Sameh",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1902427A"
+      },
+      {
+        "label": "Alan Bryman",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL237903A"
+      },
+      {
+        "label": "National Research Council (U.S.) Transportation Research Board",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2662609A"
+      },
+      {
+        "label": "Nell B. Dale",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL31657A"
+      },
+      {
+        "label": "Commission on Behavioral and Social Sciences and Education",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3246336A"
+      },
+      {
+        "label": "Christine Franklin",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3274079A"
+      },
+      {
+        "label": "V. Vill",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL4038836A"
+      },
+      {
+        "label": "Andrew Park",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL6016153A"
+      },
+      {
+        "label": "Canada. Dept. of Energy, Mines and Resources. Marine Sciences Branch.",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL6364426A"
+      },
+      {
+        "label": "Valentina Emilia Balas",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL6857401A"
+      },
+      {
+        "label": "C. J. Kenneth Tan",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7073947A"
+      },
+      {
+        "label": "Belur V. Dasarathy",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL716656A"
+      },
+      {
+        "label": "Division on Earth and Life Studies Staff",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL8027295A"
+      },
+      {
+        "label": "UNESCO",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL81751A"
+      },
+      {
+        "label": "United States United States Congress",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL9749763A"
+      },
+      {
+        "label": "Marvin V. Zelkowitz",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1862861A"
+      },
+      {
+        "label": "David Taniar",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3118302A"
+      },
+      {
+        "label": "Petra Perner",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3177574A"
+      },
+      {
+        "label": "Mapping Science Committee",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3426348A"
+      },
+      {
+        "label": "O. Madelung",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL453467A"
+      },
+      {
+        "label": "H. Landolt",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL4613336A"
+      },
+      {
+        "label": "United States. Congress. Senate. Committee on Commerce, Science, and Transportation",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7123401A"
+      },
+      {
+        "label": "Luca Massaron",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7495584A"
+      },
+      {
+        "label": "Board on Life Sciences",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7840565A"
+      },
+      {
+        "label": "Robert F. Erbacher",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7848414A"
+      },
+      {
+        "label": "Allen Kent",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1643202A"
+      },
+      {
+        "label": "National Space Science Data Center.",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1849864A"
+      },
+      {
+        "label": "United States. National Aeronautics and Space Administration.",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL254421A"
+      },
+      {
+        "label": "Christine A. Franklin",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2650256A"
+      },
+      {
+        "label": "Charu C. Aggarwal",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2680479A"
+      },
+      {
+        "label": "M. J. Norušis",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL301725A"
+      },
+      {
+        "label": "Sartaj Sahni",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL395681A"
+      },
+      {
+        "label": "United States. Congress. House. Committee on Science. Subcommittee on Technology.",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL51608A"
+      },
+      {
+        "label": "Dursun Delen",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7298874A"
+      },
+      {
+        "label": "Osvaldo Gervasi",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7340321A"
+      },
+      {
+        "label": "Thomas Mailund",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL7495287A"
+      },
+      {
+        "label": "K. H. Hellwege",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL986369A"
+      },
+      {
+        "label": "Gerhard Goos",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1154380A"
+      },
+      {
+        "label": "C. R. Rao",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1291245A"
+      },
+      {
+        "label": "Hartmut Ehrig",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1295677A"
+      },
+      {
+        "label": "John S. Gero",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL1591131A"
+      },
+      {
+        "label": "Elliot B. Koffman",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL228260A"
+      },
+      {
+        "label": "M. Main",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL233750A"
+      },
+      {
+        "label": "Ramesh Sharda",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2642747A"
+      },
+      {
+        "label": "Peter W. Hawkes",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2646381A"
+      },
+      {
+        "label": "Roberto Tamassia",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2654695A"
+      },
+      {
+        "label": "David Salomon",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2678505A"
+      },
+      {
+        "label": "Moti Yung",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2846545A"
+      },
+      {
+        "label": "Richard H. Rapp",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL2860595A"
+      },
+      {
+        "label": "V. G. Semenov",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3380922A"
+      },
+      {
+        "label": "Committee on Population",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL3426155A"
+      },
+      {
+        "label": "Efraim Turban",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL389629A"
+      },
+      {
+        "label": "Behrouz A. Forouzan",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL39286A"
+      },
+      {
+        "label": "Frank M. Carrano",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&author_key=OL394992A"
+      }
+    ],
+    "Subjects": [
+      {
+        "label": "Data processing",
+        "count": "3,761",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+processing"
+      },
+      {
+        "label": "Congresses",
+        "count": "2,704",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Congresses"
+      },
+      {
+        "label": "Computer science",
+        "count": "1,450",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+science"
+      },
+      {
+        "label": "Electronic data processing",
+        "count": "1,319",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Electronic+data+processing"
+      },
+      {
+        "label": "Data mining",
+        "count": 939,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+mining"
+      },
+      {
+        "label": "Database management",
+        "count": 868,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Database+management"
+      },
+      {
+        "label": "Data structures (Computer science)",
+        "count": 859,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+structures+%28Computer+science%29"
+      },
+      {
+        "label": "Social sciences",
+        "count": 779,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Social+sciences"
+      },
+      {
+        "label": "Information storage and retrieval systems",
+        "count": 762,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+storage+and+retrieval+systems"
+      },
+      {
+        "label": "Statistics",
+        "count": 688,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Statistics"
+      },
+      {
+        "label": "Science",
+        "count": 660,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Science"
+      },
+      {
+        "label": "Research",
+        "count": 657,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Research"
+      },
+      {
+        "label": "Artificial intelligence",
+        "count": 607,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Artificial+intelligence"
+      },
+      {
+        "label": "Statistical methods",
+        "count": 594,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Statistical+methods"
+      },
+      {
+        "label": "Mathematics",
+        "count": 559,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Mathematics"
+      },
+      {
+        "label": "Computer networks",
+        "count": 502,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+networks"
+      },
+      {
+        "label": "Computers",
+        "count": 487,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computers"
+      },
+      {
+        "label": "General",
+        "count": 459,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=General"
+      },
+      {
+        "label": "Informatique",
+        "count": 421,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Informatique"
+      },
+      {
+        "label": "Computer software",
+        "count": 418,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+software"
+      },
+      {
+        "label": "Computer security",
+        "count": 361,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+security"
+      },
+      {
+        "label": "Data protection",
+        "count": 347,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+protection"
+      },
+      {
+        "label": "Mathematical models",
+        "count": 332,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Mathematical+models"
+      },
+      {
+        "label": "Data structures (computer science)",
+        "count": 318,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+structures+%28computer+science%29"
+      },
+      {
+        "label": "Databases",
+        "count": 313,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Databases"
+      },
+      {
+        "label": "Management",
+        "count": 310,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Management"
+      },
+      {
+        "label": "Information technology",
+        "count": 302,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+technology"
+      },
+      {
+        "label": "Distributed processing",
+        "count": 295,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Distributed+processing"
+      },
+      {
+        "label": "Computer algorithms",
+        "count": 288,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+algorithms"
+      },
+      {
+        "label": "Computer programs",
+        "count": 281,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+programs"
+      },
+      {
+        "label": "Data encryption (Computer science)",
+        "count": 274,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+encryption+%28Computer+science%29"
+      },
+      {
+        "label": "Methodology",
+        "count": 268,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Methodology"
+      },
+      {
+        "label": "Mathematical statistics",
+        "count": 267,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Mathematical+statistics"
+      },
+      {
+        "label": "Engineering",
+        "count": 265,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Engineering"
+      },
+      {
+        "label": "Security measures",
+        "count": 262,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Security+measures"
+      },
+      {
+        "label": "Computer simulation",
+        "count": 250,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+simulation"
+      },
+      {
+        "label": "Software engineering",
+        "count": 250,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Software+engineering"
+      },
+      {
+        "label": "COMPUTERS",
+        "count": 243,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=COMPUTERS"
+      },
+      {
+        "label": "Computational complexity",
+        "count": 217,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computational+complexity"
+      },
+      {
+        "label": "Algorithms",
+        "count": 216,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Algorithms"
+      },
+      {
+        "label": "Handbooks, manuals",
+        "count": 208,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Handbooks%2C+manuals"
+      },
+      {
+        "label": "Information services",
+        "count": 203,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+services"
+      },
+      {
+        "label": "Information systems",
+        "count": 203,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+systems"
+      },
+      {
+        "label": "Computer graphics",
+        "count": 194,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+graphics"
+      },
+      {
+        "label": "Artificial Intelligence (incl. Robotics)",
+        "count": 193,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Artificial+Intelligence+%28incl.+Robotics%29"
+      },
+      {
+        "label": "Technology",
+        "count": 192,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Technology"
+      },
+      {
+        "label": "Earth sciences",
+        "count": 189,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Earth+sciences"
+      },
+      {
+        "label": "United States",
+        "count": 184,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=United+States"
+      },
+      {
+        "label": "Information retrieval",
+        "count": 181,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+retrieval"
+      },
+      {
+        "label": "Data Mining and Knowledge Discovery",
+        "count": 179,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+Mining+and+Knowledge+Discovery"
+      },
+      {
+        "label": "Methods",
+        "count": 178,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Methods"
+      },
+      {
+        "label": "Remote sensing",
+        "count": 177,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Remote+sensing"
+      },
+      {
+        "label": "Social sciences, statistical methods",
+        "count": 175,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Social+sciences%2C+statistical+methods"
+      },
+      {
+        "label": "Automation",
+        "count": 171,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Automation"
+      },
+      {
+        "label": "Bibliography",
+        "count": 171,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Bibliography"
+      },
+      {
+        "label": "Computer programming",
+        "count": 171,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+programming"
+      },
+      {
+        "label": "Management information systems",
+        "count": 171,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Management+information+systems"
+      },
+      {
+        "label": "Big data",
+        "count": 168,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Big+data"
+      },
+      {
+        "label": "Data transmission systems",
+        "count": 168,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Data+transmission+systems"
+      },
+      {
+        "label": "Science, data processing",
+        "count": 168,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Science%2C+data+processing"
+      },
+      {
+        "label": "Expert systems (Computer science)",
+        "count": 167,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Expert+systems+%28Computer+science%29"
+      },
+      {
+        "label": "Business",
+        "count": 166,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Business"
+      },
+      {
+        "label": "Study and teaching",
+        "count": 165,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Study+and+teaching"
+      },
+      {
+        "label": "Electronic data processing, distributed processing",
+        "count": 164,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Electronic+data+processing%2C+distributed+processing"
+      },
+      {
+        "label": "Geographic information systems",
+        "count": 164,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Geographic+information+systems"
+      },
+      {
+        "label": "Medicine",
+        "count": 161,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Medicine"
+      },
+      {
+        "label": "Congrès",
+        "count": 159,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Congr%C3%A8s"
+      },
+      {
+        "label": "Science/Mathematics",
+        "count": 157,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Science%2FMathematics"
+      },
+      {
+        "label": "Computer Communication Networks",
+        "count": 153,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+Communication+Networks"
+      },
+      {
+        "label": "Bioinformatics",
+        "count": 151,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Bioinformatics"
+      },
+      {
+        "label": "Computer vision",
+        "count": 148,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+vision"
+      },
+      {
+        "label": "Evaluation",
+        "count": 146,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Evaluation"
+      },
+      {
+        "label": "Education",
+        "count": 145,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Education"
+      },
+      {
+        "label": "Social sciences, research",
+        "count": 143,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Social+sciences%2C+research"
+      },
+      {
+        "label": "Access control",
+        "count": 141,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Access+control"
+      },
+      {
+        "label": "SCIENCE",
+        "count": 139,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=SCIENCE"
+      },
+      {
+        "label": "Computer-assisted instruction",
+        "count": 137,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer-assisted+instruction"
+      },
+      {
+        "label": "Internet",
+        "count": 137,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Internet"
+      },
+      {
+        "label": "Technological innovations",
+        "count": 136,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Technological+innovations"
+      },
+      {
+        "label": "Chemistry",
+        "count": 133,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Chemistry"
+      },
+      {
+        "label": "Information science",
+        "count": 132,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+science"
+      },
+      {
+        "label": "Water quality",
+        "count": 132,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Water+quality"
+      },
+      {
+        "label": "Image processing",
+        "count": 131,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Image+processing"
+      },
+      {
+        "label": "Economics",
+        "count": 130,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Economics"
+      },
+      {
+        "label": "Information Systems",
+        "count": 130,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+Systems"
+      },
+      {
+        "label": "Parallel processing (Electronic computers)",
+        "count": 128,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Parallel+processing+%28Electronic+computers%29"
+      },
+      {
+        "label": "Algorithm Analysis and Problem Complexity",
+        "count": 127,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Algorithm+Analysis+and+Problem+Complexity"
+      },
+      {
+        "label": "Measurement",
+        "count": 127,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Measurement"
+      },
+      {
+        "label": "Information organization",
+        "count": 126,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+organization"
+      },
+      {
+        "label": "Law and legislation",
+        "count": 125,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Law+and+legislation"
+      },
+      {
+        "label": "Machine learning",
+        "count": 125,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Machine+learning"
+      },
+      {
+        "label": "Physics",
+        "count": 124,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Physics"
+      },
+      {
+        "label": "Sciences sociales",
+        "count": 121,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Sciences+sociales"
+      },
+      {
+        "label": "Reference",
+        "count": 119,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Reference"
+      },
+      {
+        "label": "Computer-aided design",
+        "count": 117,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer-aided+design"
+      },
+      {
+        "label": "Groundwater",
+        "count": 117,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Groundwater"
+      },
+      {
+        "label": "Decision making",
+        "count": 115,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Decision+making"
+      },
+      {
+        "label": "Information Systems Applications (incl. Internet)",
+        "count": 114,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Information+Systems+Applications+%28incl.+Internet%29"
+      },
+      {
+        "label": "Electronic digital computers",
+        "count": 112,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Electronic+digital+computers"
+      },
+      {
+        "label": "Computer Science",
+        "count": 111,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&subject_facet=Computer+Science"
+      }
+    ],
+    "First published": [
+      {
+        "label": "2013",
+        "count": 546,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2013"
+      },
+      {
+        "label": "2006",
+        "count": 453,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2006"
+      },
+      {
+        "label": "2012",
+        "count": 443,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2012"
+      },
+      {
+        "label": "2014",
+        "count": 441,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2014"
+      },
+      {
+        "label": "2011",
+        "count": 439,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2011"
+      },
+      {
+        "label": "2019",
+        "count": 420,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2019"
+      },
+      {
+        "label": "2021",
+        "count": 408,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2021"
+      },
+      {
+        "label": "2005",
+        "count": 406,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2005"
+      },
+      {
+        "label": "2007",
+        "count": 386,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2007"
+      },
+      {
+        "label": "2010",
+        "count": 384,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2010"
+      },
+      {
+        "label": "2020",
+        "count": 378,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2020"
+      },
+      {
+        "label": "1994",
+        "count": 377,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1994"
+      },
+      {
+        "label": "2003",
+        "count": 377,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2003"
+      },
+      {
+        "label": "2004",
+        "count": 374,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2004"
+      },
+      {
+        "label": "1995",
+        "count": 357,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1995"
+      },
+      {
+        "label": "2022",
+        "count": 352,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2022"
+      },
+      {
+        "label": "2009",
+        "count": 351,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2009"
+      },
+      {
+        "label": "2017",
+        "count": 347,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2017"
+      },
+      {
+        "label": "2002",
+        "count": 340,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2002"
+      },
+      {
+        "label": "1988",
+        "count": 331,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1988"
+      },
+      {
+        "label": "1996",
+        "count": 329,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1996"
+      },
+      {
+        "label": "2018",
+        "count": 329,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2018"
+      },
+      {
+        "label": "2015",
+        "count": 328,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2015"
+      },
+      {
+        "label": "1989",
+        "count": 327,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1989"
+      },
+      {
+        "label": "2008",
+        "count": 326,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2008"
+      },
+      {
+        "label": "2001",
+        "count": 322,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2001"
+      },
+      {
+        "label": "1991",
+        "count": 320,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1991"
+      },
+      {
+        "label": "1990",
+        "count": 318,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1990"
+      },
+      {
+        "label": "1985",
+        "count": 312,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1985"
+      },
+      {
+        "label": "1993",
+        "count": 311,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1993"
+      },
+      {
+        "label": "1987",
+        "count": 299,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1987"
+      },
+      {
+        "label": "2000",
+        "count": 298,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2000"
+      },
+      {
+        "label": "2016",
+        "count": 298,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2016"
+      },
+      {
+        "label": "1999",
+        "count": 296,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1999"
+      },
+      {
+        "label": "1986",
+        "count": 292,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1986"
+      },
+      {
+        "label": "1992",
+        "count": 287,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1992"
+      },
+      {
+        "label": "1984",
+        "count": 283,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1984"
+      },
+      {
+        "label": "1998",
+        "count": 282,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1998"
+      },
+      {
+        "label": "1983",
+        "count": 267,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1983"
+      },
+      {
+        "label": "2023",
+        "count": 264,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2023"
+      },
+      {
+        "label": "1997",
+        "count": 257,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1997"
+      },
+      {
+        "label": "1979",
+        "count": 238,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1979"
+      },
+      {
+        "label": "1977",
+        "count": 216,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1977"
+      },
+      {
+        "label": "1982",
+        "count": 211,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1982"
+      },
+      {
+        "label": "1978",
+        "count": 205,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1978"
+      },
+      {
+        "label": "1981",
+        "count": 198,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1981"
+      },
+      {
+        "label": "1975",
+        "count": 197,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1975"
+      },
+      {
+        "label": "1976",
+        "count": 185,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1976"
+      },
+      {
+        "label": "1980",
+        "count": 183,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1980"
+      },
+      {
+        "label": "2024",
+        "count": 178,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2024"
+      },
+      {
+        "label": "1970",
+        "count": 164,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1970"
+      },
+      {
+        "label": "1974",
+        "count": 157,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1974"
+      },
+      {
+        "label": "1973",
+        "count": 131,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1973"
+      },
+      {
+        "label": "1972",
+        "count": 128,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1972"
+      },
+      {
+        "label": "1969",
+        "count": 126,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1969"
+      },
+      {
+        "label": "1971",
+        "count": 121,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1971"
+      },
+      {
+        "label": "1967",
+        "count": 95,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1967"
+      },
+      {
+        "label": "1968",
+        "count": 77,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1968"
+      },
+      {
+        "label": "1965",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1965"
+      },
+      {
+        "label": "1966",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1966"
+      },
+      {
+        "label": "2025",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=2025"
+      },
+      {
+        "label": "1964",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1964"
+      },
+      {
+        "label": "1899",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1899"
+      },
+      {
+        "label": "1962",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1962"
+      },
+      {
+        "label": "1963",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1963"
+      },
+      {
+        "label": "1961",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1961"
+      },
+      {
+        "label": "1960",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1960"
+      },
+      {
+        "label": "1900",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1900"
+      },
+      {
+        "label": "1959",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1959"
+      },
+      {
+        "label": "1958",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1958"
+      },
+      {
+        "label": "1955",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1955"
+      },
+      {
+        "label": "1954",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1954"
+      },
+      {
+        "label": "1926",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1926"
+      },
+      {
+        "label": "1956",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1956"
+      },
+      {
+        "label": "1947",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1947"
+      },
+      {
+        "label": "1953",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1953"
+      },
+      {
+        "label": "1890",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1890"
+      },
+      {
+        "label": "1929",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1929"
+      },
+      {
+        "label": "1935",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1935"
+      },
+      {
+        "label": "1943",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1943"
+      },
+      {
+        "label": "1949",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1949"
+      },
+      {
+        "label": "1951",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1951"
+      },
+      {
+        "label": "1888",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1888"
+      },
+      {
+        "label": "1915",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1915"
+      },
+      {
+        "label": "1920",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1920"
+      },
+      {
+        "label": "1927",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1927"
+      },
+      {
+        "label": "1930",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1930"
+      },
+      {
+        "label": "1932",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1932"
+      },
+      {
+        "label": "1933",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1933"
+      },
+      {
+        "label": "1942",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1942"
+      },
+      {
+        "label": "1948",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1948"
+      },
+      {
+        "label": "1952",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1952"
+      },
+      {
+        "label": "1957",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1957"
+      },
+      {
+        "label": "1585",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1585"
+      },
+      {
+        "label": "1618",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1618"
+      },
+      {
+        "label": "1647",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1647"
+      },
+      {
+        "label": "1747",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1747"
+      },
+      {
+        "label": "1813",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1813"
+      },
+      {
+        "label": "1832",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1832"
+      },
+      {
+        "label": "1833",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&first_publish_year=1833"
+      }
+    ],
+    "Publisher": [
+      {
+        "label": "Springer",
+        "count": "2,912",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer"
+      },
+      {
+        "label": "Elsevier Science & Technology Books",
+        "count": "1,130",
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Elsevier+Science+%26+Technology+Books"
+      },
+      {
+        "label": "Springer London, Limited",
+        "count": 651,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+London%2C+Limited"
+      },
+      {
+        "label": "Taylor & Francis Group",
+        "count": 512,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Taylor+%26+Francis+Group"
+      },
+      {
+        "label": "Independently Published",
+        "count": 462,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Independently+Published"
+      },
+      {
+        "label": "Elsevier Science & Technology",
+        "count": 370,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Elsevier+Science+%26+Technology"
+      },
+      {
+        "label": "National Academies Press",
+        "count": 354,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=National+Academies+Press"
+      },
+      {
+        "label": "North-Holland",
+        "count": 264,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=North-Holland"
+      },
+      {
+        "label": "Information Science Reference",
+        "count": 257,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Information+Science+Reference"
+      },
+      {
+        "label": "Springer International Publishing AG",
+        "count": 256,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+International+Publishing+AG"
+      },
+      {
+        "label": "Dept. of Computer Science, University of Illinois at Urbana-Champaign",
+        "count": 245,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Dept.+of+Computer+Science%2C+University+of+Illinois+at+Urbana-Champaign"
+      },
+      {
+        "label": "Springer-Verlag",
+        "count": 237,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer-Verlag"
+      },
+      {
+        "label": "Elsevier",
+        "count": 235,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Elsevier"
+      },
+      {
+        "label": "CreateSpace Independent Publishing Platform",
+        "count": 231,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=CreateSpace+Independent+Publishing+Platform"
+      },
+      {
+        "label": "Academic Press",
+        "count": 206,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Academic+Press"
+      },
+      {
+        "label": "U.S. Dept. of the Interior, U.S. Geological Survey",
+        "count": 200,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=U.S.+Dept.+of+the+Interior%2C+U.S.+Geological+Survey"
+      },
+      {
+        "label": "Earth Science Information Center, Open-File Reports Section [distributor]",
+        "count": 191,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Earth+Science+Information+Center%2C+Open-File+Reports+Section+%5Bdistributor%5D"
+      },
+      {
+        "label": "Wiley & Sons, Incorporated, John",
+        "count": 187,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Wiley+%26+Sons%2C+Incorporated%2C+John"
+      },
+      {
+        "label": "Wiley",
+        "count": 182,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Wiley"
+      },
+      {
+        "label": "Sole distributors for the U.S.A. and Canada, Elsevier Science Pub. Co.",
+        "count": 181,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Sole+distributors+for+the+U.S.A.+and+Canada%2C+Elsevier+Science+Pub.+Co."
+      },
+      {
+        "label": "Springer Berlin Heidelberg",
+        "count": 176,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+Berlin+Heidelberg"
+      },
+      {
+        "label": "National Technical Information Service, distributor",
+        "count": 163,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=National+Technical+Information+Service%2C+distributor"
+      },
+      {
+        "label": "Cambridge University Press",
+        "count": 160,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Cambridge+University+Press"
+      },
+      {
+        "label": "IGI Global",
+        "count": 134,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=IGI+Global"
+      },
+      {
+        "label": "Elsevier Science",
+        "count": 128,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Elsevier+Science"
+      },
+      {
+        "label": "U.S. G.P.O.",
+        "count": 124,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=U.S.+G.P.O."
+      },
+      {
+        "label": "Kluwer Academic Publishers",
+        "count": 117,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Kluwer+Academic+Publishers"
+      },
+      {
+        "label": "Nova Science Publishers, Incorporated",
+        "count": 116,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Nova+Science+Publishers%2C+Incorporated"
+      },
+      {
+        "label": "Nova Science Publishers",
+        "count": 114,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Nova+Science+Publishers"
+      },
+      {
+        "label": "Prentice Hall",
+        "count": 113,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Prentice+Hall"
+      },
+      {
+        "label": "Pearson Education, Limited",
+        "count": 108,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Pearson+Education%2C+Limited"
+      },
+      {
+        "label": "CRC Press",
+        "count": 106,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=CRC+Press"
+      },
+      {
+        "label": "Morgan Kaufmann",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Morgan+Kaufmann"
+      },
+      {
+        "label": "National Aeronautics and Space Administration",
+        "count": 103,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=National+Aeronautics+and+Space+Administration"
+      },
+      {
+        "label": "Wiley & Sons, Limited, John",
+        "count": 98,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Wiley+%26+Sons%2C+Limited%2C+John"
+      },
+      {
+        "label": "de Gruyter GmbH, Walter",
+        "count": 95,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=de+Gruyter+GmbH%2C+Walter"
+      },
+      {
+        "label": "U.S. Geological Survey",
+        "count": 94,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=U.S.+Geological+Survey"
+      },
+      {
+        "label": "Imprint: Springer",
+        "count": 92,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Imprint%3A+Springer"
+      },
+      {
+        "label": "Routledge",
+        "count": 91,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Routledge"
+      },
+      {
+        "label": "National Academy Press",
+        "count": 88,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=National+Academy+Press"
+      },
+      {
+        "label": "Science Research Associates",
+        "count": 85,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Science+Research+Associates"
+      },
+      {
+        "label": "SPIE",
+        "count": 84,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=SPIE"
+      },
+      {
+        "label": "CRC Press LLC",
+        "count": 83,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=CRC+Press+LLC"
+      },
+      {
+        "label": "Packt Publishing, Limited",
+        "count": 82,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Packt+Publishing%2C+Limited"
+      },
+      {
+        "label": "Elsevier Science Ltd",
+        "count": 80,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Elsevier+Science+Ltd"
+      },
+      {
+        "label": "McGraw-Hill",
+        "count": 77,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=McGraw-Hill"
+      },
+      {
+        "label": "Oxford University Press",
+        "count": 77,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Oxford+University+Press"
+      },
+      {
+        "label": "Association for Computing Machinery",
+        "count": 74,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Association+for+Computing+Machinery"
+      },
+      {
+        "label": "Apress",
+        "count": 73,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Apress"
+      },
+      {
+        "label": "Springer Berlin / Heidelberg",
+        "count": 72,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+Berlin+%2F+Heidelberg"
+      },
+      {
+        "label": "IEEE",
+        "count": 70,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=IEEE"
+      },
+      {
+        "label": "Prentice-Hall",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Prentice-Hall"
+      },
+      {
+        "label": "University of Toronto, Dept. of Computer Science",
+        "count": 67,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=University+of+Toronto%2C+Dept.+of+Computer+Science"
+      },
+      {
+        "label": "Island Press",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Island+Press"
+      },
+      {
+        "label": "Chapman & Hall/CRC",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Chapman+%26+Hall%2FCRC"
+      },
+      {
+        "label": "Computer Science Press",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Computer+Science+Press"
+      },
+      {
+        "label": "Packt Publishing",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Packt+Publishing"
+      },
+      {
+        "label": "SAGE Publications, Incorporated",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=SAGE+Publications%2C+Incorporated"
+      },
+      {
+        "label": "Springer Science+Business Media, LLC",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+Science%2BBusiness+Media%2C+LLC"
+      },
+      {
+        "label": "Addison-Wesley",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Addison-Wesley"
+      },
+      {
+        "label": "Butterworth-Heinemann",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Butterworth-Heinemann"
+      },
+      {
+        "label": "Springer New York",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+New+York"
+      },
+      {
+        "label": "CRC",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=CRC"
+      },
+      {
+        "label": "O'Reilly Media, Incorporated",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=O%27Reilly+Media%2C+Incorporated"
+      },
+      {
+        "label": "For sale by the Supt. of Docs., U.S. G.P.O.",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=For+sale+by+the+Supt.+of+Docs.%2C+U.S.+G.P.O."
+      },
+      {
+        "label": "Sine nomine",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Sine+nomine"
+      },
+      {
+        "label": "Springer Singapore Pte. Limited",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+Singapore+Pte.+Limited"
+      },
+      {
+        "label": "The Office",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=The+Office"
+      },
+      {
+        "label": "SAGE Publications, Limited",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=SAGE+Publications%2C+Limited"
+      },
+      {
+        "label": "Sage Publications",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Sage+Publications"
+      },
+      {
+        "label": "Springer-Verlag Berlin Heidelberg",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer-Verlag+Berlin+Heidelberg"
+      },
+      {
+        "label": "McGraw-Hill Science/Engineering/Math",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=McGraw-Hill+Science%2FEngineering%2FMath"
+      },
+      {
+        "label": "North-Holland Pub. Co.",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=North-Holland+Pub.+Co."
+      },
+      {
+        "label": "National Academy of Sciences",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=National+Academy+of+Sciences"
+      },
+      {
+        "label": "Noyes Data Corp.",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Noyes+Data+Corp."
+      },
+      {
+        "label": "Naval Postgraduate School",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Naval+Postgraduate+School"
+      },
+      {
+        "label": "Pergamon Press",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Pergamon+Press"
+      },
+      {
+        "label": "U.S. Govt. Print. Off.",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=U.S.+Govt.+Print.+Off."
+      },
+      {
+        "label": "Distributors for the U.S. and Canada, Elsevier Science Pub. Co.",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Distributors+for+the+U.S.+and+Canada%2C+Elsevier+Science+Pub.+Co."
+      },
+      {
+        "label": "IEEE Computer Society Press",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=IEEE+Computer+Society+Press"
+      },
+      {
+        "label": "John Wiley & Sons Inc",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=John+Wiley+%26+Sons+Inc"
+      },
+      {
+        "label": "Springer US",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+US"
+      },
+      {
+        "label": "Pergamon",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Pergamon"
+      },
+      {
+        "label": "QED Information Sciences",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=QED+Information+Sciences"
+      },
+      {
+        "label": "World Scientific Publishing Co Pte Ltd",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=World+Scientific+Publishing+Co+Pte+Ltd"
+      },
+      {
+        "label": "Medical Information Science Reference",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Medical+Information+Science+Reference"
+      },
+      {
+        "label": "Springer Netherlands",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Springer+Netherlands"
+      },
+      {
+        "label": "Syngress",
+        "count": 39,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Syngress"
+      },
+      {
+        "label": "For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=For+sale+by+the+U.S.+G.P.O.%2C+Supt.+of+Docs.%2C+Congressional+Sales+Office"
+      },
+      {
+        "label": "Apress L. P.",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Apress+L.+P."
+      },
+      {
+        "label": "For sale by the National Technical Information Service",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=For+sale+by+the+National+Technical+Information+Service"
+      },
+      {
+        "label": "John Wiley & Sons",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=John+Wiley+%26+Sons"
+      },
+      {
+        "label": "MIT Press",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=MIT+Press"
+      },
+      {
+        "label": "Courant Institute of Mathematical Sciences, New York University",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Courant+Institute+of+Mathematical+Sciences%2C+New+York+University"
+      },
+      {
+        "label": "Q.E.D. Information Sciences",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Q.E.D.+Information+Sciences"
+      },
+      {
+        "label": "The Office [distributor",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=The+Office+%5Bdistributor"
+      },
+      {
+        "label": "Marketing Science Institute",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Marketing+Science+Institute"
+      },
+      {
+        "label": "Sage Publications, Inc",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Sage+Publications%2C+Inc"
+      },
+      {
+        "label": "Elsevier Science Publishing Company",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Elsevier+Science+Publishing+Company"
+      },
+      {
+        "label": "Institute for Computer Applications in Science and Engineering, NASA Langley Research Center",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&publisher_facet=Institute+for+Computer+Applications+in+Science+and+Engineering%2C+NASA+Langley+Research+Center"
+      }
+    ],
+    "People": [
+      {
+        "label": "A. Charnes (1917-1992)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=A.+Charnes+%281917-1992%29"
+      },
+      {
+        "label": "ARTICLE Author  - E. R. Ashworth -",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=ARTICLE+Author++-+E.+R.+Ashworth+-"
+      },
+      {
+        "label": "Aaron Koblin",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Aaron+Koblin"
+      },
+      {
+        "label": "Adam Perer",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Adam+Perer"
+      },
+      {
+        "label": "Alberto Alesina",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Alberto+Alesina"
+      },
+      {
+        "label": "Anders Persson",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Anders+Persson"
+      },
+      {
+        "label": "Andrew Odewahn",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Andrew+Odewahn"
+      },
+      {
+        "label": "Andvord",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Andvord"
+      },
+      {
+        "label": "Approximation theory",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Approximation+theory"
+      },
+      {
+        "label": "Art Geoffrion",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Art+Geoffrion"
+      },
+      {
+        "label": "Aviva Aiden",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Aviva+Aiden"
+      },
+      {
+        "label": "Benjamin Franklin (1706-1790)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Benjamin+Franklin+%281706-1790%29"
+      },
+      {
+        "label": "Bill Inmon",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Bill+Inmon"
+      },
+      {
+        "label": "Bruce M. Russett",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Bruce+M.+Russett"
+      },
+      {
+        "label": "C. Radhakrishna Rao (1920-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=C.+Radhakrishna+Rao+%281920-%29"
+      },
+      {
+        "label": "Caroline Bingley",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Caroline+Bingley"
+      },
+      {
+        "label": "Catherine Bennet",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Catherine+Bennet"
+      },
+      {
+        "label": "Catherine de Bourgh",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Catherine+de+Bourgh"
+      },
+      {
+        "label": "Charles Bingley",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Charles+Bingley"
+      },
+      {
+        "label": "Charles Lewis Taylor",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Charles+Lewis+Taylor"
+      },
+      {
+        "label": "Charlotte Lucas",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Charlotte+Lucas"
+      },
+      {
+        "label": "Charlotte Saloman",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Charlotte+Saloman"
+      },
+      {
+        "label": "D. A. S. Fraser (1925-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=D.+A.+S.+Fraser+%281925-%29"
+      },
+      {
+        "label": "Danyel Fisher",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Danyel+Fisher"
+      },
+      {
+        "label": "Domenico Vandelli (1735-1816)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Domenico+Vandelli+%281735-1816%29"
+      },
+      {
+        "label": "Dr. Masumi",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Dr.+Masumi"
+      },
+      {
+        "label": "Ebbinghaus",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Ebbinghaus"
+      },
+      {
+        "label": "Eddie Jabbour",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Eddie+Jabbour"
+      },
+      {
+        "label": "Edsger W. Dijkstra",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Edsger+W.+Dijkstra"
+      },
+      {
+        "label": "Efraim Turban",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Efraim+Turban"
+      },
+      {
+        "label": "Ehsan Khavandkar",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Ehsan+Khavandkar"
+      },
+      {
+        "label": "Elizabeth Bennet",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Elizabeth+Bennet"
+      },
+      {
+        "label": "Elizabeth I Queen of England (1533-1603)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Elizabeth+I+Queen+of+England+%281533-1603%29"
+      },
+      {
+        "label": "Erik Thomsen",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Erik+Thomsen"
+      },
+      {
+        "label": "Fernanda Viegas",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Fernanda+Viegas"
+      },
+      {
+        "label": "Fitzwilliam Darcy",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Fitzwilliam+Darcy"
+      },
+      {
+        "label": "Francis Bacon (1561-1626)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Francis+Bacon+%281561-1626%29"
+      },
+      {
+        "label": "George Wickham",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=George+Wickham"
+      },
+      {
+        "label": "Gregor Hochmuth",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Gregor+Hochmuth"
+      },
+      {
+        "label": "H. McKinley Conway (1920-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=H.+McKinley+Conway+%281920-%29"
+      },
+      {
+        "label": "Hendrik van Reede tot Drakestein (1637?-1691)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Hendrik+van+Reede+tot+Drakestein+%281637%3F-1691%29"
+      },
+      {
+        "label": "J. Hatvany",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=J.+Hatvany"
+      },
+      {
+        "label": "Jane Bennet",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Jane+Bennet"
+      },
+      {
+        "label": "Jer Thorp",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Jer+Thorp"
+      },
+      {
+        "label": "Jessica Hagy",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Jessica+Hagy"
+      },
+      {
+        "label": "Jiawei Han",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Jiawei+Han"
+      },
+      {
+        "label": "JoAnn Kuchera-Morin et al.",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=JoAnn+Kuchera-Morin+et+al."
+      },
+      {
+        "label": "John G. Gaschnig (1950-1982)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=John+G.+Gaschnig+%281950-1982%29"
+      },
+      {
+        "label": "John Locke (1632-1704)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=John+Locke+%281632-1704%29"
+      },
+      {
+        "label": "John Milton (1608-1674)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=John+Milton+%281608-1674%29"
+      },
+      {
+        "label": "John Von Neumann (1903-1957)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=John+Von+Neumann+%281903-1957%29"
+      },
+      {
+        "label": "Jolene Moritz Molitoris (1941-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Jolene+Moritz+Molitoris+%281941-%29"
+      },
+      {
+        "label": "Jonathan Feinberg",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Jonathan+Feinberg"
+      },
+      {
+        "label": "José Rizal (1861-1896)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Jos%C3%A9+Rizal+%281861-1896%29"
+      },
+      {
+        "label": "Julie Steele",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Julie+Steele"
+      },
+      {
+        "label": "Ledyard R. Tucker (1910-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Ledyard+R.+Tucker+%281910-%29"
+      },
+      {
+        "label": "Louis Ma",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Louis+Ma"
+      },
+      {
+        "label": "Lydia Bennet",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Lydia+Bennet"
+      },
+      {
+        "label": "László Lovász (1948-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=L%C3%A1szl%C3%B3+Lov%C3%A1sz+%281948-%29"
+      },
+      {
+        "label": "Marc Chagall",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Marc+Chagall"
+      },
+      {
+        "label": "Martin Wattenberg",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Martin+Wattenberg"
+      },
+      {
+        "label": "Mary Bennet",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Mary+Bennet"
+      },
+      {
+        "label": "Matthias Shapiro",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Matthias+Shapiro"
+      },
+      {
+        "label": "Maximilian Schich",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Maximilian+Schich"
+      },
+      {
+        "label": "Mercator",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Mercator"
+      },
+      {
+        "label": "Michael E. Driscoll",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Michael+E.+Driscoll"
+      },
+      {
+        "label": "Michael Young",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Michael+Young"
+      },
+      {
+        "label": "Micheline Kamber",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Micheline+Kamber"
+      },
+      {
+        "label": "Moritz Stefaner",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Moritz+Stefaner"
+      },
+      {
+        "label": "Mr. Bennet",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Mr.+Bennet"
+      },
+      {
+        "label": "Mrs. Bennet",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Mrs.+Bennet"
+      },
+      {
+        "label": "N. Metropolis (1915-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=N.+Metropolis+%281915-%29"
+      },
+      {
+        "label": "Nick Bilton",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Nick+Bilton"
+      },
+      {
+        "label": "Noah Iliinsky",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Noah+Iliinsky"
+      },
+      {
+        "label": "Norvig",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Norvig"
+      },
+      {
+        "label": "Ray Kurzweil",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Ray+Kurzweil"
+      },
+      {
+        "label": "Richard L. Weisbrod (1943-1979)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Richard+L.+Weisbrod+%281943-1979%29"
+      },
+      {
+        "label": "Robert Ferber (1922-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Robert+Ferber+%281922-%29"
+      },
+      {
+        "label": "Robert Kosara",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Robert+Kosara"
+      },
+      {
+        "label": "Sir Ronald Fisher",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Sir+Ronald+Fisher"
+      },
+      {
+        "label": "Steven Pinker",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Steven+Pinker"
+      },
+      {
+        "label": "Takehiko Shimanouchi (1916-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Takehiko+Shimanouchi+%281916-%29"
+      },
+      {
+        "label": "Todd Holloway",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Todd+Holloway"
+      },
+      {
+        "label": "Tutankhamen King of Egypt",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Tutankhamen+King+of+Egypt"
+      },
+      {
+        "label": "Ulam",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Ulam"
+      },
+      {
+        "label": "Valdean Klump",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Valdean+Klump"
+      },
+      {
+        "label": "Valdis Krebs",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Valdis+Krebs"
+      },
+      {
+        "label": "William Collins",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=William+Collins"
+      },
+      {
+        "label": "Zipf",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=Zipf"
+      },
+      {
+        "label": "a person",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&person_facet=a+person"
+      }
+    ],
+    "Places": [
+      {
+        "label": "United States",
+        "count": 731,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=United+States"
+      },
+      {
+        "label": "Great Britain",
+        "count": 54,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Great+Britain"
+      },
+      {
+        "label": "Canada",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Canada"
+      },
+      {
+        "label": "California",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=California"
+      },
+      {
+        "label": "Australia",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Australia"
+      },
+      {
+        "label": "Alaska",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Alaska"
+      },
+      {
+        "label": "Oregon",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Oregon"
+      },
+      {
+        "label": "India",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=India"
+      },
+      {
+        "label": "Europe",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Europe"
+      },
+      {
+        "label": "Montana",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Montana"
+      },
+      {
+        "label": "Florida",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Florida"
+      },
+      {
+        "label": "Developing countries",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Developing+countries"
+      },
+      {
+        "label": "Japan",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Japan"
+      },
+      {
+        "label": "Nevada",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Nevada"
+      },
+      {
+        "label": "Washington (State)",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Washington+%28State%29"
+      },
+      {
+        "label": "New York (State)",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=New+York+%28State%29"
+      },
+      {
+        "label": "Pacific Coast",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Pacific+Coast"
+      },
+      {
+        "label": "Antarctica",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Antarctica"
+      },
+      {
+        "label": "Texas",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Texas"
+      },
+      {
+        "label": "Wisconsin",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Wisconsin"
+      },
+      {
+        "label": "Colorado",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Colorado"
+      },
+      {
+        "label": "North Carolina",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=North+Carolina"
+      },
+      {
+        "label": "Ontario",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Ontario"
+      },
+      {
+        "label": "Soviet Union",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Soviet+Union"
+      },
+      {
+        "label": "Virginia",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Virginia"
+      },
+      {
+        "label": "Atlantic Ocean",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Atlantic+Ocean"
+      },
+      {
+        "label": "New Mexico",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=New+Mexico"
+      },
+      {
+        "label": "Ohio",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Ohio"
+      },
+      {
+        "label": "England",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=England"
+      },
+      {
+        "label": "Asia",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Asia"
+      },
+      {
+        "label": "Georgia",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Georgia"
+      },
+      {
+        "label": "North Pacific Ocean",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=North+Pacific+Ocean"
+      },
+      {
+        "label": "South Africa",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=South+Africa"
+      },
+      {
+        "label": "China",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=China"
+      },
+      {
+        "label": "Earth",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Earth"
+      },
+      {
+        "label": "Gulf of Mexico",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Gulf+of+Mexico"
+      },
+      {
+        "label": "Massachusetts",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Massachusetts"
+      },
+      {
+        "label": "Moon",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Moon"
+      },
+      {
+        "label": "Polar regions",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Polar+regions"
+      },
+      {
+        "label": "Sweden",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Sweden"
+      },
+      {
+        "label": "Tennessee",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Tennessee"
+      },
+      {
+        "label": "West Virginia",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=West+Virginia"
+      },
+      {
+        "label": "Yucca Mountain Region",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Yucca+Mountain+Region"
+      },
+      {
+        "label": "British Columbia",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=British+Columbia"
+      },
+      {
+        "label": "Hawaii",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Hawaii"
+      },
+      {
+        "label": "Illinois",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Illinois"
+      },
+      {
+        "label": "Indonesia",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Indonesia"
+      },
+      {
+        "label": "Kansas",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Kansas"
+      },
+      {
+        "label": "Maryland",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Maryland"
+      },
+      {
+        "label": "New Jersey",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=New+Jersey"
+      },
+      {
+        "label": "Alberta",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Alberta"
+      },
+      {
+        "label": "France",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=France"
+      },
+      {
+        "label": "Idaho",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Idaho"
+      },
+      {
+        "label": "Middle West",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Middle+West"
+      },
+      {
+        "label": "Missouri",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Missouri"
+      },
+      {
+        "label": "New Zealand",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=New+Zealand"
+      },
+      {
+        "label": "North Dakota",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=North+Dakota"
+      },
+      {
+        "label": "Northeastern States",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Northeastern+States"
+      },
+      {
+        "label": "Pacific Ocean",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Pacific+Ocean"
+      },
+      {
+        "label": "Puerto Rico",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Puerto+Rico"
+      },
+      {
+        "label": "Russia (Federation)",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Russia+%28Federation%29"
+      },
+      {
+        "label": "South Carolina",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=South+Carolina"
+      },
+      {
+        "label": "Antarctic Ocean",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Antarctic+Ocean"
+      },
+      {
+        "label": "Clark Fork (Mont. and Idaho)",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Clark+Fork+%28Mont.+and+Idaho%29"
+      },
+      {
+        "label": "Ireland",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Ireland"
+      },
+      {
+        "label": "Netherlands",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Netherlands"
+      },
+      {
+        "label": "New England",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=New+England"
+      },
+      {
+        "label": "Norway",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Norway"
+      },
+      {
+        "label": "Outer space",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Outer+space"
+      },
+      {
+        "label": "Rio Blanco County",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Rio+Blanco+County"
+      },
+      {
+        "label": "Africa",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Africa"
+      },
+      {
+        "label": "Alabama",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Alabama"
+      },
+      {
+        "label": "Bering Sea",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Bering+Sea"
+      },
+      {
+        "label": "Clark Fork Watershed (Mont. and Idaho)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Clark+Fork+Watershed+%28Mont.+and+Idaho%29"
+      },
+      {
+        "label": "Columbia Plateau",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Columbia+Plateau"
+      },
+      {
+        "label": "European Economic Community countries",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=European+Economic+Community+countries"
+      },
+      {
+        "label": "Germany",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Germany"
+      },
+      {
+        "label": "Indiana",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Indiana"
+      },
+      {
+        "label": "Latin America",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Latin+America"
+      },
+      {
+        "label": "Mexico",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Mexico"
+      },
+      {
+        "label": "Minnesota",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Minnesota"
+      },
+      {
+        "label": "Mississippi River",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Mississippi+River"
+      },
+      {
+        "label": "Oceania",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Oceania"
+      },
+      {
+        "label": "Pacific Coast (U.S.)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Pacific+Coast+%28U.S.%29"
+      },
+      {
+        "label": "Pennsylvania",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Pennsylvania"
+      },
+      {
+        "label": "San Francisco Bay",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=San+Francisco+Bay"
+      },
+      {
+        "label": "Arctic regions",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Arctic+regions"
+      },
+      {
+        "label": "Arizona",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Arizona"
+      },
+      {
+        "label": "Arkansas",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Arkansas"
+      },
+      {
+        "label": "Atlantic Coast",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Atlantic+Coast"
+      },
+      {
+        "label": "Czechoslovakia",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Czechoslovakia"
+      },
+      {
+        "label": "Data processing",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Data+processing"
+      },
+      {
+        "label": "Edwards Air Force Base",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Edwards+Air+Force+Base"
+      },
+      {
+        "label": "Finland",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Finland"
+      },
+      {
+        "label": "Gujarat",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Gujarat"
+      },
+      {
+        "label": "Gulf Coast",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Gulf+Coast"
+      },
+      {
+        "label": "Iowa",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Iowa"
+      },
+      {
+        "label": "Long Island Sound (N.Y. and Conn.)",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Long+Island+Sound+%28N.Y.+and+Conn.%29"
+      },
+      {
+        "label": "Malaysia",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Malaysia"
+      },
+      {
+        "label": "Mississippi",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&place_facet=Mississippi"
+      }
+    ],
+    "Times": [
+      {
+        "label": "21st century",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=21st+century"
+      },
+      {
+        "label": "1945-",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1945-"
+      },
+      {
+        "label": "20th century",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=20th+century"
+      },
+      {
+        "label": "1900-",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1900-"
+      },
+      {
+        "label": "19th century",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=19th+century"
+      },
+      {
+        "label": "Holocene",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Holocene"
+      },
+      {
+        "label": "1789-1820",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1789-1820"
+      },
+      {
+        "label": "1960-1980",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1960-1980"
+      },
+      {
+        "label": "1961-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1961-"
+      },
+      {
+        "label": "1968",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1968"
+      },
+      {
+        "label": "1980-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1980-"
+      },
+      {
+        "label": "1981-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1981-"
+      },
+      {
+        "label": "Quaternary",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Quaternary"
+      },
+      {
+        "label": "Silurian",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Silurian"
+      },
+      {
+        "label": "1760-1860",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1760-1860"
+      },
+      {
+        "label": "17th century",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=17th+century"
+      },
+      {
+        "label": "1914-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1914-"
+      },
+      {
+        "label": "1918-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1918-"
+      },
+      {
+        "label": "1960-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1960-"
+      },
+      {
+        "label": "1964-1979",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1964-1979"
+      },
+      {
+        "label": "1965-1975",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1965-1975"
+      },
+      {
+        "label": "1970's",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1970%27s"
+      },
+      {
+        "label": "1970-1991",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1970-1991"
+      },
+      {
+        "label": "1971-1990",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1971-1990"
+      },
+      {
+        "label": "1975-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1975-"
+      },
+      {
+        "label": "1979-1997",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1979-1997"
+      },
+      {
+        "label": "1991-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1991-"
+      },
+      {
+        "label": "1994-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=1994-"
+      },
+      {
+        "label": "2019",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=2019"
+      },
+      {
+        "label": "2024",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=2024"
+      },
+      {
+        "label": "ACM SIGIR Forum Volume 13",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=ACM+SIGIR+Forum+Volume+13"
+      },
+      {
+        "label": "Data mining",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Data+mining"
+      },
+      {
+        "label": "Devonian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Devonian"
+      },
+      {
+        "label": "Early modern, 1500-1700",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Early+modern%2C+1500-1700"
+      },
+      {
+        "label": "Eighteenth dynasty, ca. 1570-1320 B.C.",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Eighteenth+dynasty%2C+ca.+1570-1320+B.C."
+      },
+      {
+        "label": "Issue 3 -Abstract-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Issue+3+-Abstract-"
+      },
+      {
+        "label": "Jin dai",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Jin+dai"
+      },
+      {
+        "label": "Persian Gulf War, 1991",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Persian+Gulf+War%2C+1991"
+      },
+      {
+        "label": "Pleistocene",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Pleistocene"
+      },
+      {
+        "label": "Precambrian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Precambrian"
+      },
+      {
+        "label": "Recensement, 1991",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Recensement%2C+1991"
+      },
+      {
+        "label": "Research",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=Research"
+      },
+      {
+        "label": "To 1500",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+science&mode=everything&time_facet=To+1500"
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useTheme } from "@/app/context/ThemeContext";
 import axios from "axios";
 
-export default function Research({ searchTerm }) {
+export default function Research({ searchTerm, hasSearched  }) {
   const { darkMode } = useTheme();
   const [isClient, setIsClient] = useState(false);
   const [papers, setPapers] = useState([]);
@@ -19,7 +19,7 @@ export default function Research({ searchTerm }) {
   // Fetch research papers from backend API
   useEffect(() => {
     const fetchPapers = async () => {
-      if (!searchTerm.trim()) return;
+      if (!hasSearched || !searchTerm.trim()) return;
       setLoading(true);
       setError("");
       try {
@@ -44,7 +44,7 @@ export default function Research({ searchTerm }) {
     };
 
     fetchPapers();
-  }, [searchTerm]);
+  }, [hasSearched, searchTerm]);
 
   const filtered = useMemo(() => {
     const q = searchTerm.trim().toLowerCase();
