@@ -31,6 +31,7 @@ from services.openlibrary.search_page import (
 )
 from services.semantic_scholar.search_page import scrape_semantic_scholar, safe_filename
 from services.openlibrary.homepage_content import get_homepage_data
+from services.openlibrary.book_details import BookDetailPage
 
 from typing import Optional, List
 from django.views.decorators.csrf import csrf_exempt
@@ -203,6 +204,51 @@ def research_search_api(request, title: str):
 
     # Immediately return a 202 Accepted response.
     return JsonResponse({"status": "processing"}, status=202)
+
+
+# =======================================================================
+#                  NEW BOOK DETAIL ENDPOINT
+# =======================================================================
+@api.get("/book-detail/{workId}/{slug}")
+def get_book_detail(request, workId: str, slug: str, edition: str):
+    """
+    Fetches details for a specific book edition from OpenLibrary by scraping.
+    The 'edition' query parameter is required and contains the book's key.
+    Example: ?edition=key%3A/books/OL27918581M
+    """
+    # 1. Validate and extract the book ID (e.g., OL27918581M) from the edition key
+    if not edition:
+        raise HttpError(400, "The 'edition' query parameter is required.")
+
+    match = re.search(r'(OL\d+M)', edition)
+    if not match:
+        raise HttpError(400, "Invalid 'edition' query parameter. Must contain a valid book ID like 'OL...M'.")
+    
+    book_id = match.group(0)
+
+    # 2. Construct the full URL for the scraper
+    # This URL format is reliable for scraping a specific book edition page.
+    scrape_url = f"https://openlibrary.org/books/{book_id}/{slug}"
+
+    print(f"▶️  Initiating scrape for URL: {scrape_url}")
+
+    try:
+        # 3. Instantiate the scraper and get the data
+        book_scraper = BookDetailPage(scrape_url)
+        book_data = book_scraper.get_details()
+        
+        # 4. Return the data as a JSON response
+        return book_data
+        
+    except Exception as e:
+        print("❌ Error during book detail scraping:")
+        traceback.print_exc()
+        raise HttpError(500, f"An unexpected error occurred while fetching book details: {str(e)}")
+
+# =======================================================================
+#                  END OF NEW ENDPOINT
+# =======================================================================
+
 
 # ─── Schema for the new download request ──────────────────────────────────────
 class DownloadRequest(Schema):

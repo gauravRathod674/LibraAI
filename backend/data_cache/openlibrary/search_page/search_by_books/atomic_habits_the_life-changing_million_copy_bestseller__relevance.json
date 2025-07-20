@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/15102424-M.jpg",
+        "title": "Atomic Habits: The life-changing million copy bestseller",
+        "url": "https://openlibrary.org/works/OL17930368W/Atomic_Habits?edition=key%3A/books/OL27918581M",
+        "author": "James Clear",
+        "rating": "4.0",
+        "num_ratings": "1,131",
+        "first_published": "2016",
+        "num_editions": "43 editions"
+      }
+    ]
+  },
+  "last_page": 1,
+  "hits": 0,
+  "sidebar_info": {
+    "eBook?": [],
+    "Language": [],
+    "Author": [],
+    "Subjects": [],
+    "First published": [],
+    "Publisher": [],
+    "People": [],
+    "Places": [],
+    "Times": []
+  }
+}

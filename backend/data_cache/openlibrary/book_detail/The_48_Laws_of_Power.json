@@ -541,16 +541,16 @@
             "read_url": "https://openlibrary.org/borrow/ia/haimson2025?ref=ol"
         },
         {
-            "image_src": "https://covers.openlibrary.org/b/id/14844561-M.jpg",
-            "title": "Introduction to AI Safety, Ethics, and Society",
-            "book_url": "https://openlibrary.org/books/OL57790023M",
-            "read_url": "https://openlibrary.org/books/OL57790023M/-/borrow?action=read"
-        },
-        {
             "image_src": "https://covers.openlibrary.org/b/id/14858213-M.jpg",
             "title": "Imperialism and World Politics, Part 3 of 4",
             "book_url": "https://openlibrary.org/books/OL58383701M",
             "read_url": "https://openlibrary.org/books/OL58383701M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14844561-M.jpg",
+            "title": "Introduction to AI Safety, Ethics, and Society",
+            "book_url": "https://openlibrary.org/books/OL57790023M",
+            "read_url": "https://openlibrary.org/books/OL57790023M/-/borrow?action=read"
         },
         {
             "image_src": "https://covers.openlibrary.org/b/id/14635756-M.jpg",
@@ -559,126 +559,53 @@
             "read_url": "https://openlibrary.org/books/OL51746364M/-/borrow?action=read"
         },
         {
-            "image_src": "https://covers.openlibrary.org/b/id/14607921-M.jpg",
-            "title": "Politische Theorie des Anarchismus",
-            "book_url": "https://openlibrary.org/books/OL51553734M",
-            "read_url": "https://openlibrary.org/books/OL51553734M/-/borrow?action=read"
-        },
-        {
-            "image_src": "https://covers.openlibrary.org/b/id/14634029-M.jpg",
-            "title": "Memoirs of a Revolutionist",
-            "book_url": "https://openlibrary.org/books/OL51733431M",
-            "read_url": "https://openlibrary.org/books/OL51733431M/-/borrow?action=read"
-        },
-        {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "image_src": "https://covers.openlibrary.org/b/id/14634279-M.jpg",
             "title": "Essays",
             "book_url": "https://openlibrary.org/books/OL51733651M",
             "read_url": "https://openlibrary.org/books/OL51733651M/-/borrow?action=read"
         },
         {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "image_src": "https://covers.openlibrary.org/b/id/14831020-M.jpg",
             "title": "Soldier's Paradise",
             "book_url": "https://openlibrary.org/books/OL50634269M",
             "read_url": "https://openlibrary.org/borrow/ia/soldiersparadise00daly?ref=ol"
         },
         {
             "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "Human Nature and Conduct",
-            "book_url": "https://openlibrary.org/books/OL50495672M",
-            "read_url": "https://openlibrary.org/books/OL50495672M/-/borrow?action=read"
+            "title": "Artificial Intelligence - Intelligent Art?",
+            "book_url": "https://openlibrary.org/books/OL50631521M",
+            "read_url": "https://openlibrary.org/books/OL50631521M/-/borrow?action=read"
         },
         {
             "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "Unlocking Artificial Intelligence",
-            "book_url": "https://openlibrary.org/books/OL57407359M",
-            "read_url": "https://openlibrary.org/books/OL57407359M/-/borrow?action=read"
+            "title": "Responsible Use of AI in Military Systems",
+            "book_url": "https://openlibrary.org/books/OL57795094M",
+            "read_url": "https://openlibrary.org/books/OL57795094M/-/borrow?action=read"
         },
         {
             "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "Artificial Intelligence Index Report 2024",
-            "book_url": "https://openlibrary.org/books/OL57461961M",
-            "read_url": "https://openlibrary.org/books/OL57461961M/-/borrow?action=read"
+            "title": "AI for Everyone",
+            "book_url": "https://openlibrary.org/books/OL58030084M",
+            "read_url": "https://openlibrary.org/books/OL58030084M/-/borrow?action=read"
         },
         {
             "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
             "title": "Multidisciplinary Perspectives on Artificial Intelligence and the Law",
             "book_url": "https://openlibrary.org/books/OL57486341M",
             "read_url": "https://openlibrary.org/books/OL57486341M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "AI for Teachers - An Open Handbook",
+            "book_url": "https://openlibrary.org/books/OL57947993M",
+            "read_url": "https://openlibrary.org/books/OL57947993M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Artificial Intelligence Index Report 2024",
+            "book_url": "https://openlibrary.org/books/OL57461961M",
+            "read_url": "https://openlibrary.org/books/OL57461961M/-/borrow?action=read"
         }
     ],
-    "more_by_author": [
-        {
-            "image_src": "https://covers.openlibrary.org/b/id/7553031-M.jpg",
-            "title": "Sustainism Is The New Modernism A Sustainist Manifesto",
-            "book_url": "https://openlibrary.org/books/OL26008159M",
-            "read_url": "https://openlibrary.org/borrow/ia/sustainismisnewm0000unse_h0m9?ref=ol"
-        },
-        {
-            "image_src": "https://covers.openlibrary.org/b/id/9620925-M.jpg",
-            "title": "Do you love me?",
-            "book_url": "https://openlibrary.org/books/OL16725485M",
-            "read_url": "https://openlibrary.org/borrow/ia/doyouloveme0000elff?ref=ol"
-        },
-        {
-            "image_src": "https://covers.openlibrary.org/b/id/7684622-M.jpg",
-            "title": "La Ley 50",
-            "book_url": "https://openlibrary.org/books/OL26078402M",
-            "read_url": "https://openlibrary.org/borrow/ia/laley50000050ce?ref=ol"
-        },
-        {
-            "image_src": "https://covers.openlibrary.org/b/id/275866-M.jpg",
-            "title": "Fast food",
-            "book_url": "https://openlibrary.org/books/OL3394024M",
-            "read_url": "https://openlibrary.org/borrow/ia/fastfood0000frey?ref=ol"
-        },
-        {
-            "image_src": "https://covers.openlibrary.org/b/id/7011682-M.jpg",
-            "title": "Food for thought",
-            "book_url": "https://openlibrary.org/books/OL23273470M",
-            "read_url": "https://openlibrary.org/borrow/ia/foodforthoughtco00frey?ref=ol"
-        },
-        {
-            "image_src": "https://covers.openlibrary.org/b/id/275868-M.jpg",
-            "title": "Baby Food",
-            "book_url": "https://openlibrary.org/books/OL7510175M",
-            "read_url": "https://openlibrary.org/borrow/ia/babyfood00joos?ref=ol"
-        },
-        {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "Dog food",
-            "book_url": "https://openlibrary.org/books/OL23247080M",
-            "read_url": "https://openlibrary.org/borrow/ia/dogfood0000frey?ref=ol"
-        },
-        {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "Food play",
-            "book_url": "https://openlibrary.org/books/OL17233526M",
-            "read_url": "https://openlibrary.org/borrow/ia/foodplaycollecti0000frey?ref=ol"
-        },
-        {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "One Lonely Sea Horse",
-            "book_url": "https://openlibrary.org/books/OL41501M",
-            "read_url": "https://openlibrary.org/borrow/ia/onelonelyseahors00frey?ref=ol"
-        },
-        {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "How are you peeling?",
-            "book_url": "https://openlibrary.org/books/OL7511028M",
-            "read_url": "https://openlibrary.org/borrow/ia/howareyoupeeling00frey?ref=ol"
-        },
-        {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "Kürbisköpfe",
-            "book_url": "https://openlibrary.org/books/OL31963618M",
-            "read_url": "https://openlibrary.org/borrow/ia/kurbiskopfevomlu0000unse?ref=ol"
-        },
-        {
-            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-            "title": "Play with your pumpkins",
-            "book_url": "https://openlibrary.org/books/OL357266M",
-            "read_url": "https://openlibrary.org/borrow/ia/playwithyourpump00elff?ref=ol"
-        }
-    ]
+    "more_by_author": []
 }
