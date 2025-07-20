@@ -906,24 +906,11 @@ const Navbar = ({
                 />
               </Link>
                   
-              {/* Toggle Theme */}
-              <button
-                className="p-2 bg-gray-200 rounded-full shadow-md cursor-pointer hover:shadow-lg dark:bg-gray-800 dark:text-white ml-3"
-                onClick={toggleDarkMode}
-                title="Toggle Theme"
-              >
-                {darkMode ? (
-                  <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
-                ) : (
-                  <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
-                )}
-              </button>
-              <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
               
               <Tooltip text="Summary">
                 <button
                   onClick={handleSummaryClick}
-                  className="p-1.5 rounded-full"
+                  className="p-1.5 rounded-full ml-10"
                 >
                   <MdSummarize size={20} />
                 </button>
@@ -1026,7 +1013,7 @@ const Navbar = ({
               </div>
             </div>
             {/* Right Section */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-1 items-center justify-start gap-1 sm:gap-1 lg:gap-2 ml-20">
               <button
                 type="button"
                 className="flex items-center gap-1 text-base font-medium bg-transparent border-0 cursor-pointer hover:underline focus:outline-none"
@@ -1070,7 +1057,6 @@ const Navbar = ({
                   <BiFullscreen size={22} />
                 </button>
               </Tooltip>
-              <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600"></span>
               
               <button
                 className="sm:hidden p-2"
@@ -1080,9 +1066,23 @@ const Navbar = ({
                 {menuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
 
+              
+              {/* Toggle Theme */}
+                <button
+                  className="p-2 bg-gray-200 rounded-full shadow-md cursor-pointer hover:shadow-lg dark:bg-gray-800 dark:text-white ml-7"
+                  onClick={toggleDarkMode}
+                  title="Toggle Theme"
+                >
+                  {darkMode ? (
+                    <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
+                  ) : (
+                    <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
+                  )}
+                </button>
+
               {/* Compact Profile + Logout */}
               {user && (
-                <div className="flex items-center gap-2 ml-4">
+                <div className="flex items-right gap-2 ml-auto">
                   {/* Avatar */}
                   <Link href="/user-profile">
                     <img
@@ -1094,7 +1094,7 @@ const Navbar = ({
                   {/* Logout */}
                   <button
                     onClick={handleLogout}
-                    className="text-red-500 hover:text-red-700 text-lg font-medium ml-5"
+                    className="text-red-500 hover:text-red-700 text-lg font-medium "
                     title="Logout"
                   >
                     Logout
