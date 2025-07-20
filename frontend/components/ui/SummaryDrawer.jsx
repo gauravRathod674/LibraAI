@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ClipboardCopy, Volume2 } from "lucide-react";
 import { useTheme } from "@/app/context/ThemeContext";
 import ReactMarkdown from "react-markdown";
-import { toast } from "sonner";
+
 
 export default function SummaryDrawer({
   isOpen,
@@ -18,6 +18,7 @@ export default function SummaryDrawer({
   const { darkMode } = useTheme();
   const [isMobile, setIsMobile] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [showCopied, setShowCopied] = useState(false);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -49,7 +50,8 @@ export default function SummaryDrawer({
 
   const handleCopy = () => {
     navigator.clipboard.writeText(stripMarkdown(summary));
-    toast.success("Summary copied to clipboard!");
+    setShowCopied(true);
+    setTimeout(() => setShowCopied(false), 3000);
   };
 
   const handleSpeak = () => {
@@ -68,6 +70,19 @@ export default function SummaryDrawer({
 
   return (
     <AnimatePresence>
+      {showCopied && (
+        <motion.div
+          key="copy-banner"
+          className="fixed top-4 left-1/2 -translate-x-1/2 bg-indigo-600 text-white px-4 py-2 rounded-lg z-50"
+          initial={{ x: '100vw', opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: '-100vw', opacity: 0 }}
+          transition={{ type: "spring", stiffness: 300, damping: 30 }}
+        >
+          Summary copied successfully!!
+        </motion.div>
+      )}
+      
       {isOpen && (
         <>
           <motion.div
