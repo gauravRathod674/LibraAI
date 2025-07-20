@@ -121,27 +121,34 @@
   }
 }
 
-/* Scrollbar styling */
+
+:root {
+  --scrollbar-track:#1E2939;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --scrollbar-track:#E7F0FD;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 17px;
-  background-color: #1E2939;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1E2939; /* Light grayish tone suitable for both modes */
+  background-color: var(--scrollbar-track);
 }
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%);
   border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   opacity: 0.9;
   cursor: pointer;
 }
 
 .pdf-container {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
