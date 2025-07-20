@@ -8,9 +8,7 @@ import Navbar from "../../../components/ui/Navbar";
 import { useTheme } from "@/app/context/ThemeContext";
 
 export default function PdfViewerPage() {
-  const { slug } = useParams(); // This dynamically gets the filename from the URL
-
-  // **MODIFIED LINE**: Point to the /downloads/ folder in your public directory
+  const { slug } = useParams();
   const fileUrl = `/downloads/${decodeURIComponent(slug)}`;
 
   const [pageNumber, setPageNumber] = useState(1);
@@ -82,7 +80,8 @@ export default function PdfViewerPage() {
   };
 
   return (
-    <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+    // This main container takes up the full screen and prevents body scrolling
+    <div style={{ height: "100vh", display: "flex", flexDirection: "column", overflow: "hidden" }}>
       <Navbar
         pageNumber={pageNumber}
         setPageNumber={setPageNumber}
@@ -113,13 +112,14 @@ export default function PdfViewerPage() {
         toc={toc}
         setToc={setToc}
       />
+      {/* This container holds the viewer and is the ONLY scrolling element */}
       <div
         style={{
-          flexGrow: 1,
-          overflow: "auto",
-          marginTop: "2.9rem",
+          flex: 1, // Use flex: 1 instead of flexGrow
+          overflowY: "auto", // Explicitly set to scroll on the Y-axis
           backgroundColor: darkMode ? "#1f2937" : "#F2F7FF",
         }}
+        className="mt-12"
         ref={viewerRef}
       >
         <PdfViewer
@@ -141,7 +141,7 @@ export default function PdfViewerPage() {
           searchResults={searchResults}
           currentSearchIndex={currentSearchIndex}
           highlightSearch={highlightSearch}
-          handleFullScreen={handleFullScreen}
+      handleFullScreen={handleFullScreen}
           viewerRef={viewerRef}
           toc={toc}
           setToc={setToc}

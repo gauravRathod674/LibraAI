@@ -4,7 +4,10 @@ import React, { useState, useEffect, useCallback } from "react";
 import { pdfjs, Document, Page } from "react-pdf";
 import { useTheme } from "@/app/context/ThemeContext";
 import { AnimatePresence, motion } from "framer-motion";
-import Navbar from "./Navbar"; // Adjust if necessary
+
+// CSS Imports to fix the console errors
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
 
@@ -77,7 +80,7 @@ export default function PdfViewer({
       }
 
       const pageText = content.items.map((item) => item.str).join(" ");
-      console.log(`Page ${pageNumber}: ${pageText}`);
+      // console.log(`Page ${pageNumber}: ${pageText}`);
     } catch (err) {
       console.error(`Failed to extract text from page ${pageNumber}:`, err);
     }
@@ -131,7 +134,7 @@ export default function PdfViewer({
         })
       );
 
-      setToc(resolved.filter(Boolean)); // ✅ USE setToc FROM PROPS
+      setToc(resolved.filter(Boolean));
     } catch (err) {
       console.warn("TOC extraction failed", err);
     }
@@ -158,7 +161,7 @@ export default function PdfViewer({
     } else {
       setZoomLevel(100);
     }
-  }, [isExpanded]);
+  }, [isExpanded, setZoomLevel]);
 
   useEffect(() => {
     function onFullScreenChange() {
@@ -190,22 +193,18 @@ export default function PdfViewer({
   function highlightTextLayer(
     textLayerDiv,
     searchTerm,
-    currentPage,
-    currentSearchIndex,
-    searchResults,
-    pageNumber
+    pageNumber,
+    searchResults
   ) {
     if (!searchTerm || !searchResults.includes(pageNumber)) return;
 
     const cleanTerm = searchTerm.trim();
     if (!cleanTerm) return;
 
-    // Remove existing highlights
     textLayerDiv.querySelectorAll("mark.pdf-highlight").forEach((el) => {
       el.replaceWith(document.createTextNode(el.textContent));
     });
 
-    // Build a global, case‑insensitive regex
     const regex = new RegExp(
       cleanTerm.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
       "gi"
@@ -229,36 +228,28 @@ export default function PdfViewer({
       let match;
       let foundAny = false;
 
-      // Walk through all matches in this text node
       while ((match = regex.exec(text))) {
         foundAny = true;
-
-        // text before the match
         if (match.index > lastIndex) {
           frag.appendChild(
             document.createTextNode(text.slice(lastIndex, match.index))
           );
         }
-
-        // highlighted match
         const mark = document.createElement("mark");
         mark.className = "pdf-highlight";
-        mark.textContent = match[0];
         mark.style.backgroundColor = "yellow";
         mark.style.color = "#222";
         mark.style.padding = "0 2px";
         mark.style.borderRadius = "2px";
+        mark.textContent = match[0];
         frag.appendChild(mark);
-
         lastIndex = regex.lastIndex;
       }
 
-      // tail of the text node
       if (foundAny && lastIndex < text.length) {
         frag.appendChild(document.createTextNode(text.slice(lastIndex)));
       }
 
-      // only replace if we actually found a match
       if (foundAny) {
         parent.replaceChild(frag, node);
       }
@@ -273,51 +264,10 @@ export default function PdfViewer({
         layer,
         searchTerm,
         pageNumber,
-        currentSearchIndex,
-        searchResults,
-        pageNumber
+        searchResults
       )
     );
   }
-
-  const handleSearch = useCallback(async () => {
-    if (!pdfDoc || !searchTerm.trim()) {
-      setSearchResults([]);
-      setCurrentSearchIndex(0);
-      return;
-    }
-
-    const results = [];
-    for (let i = 1; i <= pdfDoc.numPages; i++) {
-      const page = await pdfDoc.getPage(i);
-      const content = await page.getTextContent();
-      const text = content.items.map((item) => item.str).join(" ");
-      if (text.toLowerCase().includes(searchTerm.toLowerCase())) {
-        results.push(i);
-      }
-    }
-
-    setSearchResults(results);
-    setCurrentSearchIndex(0);
-    if (results.length > 0) {
-      setPageNumber(results[0]);
-    }
-  }, [pdfDoc, searchTerm]);
-
-  const goToNextResult = () => {
-    if (searchResults.length === 0) return;
-    const nextIndex = (currentSearchIndex + 1) % searchResults.length;
-    setCurrentSearchIndex(nextIndex);
-    setPageNumber(searchResults[nextIndex]);
-  };
-
-  const goToPrevResult = () => {
-    if (searchResults.length === 0) return;
-    const prevIndex =
-      (currentSearchIndex - 1 + searchResults.length) % searchResults.length;
-    setCurrentSearchIndex(prevIndex);
-    setPageNumber(searchResults[prevIndex]);
-  };
 
   useEffect(() => {
     function handleKeyDown(e) {
@@ -336,7 +286,6 @@ export default function PdfViewer({
   }, [setPageNumber, totalPages]);
 
   const containerBgColor = darkMode ? "#F2F7FF" : "#1f2937";
-  const textColor = darkMode ? "#e5e7eb" : "#1f2937";
 
   return (
     <div
@@ -347,7 +296,6 @@ export default function PdfViewer({
         backgroundColor: containerBgColor,
       }}
     >
-      {/* Table of Contents */}
       <AnimatePresence>
         {showToc && (
           <>
@@ -412,11 +360,10 @@ export default function PdfViewer({
       <div
         style={{
           flex: 1,
-          overflow: isFullScreen ? "hidden" : "auto",
+          overflow: "auto", // This container will handle the scrolling
           padding: 0,
           display: "flex",
           justifyContent: "center",
-          alignItems: "center",
         }}
       >
         {error ? (
@@ -429,17 +376,14 @@ export default function PdfViewer({
             className="pdf-document-container"
             onItemClick={({ pageNumber: dest }) => {
               setPageNumber(dest);
-              window.scrollTo({ top: 0, behavior: "smooth" }); // optional
+              window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
             {numPages && (
               <div
                 style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center", // use center here
-                  minHeight: isFullScreen ? "100vh" : "auto", // full height only in FS
-                  paddingTop: isFullScreen ? 0 : "2rem", // no top padding in FS
+                  paddingTop: "2rem",
+                  paddingBottom: "2rem",
                 }}
               >
                 <Page
@@ -451,7 +395,6 @@ export default function PdfViewer({
                   renderAnnotationLayer={true}
                   onRenderTextLayerSuccess={onRenderTextLayerSuccess}
                   className="rounded shadow-md"
-                  style={{ backgroundColor: "#fff" }}
                 />
               </div>
             )}
