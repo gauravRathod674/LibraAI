@@ -894,7 +894,7 @@ const Navbar = ({
                   <LuTableOfContents size={20} />
                 </button>
               )}
-              <Link href="/" className="flex items-center">
+              <Link href="/" className="flex items-center ml-3">
                 <img
                   src={
                     darkMode
@@ -908,7 +908,7 @@ const Navbar = ({
                   
               {/* Toggle Theme */}
               <button
-                className="p-2 bg-gray-200 rounded-full shadow-md cursor-pointer hover:shadow-lg dark:bg-gray-800 dark:text-white"
+                className="p-2 bg-gray-200 rounded-full shadow-md cursor-pointer hover:shadow-lg dark:bg-gray-800 dark:text-white ml-3"
                 onClick={toggleDarkMode}
                 title="Toggle Theme"
               >
@@ -1094,7 +1094,7 @@ const Navbar = ({
                   {/* Logout */}
                   <button
                     onClick={handleLogout}
-                    className="text-red-500 hover:text-red-700 text-lg font-medium"
+                    className="text-red-500 hover:text-red-700 text-lg font-medium ml-5"
                     title="Logout"
                   >
                     Logout
