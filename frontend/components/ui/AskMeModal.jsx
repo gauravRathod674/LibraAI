@@ -6,6 +6,7 @@ import { useTheme } from '@/app/context/ThemeContext';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import { X, Volume2, ClipboardCopy, Bot } from 'lucide-react';
+import { toast } from 'sonner'; // ✅ CORRECTED: Import from sonner
 
 // The component now accepts `isOpen` and `onClose` props to be controlled externally.
 export default function AskMeModal({ isOpen, onClose, fileUrl }) {
@@ -84,6 +85,8 @@ export default function AskMeModal({ isOpen, onClose, fileUrl }) {
 
     const handleCopy = (text) => {
         navigator.clipboard.writeText(text);
+        // ✅ CORRECTED: Added toast notification on successful copy
+        toast.success("Copied to clipboard!");
     };
 
     // If the modal is not open, render nothing.

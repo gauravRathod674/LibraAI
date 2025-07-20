@@ -5,7 +5,7 @@ import { X, Volume2, ClipboardCopy } from "lucide-react";
 import { useTheme } from "@/app/context/ThemeContext";
 import { Listbox } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { toast } from "react-hot-toast";
+import { toast } from "sonner"; // ✅ CORRECTED: Import from sonner
 
 const languages = [
   { code: "af", name: "Afrikaans" },
@@ -76,7 +76,7 @@ const languages = [
   { code: "my", name: "Myanmar (Burmese)" },
   { code: "ne", name: "Nepali" },
   { code: "no", name: "Norwegian" },
-  { code: "ny", name: "Nyanja (Chichewa)" }, // Keep this one
+  { code: "ny", name: "Nyanja (Chichewa)" },
   { code: "or", name: "Odia (Oriya)" },
   { code: "ps", name: "Pashto" },
   { code: "fa", name: "Persian" },
@@ -113,23 +113,20 @@ const languages = [
   { code: "yi", name: "Yiddish" },
   { code: "yo", name: "Yoruba" },
   { code: "zu", name: "Zulu" },
-  // Newly added languages as of recent updates (this list is not exhaustive of all 249+):
   { code: "ace", name: "Acehnese" },
   { code: "ach", name: "Acholi" },
-  { code: "bss", name: "Akoose" }, // Example, check specific code if needed
-  { code: "arq", name: "Algerian Arabic" }, // Example, check specific code if needed
-  { code: "ak", name: "Akan" }, // Twi (Akan)
+  { code: "bss", name: "Akoose" },
+  { code: "arq", name: "Algerian Arabic" },
+  { code: "ak", name: "Akan" },
   { code: "chr", name: "Cherokee" },
-  // Removed the duplicate { code: "ny", name: "Chichewa" }, as it was causing the error.
   { code: "crs", name: "Seychellois Creole" },
   { code: "fon", name: "Fon" },
   { code: "ff", name: "Fulfulde" },
   { code: "gaa", name: "Ga" },
-  { code: "lg", name: "Ganda" }, // Luganda
-  // Removed the duplicate { code: "haw", name: "Hawaiian" }, as it was causing the error.
+  { code: "lg", name: "Ganda" },
   { code: "cnh", name: "Hakha Chin" },
   { code: "ilo", name: "Iloko" },
-  { code: "kde", name: "Makonde" }, // Example, check specific code if needed
+  { code: "kde", name: "Makonde" },
   { code: "kg", name: "Kongo" },
   { code: "ktu", name: "Kituba" },
   { code: "lus", name: "Mizo" },
@@ -141,7 +138,6 @@ const languages = [
   { code: "sg", name: "Sango" },
   { code: "sa", name: "Sanskrit" },
   { code: "nso", name: "Sepedi" },
-  // Removed the duplicate { code: "st", name: "Sesotho" }, as it was causing the error.
   { code: "ss", name: "Swati" },
   { code: "ti", name: "Tigrinya" },
   { code: "ts", name: "Tsonga" },
@@ -152,6 +148,7 @@ const languages = [
   { code: "wo", name: "Wolof" },
   { code: "yua", name: "Yucatec Maya" },
 ];
+
 export default function TranslateDrawer({
   isOpen,
   toggleDrawer,
@@ -182,8 +179,6 @@ export default function TranslateDrawer({
     }
   }, [isOpen]);
 
-  // Read‑aloud (supports Hindi text and Devanagari digits)
-  // Read‑aloud (dynamic language support + Devanagari digits)
   const handleSpeak = (txt) => {
     console.log("🗣 handleSpeak input:", txt);
 
@@ -193,21 +188,10 @@ export default function TranslateDrawer({
       return;
     }
 
-    // 🔐 Normalize input
     let speakSource = "";
 
     if (Array.isArray(txt)) {
-      speakSource = txt
-        .map((block) =>
-          typeof block === "string"
-            ? block
-            : typeof block?.text === "string"
-            ? block.text
-            : ""
-        )
-        .join(" ");
-    } else if (typeof txt === "object" && txt?.text) {
-      speakSource = txt.text;
+      speakSource = txt.join(" ");
     } else if (typeof txt === "string") {
       speakSource = txt;
     }
@@ -217,7 +201,6 @@ export default function TranslateDrawer({
       return;
     }
 
-    // 🔠 Convert digits to Devanagari for Hindi (hi)
     const devanagariDigits = ["०", "१", "२", "३", "४", "५", "६", "७", "८", "९"];
     let normalized = speakSource;
 
@@ -228,7 +211,6 @@ export default function TranslateDrawer({
     const utterance = new SpeechSynthesisUtterance(normalized);
     utterance.rate = 1.1;
 
-    // 🎯 Set language & voice dynamically
     const voices = speechSynthesis.getVoices();
     const matchingVoice =
       voices.find((v) => v.lang.startsWith(selectedLang)) ||
@@ -238,7 +220,7 @@ export default function TranslateDrawer({
       utterance.voice = matchingVoice;
       utterance.lang = matchingVoice.lang;
     } else {
-      utterance.lang = selectedLang; // fallback
+      utterance.lang = selectedLang;
     }
 
     utterance.onend = () => setIsSpeaking(false);
@@ -246,9 +228,15 @@ export default function TranslateDrawer({
     setIsSpeaking(true);
   };
 
-  // Copy to clipboard
+  // ✅ CORRECTED: This function now correctly handles the text to copy.
   const handleCopy = (txt) => {
-    navigator.clipboard.writeText(txt);
+    if (!txt) {
+        toast.error("Nothing to copy.");
+        return;
+    }
+    // If the text is an array (from paragraphs), join it. Otherwise, use it as is.
+    const textToCopy = Array.isArray(txt) ? txt.join("\n\n") : txt;
+    navigator.clipboard.writeText(textToCopy);
     toast.success("Copied to clipboard!");
   };
 
@@ -256,7 +244,6 @@ export default function TranslateDrawer({
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Backdrop */}
           <motion.div
             className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
             initial={{ opacity: 0 }}
@@ -265,7 +252,6 @@ export default function TranslateDrawer({
             onClick={toggleDrawer}
           />
 
-          {/* Drawer */}
           <motion.div
             className={`fixed top-0 right-0 z-50 h-full overflow-y-auto flex flex-col shadow-2xl
               ${darkMode ? "bg-white text-gray-900" : "bg-[#1e293b] text-white"}
@@ -280,7 +266,6 @@ export default function TranslateDrawer({
             exit={{ x: "100%" }}
             transition={{ type: "spring", stiffness: 260, damping: 25 }}
           >
-            {/* Header */}
             <div
               className={`flex items-center justify-between px-5 py-4 rounded-t-lg
                 ${
@@ -296,16 +281,13 @@ export default function TranslateDrawer({
               </button>
             </div>
 
-            {/* Body */}
             <div className="flex-1 px-5 py-4 space-y-5 overflow-y-auto translate-scroll">
               {!translation && !loading && (
                 <>
-                  {/* Intro */}
                   <div className="text-sm opacity-80">
                     ✨ Choose language & scope:
                   </div>
 
-                  {/* Search input */}
                   <input
                     type="text"
                     placeholder="Search language..."
@@ -323,7 +305,6 @@ export default function TranslateDrawer({
                     }
                   />
 
-                  {/* Listbox dropdown */}
                   <Listbox value={selectedLang} onChange={setSelectedLang}>
                     <div className="relative">
                       <Listbox.Button
@@ -367,7 +348,6 @@ export default function TranslateDrawer({
                     </div>
                   </Listbox>
 
-                  {/* Scope */}
                   <label className="flex items-center gap-2 mt-1 text-sm">
                     <input
                       type="checkbox"
@@ -380,7 +360,6 @@ export default function TranslateDrawer({
                     Translate entire chapter
                   </label>
 
-                  {/* Translate button */}
                   <button
                     onClick={() => onTranslate(selectedLang, scope)}
                     className="w-full py-2 text-white transition bg-blue-600 rounded-md hover:bg-blue-700"
@@ -414,8 +393,9 @@ export default function TranslateDrawer({
                         }
                       />
                     </button>
+                    {/* ✅ CORRECTED: Pass the 'translation' state to the copy function */}
                     <button
-                      onClick={handleCopy}
+                      onClick={() => handleCopy(translation)}
                       className="text-gray-400 hover:text-indigo-400"
                     >
                       <ClipboardCopy size={18} />
@@ -425,7 +405,6 @@ export default function TranslateDrawer({
                     const text = block.trim();
                     if (!text) return null;
 
-                    // Match common heading indicators (English, Hindi, Gujarati, Marathi, etc.)
                     const headingRegex =
                       /^\[(HEADING|शीर्षक|શીર્ષક|শিরোনাম|ಶೀರ್ಷಿಕೆ|శీర్షిక|தலைப்பு|หัวข้อ)\]\s*/i;
                     const isHeading = headingRegex.test(text);
