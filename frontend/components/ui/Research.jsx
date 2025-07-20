@@ -1,9 +1,12 @@
+// frontend/app/search/Research.jsx
+
 "use client";
 
 import React, { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import { useTheme } from "@/app/context/ThemeContext";
 import axios from "axios";
+import { FaDownload, FaSpinner, FaCheckCircle } from "react-icons/fa"; // Import new icons
 
 export default function Research({ searchTerm, hasSearched }) {
   const { darkMode } = useTheme();
@@ -11,11 +14,13 @@ export default function Research({ searchTerm, hasSearched }) {
   const [papers, setPapers] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [downloadStatus, setDownloadStatus] = useState({}); // To track download state for each paper
 
   useEffect(() => {
     setIsClient(true);
   }, []);
 
+  // ... (keep the existing useEffect for fetching papers)
   useEffect(() => {
     const controller = new AbortController();
 
@@ -26,7 +31,6 @@ export default function Research({ searchTerm, hasSearched }) {
         return;
       }
 
-      // Set a maximum number of retries to avoid an infinite loop
       const maxRetries = 15;
       if (retryCount >= maxRetries) {
         setError("Failed to fetch results from the server after multiple attempts.");
@@ -34,7 +38,6 @@ export default function Research({ searchTerm, hasSearched }) {
         return;
       }
 
-      // On the first attempt for a new search, clear old results and set loading.
       if (retryCount === 0) {
         setLoading(true);
         setError("");
@@ -51,20 +54,16 @@ export default function Research({ searchTerm, hasSearched }) {
               Authorization: `Bearer ${localStorage.getItem("token")}`,
             },
             withCredentials: true,
-            // Tell axios not to throw an error on a 202 status
             validateStatus: (status) => {
               return (status >= 200 && status < 300) || status === 202;
             },
           }
         );
 
-        // If status is 202, the backend is still scraping.
         if (res.status === 202) {
           console.log("Backend is processing... retrying in 4 seconds.");
-          // Wait for 4 seconds and then poll the endpoint again.
           setTimeout(() => fetchPapers(retryCount + 1), 4000);
         } else {
-          // If status is 200, the data is ready.
           setPapers(res.data || []);
           setLoading(false);
         }
@@ -85,13 +84,13 @@ export default function Research({ searchTerm, hasSearched }) {
         setPapers([]);
     }
 
-    // Cleanup function to abort the request if the component unmounts
     return () => {
       controller.abort();
     };
   }, [searchTerm, hasSearched]);
-
+  
   const filtered = useMemo(() => {
+    // ... (keep this memoized filter logic the same)
     const q = searchTerm.trim().toLowerCase();
     if (!q) return papers;
     return papers.filter(
@@ -102,6 +101,55 @@ export default function Research({ searchTerm, hasSearched }) {
         (p.authors || []).join(" ").toLowerCase().includes(q)
     );
   }, [papers, searchTerm]);
+
+
+  const handleDownloadPdf = async (paper) => {
+    // Use paper title as a unique key for status
+    const paperKey = paper.title;
+    if (downloadStatus[paperKey] === 'downloading' || downloadStatus[paperKey] === 'downloaded') {
+        return; // Prevent multiple clicks
+    }
+
+    setDownloadStatus(prev => ({ ...prev, [paperKey]: 'downloading' }));
+
+    try {
+        await axios.post(
+            `${process.env.NEXT_PUBLIC_API_URL}/download-research-paper`,
+            {
+                pdf_url: paper.pdf_link,
+                title: paper.title,
+            },
+            {
+                headers: {
+                    Authorization: `Bearer ${localStorage.getItem("token")}`,
+                },
+                withCredentials: true,
+            }
+        );
+        setDownloadStatus(prev => ({ ...prev, [paperKey]: 'downloaded' }));
+    } catch (err) {
+        console.error("Failed to download PDF:", err);
+        setDownloadStatus(prev => ({ ...prev, [paperKey]: 'error' }));
+        // Optionally, reset status after a few seconds to allow retrying
+        setTimeout(() => {
+            setDownloadStatus(prev => ({ ...prev, [paperKey]: null }));
+        }, 5000);
+    }
+  };
+  
+  const getDownloadButtonContent = (paper) => {
+    const status = downloadStatus[paper.title];
+    switch (status) {
+      case 'downloading':
+        return <><FaSpinner className="animate-spin" /> Downloading...</>;
+      case 'downloaded':
+        return <><FaCheckCircle /> Downloaded</>;
+      case 'error':
+        return "Download Failed";
+      default:
+        return <> Download PDF</>;
+    }
+  };
 
   return (
     <div className="relative min-h-screen transition-all">
@@ -123,17 +171,19 @@ export default function Research({ searchTerm, hasSearched }) {
           filtered.map((paper, idx) => (
             <motion.div
               key={idx}
+              // ... (keep animation props)
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
-              className={`p-6 rounded-xl border shadow-md hover:shadow-xl transition-all cursor-pointer hover:scale-[1.01] w-full flex ${
+              className={`p-6 rounded-xl border shadow-md hover:shadow-xl transition-all w-full flex ${
                 darkMode
                   ? "bg-[#E7F0FD] text-gray-900 border-gray-300"
                   : "bg-gray-800 text-white border-gray-700"
               }`}
             >
               <div className="w-[85%] pr-4">
+                 {/* ... (keep paper details) */}
                 <h2 className="text-xl font-semibold mb-1 hover:text-indigo-400 transition duration-200">
                   {paper.title}
                 </h2>
@@ -148,21 +198,25 @@ export default function Research({ searchTerm, hasSearched }) {
                 <p className="text-sm opacity-80 mb-4">{paper.tldr}</p>
               </div>
 
-              <div className="w-[15%] flex flex-col items-end justify-center gap-7 min-w-[120px]">
-                 {/* {paper.pdf_link && paper.pdf_link !== "N/A" && ( */}
-                    <button
-                        onClick={() => window.open(paper.pdf_link, "_blank")}
-                        className="px-4 py-2 rounded-full text-sm font-medium cursor-pointer shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-400 to-cyan-300 text-black w-full"
-                    >
-                        View PDF
-                    </button>
-                    <button
-                        onClick={() => window.open(paper.pdf_link, "_blank")}
-                        className="px-4 py-2 rounded-full text-sm font-medium cursor-pointer shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-400 to-cyan-300 text-black w-full"
-                    >
-                        Download PDF
-                    </button>
-                 {/* )} */}
+              <div className="w-[15%] flex flex-col items-end justify-center gap-4 min-w-[130px]">
+                 <button
+                    onClick={() => window.open(paper.pdf_link, "_blank")}
+                    className="px-4 py-2 rounded-full text-sm font-medium cursor-pointer shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-400 to-cyan-300 text-black w-full"
+                >
+                    View PDF
+                </button>
+                <button
+                    onClick={() => handleDownloadPdf(paper)}
+                    disabled={downloadStatus[paper.title] === 'downloading' || downloadStatus[paper.title] === 'downloaded'}
+                    className={`px-4 py-2 rounded-full text-sm font-medium cursor-pointer shadow-md hover:scale-105 transition w-full flex items-center justify-center gap-2 ${
+                        downloadStatus[paper.title] === 'downloaded' ? 'bg-green-500 text-white' : 
+                        downloadStatus[paper.title] === 'downloading' ? 'bg-gray-500 text-white' : 
+                        downloadStatus[paper.title] === 'error' ? 'bg-red-500 text-white' : 
+                        'bg-gradient-to-r from-purple-400 to-cyan-300 text-black'
+                    }`}
+                >
+                    {getDownloadButtonContent(paper)}
+                </button>
               </div>
             </motion.div>
           ))

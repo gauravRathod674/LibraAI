@@ -766,8 +766,8 @@ const Navbar = ({
                     ${
                       darkMode
                         ? "bg-[#E7F0FD] text-gray-900"
-                        : "bg-[rgba(30,41,57,0.2)] text-white"
-                      // : "bg-gray-900 text-white"
+                        // : "bg-[rgba(30,41,57,0.2)] text-white"
+                      : "bg-gray-900 text-white"
                     }
       `}
       >

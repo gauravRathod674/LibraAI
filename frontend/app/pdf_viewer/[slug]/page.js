@@ -8,8 +8,10 @@ import Navbar from "../../../components/ui/Navbar";
 import { useTheme } from "@/app/context/ThemeContext";
 
 export default function PdfViewerPage() {
-  const { slug } = useParams(); // dynamically gets ikigai.pdf
-  const fileUrl = `/${decodeURIComponent(slug)}`;
+  const { slug } = useParams(); // This dynamically gets the filename from the URL
+
+  // **MODIFIED LINE**: Point to the /downloads/ folder in your public directory
+  const fileUrl = `/downloads/${decodeURIComponent(slug)}`;
 
   const [pageNumber, setPageNumber] = useState(1);
   const [totalPages, setTotalPages] = useState(1);

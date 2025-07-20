@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaFilePdf, FaTimes, FaTrash } from "react-icons/fa";
 import axios from "axios";
+import Link from "next/link"; // Import the Link component
 
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/Footer";
@@ -33,7 +34,6 @@ export default function DownloadsPage() {
         setDownloads(mapped);
       } catch (err) {
         console.error("Failed to fetch downloads:", err);
-        // Optionally, set an error state here to show in the UI
       } finally {
         setLoading(false);
       }
@@ -41,7 +41,7 @@ export default function DownloadsPage() {
     fetchDownloads();
   }, [API]);
 
-  // Animated background effect
+  // Animated background effect (no changes here)
   useEffect(() => {
     const canvas = document.getElementById("backgroundCanvas");
     if (!canvas) return;
@@ -164,7 +164,7 @@ export default function DownloadsPage() {
           <div className="mt-6 px-6 pb-6 space-y-3 min-h-[150px]">
             {loading ? (
               <div className="flex justify-center items-center h-full pt-10">
-                 <p className="text-gray-500">Loading downloads...</p>
+                   <p className="text-gray-500">Loading downloads...</p>
               </div>
             ) : downloads.length > 0 ? (
               downloads.map((pdf) => (
@@ -174,24 +174,26 @@ export default function DownloadsPage() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, x: -20, transition: { duration: 0.2 } }}
-                  className={`flex items-center gap-4 p-4 rounded-lg transition ${
+                  className={`flex items-center justify-between gap-4 p-4 rounded-lg transition ${
                     darkMode
                       ? "bg-[#f7f7f7]/80 text-black"
                       : "bg-gray-800/70 text-white"
                   }`}
                 >
-                  <div className={`text-2xl ${darkMode ? "text-blue-600" : "text-cyan-300"}`}>
-                    <FaFilePdf />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="font-medium break-words">{pdf.name}</p>
-                    <p className="text-xs mt-1 text-gray-500 dark:text-gray-400">
-                      {pdf.size}
-                    </p>
-                  </div>
+                  <Link href={`/pdf_viewer/${encodeURIComponent(pdf.name)}`} className="flex items-center gap-4 flex-grow min-w-0">
+                      <div className={`text-2xl ${darkMode ? "text-blue-600" : "text-cyan-300"}`}>
+                          <FaFilePdf />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                          <p className="font-medium break-words hover:underline">{pdf.name}</p>
+                          <p className="text-xs mt-1 text-gray-500 dark:text-gray-400">
+                              {pdf.size}
+                          </p>
+                      </div>
+                  </Link>
                   <button
                     onClick={() => handleCancelDownload(pdf.id)}
-                    className={`p-2 rounded-full transition ${
+                    className={`p-2 rounded-full transition flex-shrink-0 ${
                       darkMode
                         ? "text-gray-500 hover:bg-gray-200 hover:text-black"
                         : "text-gray-400 hover:bg-gray-700 hover:text-white"

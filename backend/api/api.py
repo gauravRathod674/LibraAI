@@ -5,6 +5,7 @@ from ninja.errors import HttpError
 import threading
 from datetime import datetime
 import traceback
+import requests
 import os
 import re
 
@@ -186,6 +187,89 @@ def research_search_api(request, title: str):
 
     # Immediately return a 202 Accepted response.
     return JsonResponse({"status": "processing"}, status=202)
+
+# ─── Schema for the new download request ──────────────────────────────────────
+class DownloadRequest(Schema):
+    pdf_url: str
+    title: str
+
+def format_file_size(size_in_bytes):
+    """Converts bytes to a human-readable format (KB, MB, GB)."""
+    if size_in_bytes < 1024:
+        return f"{size_in_bytes} B"
+    elif size_in_bytes < 1024**2:
+        return f"{size_in_bytes/1024:.2f} KB"
+    elif size_in_bytes < 1024**3:
+        return f"{size_in_bytes/1024**2:.2f} MB"
+    else:
+        return f"{size_in_bytes/1024**3:.2f} GB"
+
+# ─── New endpoint to download a research paper ────────────────────────────────
+@api.post("/download-research-paper", auth=JWTAuth())
+def download_research_paper(request, data: DownloadRequest):
+    """
+    Downloads a PDF from a URL, saves it locally, and creates a download record.
+    """
+    if not request.user:
+        raise HttpError(401, "Unauthorized")
+
+    # 1. Sanitize the title to create a safe filename
+    sanitized_title = re.sub(r'[\s:/\\]+', '_', data.title)
+    file_name = f"{sanitized_title}.pdf"
+
+    # 2. Check if this user has already downloaded this file
+    if Download.objects.filter(user=request.user, file_name=file_name).exists():
+        return JsonResponse({"message": "File already downloaded."}, status=208) # 208 Already Reported
+
+    try:
+        # 3. Fetch the PDF content from the external URL
+        response = requests.get(data.pdf_url, stream=True, timeout=30)
+        response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+        pdf_content = response.content
+        file_size_bytes = len(pdf_content)
+        file_size_str = format_file_size(file_size_bytes)
+
+        # 4. Define save paths and ensure directories exist
+        # Note: Adjust these paths if your project structure differs from BASE_DIR -> project_root
+        backend_save_path = os.path.join(settings.BASE_DIR, 'downloads', file_name)
+        frontend_save_path = os.path.join(settings.BASE_DIR, '..', 'frontend', 'public', 'downloads', file_name)
+
+        os.makedirs(os.path.dirname(backend_save_path), exist_ok=True)
+        os.makedirs(os.path.dirname(frontend_save_path), exist_ok=True)
+
+        # 5. Save the file to both locations
+        with open(backend_save_path, 'wb') as f_back:
+            f_back.write(pdf_content)
+        with open(frontend_save_path, 'wb') as f_front:
+            f_front.write(pdf_content)
+        
+        print(f"✅ Saved PDF to backend: {backend_save_path}")
+        print(f"✅ Saved PDF to frontend: {frontend_save_path}")
+
+        # 6. Create the database record
+        new_download = Download.objects.create(
+            user=request.user,
+            file_name=file_name,
+            file_size=file_size_str
+        )
+        
+        return {
+            "message": "Download successful!",
+            "download": {
+                "id": new_download.id,
+                "file_name": new_download.file_name,
+                "file_size": new_download.file_size
+            }
+        }
+
+    except requests.exceptions.RequestException as e:
+        raise HttpError(500, f"Failed to download PDF from source: {str(e)}")
+    except IOError as e:
+        raise HttpError(500, f"Failed to save PDF file: {str(e)}")
+    except Exception as e:
+        raise HttpError(500, f"An unexpected error occurred: {str(e)}")
+
+
 
 # ─── Response schema for a single download record ──────────────────────────────
 class DownloadOut(Schema):
