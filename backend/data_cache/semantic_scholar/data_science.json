@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+    "authors": [
+      "Evan Bolyen",
+      "J. Rideout",
+      "J. Caporaso"
+    ],
+    "venue": "Nature Biotechnology",
+    "pub_date": "24 July 2019",
+    "tldr": "TLDR\nQIIME 2 development was primarily funded by NSF Awards 1565100 to J.G.C. and R.K.P. and partial support was also provided by the following: grants NIH U54CA143925 and U54MD012388.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "High-Dimensional Probability: An Introduction with Applications in Data Science",
+    "authors": [
+      "O. Papaspiliopoulos"
+    ],
+    "venue": "N/A",
+    "pub_date": "24 September 2020",
+    "tldr": "TLDR\nThis work states that a random projection of a set T in R n onto an m-dimensional subspace approximately preserves the geometry of T if m ⪆ d ( T ) .\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Data Interpreter: An LLM Agent For Data Science",
+    "authors": [
+      "Sirui Hong",
+      "Yizhang Lin",
+      "Xiawu Zheng"
+    ],
+    "venue": "arXiv.org",
+    "pub_date": "28 February 2024",
+    "tldr": "TLDR\nThe Data Interpreter incorporates two key modules: 1) Hierarchical Graph Modeling, which breaks down complex problems into manageable subproblems, enabling dynamic node generation and graph optimization; and 2) Programmable Node Generation, a technique that refines and verifies each subproblem to iteratively improve code generation results and robustness.\nExpand",
+    "pdf_link": "https://arxiv.org/pdf/2402.18679.pdf"
+  },
+  {
+    "title": "BOOK REVIEW - Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data",
+    "authors": [
+      "Gabriel Neagu"
+    ],
+    "venue": "Studies in Informatics and Control",
+    "pub_date": "3 June 2024",
+    "tldr": "TLDR\nThe content focuses on concepts, principles and practical applications that are applicable to any industry and technology environment, and the learning is supported and explained with examples that you can replicate using open-source software.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?",
+    "authors": [
+      "Liqiang Jing",
+      "Zhehui Huang",
+      "Dong Yu"
+    ],
+    "venue": "N/A",
+    "pub_date": "12 September 2024",
+    "tldr": "TLDR\nDSBench is introduced, a comprehensive benchmark designed to evaluate data science agents with realistic tasks, and shows that they struggle with most tasks, with the best agent solving only 34.12% of data analysis tasks and achieving a 34.74% Relative Performance Gap (RPG).\nExpand",
+    "pdf_link": "https://arxiv.org/pdf/2409.07703.pdf"
+  },
+  {
+    "title": "DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation",
+    "authors": [
+      "Yuhang Lai",
+      "Chengxi Li",
+      "Tao Yu"
+    ],
+    "venue": "International Conference on Machine Learning",
+    "pub_date": "18 November 2022",
+    "tldr": "TLDR\nDS-1000, a code generation benchmark with a thousand data science problems spanning seven Python libraries, such as NumPy and Pandas, is introduced; the current best public system (Codex-002) achieves 43.3% accuracy, leaving ample room for improvement.\nExpand",
+    "pdf_link": "https://arxiv.org/pdf/2211.11501.pdf"
+  },
+  {
+    "title": "The Role of ChatGPT in Data Science: How AI-Assisted Conversational Interfaces Are Revolutionizing the Field",
+    "authors": [
+      "Hossein Hassani",
+      "E. Silva"
+    ],
+    "venue": "Big Data and Cognitive Computing",
+    "pub_date": "27 March 2023",
+    "tldr": "TLDR\nThe paper discusses how ChatGPT can assist data scientists in automating various aspects of their workflow, including data cleaning and preprocessing, model training, and result interpretation, and examines the advantages ofChatGPT’s architecture, including its ability to be fine-tuned for a wide range of language-related tasks and generate synthetic data.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Spatial Data Science",
+    "authors": [
+      "E. Pebesma",
+      "R. Bivand"
+    ],
+    "venue": "N/A",
+    "pub_date": "29 March 2023",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "A New Era of Learning: Considerations for ChatGPT as a Tool to Enhance Statistics and Data Science Education",
+    "authors": [
+      "Amanda R. Ellis",
+      "E. Slade"
+    ],
+    "venue": "Journal of Statistics and Data Science Education",
+    "pub_date": "4 May 2023",
+    "tldr": "TLDR\nThe possibility of leveraging ChatGPT’s capabilities in statistics and data science education is explored, providing examples of howChatGPT can aid in developing course materials and suggestions for how educators can prompt students to interact with ChatG PT responsibly.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "ChatGPT for Teaching and Learning: An Experience from Data Science Education",
+    "authors": [
+      "Yong Zheng"
+    ],
+    "venue": "Conference on Information Technology Education",
+    "pub_date": "31 July 2023",
+    "tldr": "TLDR\nThe findings not only distinguish data science education from other disciplines but also uncover new opportunities and challenges associated with incorporating ChatGPT into the data science curriculum.\nExpand",
+    "pdf_link": "N/A"
+  }
+]

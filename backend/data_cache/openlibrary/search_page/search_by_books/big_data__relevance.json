@@ -1,0 +1,2753 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Treasure Island",
+        "url": "https://openlibrary.org/works/OL24034W/Treasure_Island?edition=key%3A/books/OL12174302M",
+        "author": "Robert Louis Stevenson",
+        "rating": "3.8",
+        "num_ratings": "85",
+        "first_published": "1880",
+        "num_editions": "1984 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data: Data Science",
+        "url": "https://openlibrary.org/works/OL28735803W/Big_Data?edition=key%3A/books/OL39436992M",
+        "author": "Mouad Radi",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data Analytics: Turning Big Data into Big Money",
+        "url": "https://openlibrary.org/works/OL21471886W/Big_Data_Analytics?edition=key%3A/books/OL29104077M",
+        "author": "Frank J. Ohlhorst",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2012",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/8199217-M.jpg",
+        "title": "Big data: does size matter?",
+        "url": "https://openlibrary.org/works/OL17887413W/Big_Data?edition=key%3A/books/OL26465995M",
+        "author": "Timandra Harkness",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2016",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data: Planning Your Big Data Strategy",
+        "url": "https://openlibrary.org/works/OL22445737W/Big_Data?edition=key%3A/books/OL30528778M",
+        "author": "David Belanger",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2015",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13200127-M.jpg",
+        "title": "Big Data: A Beginner's Introduction",
+        "url": "https://openlibrary.org/works/OL21652319W/Big_Data?edition=key%3A/books/OL29440657M",
+        "author": "Saswat Sarangi",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2019",
+        "num_editions": "6 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13268125-M.jpg",
+        "title": "Big data computing",
+        "url": "https://openlibrary.org/works/OL23318233W/Big_data_computing?edition=key%3A/books/OL31166950M",
+        "author": "Rajendra Akerkar",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2013",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data : Characteristics of Big Data: Automation Software",
+        "url": "https://openlibrary.org/works/OL30900471W/Big_Data_Characteristics_of_Big_Data?edition=key%3A/books/OL42453068M",
+        "author": "Marketta Pacenta",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data: A Primer",
+        "url": "https://openlibrary.org/works/OL20723417W/Big_Data?edition=key%3A/books/OL37280050M",
+        "author": "Hrushikesha Mohanty",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2015",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data Analytics: Big Data ,big Data at Work ,big Data Systems ,a Big Data Analytics Architecture for Smart Cities and Smart Companies",
+        "url": "https://openlibrary.org/works/OL36200022W/Big_Data_Analytics?edition=key%3A/books/OL48917220M",
+        "author": "David Gerald",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2021",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12435964-M.jpg",
+        "title": "Big Data",
+        "url": "https://openlibrary.org/works/OL22146960W/Big_Data?edition=key%3A/books/OL30173392M",
+        "author": "Kuan-Ching Li",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2015",
+        "num_editions": "6 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data: Regulative Herausforderungen",
+        "url": "https://openlibrary.org/works/OL36712593W/Big_Data?edition=key%3A/books/OL49580131M",
+        "author": "Wolfgang Hoffmann-Riem",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2018",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/7745384-M.jpg",
+        "title": "Big Data Analytics Turning Big Data Into Big Money",
+        "url": "https://openlibrary.org/works/OL17521852W/Big_Data_Analytics_Turning_Big_Data_Into_Big_Money?edition=key%3A/books/OL26110818M",
+        "author": "Frank J. Ohlhorst",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2012",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/12917602-M.jpg",
+        "title": "Big Data: Una breve introducción",
+        "url": "https://openlibrary.org/works/OL27473327W/Big_Data?edition=key%3A/books/OL37461763M",
+        "author": "Dawn E. Holmes",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2022",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data",
+        "url": "https://openlibrary.org/works/OL23185527W/Big_data?edition=key%3A/books/OL33508401M",
+        "author": "James R. Kalyvas",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2014",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/9283987-M.jpg",
+        "title": "Big data: a very short introduction",
+        "url": "https://openlibrary.org/works/OL19730613W/Big_data?edition=key%3A/books/OL26943710M",
+        "author": "Holmes, Dawn E. (Statistician)",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2017",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data",
+        "url": "https://openlibrary.org/works/OL20735627W/Big_Data?edition=key%3A/books/OL28044643M",
+        "author": "Benoit Leclerc",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2020",
+        "num_editions": "6 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data: Understanding How Data Powers Big Business",
+        "url": "https://openlibrary.org/works/OL21512226W/Big_Data?edition=key%3A/books/OL33571101M",
+        "author": "Bill Schmarzo",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2013",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Politics and Policies of Big Data: Big Data, Big Brother?",
+        "url": "https://openlibrary.org/works/OL20593131W/The_Politics_and_Policies_of_Big_Data?edition=key%3A/books/OL40087703M",
+        "author": "Nicola Green",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2018",
+        "num_editions": "6 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Big Data: A Workshop Report",
+        "url": "https://openlibrary.org/works/OL29376211W/Big_Data?edition=key%3A/books/OL40389624M",
+        "author": "National Research Council",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2012",
+        "num_editions": "3 editions"
+      }
+    ]
+  },
+  "last_page": 152,
+  "hits": 3035,
+  "sidebar_info": {
+    "eBook?": [
+      {
+        "label": "yes",
+        "count": 200,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&has_fulltext=true"
+      },
+      {
+        "label": "no",
+        "count": "2,835",
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&has_fulltext=false"
+      }
+    ],
+    "Language": [
+      {
+        "label": "English",
+        "count": "2,298",
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=eng"
+      },
+      {
+        "label": "German",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=ger"
+      },
+      {
+        "label": "Chinese",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=chi"
+      },
+      {
+        "label": "Spanish",
+        "count": 39,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=spa"
+      },
+      {
+        "label": "French",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=fre"
+      },
+      {
+        "label": "Italian",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=ita"
+      },
+      {
+        "label": "Korean",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=kor"
+      },
+      {
+        "label": "Portuguese",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=por"
+      },
+      {
+        "label": "Dutch",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=dut"
+      },
+      {
+        "label": "Germanic (Other)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=gem"
+      },
+      {
+        "label": "Japanese",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=jpn"
+      },
+      {
+        "label": "Polish",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=pol"
+      },
+      {
+        "label": "Russian",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=rus"
+      },
+      {
+        "label": "Catalan",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=cat"
+      },
+      {
+        "label": "Hindi",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=hin"
+      },
+      {
+        "label": "Turkish",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=tur"
+      },
+      {
+        "label": "Albanian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=alb"
+      },
+      {
+        "label": "Cornish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=cor"
+      },
+      {
+        "label": "Danish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=dan"
+      },
+      {
+        "label": "Finnish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=fin"
+      },
+      {
+        "label": "Irish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=gle"
+      },
+      {
+        "label": "Gujarati",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=guj"
+      },
+      {
+        "label": "Hebrew",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=heb"
+      },
+      {
+        "label": "Icelandic",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=ice"
+      },
+      {
+        "label": "Latin",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=lat"
+      },
+      {
+        "label": "Multiple languages",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=mul"
+      },
+      {
+        "label": "Scots",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=sco"
+      },
+      {
+        "label": "Undetermined",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=und"
+      },
+      {
+        "label": "Vietnamese",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=vie"
+      },
+      {
+        "label": "Yiddish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&language=yid"
+      }
+    ],
+    "Author": [
+      {
+        "label": "IEEE Staff",
+        "count": 94,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9477657A"
+      },
+      {
+        "label": "Johnny Ch LOK",
+        "count": 80,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL8348642A"
+      },
+      {
+        "label": "David Gerald",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9852048A"
+      },
+      {
+        "label": "Gerardus Blokdyk",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7546458A"
+      },
+      {
+        "label": "Nilanjan Dey",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7775251A"
+      },
+      {
+        "label": "Viktor Mayer-Schönberger",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL249409A"
+      },
+      {
+        "label": "Hannah Green",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7546197A"
+      },
+      {
+        "label": "C. Perez",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3977360A"
+      },
+      {
+        "label": "Valentina Emilia Balas",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL6857401A"
+      },
+      {
+        "label": "Aboul Ella Hassanien",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7061763A"
+      },
+      {
+        "label": "Albert Y. Zomaya",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL833250A"
+      },
+      {
+        "label": "Kim-Kwang Raymond Choo",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL5178231A"
+      },
+      {
+        "label": "Qayris Cipta Kreasindo, PT",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL6831936A"
+      },
+      {
+        "label": "United States House of Representatives",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7548949A"
+      },
+      {
+        "label": "Raghvendra Kumar",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7648136A"
+      },
+      {
+        "label": "National Academies of Sciences, Engineering, and Medicine",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7840564A"
+      },
+      {
+        "label": "Division on Engineering and Physical Sciences",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7925499A"
+      },
+      {
+        "label": "Anandakumar Haldorai",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7951752A"
+      },
+      {
+        "label": "Arulmurugan Ramu",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7968520A"
+      },
+      {
+        "label": "Mu-Yen Chen",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9932202A"
+      },
+      {
+        "label": "Jerry Ramonyai",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10079743A"
+      },
+      {
+        "label": "Jack Reneau",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL1461640A"
+      },
+      {
+        "label": "Meikel Poess",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7342052A"
+      },
+      {
+        "label": "Kenneth Cukier",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7487219A"
+      },
+      {
+        "label": "Sherif Sakr",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7861579A"
+      },
+      {
+        "label": "Balamurugan Balusamy",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7900577A"
+      },
+      {
+        "label": "Sudha Mohanram",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9579302A"
+      },
+      {
+        "label": "United States United States Congress",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9749763A"
+      },
+      {
+        "label": "Ralph Carl",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10628009A"
+      },
+      {
+        "label": "Stephen H. Kaisler",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL1126620A"
+      },
+      {
+        "label": "Varun Chandola",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL13006236A"
+      },
+      {
+        "label": "Frank Armour",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL2670633A"
+      },
+      {
+        "label": "Mohammed Atiquzzaman",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3093813A"
+      },
+      {
+        "label": "Liang-Jie Zhang",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3132156A"
+      },
+      {
+        "label": "Andreas Holzinger",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3142597A"
+      },
+      {
+        "label": "Bernard Marr",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3149792A"
+      },
+      {
+        "label": "National Research Council",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7316249A"
+      },
+      {
+        "label": "Herbert Jones",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7778927A"
+      },
+      {
+        "label": "Soraya Sedkaoui",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7789955A"
+      },
+      {
+        "label": "Josef Küng",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7838933A"
+      },
+      {
+        "label": "Muhammad Younas",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7855839A"
+      },
+      {
+        "label": "Irfan Awan",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7855840A"
+      },
+      {
+        "label": "Ganesh Chandra Deka",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7941494A"
+      },
+      {
+        "label": "Chintan Bhatt",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7958678A"
+      },
+      {
+        "label": "Joe Alper",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL1001589A"
+      },
+      {
+        "label": "J. Alberto Espinosa",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10059846A"
+      },
+      {
+        "label": "Richard Hurley",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL1057770A"
+      },
+      {
+        "label": "Jose Antonio Ribeiro Neto",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10589816A"
+      },
+      {
+        "label": "Pat Nakamoto",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10718380A"
+      },
+      {
+        "label": "José Luis CUBERO-SOMED",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL11203429A"
+      },
+      {
+        "label": "Gary Smith",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL1193591A"
+      },
+      {
+        "label": "Libros Científicos",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL14414916A"
+      },
+      {
+        "label": "R. Concessao",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL14420380A"
+      },
+      {
+        "label": "Harvey Deitel",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL2651227A"
+      },
+      {
+        "label": "Paul Deitel",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL2651228A"
+      },
+      {
+        "label": "V. Vijayakumar",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL2665644A"
+      },
+      {
+        "label": "Kevin D. Mitnick",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL2737351A"
+      },
+      {
+        "label": "Vivek Kale",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL2752699A"
+      },
+      {
+        "label": "Richard Bell",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL2812306A"
+      },
+      {
+        "label": "Min Chen",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3046809A"
+      },
+      {
+        "label": "Roland Wagner",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3144720A"
+      },
+      {
+        "label": "Committee on Applied and Theoretical Statistics",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3426362A"
+      },
+      {
+        "label": "Zhu Han",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3433824A"
+      },
+      {
+        "label": "Manish Kumar",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL3864013A"
+      },
+      {
+        "label": "Ajit Roy",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL4275A"
+      },
+      {
+        "label": "Ajit Singh",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL4357470A"
+      },
+      {
+        "label": "Ali Emrouznejad",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL5494177A"
+      },
+      {
+        "label": "Lorna Green",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL578708A"
+      },
+      {
+        "label": "Yuming Lian",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL6833766A"
+      },
+      {
+        "label": "Abdelkader Hameurlain",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7199870A"
+      },
+      {
+        "label": "Huadong Guo",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7296652A"
+      },
+      {
+        "label": "Bart Baesens",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7301817A"
+      },
+      {
+        "label": "Sunil Soares",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7328728A"
+      },
+      {
+        "label": "Tilmann Rabl",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7357105A"
+      },
+      {
+        "label": "Seth Stephens-Davidowitz",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7387262A"
+      },
+      {
+        "label": "Pethuru Raj",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7494687A"
+      },
+      {
+        "label": "Sridhar Alla",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7495174A"
+      },
+      {
+        "label": "Bill Schmarzo",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7498192A"
+      },
+      {
+        "label": "Amira S. Ashour",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7808334A"
+      },
+      {
+        "label": "Sheng-Lung Peng",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7857681A"
+      },
+      {
+        "label": "Amir H. Alavi",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7873361A"
+      },
+      {
+        "label": "Health and Medicine Division",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7882454A"
+      },
+      {
+        "label": "Edward Curry",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7900457A"
+      },
+      {
+        "label": "T. Poongodi",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7900576A"
+      },
+      {
+        "label": "Mamoun Alazab",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7900734A"
+      },
+      {
+        "label": "Vijender Kumar Solanki",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7901237A"
+      },
+      {
+        "label": "Neil Yen",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7924747A"
+      },
+      {
+        "label": "J. Dinesh Peter",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7926579A"
+      },
+      {
+        "label": "Arun Kumar Sangaiah",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7944650A"
+      },
+      {
+        "label": "Yousef Farhaoui",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7945061A"
+      },
+      {
+        "label": "Salima Benbernou",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7964584A"
+      },
+      {
+        "label": "V. Neelanarayanan",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL7969685A"
+      },
+      {
+        "label": "Lefebvre-El Derecho",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL8025593A"
+      },
+      {
+        "label": "Vincent Charles",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL8464488A"
+      },
+      {
+        "label": "Committee On Agriculture",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9306732A"
+      },
+      {
+        "label": "Information R. Management Association",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9824836A"
+      },
+      {
+        "label": "A. J. Tallón-Ballesteros",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL9929598A"
+      },
+      {
+        "label": "Arturo Gradoli",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10092018A"
+      },
+      {
+        "label": "Jeffrey S. Cook",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10142668A"
+      },
+      {
+        "label": "Rishabha Malviya",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&author_key=OL10200383A"
+      }
+    ],
+    "Subjects": [
+      {
+        "label": "Big data",
+        "count": 450,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Big+data"
+      },
+      {
+        "label": "Data mining",
+        "count": 403,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Data+mining"
+      },
+      {
+        "label": "Database management",
+        "count": 154,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Database+management"
+      },
+      {
+        "label": "Data processing",
+        "count": 141,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Data+processing"
+      },
+      {
+        "label": "Données volumineuses",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Donn%C3%A9es+volumineuses"
+      },
+      {
+        "label": "Information technology",
+        "count": 72,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+technology"
+      },
+      {
+        "label": "General",
+        "count": 71,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=General"
+      },
+      {
+        "label": "Artificial intelligence",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Artificial+intelligence"
+      },
+      {
+        "label": "COMPUTERS",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=COMPUTERS"
+      },
+      {
+        "label": "Management",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Management"
+      },
+      {
+        "label": "Mathematics",
+        "count": 66,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Mathematics"
+      },
+      {
+        "label": "Social aspects",
+        "count": 57,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Social+aspects"
+      },
+      {
+        "label": "Business",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Business"
+      },
+      {
+        "label": "Electronic data processing",
+        "count": 55,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Electronic+data+processing"
+      },
+      {
+        "label": "Databases",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Databases"
+      },
+      {
+        "label": "Electronic data processing, distributed processing",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Electronic+data+processing%2C+distributed+processing"
+      },
+      {
+        "label": "Technological innovations",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Technological+innovations"
+      },
+      {
+        "label": "Statistical methods",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Statistical+methods"
+      },
+      {
+        "label": "Education",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Education"
+      },
+      {
+        "label": "Internet",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Internet"
+      },
+      {
+        "label": "BUSINESS & ECONOMICS",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=BUSINESS+%26+ECONOMICS"
+      },
+      {
+        "label": "Machine learning",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Machine+learning"
+      },
+      {
+        "label": "Data Mining",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Data+Mining"
+      },
+      {
+        "label": "Data protection",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Data+protection"
+      },
+      {
+        "label": "Information storage and retrieval systems",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+storage+and+retrieval+systems"
+      },
+      {
+        "label": "Business intelligence",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Business+intelligence"
+      },
+      {
+        "label": "Congresses",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Congresses"
+      },
+      {
+        "label": "Computer science",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Computer+science"
+      },
+      {
+        "label": "Informatique",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Informatique"
+      },
+      {
+        "label": "Cloud computing",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Cloud+computing"
+      },
+      {
+        "label": "Decision making",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Decision+making"
+      },
+      {
+        "label": "Database Management",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Database+Management"
+      },
+      {
+        "label": "Economics",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Economics"
+      },
+      {
+        "label": "Right of Privacy",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Right+of+Privacy"
+      },
+      {
+        "label": "Computer networks",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Computer+networks"
+      },
+      {
+        "label": "Computer security",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Computer+security"
+      },
+      {
+        "label": "Business, data processing",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Business%2C+data+processing"
+      },
+      {
+        "label": "Exploration de données (Informatique)",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Exploration+de+donn%C3%A9es+%28Informatique%29"
+      },
+      {
+        "label": "Information visualization",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+visualization"
+      },
+      {
+        "label": "Medical informatics",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Medical+informatics"
+      },
+      {
+        "label": "Research",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Research"
+      },
+      {
+        "label": "Computers",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Computers"
+      },
+      {
+        "label": "Statistics",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Statistics"
+      },
+      {
+        "label": "Gestion",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Gestion"
+      },
+      {
+        "label": "Strategic planning",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Strategic+planning"
+      },
+      {
+        "label": "Apache Hadoop",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Apache+Hadoop"
+      },
+      {
+        "label": "Engineering",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Engineering"
+      },
+      {
+        "label": "Marketing",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Marketing"
+      },
+      {
+        "label": "Science",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Science"
+      },
+      {
+        "label": "COMPUTERS / Database Management / Data Mining",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=COMPUTERS+%2F+Database+Management+%2F+Data+Mining"
+      },
+      {
+        "label": "Internet of things",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Internet+of+things"
+      },
+      {
+        "label": "Privacy, right of",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Privacy%2C+right+of"
+      },
+      {
+        "label": "Quantitative research",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Quantitative+research"
+      },
+      {
+        "label": "Big Data",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Big+Data"
+      },
+      {
+        "label": "Business planning",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Business+planning"
+      },
+      {
+        "label": "Distributed processing",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Distributed+processing"
+      },
+      {
+        "label": "History",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=History"
+      },
+      {
+        "label": "Information technology, management",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+technology%2C+management"
+      },
+      {
+        "label": "Law and legislation",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Law+and+legislation"
+      },
+      {
+        "label": "Management information systems",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Management+information+systems"
+      },
+      {
+        "label": "Information science",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+science"
+      },
+      {
+        "label": "Apache (computer program)",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Apache+%28computer+program%29"
+      },
+      {
+        "label": "Computer programs",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Computer+programs"
+      },
+      {
+        "label": "Economic aspects",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Economic+aspects"
+      },
+      {
+        "label": "Management Science",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Management+Science"
+      },
+      {
+        "label": "Massendaten",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Massendaten"
+      },
+      {
+        "label": "Security measures",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Security+measures"
+      },
+      {
+        "label": "Aspect social",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Aspect+social"
+      },
+      {
+        "label": "Computational intelligence",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Computational+intelligence"
+      },
+      {
+        "label": "Information retrieval",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+retrieval"
+      },
+      {
+        "label": "Methodology",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Methodology"
+      },
+      {
+        "label": "Sociology",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Sociology"
+      },
+      {
+        "label": "Data Processing",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Data+Processing"
+      },
+      {
+        "label": "Industrial Management",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Industrial+Management"
+      },
+      {
+        "label": "Internet, social aspects",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Internet%2C+social+aspects"
+      },
+      {
+        "label": "Knowledge management",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Knowledge+management"
+      },
+      {
+        "label": "Méthodes statistiques",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=M%C3%A9thodes+statistiques"
+      },
+      {
+        "label": "Organizational Behavior",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Organizational+Behavior"
+      },
+      {
+        "label": "Python (computer program language)",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Python+%28computer+program+language%29"
+      },
+      {
+        "label": "SOCIAL SCIENCE",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=SOCIAL+SCIENCE"
+      },
+      {
+        "label": "Technology",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Technology"
+      },
+      {
+        "label": "Electronic surveillance",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Electronic+surveillance"
+      },
+      {
+        "label": "Information organization",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+organization"
+      },
+      {
+        "label": "Information society",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Information+society"
+      },
+      {
+        "label": "Political aspects",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Political+aspects"
+      },
+      {
+        "label": "Social change",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Social+change"
+      },
+      {
+        "label": "Social sciences",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Social+sciences"
+      },
+      {
+        "label": "Bases de données",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Bases+de+donn%C3%A9es"
+      },
+      {
+        "label": "Commerce",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Commerce"
+      },
+      {
+        "label": "Machine Theory",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Machine+Theory"
+      },
+      {
+        "label": "Reference",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Reference"
+      },
+      {
+        "label": "Social media",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Social+media"
+      },
+      {
+        "label": "Telecommunication",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Telecommunication"
+      },
+      {
+        "label": "Computer algorithms",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Computer+algorithms"
+      },
+      {
+        "label": "Data Mining and Knowledge Discovery",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Data+Mining+and+Knowledge+Discovery"
+      },
+      {
+        "label": "Data warehousing",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Data+warehousing"
+      },
+      {
+        "label": "Electronic commerce",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Electronic+commerce"
+      },
+      {
+        "label": "Industrial management",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Industrial+management"
+      },
+      {
+        "label": "Internet marketing",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=Internet+marketing"
+      },
+      {
+        "label": "City planning",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&subject_facet=City+planning"
+      }
+    ],
+    "First published": [
+      {
+        "label": "2018",
+        "count": 358,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2018"
+      },
+      {
+        "label": "2019",
+        "count": 315,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2019"
+      },
+      {
+        "label": "2021",
+        "count": 296,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2021"
+      },
+      {
+        "label": "2017",
+        "count": 295,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2017"
+      },
+      {
+        "label": "2022",
+        "count": 234,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2022"
+      },
+      {
+        "label": "2020",
+        "count": 228,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2020"
+      },
+      {
+        "label": "2016",
+        "count": 227,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2016"
+      },
+      {
+        "label": "2015",
+        "count": 221,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2015"
+      },
+      {
+        "label": "2014",
+        "count": 217,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2014"
+      },
+      {
+        "label": "2023",
+        "count": 178,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2023"
+      },
+      {
+        "label": "2013",
+        "count": 124,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2013"
+      },
+      {
+        "label": "2024",
+        "count": 108,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2024"
+      },
+      {
+        "label": "2012",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2012"
+      },
+      {
+        "label": "2025",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2025"
+      },
+      {
+        "label": "2011",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2011"
+      },
+      {
+        "label": "2009",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2009"
+      },
+      {
+        "label": "1995",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1995"
+      },
+      {
+        "label": "2003",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2003"
+      },
+      {
+        "label": "2010",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2010"
+      },
+      {
+        "label": "2000",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2000"
+      },
+      {
+        "label": "2008",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2008"
+      },
+      {
+        "label": "1983",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1983"
+      },
+      {
+        "label": "1985",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1985"
+      },
+      {
+        "label": "1993",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1993"
+      },
+      {
+        "label": "1994",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1994"
+      },
+      {
+        "label": "1999",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1999"
+      },
+      {
+        "label": "2004",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2004"
+      },
+      {
+        "label": "2007",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2007"
+      },
+      {
+        "label": "1982",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1982"
+      },
+      {
+        "label": "1986",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1986"
+      },
+      {
+        "label": "1987",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1987"
+      },
+      {
+        "label": "1988",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1988"
+      },
+      {
+        "label": "1991",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1991"
+      },
+      {
+        "label": "1997",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1997"
+      },
+      {
+        "label": "1998",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1998"
+      },
+      {
+        "label": "2002",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2002"
+      },
+      {
+        "label": "1981",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1981"
+      },
+      {
+        "label": "1989",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1989"
+      },
+      {
+        "label": "1990",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1990"
+      },
+      {
+        "label": "2005",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2005"
+      },
+      {
+        "label": "1880",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1880"
+      },
+      {
+        "label": "1904",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1904"
+      },
+      {
+        "label": "1916",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1916"
+      },
+      {
+        "label": "1923",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1923"
+      },
+      {
+        "label": "1924",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1924"
+      },
+      {
+        "label": "1959",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1959"
+      },
+      {
+        "label": "1960",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1960"
+      },
+      {
+        "label": "1965",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1965"
+      },
+      {
+        "label": "1969",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1969"
+      },
+      {
+        "label": "1972",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1972"
+      },
+      {
+        "label": "1973",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1973"
+      },
+      {
+        "label": "1977",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1977"
+      },
+      {
+        "label": "1978",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1978"
+      },
+      {
+        "label": "1980",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1980"
+      },
+      {
+        "label": "1984",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1984"
+      },
+      {
+        "label": "1992",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1992"
+      },
+      {
+        "label": "1996",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=1996"
+      },
+      {
+        "label": "2001",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&first_publish_year=2001"
+      }
+    ],
+    "Publisher": [
+      {
+        "label": "Springer",
+        "count": 396,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer"
+      },
+      {
+        "label": "Independently Published",
+        "count": 324,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Independently+Published"
+      },
+      {
+        "label": "Taylor & Francis Group",
+        "count": 198,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Taylor+%26+Francis+Group"
+      },
+      {
+        "label": "CreateSpace Independent Publishing Platform",
+        "count": 185,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=CreateSpace+Independent+Publishing+Platform"
+      },
+      {
+        "label": "Springer International Publishing AG",
+        "count": 149,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+International+Publishing+AG"
+      },
+      {
+        "label": "Wiley & Sons, Incorporated, John",
+        "count": 116,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Wiley+%26+Sons%2C+Incorporated%2C+John"
+      },
+      {
+        "label": "IGI Global",
+        "count": 108,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=IGI+Global"
+      },
+      {
+        "label": "IEEE",
+        "count": 94,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=IEEE"
+      },
+      {
+        "label": "Wiley & Sons, Limited, John",
+        "count": 76,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Wiley+%26+Sons%2C+Limited%2C+John"
+      },
+      {
+        "label": "Springer London, Limited",
+        "count": 65,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+London%2C+Limited"
+      },
+      {
+        "label": "Elsevier Science & Technology Books",
+        "count": 58,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Elsevier+Science+%26+Technology+Books"
+      },
+      {
+        "label": "CRC Press LLC",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=CRC+Press+LLC"
+      },
+      {
+        "label": "de Gruyter GmbH, Walter",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=de+Gruyter+GmbH%2C+Walter"
+      },
+      {
+        "label": "Springer Singapore Pte. Limited",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+Singapore+Pte.+Limited"
+      },
+      {
+        "label": "GRIN Verlag GmbH",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=GRIN+Verlag+GmbH"
+      },
+      {
+        "label": "Association for Computing Machinery",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Association+for+Computing+Machinery"
+      },
+      {
+        "label": "Packt Publishing, Limited",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Packt+Publishing%2C+Limited"
+      },
+      {
+        "label": "Apress",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Apress"
+      },
+      {
+        "label": "Elsevier Science & Technology",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Elsevier+Science+%26+Technology"
+      },
+      {
+        "label": "Packt Publishing",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Packt+Publishing"
+      },
+      {
+        "label": "Wiley",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Wiley"
+      },
+      {
+        "label": "LONGMAN PRESS LTD",
+        "count": 27,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=LONGMAN+PRESS+LTD"
+      },
+      {
+        "label": "Auerbach Publishers, Incorporated",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Auerbach+Publishers%2C+Incorporated"
+      },
+      {
+        "label": "Pearson Education, Limited",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Pearson+Education%2C+Limited"
+      },
+      {
+        "label": "Springer Fachmedien Wiesbaden GmbH",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+Fachmedien+Wiesbaden+GmbH"
+      },
+      {
+        "label": "O'Reilly Media, Incorporated",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=O%27Reilly+Media%2C+Incorporated"
+      },
+      {
+        "label": "Cambridge University Press",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Cambridge+University+Press"
+      },
+      {
+        "label": "O'Reilly Media",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=O%27Reilly+Media"
+      },
+      {
+        "label": "Elsevier",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Elsevier"
+      },
+      {
+        "label": "CRC Press",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=CRC+Press"
+      },
+      {
+        "label": "Independently published",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Independently+published"
+      },
+      {
+        "label": "Palgrave Macmillan",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Palgrave+Macmillan"
+      },
+      {
+        "label": "River Publishers",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=River+Publishers"
+      },
+      {
+        "label": "Routledge",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Routledge"
+      },
+      {
+        "label": "Elgar Publishing Limited, Edward",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Elgar+Publishing+Limited%2C+Edward"
+      },
+      {
+        "label": "Emerald Publishing Limited",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Emerald+Publishing+Limited"
+      },
+      {
+        "label": "World Scientific Publishing Co Pte Ltd",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=World+Scientific+Publishing+Co+Pte+Ltd"
+      },
+      {
+        "label": "Lulu Press, Inc.",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Lulu+Press%2C+Inc."
+      },
+      {
+        "label": "Nomos Verlagsgesellschaft",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Nomos+Verlagsgesellschaft"
+      },
+      {
+        "label": "Oxford University Press",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Oxford+University+Press"
+      },
+      {
+        "label": "MIT Press",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=MIT+Press"
+      },
+      {
+        "label": "National Academies Press",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=National+Academies+Press"
+      },
+      {
+        "label": "Packt Publishing - ebooks Account",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Packt+Publishing+-+ebooks+Account"
+      },
+      {
+        "label": "Bloomsbury Publishing Plc",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Bloomsbury+Publishing+Plc"
+      },
+      {
+        "label": "Business Expert Press",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Business+Expert+Press"
+      },
+      {
+        "label": "Createspace Independent Publishing Platform",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Createspace+Independent+Publishing+Platform"
+      },
+      {
+        "label": "Institution of Engineering & Technology",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Institution+of+Engineering+%26+Technology"
+      },
+      {
+        "label": "Nova Science Publishers, Incorporated",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Nova+Science+Publishers%2C+Incorporated"
+      },
+      {
+        "label": "Information Science Reference",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Information+Science+Reference"
+      },
+      {
+        "label": "Springer Nature",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+Nature"
+      },
+      {
+        "label": "Springer Vieweg",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+Vieweg"
+      },
+      {
+        "label": "Springer Vieweg. in Springer Fachmedien Wiesbaden GmbH",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+Vieweg.+in+Springer+Fachmedien+Wiesbaden+GmbH"
+      },
+      {
+        "label": "Bentham Science Publishers",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Bentham+Science+Publishers"
+      },
+      {
+        "label": "McGraw-Hill Education",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=McGraw-Hill+Education"
+      },
+      {
+        "label": "UK Scientific Publishing Limited",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=UK+Scientific+Publishing+Limited"
+      },
+      {
+        "label": "University of Cambridge ESOL Examinations",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=University+of+Cambridge+ESOL+Examinations"
+      },
+      {
+        "label": "Springer Gabler",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+Gabler"
+      },
+      {
+        "label": "Springer VS",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+VS"
+      },
+      {
+        "label": "Apple Academic Press, Incorporated",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Apple+Academic+Press%2C+Incorporated"
+      },
+      {
+        "label": "Auerbach Publications",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Auerbach+Publications"
+      },
+      {
+        "label": "ISTE Editions Ltd.",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=ISTE+Editions+Ltd."
+      },
+      {
+        "label": "John Wiley & Sons, Inc.",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=John+Wiley+%26+Sons%2C+Inc."
+      },
+      {
+        "label": "SAGE Publications, Limited",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=SAGE+Publications%2C+Limited"
+      },
+      {
+        "label": "U.S. Geological Survey",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=U.S.+Geological+Survey"
+      },
+      {
+        "label": "[publisher not identified]",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=%5Bpublisher+not+identified%5D"
+      },
+      {
+        "label": "Apress L. P.",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Apress+L.+P."
+      },
+      {
+        "label": "Chapman and Hall/CRC",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Chapman+and+Hall%2FCRC"
+      },
+      {
+        "label": "Hodder & Stoughton",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Hodder+%26+Stoughton"
+      },
+      {
+        "label": "John Wiley & Sons Inc",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=John+Wiley+%26+Sons+Inc"
+      },
+      {
+        "label": "Kogan Page",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Kogan+Page"
+      },
+      {
+        "label": "Kogan Page, Limited",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Kogan+Page%2C+Limited"
+      },
+      {
+        "label": "Rowman & Littlefield Publishers, Incorporated",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Rowman+%26+Littlefield+Publishers%2C+Incorporated"
+      },
+      {
+        "label": "The MIT Press",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=The+MIT+Press"
+      },
+      {
+        "label": "U.S. Dept. of the Interior, U.S. Geological Survey",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=U.S.+Dept.+of+the+Interior%2C+U.S.+Geological+Survey"
+      },
+      {
+        "label": "Academic Press",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Academic+Press"
+      },
+      {
+        "label": "Boone & Crockett Club",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Boone+%26+Crockett+Club"
+      },
+      {
+        "label": "HarperCollins Publishers",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=HarperCollins+Publishers"
+      },
+      {
+        "label": "IEEE Computer Society Press",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=IEEE+Computer+Society+Press"
+      },
+      {
+        "label": "IOS Press, Incorporated",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=IOS+Press%2C+Incorporated"
+      },
+      {
+        "label": "Lang GmbH, Internationaler Verlag der Wissenschaften, Peter",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Lang+GmbH%2C+Internationaler+Verlag+der+Wissenschaften%2C+Peter"
+      },
+      {
+        "label": "MC Press Online, LLC",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=MC+Press+Online%2C+LLC"
+      },
+      {
+        "label": "O'Reilly",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=O%27Reilly"
+      },
+      {
+        "label": "Oxford University Press, Incorporated",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Oxford+University+Press%2C+Incorporated"
+      },
+      {
+        "label": "O’Reilly Media",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=O%E2%80%99Reilly+Media"
+      },
+      {
+        "label": "Palgrave Pivot",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Palgrave+Pivot"
+      },
+      {
+        "label": "Pearson Education",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Pearson+Education"
+      },
+      {
+        "label": "Pearson Education (US)",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Pearson+Education+%28US%29"
+      },
+      {
+        "label": "She hui ke xue wen xian chu ban she",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=She+hui+ke+xue+wen+xian+chu+ban+she"
+      },
+      {
+        "label": "Sine nomine",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Sine+nomine"
+      },
+      {
+        "label": "Springer Berlin / Heidelberg",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Springer+Berlin+%2F+Heidelberg"
+      },
+      {
+        "label": "The Club",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=The+Club"
+      },
+      {
+        "label": "ABDO Publishing Company",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=ABDO+Publishing+Company"
+      },
+      {
+        "label": "American Society for Training & Development",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=American+Society+for+Training+%26+Development"
+      },
+      {
+        "label": "Arcler Education Inc",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Arcler+Education+Inc"
+      },
+      {
+        "label": "Ationa Publications",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Ationa+Publications"
+      },
+      {
+        "label": "Bookboon.com",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Bookboon.com"
+      },
+      {
+        "label": "CSREA",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=CSREA"
+      },
+      {
+        "label": "De Gruyter, Inc.",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=De+Gruyter%2C+Inc."
+      },
+      {
+        "label": "EAI Publishing",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=EAI+Publishing"
+      },
+      {
+        "label": "Editorial",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&publisher_facet=Editorial"
+      }
+    ],
+    "People": [
+      {
+        "label": "Andvord",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Andvord"
+      },
+      {
+        "label": "Aviva Aiden",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Aviva+Aiden"
+      },
+      {
+        "label": "Charlotte Saloman",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Charlotte+Saloman"
+      },
+      {
+        "label": "Ebbinghaus",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Ebbinghaus"
+      },
+      {
+        "label": "Edward Snowdon",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Edward+Snowdon"
+      },
+      {
+        "label": "John Von Neumann (1903-1957)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=John+Von+Neumann+%281903-1957%29"
+      },
+      {
+        "label": "Marc Chagall",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Marc+Chagall"
+      },
+      {
+        "label": "Norvig",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Norvig"
+      },
+      {
+        "label": "Ray Kurzweil",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Ray+Kurzweil"
+      },
+      {
+        "label": "Steven Pinker",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Steven+Pinker"
+      },
+      {
+        "label": "Ulam",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Ulam"
+      },
+      {
+        "label": "Zipf",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&person_facet=Zipf"
+      }
+    ],
+    "Places": [
+      {
+        "label": "United States",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=United+States"
+      },
+      {
+        "label": "China",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=China"
+      },
+      {
+        "label": "Korea (South)",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Korea+%28South%29"
+      },
+      {
+        "label": "North America",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=North+America"
+      },
+      {
+        "label": "France",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=France"
+      },
+      {
+        "label": "Montana",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Montana"
+      },
+      {
+        "label": "Illinois",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Illinois"
+      },
+      {
+        "label": "South Dakota",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=South+Dakota"
+      },
+      {
+        "label": "Big River",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+River"
+      },
+      {
+        "label": "Big Thompson River Watershed",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Thompson+River+Watershed"
+      },
+      {
+        "label": "Big Timber",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Timber"
+      },
+      {
+        "label": "California",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=California"
+      },
+      {
+        "label": "Clayton County",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Clayton+County"
+      },
+      {
+        "label": "Colorado",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Colorado"
+      },
+      {
+        "label": "India",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=India"
+      },
+      {
+        "label": "Iowa",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Iowa"
+      },
+      {
+        "label": "Michigan",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Michigan"
+      },
+      {
+        "label": "Minnehaha County",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Minnehaha+County"
+      },
+      {
+        "label": "Missouri",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Missouri"
+      },
+      {
+        "label": "Ohio",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Ohio"
+      },
+      {
+        "label": "Switzerland",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Switzerland"
+      },
+      {
+        "label": "Texas",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Texas"
+      },
+      {
+        "label": "1864 Big Blue, Battle of the, Mo.",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=1864+Big+Blue%2C+Battle+of+the%2C+Mo."
+      },
+      {
+        "label": "Alaska",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Alaska"
+      },
+      {
+        "label": "Arkansas",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Arkansas"
+      },
+      {
+        "label": "Atlantic States",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Atlantic+States"
+      },
+      {
+        "label": "Australia",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Australia"
+      },
+      {
+        "label": "Big Bear City",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Bear+City"
+      },
+      {
+        "label": "Big Blue River Watershed (Neb. and Kan.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Blue+River+Watershed+%28Neb.+and+Kan.%29"
+      },
+      {
+        "label": "Big Branch Wilderness",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Branch+Wilderness"
+      },
+      {
+        "label": "Big Branch Wilderness (Vt.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Branch+Wilderness+%28Vt.%29"
+      },
+      {
+        "label": "Big Delta quadrangle",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Delta+quadrangle"
+      },
+      {
+        "label": "Big Jones Site (S.C.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Jones+Site+%28S.C.%29"
+      },
+      {
+        "label": "Big Muddy River",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Muddy+River"
+      },
+      {
+        "label": "Big Muddy River (Ill.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Muddy+River+%28Ill.%29"
+      },
+      {
+        "label": "Big Sable Point",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Sable+Point"
+      },
+      {
+        "label": "Big Sable Point (Mich.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Sable+Point+%28Mich.%29"
+      },
+      {
+        "label": "Big Sioux Drainage Basin",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Sioux+Drainage+Basin"
+      },
+      {
+        "label": "Big Sioux Valley (S.D. and Iowa)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Sioux+Valley+%28S.D.+and+Iowa%29"
+      },
+      {
+        "label": "Big Thicket National Preserve",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Thicket+National+Preserve"
+      },
+      {
+        "label": "Big Thicket National Preserve (Tex.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Big+Thicket+National+Preserve+%28Tex.%29"
+      },
+      {
+        "label": "Bighorn Basin (Mont. and Wyo.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Bighorn+Basin+%28Mont.+and+Wyo.%29"
+      },
+      {
+        "label": "Caribbean Area",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Caribbean+Area"
+      },
+      {
+        "label": "Caribbean Sea",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Caribbean+Sea"
+      },
+      {
+        "label": "Clayton County (Iowa)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Clayton+County+%28Iowa%29"
+      },
+      {
+        "label": "East (U.S.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=East+%28U.S.%29"
+      },
+      {
+        "label": "Eastern Europe",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Eastern+Europe"
+      },
+      {
+        "label": "England",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=England"
+      },
+      {
+        "label": "Europe",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Europe"
+      },
+      {
+        "label": "European Union countries",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=European+Union+countries"
+      },
+      {
+        "label": "Flat River",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Flat+River"
+      },
+      {
+        "label": "Freestone County",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Freestone+County"
+      },
+      {
+        "label": "Germany",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Germany"
+      },
+      {
+        "label": "Great Britain",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Great+Britain"
+      },
+      {
+        "label": "Guangdong Sheng",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Guangdong+Sheng"
+      },
+      {
+        "label": "Hawaii",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Hawaii"
+      },
+      {
+        "label": "Horry County",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Horry+County"
+      },
+      {
+        "label": "Horry County (S.C.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Horry+County+%28S.C.%29"
+      },
+      {
+        "label": "Ireland",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Ireland"
+      },
+      {
+        "label": "Kansas City",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Kansas+City"
+      },
+      {
+        "label": "Kansas City (Mo.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Kansas+City+%28Mo.%29"
+      },
+      {
+        "label": "Kent County",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Kent+County"
+      },
+      {
+        "label": "King County",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=King+County"
+      },
+      {
+        "label": "King County (Wash.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=King+County+%28Wash.%29"
+      },
+      {
+        "label": "Las Vegas",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Las+Vegas"
+      },
+      {
+        "label": "Maple Swamp Site (S.C.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Maple+Swamp+Site+%28S.C.%29"
+      },
+      {
+        "label": "Mo.) Westport (Kansas City",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Mo.%29+Westport+%28Kansas+City"
+      },
+      {
+        "label": "Mont.) Prairie Dog Creek Watershed (Big Horn County and Rosebud County",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Mont.%29+Prairie+Dog+Creek+Watershed+%28Big+Horn+County+and+Rosebud+County"
+      },
+      {
+        "label": "Nebraska",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Nebraska"
+      },
+      {
+        "label": "Netherlands",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Netherlands"
+      },
+      {
+        "label": "Nevada",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Nevada"
+      },
+      {
+        "label": "Newville (Cumberland County)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Newville+%28Cumberland+County%29"
+      },
+      {
+        "label": "Newville (Cumberland County, Pa.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Newville+%28Cumberland+County%2C+Pa.%29"
+      },
+      {
+        "label": "Niagara Falls (N.Y. and Ont.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Niagara+Falls+%28N.Y.+and+Ont.%29"
+      },
+      {
+        "label": "Ontario",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Ontario"
+      },
+      {
+        "label": "Pennsylvania",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Pennsylvania"
+      },
+      {
+        "label": "Peru Peak Wilderness",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Peru+Peak+Wilderness"
+      },
+      {
+        "label": "Peru Peak Wilderness (Vt.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Peru+Peak+Wilderness+%28Vt.%29"
+      },
+      {
+        "label": "Plentywood",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Plentywood"
+      },
+      {
+        "label": "Prairie Dog Creek Watershed (Big Horn County and Rosebud County, Mont.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Prairie+Dog+Creek+Watershed+%28Big+Horn+County+and+Rosebud+County%2C+Mont.%29"
+      },
+      {
+        "label": "Rhode Island",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Rhode+Island"
+      },
+      {
+        "label": "Santa Clara Valley (Santa Clara County)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Santa+Clara+Valley+%28Santa+Clara+County%29"
+      },
+      {
+        "label": "Sequoia National Forest (Calif.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Sequoia+National+Forest+%28Calif.%29"
+      },
+      {
+        "label": "South Carolina",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=South+Carolina"
+      },
+      {
+        "label": "Spanish Main",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Spanish+Main"
+      },
+      {
+        "label": "Turkey",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Turkey"
+      },
+      {
+        "label": "United states",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=United+states"
+      },
+      {
+        "label": "Vermont",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Vermont"
+      },
+      {
+        "label": "Washington (State)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Washington+%28State%29"
+      },
+      {
+        "label": "Westport (Kansas City, Mo.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Westport+%28Kansas+City%2C+Mo.%29"
+      },
+      {
+        "label": "Wilder Mountain Roadless Area",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Wilder+Mountain+Roadless+Area"
+      },
+      {
+        "label": "Wilder Mountain Roadless Area (Vt.)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=Wilder+Mountain+Roadless+Area+%28Vt.%29"
+      },
+      {
+        "label": "cyberspace",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&place_facet=cyberspace"
+      }
+    ],
+    "Times": [
+      {
+        "label": "21st century",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=21st+century"
+      },
+      {
+        "label": "18th century",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=18th+century"
+      },
+      {
+        "label": "19th century",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=19th+century"
+      },
+      {
+        "label": "2000-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=2000-"
+      },
+      {
+        "label": "2000-2015",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=2000-2015"
+      },
+      {
+        "label": "2017",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=2017"
+      },
+      {
+        "label": "20th century",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=20th+century"
+      },
+      {
+        "label": "21st Century",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=21st+Century"
+      },
+      {
+        "label": "Eocene",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=Eocene"
+      },
+      {
+        "label": "Siglo XIX",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=big+data&mode=everything&time_facet=Siglo+XIX"
+      }
+    ]
+  }
+}

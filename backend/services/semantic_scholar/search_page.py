@@ -28,16 +28,29 @@ def scrape_semantic_scholar(query: str):
 
     # Start scraping
     print(f"[CACHE MISS] Scraping Semantic Scholar for: '{query}'")
+    
+    # --- Start of updated undetected_chromedriver configurations ---
     options = uc.ChromeOptions()
-    # options.add_argument("--headless=chrome")
+    options.add_argument("--headless=new")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--window-size=1920x1080")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
     options.add_argument("--disable-extensions")
-    options.add_argument("--window-size=1920,1080")
 
     driver = uc.Chrome(options=options)
+    
+    # Add the user-agent override for consistency
+    custom_user_agent = (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/117.0.0.0 Safari/537.36"
+    )
+    driver.execute_cdp_cmd("Network.setUserAgentOverride", {"userAgent": custom_user_agent})
+    print(f"[INFO] User-Agent overridden to: {custom_user_agent}")
+    # --- End of updated undetected_chromedriver configurations ---
+
     results = []
 
     try:
@@ -113,7 +126,7 @@ def scrape_semantic_scholar(query: str):
 
     finally:
         driver.quit()
-        uc.Chrome.__del__ = lambda self: None
+        uc.Chrome.__del__ = lambda self: None # This line prevents a known issue with undetected_chromedriver not fully quitting
 
     # Save to cache
     with open(cache_path, "w", encoding="utf-8") as f:

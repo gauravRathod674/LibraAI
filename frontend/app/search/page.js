@@ -9,7 +9,7 @@ import Book from "@/components/ui/Book";
 import AuthorCard from "@/components/ui/Author";
 import GenreCard from "@/components/ui/Genre";
 import FilterSidebar from "@/components/ui/FilterSidebar";
-import ResultsHeader from "@/components/ui/ResultsHeader";
+// import ResultsHeader from "@/components/ui/ResultsHeader";
 import Footer from "@/components/ui/Footer";
 import SearchInsideCard from "@/components/ui/SearchInsideCard";
 import { useTheme } from "@/app/context/ThemeContext";
@@ -58,6 +58,7 @@ const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [activeSection, setActiveSection] = useState("Books");
   const [activeFilters, setActiveFilters] = useState({});
+  const [submittedSearchTerm, setSubmittedSearchTerm] = useState("");
   const [rating, setRating] = useState(0);
   const [year, setYear] = useState("");
   const [results, setResults] = useState([]);
@@ -154,6 +155,7 @@ const SearchPage = () => {
   const handleSearch = () => {
     if (!searchTerm.trim()) return;
     setHasSearched(true);
+    setSubmittedSearchTerm(searchTerm); 
 
     // Only set to "Books" if current section is "Advanced Search"
     if (activeSection === "Advanced Search") {
@@ -197,7 +199,7 @@ const SearchPage = () => {
           />
           <button
             onClick={handleSearch}
-            className="px-6 py-3 rounded-full font-semibold text-black"
+            className="px-6 py-3 rounded-full cursor-pointer font-semibold text-black"
             style={{
               background:
                 "linear-gradient(205deg, rgb(187, 139, 255), rgb(117, 246, 255))",
@@ -270,14 +272,14 @@ const SearchPage = () => {
                     </div>
                   ) : (
                     <>
-                      <ResultsHeader
+                      {/* <ResultsHeader
                         totalHits={
                           tab === "Books"
                             ? filteredBooks.length
                             : staticFiltered[tab]?.length
                         }
                         darkMode={darkMode}
-                      />
+                      /> */}
 
                       {!loading ? (
                         <section className="flex flex-col lg:flex-row gap-6 w-full">
@@ -324,7 +326,7 @@ const SearchPage = () => {
 
                             {tab === "Research" && (
                               <Research
-                                searchTerm={searchTerm}
+                                searchTerm={submittedSearchTerm}
                                 hasSearched={hasSearched}
                               />
                             )}

@@ -1,0 +1,119 @@
+[
+  {
+    "title": "TBtools - an integrative toolkit developed for interactive analyses of big biological data.",
+    "authors": [
+      "Chengjie Chen",
+      "Hao Chen",
+      "Rui Xia"
+    ],
+    "venue": "Molecular Plant",
+    "pub_date": "22 June 2020",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Big data: The next frontier for innovation, competition, and productivity",
+    "authors": [
+      "J. Manyika"
+    ],
+    "venue": "N/A",
+    "pub_date": "13 May 2011",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Business Intelligence and Analytics: From Big Data to Big Impact",
+    "authors": [
+      "Hsinchun Chen",
+      "R. Chiang",
+      "V. Storey"
+    ],
+    "venue": "MIS Q.",
+    "pub_date": "1 December 2012",
+    "tldr": "TLDR\nThis introduction to the MIS Quarterly Special Issue on Business Intelligence Research first provides a framework that identifies the evolution, applications, and emerging research areas of BI&A, and introduces and characterized the six articles that comprise this special issue in terms of the proposed BI &A research framework.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Big data: the management revolution.",
+    "authors": [
+      "Andrew P. McAfee",
+      "Erik Brynjolfsson"
+    ],
+    "venue": "Harvard Business Review",
+    "pub_date": "1 October 2012",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "What's In My Big Data?",
+    "authors": [
+      "Yanai Elazar",
+      "Akshita Bhagia",
+      "Jesse Dodge"
+    ],
+    "venue": "arXiv.org",
+    "pub_date": "31 October 2023",
+    "tldr": "TLDR\nThis work proposes What's In My Big Data?\nExpand",
+    "pdf_link": "https://arxiv.org/pdf/2310.20707.pdf"
+  },
+  {
+    "title": "Beyond the hype: Big data concepts, methods, and analytics",
+    "authors": [
+      "Amir Gandomi",
+      "Murtaza Haider"
+    ],
+    "venue": "International Journal of Information Management",
+    "pub_date": "1 April 2015",
+    "tldr": "N/A",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Escaping the Big Data Paradigm with Compact Transformers",
+    "authors": [
+      "Ali Hassani",
+      "Steven Walton",
+      "Nikhil Shah",
+      "Abulikemu Abuduweili",
+      "Jiachen Li",
+      "Humphrey Shi"
+    ],
+    "venue": "arXiv.org",
+    "pub_date": "12 April 2021",
+    "tldr": "TLDR\nIt is shown for the first time that with the right size, convolutional tokenization, transformers can avoid overfitting and outperform state-of-the-art CNNs on small datasets, and CCT outperforms many modern CNN based approaches, and even some recent NAS-based approaches.\nExpand",
+    "pdf_link": "https://arxiv.org/pdf/2104.05704.pdf"
+  },
+  {
+    "title": "Big Data Analytics: A Survey",
+    "authors": [
+      "Wasnaa Kadhim Jawad",
+      "Abbas M. Al-Bakry"
+    ],
+    "venue": "Iraqi Journal for Computers and Informatics",
+    "pub_date": "11 June 2022",
+    "tldr": "TLDR\nA lot of work is being done to find ways to minimize the dimensionality of big data in order to provide analytics reports that are even more accurate and data visualizations that are more interesting.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "The use of Big Data Analytics in healthcare",
+    "authors": [
+      "Kornelia M. Batko",
+      "A. Ślęzak"
+    ],
+    "venue": "Journal of Big Data",
+    "pub_date": "6 January 2022",
+    "tldr": "TLDR\nThe research positively confirmed that medical facilities in Poland are moving towards data-based healthcare, together with its benefits, and clearly shows that the decisions made in medical facilities are highly data-driven.\nExpand",
+    "pdf_link": "N/A"
+  },
+  {
+    "title": "Big Data Analytics",
+    "authors": [
+      "Arsalan Zahid Piprani",
+      "Amjad Ali",
+      "Adeel Shah"
+    ],
+    "venue": "Lecture Notes in Computer Science",
+    "pub_date": "15 May 2019",
+    "tldr": "TLDR\nThe authors demonstrated how big data analytics (BDA) is a critical success element for an organization in the global and dynamic market.\nExpand",
+    "pdf_link": "N/A"
+  }
+]

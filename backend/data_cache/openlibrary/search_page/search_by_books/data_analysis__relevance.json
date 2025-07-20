@@ -1,0 +1,3378 @@
+{
+  "pages": {
+    "page_1": [
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14572104-M.jpg",
+        "title": "Python for Data Analysis",
+        "url": "https://openlibrary.org/works/OL17422847W/Python_For_Data_Analysis?edition=key%3A/books/OL33467897M",
+        "author": "Wes McKinney",
+        "rating": "3.8",
+        "num_ratings": "11",
+        "first_published": "2012",
+        "num_editions": "8 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/8697708-M.jpg",
+        "title": "Multivariate data analysis",
+        "url": "https://openlibrary.org/works/OL16979906W/Multivariate_data_analysis?edition=key%3A/books/OL22691711M",
+        "author": "Joseph F. Hair",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1992",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/6639296-M.jpg",
+        "title": "Qualitative data analysis: an expanded sourcebook",
+        "url": "https://openlibrary.org/works/OL2022506W/Qualitative_data_analysis?edition=key%3A/books/OL1429868M",
+        "author": "Matthew B. Miles",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "1984",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/13323024-M.jpg",
+        "title": "Data analysis: an introduction",
+        "url": "https://openlibrary.org/works/OL3829833W/Data_Analysis?edition=key%3A/books/OL1331758M",
+        "author": "Jeffrey A. Witmer",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "1992",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "NASA/DoD aerospace knowledge diffusion research project.: an analysis of five studies",
+        "url": "https://openlibrary.org/works/OL8894965W/NASA_DoD_aerospace_knowledge_diffusion_research_project?edition=key%3A/books/OL15393585M",
+        "author": "Thomas E. Pinelli",
+        "rating": "4.0",
+        "num_ratings": "5",
+        "first_published": "1990",
+        "num_editions": "101 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Qualitative Data Analysis: A Methods Sourcebook",
+        "url": "https://openlibrary.org/works/OL20162005W/Qualitative_Data_Analysis?edition=key%3A/books/OL39918821M",
+        "author": "Matthew B. Miles",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2013",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Financial management: NASA's financial reports are based on unreliable data : report to the Congress",
+        "url": "https://openlibrary.org/works/OL565227W/Financial_Management?edition=key%3A/books/OL14686050M",
+        "author": "United States. General Accounting Office",
+        "rating": "3.5",
+        "num_ratings": "11",
+        "first_published": "1987",
+        "num_editions": "93 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/256803-M.jpg",
+        "title": "Advanced Mathematics: Precalculus With Discrete Mathematics and Data Analysis",
+        "url": "https://openlibrary.org/works/OL4225512W/Advanced_Mathematics?edition=key%3A/books/OL7467925M",
+        "author": "Richard G. Brown",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "1975",
+        "num_editions": "10 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Tax administration: earned income credit--data on noncompliance and illegal alien recipients : report to the Honorable William V. Roth, Jr., U.S. Senate",
+        "url": "https://openlibrary.org/works/OL565231W/Tax_administration?edition=key%3A/books/OL17788187M",
+        "author": "United States. General Accounting Office",
+        "rating": "5.0",
+        "num_ratings": "1 rating",
+        "first_published": "1986",
+        "num_editions": "151 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/14321940-M.jpg",
+        "title": "Bayesian data analysis",
+        "url": "https://openlibrary.org/works/OL12630389W/Bayesian_data_analysis?edition=key%3A/books/OL15491751M",
+        "author": "Andrew Gelman",
+        "rating": "4.5",
+        "num_ratings": "2",
+        "first_published": "1995",
+        "num_editions": "14 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/134055-M.jpg",
+        "title": "Exploratory data analysis",
+        "url": "https://openlibrary.org/works/OL9572429W/Exploratory_data_analysis?edition=key%3A/books/OL4877620M",
+        "author": "John Wilder Tukey",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1970",
+        "num_editions": "6 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "[Security weaknesses at IRS' Cyberfile data center]",
+        "url": "https://openlibrary.org/works/OL565229W/Financial_audit?edition=key%3A/books/OL15444117M",
+        "author": "United States. General Accounting Office",
+        "rating": "4.3",
+        "num_ratings": "3",
+        "first_published": "1943",
+        "num_editions": "402 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1732865-M.jpg",
+        "title": "Geometric Data Analysis: From Correspondence Analysis to Structured Data Analysis",
+        "url": "https://openlibrary.org/works/OL16923723W/Geometric_data_analysis?edition=key%3A/books/OL8371086M",
+        "author": "Brigitte Le Roux",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2004",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/130699-M.jpg",
+        "title": "Statistical data analysis",
+        "url": "https://openlibrary.org/works/OL1859924W/Statistical_data_analysis?edition=key%3A/books/OL354805M",
+        "author": "Glen Cowan",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1998",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+        "title": "Concept Data Analysis",
+        "url": "https://openlibrary.org/works/OL16985023W/Concept_data_analysis?edition=key%3A/books/OL39880980M",
+        "author": "Claudio Carpineto",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2004",
+        "num_editions": "5 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1495330-M.jpg",
+        "title": "Fuzzy data analysis",
+        "url": "https://openlibrary.org/works/OL2488104W/Fuzzy_data_analysis?edition=key%3A/books/OL1712008M",
+        "author": "Hans Bandemer",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1992",
+        "num_editions": "4 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/4271669-M.jpg",
+        "title": "Modern data analysis",
+        "url": "https://openlibrary.org/works/OL19612641W/Modern_data_analysis?edition=key%3A/books/OL3484547M",
+        "author": "Andrew F. Siegel",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1982",
+        "num_editions": "2 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/576078-M.jpg",
+        "title": "Data analysis: an introduction",
+        "url": "https://openlibrary.org/works/OL3523957W/Data_analysis?edition=key%3A/books/OL1118981M",
+        "author": "Michael S. Lewis-Beck",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1995",
+        "num_editions": "1 edition"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/1136435-M.jpg",
+        "title": "Data Analysis: A Bayesian Tutorial",
+        "url": "https://openlibrary.org/works/OL16940049W/Data_analysis?edition=key%3A/books/OL7401146M",
+        "author": "D. S. Sivia",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "2006",
+        "num_editions": "3 editions"
+      },
+      {
+        "imgSrc": "https://covers.openlibrary.org/b/id/575670-M.jpg",
+        "title": "Exploratory data analysis",
+        "url": "https://openlibrary.org/works/OL6578358W/Exploratory_data_analysis?edition=key%3A/books/OL4432651M",
+        "author": "Frederick Hartwig",
+        "rating": null,
+        "num_ratings": null,
+        "first_published": "1979",
+        "num_editions": "2 editions"
+      }
+    ]
+  },
+  "last_page": 719,
+  "hits": 14371,
+  "sidebar_info": {
+    "eBook?": [
+      {
+        "label": "yes",
+        "count": "2,000",
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&has_fulltext=true"
+      },
+      {
+        "label": "no",
+        "count": "12,371",
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&has_fulltext=false"
+      }
+    ],
+    "Language": [
+      {
+        "label": "English",
+        "count": "13,129",
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=eng"
+      },
+      {
+        "label": "German",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=ger"
+      },
+      {
+        "label": "Undetermined",
+        "count": 45,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=und"
+      },
+      {
+        "label": "Chinese",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=chi"
+      },
+      {
+        "label": "Japanese",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=jpn"
+      },
+      {
+        "label": "Russian",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=rus"
+      },
+      {
+        "label": "French",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=fre"
+      },
+      {
+        "label": "Korean",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=kor"
+      },
+      {
+        "label": "Polish",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=pol"
+      },
+      {
+        "label": "Norwegian",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=nor"
+      },
+      {
+        "label": "Spanish",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=spa"
+      },
+      {
+        "label": "Thai",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=tha"
+      },
+      {
+        "label": "Hebrew",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=heb"
+      },
+      {
+        "label": "Italian",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=ita"
+      },
+      {
+        "label": "Hungarian",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=hun"
+      },
+      {
+        "label": "Indonesian",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=ind"
+      },
+      {
+        "label": "Latin",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=lat"
+      },
+      {
+        "label": "Portuguese",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=por"
+      },
+      {
+        "label": "Arabic",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=ara"
+      },
+      {
+        "label": "Danish",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=dan"
+      },
+      {
+        "label": "Finnish",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=fin"
+      },
+      {
+        "label": "Dutch",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=dut"
+      },
+      {
+        "label": "Germanic (Other)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=gem"
+      },
+      {
+        "label": "Hindi",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=hin"
+      },
+      {
+        "label": "Malay",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=may"
+      },
+      {
+        "label": "Multiple languages",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=mul"
+      },
+      {
+        "label": "Sanskrit",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=san"
+      },
+      {
+        "label": "Serbian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=srp"
+      },
+      {
+        "label": "Swedish",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=swe"
+      },
+      {
+        "label": "Welsh",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&language=wel"
+      }
+    ],
+    "Author": [
+      {
+        "label": "ICON Group Ltd.",
+        "count": 63,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2727133A"
+      },
+      {
+        "label": "Jerry Ramonyai",
+        "count": 61,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL10079743A"
+      },
+      {
+        "label": "National Park Service Staff",
+        "count": 37,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2661379A"
+      },
+      {
+        "label": "United States. General Accounting Office",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL4489781A"
+      },
+      {
+        "label": "Gerard Blokdyk",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL13493775A"
+      },
+      {
+        "label": "United States Government Accountability Office",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7569907A"
+      },
+      {
+        "label": "Roxy Peck",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2749495A"
+      },
+      {
+        "label": "United States. National Aeronautics and Space Administration.",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL254421A"
+      },
+      {
+        "label": "Smithsonian Science Information Exchange. Current Cancer Research Project Analysis Center.",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1948592A"
+      },
+      {
+        "label": "United States. Bureau of Mines.",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL160635A"
+      },
+      {
+        "label": "Gerardus Blokdyk",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7546458A"
+      },
+      {
+        "label": "Jay L. Devore",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL19153A"
+      },
+      {
+        "label": "Christos H. Skiadas",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL3756887A"
+      },
+      {
+        "label": "Kaplan Test Prep",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL3118614A"
+      },
+      {
+        "label": "Lisa A. Taylor",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL9069816A"
+      },
+      {
+        "label": "David Mancuso",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1412411A"
+      },
+      {
+        "label": "Alan Agresti",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL446660A"
+      },
+      {
+        "label": "Elizabeth Kohlenberg",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL362241A"
+      },
+      {
+        "label": "Chris Olsen",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2749496A"
+      },
+      {
+        "label": "Wayne L. Winston",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL452854A"
+      },
+      {
+        "label": "Bill Jelen",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1481972A"
+      },
+      {
+        "label": "Michael Joseph Sullivan Jr.",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL28708A"
+      },
+      {
+        "label": "Gesellschaft für Klassifikation. Jahrestagung",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL23831A"
+      },
+      {
+        "label": "Dmitry Vostokov",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7210774A"
+      },
+      {
+        "label": "H. David Sherman",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL860896A"
+      },
+      {
+        "label": "National Highway Traffic Safety Administration (U.S.) Staff",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL14287020A"
+      },
+      {
+        "label": "Brian Everitt",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL191075A"
+      },
+      {
+        "label": "Alan Bryman",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL237903A"
+      },
+      {
+        "label": "Laurie Cawthon",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL258431A"
+      },
+      {
+        "label": "Terry Mills",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL713193A"
+      },
+      {
+        "label": "United States Accounting Office (GAO)",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL14093070A"
+      },
+      {
+        "label": "United States Environmental Protection Agency (EPA)",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL14432867A"
+      },
+      {
+        "label": "S. Christian Albright",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL239935A"
+      },
+      {
+        "label": "Wayne Winston",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2776999A"
+      },
+      {
+        "label": "Maurizio Vichi",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL3182296A"
+      },
+      {
+        "label": "Badi H. Baltagi",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL403040A"
+      },
+      {
+        "label": "LESOTHO.  MINISTRY OF COOPERATIVES AND RURAL DEVELOPMENT",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL5245955A"
+      },
+      {
+        "label": "Robert F. Erbacher",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7848414A"
+      },
+      {
+        "label": "Fionn Murtagh",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1194511A"
+      },
+      {
+        "label": "United States. Health Resources and Services Administration. Bureau of Health Professions. Office of Data Analysis and Management",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL12125517A"
+      },
+      {
+        "label": "Robert L. Boylestad",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL227944A"
+      },
+      {
+        "label": "Mark Allen Weiss",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL235133A"
+      },
+      {
+        "label": "Matthew B. Miles",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL244181A"
+      },
+      {
+        "label": "M. J. Norušis",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL301725A"
+      },
+      {
+        "label": "Nicola Cheeseman",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL5254637A"
+      },
+      {
+        "label": "Canadian Transport Commission. Systems Analysis and Research Data Base Branch.",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL6359562A"
+      },
+      {
+        "label": "United States. Government Accountability Office",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL6850408A"
+      },
+      {
+        "label": "Donald Paul Gaver",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7176183A"
+      },
+      {
+        "label": "Joseph F. Hair",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL885477A"
+      },
+      {
+        "label": "IEEE Staff",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL9477657A"
+      },
+      {
+        "label": "National Highway Traffic Safety Administration",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL11300140A"
+      },
+      {
+        "label": "United States. Bureau of the Census",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL140127A"
+      },
+      {
+        "label": "Michael Sullivan III",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1436309A"
+      },
+      {
+        "label": "Clifford A. Shaffer",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL251846A"
+      },
+      {
+        "label": "Christian Borgelt",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2731949A"
+      },
+      {
+        "label": "Emmanuel Thanassoulis",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2784878A"
+      },
+      {
+        "label": "E. Diday",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL3267856A"
+      },
+      {
+        "label": "D. S. Malik",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL538598A"
+      },
+      {
+        "label": "Andrew Park",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL6016153A"
+      },
+      {
+        "label": "McGraw Hill",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7485010A"
+      },
+      {
+        "label": "Marvin Gore",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL843238A"
+      },
+      {
+        "label": "Carl F. Wolfhagen",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1040144A"
+      },
+      {
+        "label": "Harvard University. Laboratory for Computer Graphics and Spatial Analysis",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1664549A"
+      },
+      {
+        "label": "Organisation for Economic Co-operation and Development",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2139510A"
+      },
+      {
+        "label": "International Federation of Classification Societies. Conference",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL233460A"
+      },
+      {
+        "label": "Marija J. Norusis",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2634588A"
+      },
+      {
+        "label": "Marija Norusis",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2653024A"
+      },
+      {
+        "label": "John P. Phillips",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2739827A"
+      },
+      {
+        "label": "MathQueue",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2814000A"
+      },
+      {
+        "label": "J. Conrad Roberson",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2910048A"
+      },
+      {
+        "label": "SAS Institute",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2935655A"
+      },
+      {
+        "label": "Robert H. Carver",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL299820A"
+      },
+      {
+        "label": "Vera Pawlowsky-Glahn",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL3305314A"
+      },
+      {
+        "label": "David R. Cox",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL4390109A"
+      },
+      {
+        "label": "[name missing]",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL5631454A"
+      },
+      {
+        "label": "United States. Bureau of Land Management",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7127652A"
+      },
+      {
+        "label": "United States. Bureau of Economic Analysis",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7177545A"
+      },
+      {
+        "label": "Ton J. Cleophas",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7296476A"
+      },
+      {
+        "label": "Michael R. Berthold",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7324455A"
+      },
+      {
+        "label": "Siddhartha Bhattacharyya",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7336680A"
+      },
+      {
+        "label": "Amar Sahay",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7798434A"
+      },
+      {
+        "label": "Simon M. Lin",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7853863A"
+      },
+      {
+        "label": "Alan Bryman",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL7884144A"
+      },
+      {
+        "label": "Yadolah Dodge",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1295784A"
+      },
+      {
+        "label": "Benchmark Education Company LLC Staff",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL14050813A"
+      },
+      {
+        "label": "Conference Board.",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1439243A"
+      },
+      {
+        "label": "Joe Zhu",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1521200A"
+      },
+      {
+        "label": "Dolph Schluter",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1608311A"
+      },
+      {
+        "label": "Cornelius T. Leondes",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL1749186A"
+      },
+      {
+        "label": "Mark Weiss",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL186023A"
+      },
+      {
+        "label": "Paul McFedries",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL246179A"
+      },
+      {
+        "label": "John Wilder Tukey",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL24871A"
+      },
+      {
+        "label": "Contemporary",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2639618A"
+      },
+      {
+        "label": "Patrick F. Dunn",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2639788A"
+      },
+      {
+        "label": "Hans Hermann Bock",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2682601A"
+      },
+      {
+        "label": "Paul D. Allison",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2737214A"
+      },
+      {
+        "label": "Andreas D. Baxevanis",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL2738024A"
+      },
+      {
+        "label": "Petra Perner",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL3177574A"
+      },
+      {
+        "label": "Julius S. Bendat",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL386491A"
+      },
+      {
+        "label": "Robert S. Lockhart",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&author_key=OL395363A"
+      }
+    ],
+    "Subjects": [
+      {
+        "label": "Data processing",
+        "count": "2,649",
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Data+processing"
+      },
+      {
+        "label": "Statistics",
+        "count": "1,410",
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Statistics"
+      },
+      {
+        "label": "Statistical methods",
+        "count": 707,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Statistical+methods"
+      },
+      {
+        "label": "Congresses",
+        "count": 673,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Congresses"
+      },
+      {
+        "label": "Mathematical statistics",
+        "count": 488,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Mathematical+statistics"
+      },
+      {
+        "label": "Mathematical models",
+        "count": 430,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Mathematical+models"
+      },
+      {
+        "label": "Research",
+        "count": 430,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Research"
+      },
+      {
+        "label": "Multivariate analysis",
+        "count": 403,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Multivariate+analysis"
+      },
+      {
+        "label": "Analysis",
+        "count": 372,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Analysis"
+      },
+      {
+        "label": "Data mining",
+        "count": 369,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Data+mining"
+      },
+      {
+        "label": "Computer programs",
+        "count": 348,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computer+programs"
+      },
+      {
+        "label": "Social sciences",
+        "count": 334,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Social+sciences"
+      },
+      {
+        "label": "Electronic data processing",
+        "count": 319,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Electronic+data+processing"
+      },
+      {
+        "label": "Mathematics",
+        "count": 306,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Mathematics"
+      },
+      {
+        "label": "System analysis",
+        "count": 254,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=System+analysis"
+      },
+      {
+        "label": "Computer science",
+        "count": 236,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computer+science"
+      },
+      {
+        "label": "Information storage and retrieval systems",
+        "count": 226,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Information+storage+and+retrieval+systems"
+      },
+      {
+        "label": "General",
+        "count": 222,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=General"
+      },
+      {
+        "label": "Informatique",
+        "count": 222,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Informatique"
+      },
+      {
+        "label": "Methodology",
+        "count": 204,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Methodology"
+      },
+      {
+        "label": "Measurement",
+        "count": 192,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Measurement"
+      },
+      {
+        "label": "Methods",
+        "count": 186,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Methods"
+      },
+      {
+        "label": "Database management",
+        "count": 171,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Database+management"
+      },
+      {
+        "label": "Artificial intelligence",
+        "count": 151,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Artificial+intelligence"
+      },
+      {
+        "label": "Treatment",
+        "count": 150,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Treatment"
+      },
+      {
+        "label": "Evaluation",
+        "count": 149,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Evaluation"
+      },
+      {
+        "label": "Water quality",
+        "count": 148,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Water+quality"
+      },
+      {
+        "label": "Handbooks, manuals",
+        "count": 147,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Handbooks%2C+manuals"
+      },
+      {
+        "label": "Regression analysis",
+        "count": 147,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Regression+analysis"
+      },
+      {
+        "label": "Numerical analysis",
+        "count": 144,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Numerical+analysis"
+      },
+      {
+        "label": "Management",
+        "count": 140,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Management"
+      },
+      {
+        "label": "Prevention",
+        "count": 135,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Prevention"
+      },
+      {
+        "label": "Substance abuse",
+        "count": 132,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Substance+abuse"
+      },
+      {
+        "label": "Economics",
+        "count": 128,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Economics"
+      },
+      {
+        "label": "Computer software",
+        "count": 126,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computer+software"
+      },
+      {
+        "label": "Business",
+        "count": 125,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Business"
+      },
+      {
+        "label": "Databases",
+        "count": 123,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Databases"
+      },
+      {
+        "label": "Geographic information systems",
+        "count": 123,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Geographic+information+systems"
+      },
+      {
+        "label": "Time-series analysis",
+        "count": 120,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Time-series+analysis"
+      },
+      {
+        "label": "Drug abuse",
+        "count": 119,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Drug+abuse"
+      },
+      {
+        "label": "Image processing",
+        "count": 118,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Image+processing"
+      },
+      {
+        "label": "MATHEMATICS",
+        "count": 118,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=MATHEMATICS"
+      },
+      {
+        "label": "Alcoholism",
+        "count": 116,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Alcoholism"
+      },
+      {
+        "label": "Pollution",
+        "count": 116,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Pollution"
+      },
+      {
+        "label": "Remote sensing",
+        "count": 116,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Remote+sensing"
+      },
+      {
+        "label": "Statistical Data Interpretation",
+        "count": 114,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Statistical+Data+Interpretation"
+      },
+      {
+        "label": "Méthodes statistiques",
+        "count": 111,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=M%C3%A9thodes+statistiques"
+      },
+      {
+        "label": "United States",
+        "count": 111,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=United+States"
+      },
+      {
+        "label": "Social sciences, statistical methods",
+        "count": 109,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Social+sciences%2C+statistical+methods"
+      },
+      {
+        "label": "Finance",
+        "count": 108,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Finance"
+      },
+      {
+        "label": "Economic conditions",
+        "count": 107,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Economic+conditions"
+      },
+      {
+        "label": "Biometry",
+        "count": 105,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Biometry"
+      },
+      {
+        "label": "Data structures (Computer science)",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Data+structures+%28Computer+science%29"
+      },
+      {
+        "label": "Structural analysis (Engineering)",
+        "count": 104,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Structural+analysis+%28Engineering%29"
+      },
+      {
+        "label": "Water",
+        "count": 103,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Water"
+      },
+      {
+        "label": "Probability & Statistics",
+        "count": 100,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Probability+%26+Statistics"
+      },
+      {
+        "label": "Computer simulation",
+        "count": 99,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computer+simulation"
+      },
+      {
+        "label": "Medicine",
+        "count": 99,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Medicine"
+      },
+      {
+        "label": "Statistics as Topic",
+        "count": 98,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Statistics+as+Topic"
+      },
+      {
+        "label": "Engineering",
+        "count": 97,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Engineering"
+      },
+      {
+        "label": "Computers",
+        "count": 96,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computers"
+      },
+      {
+        "label": "Spectrum analysis",
+        "count": 96,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Spectrum+analysis"
+      },
+      {
+        "label": "Design and construction",
+        "count": 92,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Design+and+construction"
+      },
+      {
+        "label": "Groundwater",
+        "count": 91,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Groundwater"
+      },
+      {
+        "label": "Population",
+        "count": 91,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Population"
+      },
+      {
+        "label": "Spatial analysis (Statistics)",
+        "count": 91,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Spatial+analysis+%28Statistics%29"
+      },
+      {
+        "label": "Statistics & numerical data",
+        "count": 91,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Statistics+%26+numerical+data"
+      },
+      {
+        "label": "Cluster analysis",
+        "count": 90,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Cluster+analysis"
+      },
+      {
+        "label": "Computer graphics",
+        "count": 89,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computer+graphics"
+      },
+      {
+        "label": "Analysis of variance",
+        "count": 88,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Analysis+of+variance"
+      },
+      {
+        "label": "Education",
+        "count": 88,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Education"
+      },
+      {
+        "label": "Testing",
+        "count": 88,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Testing"
+      },
+      {
+        "label": "Data-analyse",
+        "count": 87,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Data-analyse"
+      },
+      {
+        "label": "R (Computer program language)",
+        "count": 87,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=R+%28Computer+program+language%29"
+      },
+      {
+        "label": "Econometrics",
+        "count": 85,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Econometrics"
+      },
+      {
+        "label": "Bioinformatics",
+        "count": 84,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Bioinformatics"
+      },
+      {
+        "label": "Bibliography",
+        "count": 82,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Bibliography"
+      },
+      {
+        "label": "Computer networks",
+        "count": 81,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computer+networks"
+      },
+      {
+        "label": "Decision making",
+        "count": 80,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Decision+making"
+      },
+      {
+        "label": "Environmental aspects",
+        "count": 79,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Environmental+aspects"
+      },
+      {
+        "label": "Probabilities",
+        "count": 79,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Probabilities"
+      },
+      {
+        "label": "Computer algorithms",
+        "count": 76,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Computer+algorithms"
+      },
+      {
+        "label": "Finite element method",
+        "count": 76,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Finite+element+method"
+      },
+      {
+        "label": "Science",
+        "count": 76,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Science"
+      },
+      {
+        "label": "COMPUTERS",
+        "count": 75,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=COMPUTERS"
+      },
+      {
+        "label": "Sciences sociales",
+        "count": 75,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Sciences+sociales"
+      },
+      {
+        "label": "Programming languages (electronic computers)",
+        "count": 74,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Programming+languages+%28electronic+computers%29"
+      },
+      {
+        "label": "System design",
+        "count": 74,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=System+design"
+      },
+      {
+        "label": "Algorithms",
+        "count": 73,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Algorithms"
+      },
+      {
+        "label": "Costs",
+        "count": 73,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Costs"
+      },
+      {
+        "label": "Datenanalyse",
+        "count": 72,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Datenanalyse"
+      },
+      {
+        "label": "Geography",
+        "count": 72,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Geography"
+      },
+      {
+        "label": "Statistics, data processing",
+        "count": 71,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Statistics%2C+data+processing"
+      },
+      {
+        "label": "Management information systems",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Management+information+systems"
+      },
+      {
+        "label": "Mathematical analysis",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Mathematical+analysis"
+      },
+      {
+        "label": "Science/Mathematics",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Science%2FMathematics"
+      },
+      {
+        "label": "Tables",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Tables"
+      },
+      {
+        "label": "Digital techniques",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Digital+techniques"
+      },
+      {
+        "label": "Social sciences, research",
+        "count": 67,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Social+sciences%2C+research"
+      },
+      {
+        "label": "Astronomy",
+        "count": 66,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&subject_facet=Astronomy"
+      }
+    ],
+    "First published": [
+      {
+        "label": "2018",
+        "count": 438,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2018"
+      },
+      {
+        "label": "2013",
+        "count": 362,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2013"
+      },
+      {
+        "label": "2000",
+        "count": 314,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2000"
+      },
+      {
+        "label": "2012",
+        "count": 314,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2012"
+      },
+      {
+        "label": "1999",
+        "count": 307,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1999"
+      },
+      {
+        "label": "1992",
+        "count": 300,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1992"
+      },
+      {
+        "label": "1995",
+        "count": 298,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1995"
+      },
+      {
+        "label": "1993",
+        "count": 291,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1993"
+      },
+      {
+        "label": "1998",
+        "count": 291,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1998"
+      },
+      {
+        "label": "2003",
+        "count": 278,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2003"
+      },
+      {
+        "label": "1994",
+        "count": 276,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1994"
+      },
+      {
+        "label": "1988",
+        "count": 274,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1988"
+      },
+      {
+        "label": "2011",
+        "count": 274,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2011"
+      },
+      {
+        "label": "1997",
+        "count": 271,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1997"
+      },
+      {
+        "label": "2001",
+        "count": 270,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2001"
+      },
+      {
+        "label": "2019",
+        "count": 270,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2019"
+      },
+      {
+        "label": "1984",
+        "count": 269,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1984"
+      },
+      {
+        "label": "1985",
+        "count": 269,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1985"
+      },
+      {
+        "label": "1996",
+        "count": 268,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1996"
+      },
+      {
+        "label": "1987",
+        "count": 266,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1987"
+      },
+      {
+        "label": "1991",
+        "count": 266,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1991"
+      },
+      {
+        "label": "1986",
+        "count": 264,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1986"
+      },
+      {
+        "label": "2017",
+        "count": 260,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2017"
+      },
+      {
+        "label": "2008",
+        "count": 257,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2008"
+      },
+      {
+        "label": "1979",
+        "count": 255,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1979"
+      },
+      {
+        "label": "1983",
+        "count": 254,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1983"
+      },
+      {
+        "label": "2002",
+        "count": 253,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2002"
+      },
+      {
+        "label": "2014",
+        "count": 253,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2014"
+      },
+      {
+        "label": "2004",
+        "count": 252,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2004"
+      },
+      {
+        "label": "2007",
+        "count": 252,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2007"
+      },
+      {
+        "label": "2010",
+        "count": 250,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2010"
+      },
+      {
+        "label": "1978",
+        "count": 248,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1978"
+      },
+      {
+        "label": "1989",
+        "count": 246,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1989"
+      },
+      {
+        "label": "1990",
+        "count": 246,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1990"
+      },
+      {
+        "label": "2005",
+        "count": 245,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2005"
+      },
+      {
+        "label": "2009",
+        "count": 242,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2009"
+      },
+      {
+        "label": "2006",
+        "count": 236,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2006"
+      },
+      {
+        "label": "2021",
+        "count": 234,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2021"
+      },
+      {
+        "label": "1977",
+        "count": 222,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1977"
+      },
+      {
+        "label": "1981",
+        "count": 216,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1981"
+      },
+      {
+        "label": "2016",
+        "count": 213,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2016"
+      },
+      {
+        "label": "2020",
+        "count": 208,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2020"
+      },
+      {
+        "label": "1982",
+        "count": 207,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1982"
+      },
+      {
+        "label": "2022",
+        "count": 204,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2022"
+      },
+      {
+        "label": "2015",
+        "count": 202,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2015"
+      },
+      {
+        "label": "1980",
+        "count": 191,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1980"
+      },
+      {
+        "label": "1975",
+        "count": 181,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1975"
+      },
+      {
+        "label": "1976",
+        "count": 164,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1976"
+      },
+      {
+        "label": "1970",
+        "count": 160,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1970"
+      },
+      {
+        "label": "1972",
+        "count": 135,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1972"
+      },
+      {
+        "label": "1971",
+        "count": 128,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1971"
+      },
+      {
+        "label": "1973",
+        "count": 127,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1973"
+      },
+      {
+        "label": "1969",
+        "count": 121,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1969"
+      },
+      {
+        "label": "1974",
+        "count": 120,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1974"
+      },
+      {
+        "label": "2023",
+        "count": 117,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2023"
+      },
+      {
+        "label": "2024",
+        "count": 111,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2024"
+      },
+      {
+        "label": "1968",
+        "count": 89,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1968"
+      },
+      {
+        "label": "1967",
+        "count": 74,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1967"
+      },
+      {
+        "label": "1964",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1964"
+      },
+      {
+        "label": "1966",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1966"
+      },
+      {
+        "label": "1965",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1965"
+      },
+      {
+        "label": "1963",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1963"
+      },
+      {
+        "label": "1947",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1947"
+      },
+      {
+        "label": "2025",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=2025"
+      },
+      {
+        "label": "1959",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1959"
+      },
+      {
+        "label": "1962",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1962"
+      },
+      {
+        "label": "1961",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1961"
+      },
+      {
+        "label": "1960",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1960"
+      },
+      {
+        "label": "1957",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1957"
+      },
+      {
+        "label": "1953",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1953"
+      },
+      {
+        "label": "1958",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1958"
+      },
+      {
+        "label": "1942",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1942"
+      },
+      {
+        "label": "1900",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1900"
+      },
+      {
+        "label": "1946",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1946"
+      },
+      {
+        "label": "1950",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1950"
+      },
+      {
+        "label": "1956",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1956"
+      },
+      {
+        "label": "1924",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1924"
+      },
+      {
+        "label": "1954",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1954"
+      },
+      {
+        "label": "1937",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1937"
+      },
+      {
+        "label": "1941",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1941"
+      },
+      {
+        "label": "1943",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1943"
+      },
+      {
+        "label": "1951",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1951"
+      },
+      {
+        "label": "1899",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1899"
+      },
+      {
+        "label": "1928",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1928"
+      },
+      {
+        "label": "1939",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1939"
+      },
+      {
+        "label": "1945",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1945"
+      },
+      {
+        "label": "1929",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1929"
+      },
+      {
+        "label": "1938",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1938"
+      },
+      {
+        "label": "1940",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1940"
+      },
+      {
+        "label": "1944",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1944"
+      },
+      {
+        "label": "1952",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1952"
+      },
+      {
+        "label": "1927",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1927"
+      },
+      {
+        "label": "1948",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1948"
+      },
+      {
+        "label": "1949",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1949"
+      },
+      {
+        "label": "1955",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1955"
+      },
+      {
+        "label": "1884",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1884"
+      },
+      {
+        "label": "1902",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1902"
+      },
+      {
+        "label": "1917",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1917"
+      },
+      {
+        "label": "1921",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1921"
+      },
+      {
+        "label": "1925",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&first_publish_year=1925"
+      }
+    ],
+    "Publisher": [
+      {
+        "label": "Springer",
+        "count": "1,002",
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer"
+      },
+      {
+        "label": "Taylor & Francis Group",
+        "count": 459,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Taylor+%26+Francis+Group"
+      },
+      {
+        "label": "CreateSpace Independent Publishing Platform",
+        "count": 420,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=CreateSpace+Independent+Publishing+Platform"
+      },
+      {
+        "label": "Independently Published",
+        "count": 396,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Independently+Published"
+      },
+      {
+        "label": "Wiley & Sons, Incorporated, John",
+        "count": 311,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Wiley+%26+Sons%2C+Incorporated%2C+John"
+      },
+      {
+        "label": "Springer London, Limited",
+        "count": 309,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer+London%2C+Limited"
+      },
+      {
+        "label": "Wiley",
+        "count": 281,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Wiley"
+      },
+      {
+        "label": "National Technical Information Service, distributor",
+        "count": 221,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=National+Technical+Information+Service%2C+distributor"
+      },
+      {
+        "label": "National Aeronautics and Space Administration",
+        "count": 191,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=National+Aeronautics+and+Space+Administration"
+      },
+      {
+        "label": "Cambridge University Press",
+        "count": 169,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Cambridge+University+Press"
+      },
+      {
+        "label": "Springer International Publishing AG",
+        "count": 144,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer+International+Publishing+AG"
+      },
+      {
+        "label": "Wiley & Sons, Limited, John",
+        "count": 136,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Wiley+%26+Sons%2C+Limited%2C+John"
+      },
+      {
+        "label": "U.S. Dept. of the Interior, U.S. Geological Survey",
+        "count": 132,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=U.S.+Dept.+of+the+Interior%2C+U.S.+Geological+Survey"
+      },
+      {
+        "label": "Sine nomine",
+        "count": 124,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Sine+nomine"
+      },
+      {
+        "label": "Elsevier Science & Technology Books",
+        "count": 122,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Elsevier+Science+%26+Technology+Books"
+      },
+      {
+        "label": "Prentice Hall",
+        "count": 121,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Prentice+Hall"
+      },
+      {
+        "label": "Naval Postgraduate School",
+        "count": 110,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Naval+Postgraduate+School"
+      },
+      {
+        "label": "Chapman & Hall/CRC",
+        "count": 108,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Chapman+%26+Hall%2FCRC"
+      },
+      {
+        "label": "CRC Press",
+        "count": 106,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=CRC+Press"
+      },
+      {
+        "label": "for sale by the National Technical Information Service",
+        "count": 106,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=for+sale+by+the+National+Technical+Information+Service"
+      },
+      {
+        "label": "McGraw-Hill",
+        "count": 97,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=McGraw-Hill"
+      },
+      {
+        "label": "Wiley-Interscience",
+        "count": 87,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Wiley-Interscience"
+      },
+      {
+        "label": "Routledge",
+        "count": 80,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Routledge"
+      },
+      {
+        "label": "Springer-Verlag",
+        "count": 79,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer-Verlag"
+      },
+      {
+        "label": "Packt Publishing, Limited",
+        "count": 78,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Packt+Publishing%2C+Limited"
+      },
+      {
+        "label": "de Gruyter GmbH, Walter",
+        "count": 77,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=de+Gruyter+GmbH%2C+Walter"
+      },
+      {
+        "label": "Elsevier",
+        "count": 76,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Elsevier"
+      },
+      {
+        "label": "Springer Berlin Heidelberg",
+        "count": 73,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer+Berlin+Heidelberg"
+      },
+      {
+        "label": "Academic Press",
+        "count": 69,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Academic+Press"
+      },
+      {
+        "label": "Oxford University Press",
+        "count": 68,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Oxford+University+Press"
+      },
+      {
+        "label": "CRC Press LLC",
+        "count": 66,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=CRC+Press+LLC"
+      },
+      {
+        "label": "Pearson Education, Limited",
+        "count": 63,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Pearson+Education%2C+Limited"
+      },
+      {
+        "label": "U.S. Geological Survey",
+        "count": 62,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=U.S.+Geological+Survey"
+      },
+      {
+        "label": "Research and Data Analysis, Dept. of Social and Health Services",
+        "count": 61,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Research+and+Data+Analysis%2C+Dept.+of+Social+and+Health+Services"
+      },
+      {
+        "label": "U.S. Dept. of the Interior, Geological Survey",
+        "count": 61,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=U.S.+Dept.+of+the+Interior%2C+Geological+Survey"
+      },
+      {
+        "label": "Springer New York",
+        "count": 60,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer+New+York"
+      },
+      {
+        "label": "Washington State Dept. of Social and Health Services, Research and Data Analysis Division",
+        "count": 60,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Washington+State+Dept.+of+Social+and+Health+Services%2C+Research+and+Data+Analysis+Division"
+      },
+      {
+        "label": "Prentice-Hall",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Prentice-Hall"
+      },
+      {
+        "label": "SAGE Publications, Incorporated",
+        "count": 59,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=SAGE+Publications%2C+Incorporated"
+      },
+      {
+        "label": "John Wiley & Sons Inc",
+        "count": 57,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=John+Wiley+%26+Sons+Inc"
+      },
+      {
+        "label": "Sage Publications",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Sage+Publications"
+      },
+      {
+        "label": "for sale by the National Technical Information Service]",
+        "count": 54,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=for+sale+by+the+National+Technical+Information+Service%5D"
+      },
+      {
+        "label": "John Wiley & Sons",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=John+Wiley+%26+Sons"
+      },
+      {
+        "label": "The Office",
+        "count": 53,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=The+Office"
+      },
+      {
+        "label": "Duxbury Press",
+        "count": 52,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Duxbury+Press"
+      },
+      {
+        "label": "IGI Global",
+        "count": 51,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=IGI+Global"
+      },
+      {
+        "label": "Icon Group International",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Icon+Group+International"
+      },
+      {
+        "label": "Island Press",
+        "count": 50,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Island+Press"
+      },
+      {
+        "label": "Available from National Technical Information Service",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Available+from+National+Technical+Information+Service"
+      },
+      {
+        "label": "Kluwer Academic Publishers",
+        "count": 49,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Kluwer+Academic+Publishers"
+      },
+      {
+        "label": "Packt Publishing",
+        "count": 48,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Packt+Publishing"
+      },
+      {
+        "label": "World Scientific Publishing Co Pte Ltd",
+        "count": 47,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=World+Scientific+Publishing+Co+Pte+Ltd"
+      },
+      {
+        "label": "U.S. G.P.O.",
+        "count": 46,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=U.S.+G.P.O."
+      },
+      {
+        "label": "Elsevier Science & Technology",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Elsevier+Science+%26+Technology"
+      },
+      {
+        "label": "U.S. Govt. Print. Off.",
+        "count": 44,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=U.S.+Govt.+Print.+Off."
+      },
+      {
+        "label": "In conjunction with the Division of Alcohol and Substance Abuse",
+        "count": 43,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=In+conjunction+with+the+Division+of+Alcohol+and+Substance+Abuse"
+      },
+      {
+        "label": "SAGE Publications, Limited",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=SAGE+Publications%2C+Limited"
+      },
+      {
+        "label": "Taylor & Francis",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Taylor+%26+Francis"
+      },
+      {
+        "label": "CRC",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=CRC"
+      },
+      {
+        "label": "McGraw-Hill Education",
+        "count": 40,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=McGraw-Hill+Education"
+      },
+      {
+        "label": "For sale by the National Technical Information Service",
+        "count": 39,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=For+sale+by+the+National+Technical+Information+Service"
+      },
+      {
+        "label": "For sale by the Supt. of Docs., U.S. G.P.O.",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=For+sale+by+the+Supt.+of+Docs.%2C+U.S.+G.P.O."
+      },
+      {
+        "label": "National Aeronautics and Space Administration, Langley Research Center",
+        "count": 38,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=National+Aeronautics+and+Space+Administration%2C+Langley+Research+Center"
+      },
+      {
+        "label": "Branch of Information Services [distributor]",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Branch+of+Information+Services+%5Bdistributor%5D"
+      },
+      {
+        "label": "For sale by the National Technical Information Service]",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=For+sale+by+the+National+Technical+Information+Service%5D"
+      },
+      {
+        "label": "Imprint: Springer",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Imprint%3A+Springer"
+      },
+      {
+        "label": "National Aeronautics and Space Administration, Scientific and Technical Information Branch",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=National+Aeronautics+and+Space+Administration%2C+Scientific+and+Technical+Information+Branch"
+      },
+      {
+        "label": "[publisher not identified]",
+        "count": 36,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=%5Bpublisher+not+identified%5D"
+      },
+      {
+        "label": "North-Holland",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=North-Holland"
+      },
+      {
+        "label": "World Scientific",
+        "count": 34,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=World+Scientific"
+      },
+      {
+        "label": "SPIE",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=SPIE"
+      },
+      {
+        "label": "Springer Berlin / Heidelberg",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer+Berlin+%2F+Heidelberg"
+      },
+      {
+        "label": "Wiley & Sons Canada, Limited, John",
+        "count": 33,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Wiley+%26+Sons+Canada%2C+Limited%2C+John"
+      },
+      {
+        "label": "Dept. of the Interior, U.S. Geological Survey",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Dept.+of+the+Interior%2C+U.S.+Geological+Survey"
+      },
+      {
+        "label": "SAS Institute",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=SAS+Institute"
+      },
+      {
+        "label": "Sage Publications, Inc",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Sage+Publications%2C+Inc"
+      },
+      {
+        "label": "Springer Netherlands",
+        "count": 31,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer+Netherlands"
+      },
+      {
+        "label": "Cengage Learning",
+        "count": 30,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Cengage+Learning"
+      },
+      {
+        "label": "Chapman and Hall/CRC",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Chapman+and+Hall%2FCRC"
+      },
+      {
+        "label": "Oxford University Press, USA",
+        "count": 29,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Oxford+University+Press%2C+USA"
+      },
+      {
+        "label": "Addison-Wesley",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Addison-Wesley"
+      },
+      {
+        "label": "J. Wiley",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=J.+Wiley"
+      },
+      {
+        "label": "John Wiley",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=John+Wiley"
+      },
+      {
+        "label": "The Office [distributor",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=The+Office+%5Bdistributor"
+      },
+      {
+        "label": "World Scientific Publishing Company",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=World+Scientific+Publishing+Company"
+      },
+      {
+        "label": "MIT Press",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=MIT+Press"
+      },
+      {
+        "label": "Springer Singapore Pte. Limited",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Springer+Singapore+Pte.+Limited"
+      },
+      {
+        "label": "Astronomical Society of the Pacific",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Astronomical+Society+of+the+Pacific"
+      },
+      {
+        "label": "Kluwer Academic",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Kluwer+Academic"
+      },
+      {
+        "label": "O'Reilly Media, Incorporated",
+        "count": 24,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=O%27Reilly+Media%2C+Incorporated"
+      },
+      {
+        "label": "Apress",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Apress"
+      },
+      {
+        "label": "Chapman & Hall",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Chapman+%26+Hall"
+      },
+      {
+        "label": "Humana Press",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Humana+Press"
+      },
+      {
+        "label": "National Technical Information Service [distributor",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=National+Technical+Information+Service+%5Bdistributor"
+      },
+      {
+        "label": "The Center",
+        "count": 23,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=The+Center"
+      },
+      {
+        "label": "Brooks/Cole",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Brooks%2FCole"
+      },
+      {
+        "label": "Earth Science Information Center, Open-File Reports Section [distributor]",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Earth+Science+Information+Center%2C+Open-File+Reports+Section+%5Bdistributor%5D"
+      },
+      {
+        "label": "GRIN Verlag GmbH",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=GRIN+Verlag+GmbH"
+      },
+      {
+        "label": "Independently published",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=Independently+published"
+      },
+      {
+        "label": "National Bureau of Economic Research",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&publisher_facet=National+Bureau+of+Economic+Research"
+      }
+    ],
+    "People": [
+      {
+        "label": "C. D. Broad (1887-1971)",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=C.+D.+Broad+%281887-1971%29"
+      },
+      {
+        "label": "D. A. S. Fraser (1925-)",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=D.+A.+S.+Fraser+%281925-%29"
+      },
+      {
+        "label": "William Shakespeare (1564-1616)",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=William+Shakespeare+%281564-1616%29"
+      },
+      {
+        "label": "A. Charnes (1917-1992)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=A.+Charnes+%281917-1992%29"
+      },
+      {
+        "label": "A. J. Ayer (1910-1989)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=A.+J.+Ayer+%281910-1989%29"
+      },
+      {
+        "label": "APTITUDE TESTS",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=APTITUDE+TESTS"
+      },
+      {
+        "label": "Andrew Arthur Abbie (1905-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Andrew+Arthur+Abbie+%281905-%29"
+      },
+      {
+        "label": "Benjamin Constant (1767-1830)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Benjamin+Constant+%281767-1830%29"
+      },
+      {
+        "label": "Bruce M. Russett",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Bruce+M.+Russett"
+      },
+      {
+        "label": "C. D. Broad",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=C.+D.+Broad"
+      },
+      {
+        "label": "C. Radhakrishna Rao (1920-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=C.+Radhakrishna+Rao+%281920-%29"
+      },
+      {
+        "label": "Charles I King of England (1600-1649)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Charles+I+King+of+England+%281600-1649%29"
+      },
+      {
+        "label": "Charles S. Peirce (1839-1914)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Charles+S.+Peirce+%281839-1914%29"
+      },
+      {
+        "label": "Charlie Dunbar Broad (1887-1971)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Charlie+Dunbar+Broad+%281887-1971%29"
+      },
+      {
+        "label": "Claude Debussy (1862-1918)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Claude+Debussy+%281862-1918%29"
+      },
+      {
+        "label": "Cuthbert Daniel",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Cuthbert+Daniel"
+      },
+      {
+        "label": "D. R. Cox",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=D.+R.+Cox"
+      },
+      {
+        "label": "Dr. Masumi",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Dr.+Masumi"
+      },
+      {
+        "label": "Elena Ferrante",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Elena+Ferrante"
+      },
+      {
+        "label": "Fred M. Vinson (1890-1953)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Fred+M.+Vinson+%281890-1953%29"
+      },
+      {
+        "label": "Geology",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Geology"
+      },
+      {
+        "label": "H. H. Price (1899-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=H.+H.+Price+%281899-%29"
+      },
+      {
+        "label": "Hendrik van Reede tot Drakestein (1637?-1691)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Hendrik+van+Reede+tot+Drakestein+%281637%3F-1691%29"
+      },
+      {
+        "label": "Jean Piaget (1896-1980)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Jean+Piaget+%281896-1980%29"
+      },
+      {
+        "label": "Jiawei Han",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Jiawei+Han"
+      },
+      {
+        "label": "Johann Wolfgang von Goethe (1749-1832)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Johann+Wolfgang+von+Goethe+%281749-1832%29"
+      },
+      {
+        "label": "John Stubbe",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=John+Stubbe"
+      },
+      {
+        "label": "Kaija Saariaho",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Kaija+Saariaho"
+      },
+      {
+        "label": "Ledyard R. Tucker (1910-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Ledyard+R.+Tucker+%281910-%29"
+      },
+      {
+        "label": "Maṅkha (fl. 1135-1150)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Ma%E1%B9%85kha+%28fl.+1135-1150%29"
+      },
+      {
+        "label": "Michael Field (1914-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Michael+Field+%281914-%29"
+      },
+      {
+        "label": "Micheline Kamber",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Micheline+Kamber"
+      },
+      {
+        "label": "Paul Hindemith (1895-1963)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Paul+Hindemith+%281895-1963%29"
+      },
+      {
+        "label": "Pietro Balestra (1935-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Pietro+Balestra+%281935-%29"
+      },
+      {
+        "label": "Plato",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Plato"
+      },
+      {
+        "label": "Ptolemy (active 2nd century)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Ptolemy+%28active+2nd+century%29"
+      },
+      {
+        "label": "Richard L. Weisbrod (1943-1979)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Richard+L.+Weisbrod+%281943-1979%29"
+      },
+      {
+        "label": "Robert Barker (-1645)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Robert+Barker+%28-1645%29"
+      },
+      {
+        "label": "Robert Barker (d.1645)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Robert+Barker+%28d.1645%29"
+      },
+      {
+        "label": "Robert Ferber (1922-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Robert+Ferber+%281922-%29"
+      },
+      {
+        "label": "Terry S. Maness",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Terry+S.+Maness"
+      },
+      {
+        "label": "Thomas L. Good (1943-)",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Thomas+L.+Good+%281943-%29"
+      },
+      {
+        "label": "Tiruvaḷḷuvar",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&person_facet=Tiruva%E1%B8%B7%E1%B8%B7uvar"
+      }
+    ],
+    "Places": [
+      {
+        "label": "United States",
+        "count": 846,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=United+States"
+      },
+      {
+        "label": "Washington (State)",
+        "count": 326,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Washington+%28State%29"
+      },
+      {
+        "label": "California",
+        "count": 87,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=California"
+      },
+      {
+        "label": "India",
+        "count": 72,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=India"
+      },
+      {
+        "label": "Canada",
+        "count": 57,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Canada"
+      },
+      {
+        "label": "Massachusetts",
+        "count": 56,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Massachusetts"
+      },
+      {
+        "label": "Alaska",
+        "count": 42,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Alaska"
+      },
+      {
+        "label": "Texas",
+        "count": 41,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Texas"
+      },
+      {
+        "label": "Illinois",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Illinois"
+      },
+      {
+        "label": "Oregon",
+        "count": 35,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Oregon"
+      },
+      {
+        "label": "Florida",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Florida"
+      },
+      {
+        "label": "New York (State)",
+        "count": 32,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=New+York+%28State%29"
+      },
+      {
+        "label": "Colorado",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Colorado"
+      },
+      {
+        "label": "Great Britain",
+        "count": 28,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Great+Britain"
+      },
+      {
+        "label": "Australia",
+        "count": 26,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Australia"
+      },
+      {
+        "label": "Ontario",
+        "count": 25,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Ontario"
+      },
+      {
+        "label": "Japan",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Japan"
+      },
+      {
+        "label": "New Jersey",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=New+Jersey"
+      },
+      {
+        "label": "Utah",
+        "count": 21,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Utah"
+      },
+      {
+        "label": "Pennsylvania",
+        "count": 20,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Pennsylvania"
+      },
+      {
+        "label": "China",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=China"
+      },
+      {
+        "label": "Maine",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Maine"
+      },
+      {
+        "label": "Virginia",
+        "count": 19,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Virginia"
+      },
+      {
+        "label": "Bangladesh",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Bangladesh"
+      },
+      {
+        "label": "Europe",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Europe"
+      },
+      {
+        "label": "Nevada",
+        "count": 18,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Nevada"
+      },
+      {
+        "label": "Montana",
+        "count": 17,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Montana"
+      },
+      {
+        "label": "Developing countries",
+        "count": 16,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Developing+countries"
+      },
+      {
+        "label": "Alberta",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Alberta"
+      },
+      {
+        "label": "Minnesota",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Minnesota"
+      },
+      {
+        "label": "Pakistan",
+        "count": 15,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Pakistan"
+      },
+      {
+        "label": "Ohio",
+        "count": 14,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Ohio"
+      },
+      {
+        "label": "Arizona",
+        "count": 13,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Arizona"
+      },
+      {
+        "label": "Atlantic Ocean",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Atlantic+Ocean"
+      },
+      {
+        "label": "England",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=England"
+      },
+      {
+        "label": "Israel",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Israel"
+      },
+      {
+        "label": "Korea (South)",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Korea+%28South%29"
+      },
+      {
+        "label": "Maryland",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Maryland"
+      },
+      {
+        "label": "New Mexico",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=New+Mexico"
+      },
+      {
+        "label": "Oklahoma",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Oklahoma"
+      },
+      {
+        "label": "Wyoming",
+        "count": 12,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Wyoming"
+      },
+      {
+        "label": "Asia",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Asia"
+      },
+      {
+        "label": "Hawaii",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Hawaii"
+      },
+      {
+        "label": "Lesotho",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Lesotho"
+      },
+      {
+        "label": "Los Angeles",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Los+Angeles"
+      },
+      {
+        "label": "OECD countries",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=OECD+countries"
+      },
+      {
+        "label": "Rhode Island",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Rhode+Island"
+      },
+      {
+        "label": "Wisconsin",
+        "count": 11,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Wisconsin"
+      },
+      {
+        "label": "Africa",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Africa"
+      },
+      {
+        "label": "Indonesia",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Indonesia"
+      },
+      {
+        "label": "New Zealand",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=New+Zealand"
+      },
+      {
+        "label": "North Carolina",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=North+Carolina"
+      },
+      {
+        "label": "Norway",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Norway"
+      },
+      {
+        "label": "South Africa",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=South+Africa"
+      },
+      {
+        "label": "Southern States",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Southern+States"
+      },
+      {
+        "label": "Sweden",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Sweden"
+      },
+      {
+        "label": "Thailand",
+        "count": 10,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Thailand"
+      },
+      {
+        "label": "Boston",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Boston"
+      },
+      {
+        "label": "British Columbia",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=British+Columbia"
+      },
+      {
+        "label": "Ireland",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Ireland"
+      },
+      {
+        "label": "Missouri",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Missouri"
+      },
+      {
+        "label": "New York",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=New+York"
+      },
+      {
+        "label": "West (U.S.)",
+        "count": 9,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=West+%28U.S.%29"
+      },
+      {
+        "label": "East Asia",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=East+Asia"
+      },
+      {
+        "label": "Germany",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Germany"
+      },
+      {
+        "label": "Kenya",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Kenya"
+      },
+      {
+        "label": "Louisiana",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Louisiana"
+      },
+      {
+        "label": "Georgia",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Georgia"
+      },
+      {
+        "label": "Ghana",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Ghana"
+      },
+      {
+        "label": "Kentucky",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Kentucky"
+      },
+      {
+        "label": "Manitoba",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Manitoba"
+      },
+      {
+        "label": "Mexico",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Mexico"
+      },
+      {
+        "label": "Michigan",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Michigan"
+      },
+      {
+        "label": "Middle West",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Middle+West"
+      },
+      {
+        "label": "Pacific Northwest",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Pacific+Northwest"
+      },
+      {
+        "label": "Papua New Guinea",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Papua+New+Guinea"
+      },
+      {
+        "label": "Scarborough",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Scarborough"
+      },
+      {
+        "label": "Tennessee",
+        "count": 7,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Tennessee"
+      },
+      {
+        "label": "Adams County",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Adams+County"
+      },
+      {
+        "label": "Earth",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Earth"
+      },
+      {
+        "label": "European Union countries",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=European+Union+countries"
+      },
+      {
+        "label": "Idaho",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Idaho"
+      },
+      {
+        "label": "Kansas",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Kansas"
+      },
+      {
+        "label": "Middle East",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Middle+East"
+      },
+      {
+        "label": "North Pacific Ocean",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=North+Pacific+Ocean"
+      },
+      {
+        "label": "Philippines",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Philippines"
+      },
+      {
+        "label": "Puerto Rico",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Puerto+Rico"
+      },
+      {
+        "label": "South Carolina",
+        "count": 6,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=South+Carolina"
+      },
+      {
+        "label": "Antarctica",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Antarctica"
+      },
+      {
+        "label": "Brazil",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Brazil"
+      },
+      {
+        "label": "Columbia Plateau",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Columbia+Plateau"
+      },
+      {
+        "label": "Columbia River",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Columbia+River"
+      },
+      {
+        "label": "Connecticut",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Connecticut"
+      },
+      {
+        "label": "Mississippi",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Mississippi"
+      },
+      {
+        "label": "North America",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=North+America"
+      },
+      {
+        "label": "North Atlantic Ocean",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=North+Atlantic+Ocean"
+      },
+      {
+        "label": "San Francisco",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=San+Francisco"
+      },
+      {
+        "label": "San Francisco Bay Area",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=San+Francisco+Bay+Area"
+      },
+      {
+        "label": "San Joaquin Valley",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=San+Joaquin+Valley"
+      },
+      {
+        "label": "Uganda",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&place_facet=Uganda"
+      }
+    ],
+    "Times": [
+      {
+        "label": "1918-1945",
+        "count": 22,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1918-1945"
+      },
+      {
+        "label": "1945-",
+        "count": 8,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1945-"
+      },
+      {
+        "label": "20th century",
+        "count": 5,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=20th+century"
+      },
+      {
+        "label": "21st century",
+        "count": 4,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=21st+century"
+      },
+      {
+        "label": "Cenozoic",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Cenozoic"
+      },
+      {
+        "label": "Paleozoic",
+        "count": 3,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Paleozoic"
+      },
+      {
+        "label": "17th century",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=17th+century"
+      },
+      {
+        "label": "1918-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1918-"
+      },
+      {
+        "label": "1961-1971",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1961-1971"
+      },
+      {
+        "label": "1971-1981",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1971-1981"
+      },
+      {
+        "label": "1981-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1981-"
+      },
+      {
+        "label": "19th century",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=19th+century"
+      },
+      {
+        "label": "2000-",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=2000-"
+      },
+      {
+        "label": "Tertiary",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Tertiary"
+      },
+      {
+        "label": "To 935",
+        "count": 2,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=To+935"
+      },
+      {
+        "label": "15th and 16th centuries",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=15th+and+16th+centuries"
+      },
+      {
+        "label": "1760-1860",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1760-1860"
+      },
+      {
+        "label": "1789-1820",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1789-1820"
+      },
+      {
+        "label": "1947-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1947-"
+      },
+      {
+        "label": "1949-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1949-"
+      },
+      {
+        "label": "1960-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1960-"
+      },
+      {
+        "label": "1965-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1965-"
+      },
+      {
+        "label": "1970's",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1970%27s"
+      },
+      {
+        "label": "1971-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1971-"
+      },
+      {
+        "label": "1971-2000",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1971-2000"
+      },
+      {
+        "label": "1973-1993",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1973-1993"
+      },
+      {
+        "label": "1977-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1977-"
+      },
+      {
+        "label": "1979",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1979"
+      },
+      {
+        "label": "1979-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1979-"
+      },
+      {
+        "label": "1981-2001",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1981-2001"
+      },
+      {
+        "label": "1985-1991",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1985-1991"
+      },
+      {
+        "label": "1986-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1986-"
+      },
+      {
+        "label": "1989-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1989-"
+      },
+      {
+        "label": "1991-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1991-"
+      },
+      {
+        "label": "1992",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1992"
+      },
+      {
+        "label": "1993-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1993-"
+      },
+      {
+        "label": "1997-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=1997-"
+      },
+      {
+        "label": "2008",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=2008"
+      },
+      {
+        "label": "2011-",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=2011-"
+      },
+      {
+        "label": "2013",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=2013"
+      },
+      {
+        "label": "Census, 1960",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Census%2C+1960"
+      },
+      {
+        "label": "Census, 1966",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Census%2C+1966"
+      },
+      {
+        "label": "Census, 1970",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Census%2C+1970"
+      },
+      {
+        "label": "Census, 1981",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Census%2C+1981"
+      },
+      {
+        "label": "Charles I, 1625-1649",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Charles+I%2C+1625-1649"
+      },
+      {
+        "label": "Data mining",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Data+mining"
+      },
+      {
+        "label": "Early modern, 1500-1700",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Early+modern%2C+1500-1700"
+      },
+      {
+        "label": "Oligocene",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Oligocene"
+      },
+      {
+        "label": "Permian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Permian"
+      },
+      {
+        "label": "Proterozoic",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Proterozoic"
+      },
+      {
+        "label": "Research",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Research"
+      },
+      {
+        "label": "Silurian",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Silurian"
+      },
+      {
+        "label": "To 1500",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=To+1500"
+      },
+      {
+        "label": "Using R for Time Series Analysis in Econometrics",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=Using+R+for+Time+Series+Analysis+in+Econometrics"
+      },
+      {
+        "label": "early 1960s",
+        "count": 1,
+        "url": "https://openlibrary.org/search?q=data+analysis&mode=everything&time_facet=early+1960s"
+      }
+    ]
+  }
+}

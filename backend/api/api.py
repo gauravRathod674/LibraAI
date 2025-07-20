@@ -1,6 +1,8 @@
+import json
 from ninja import Router, NinjaAPI, Schema, File
 from ninja.files import UploadedFile as NinjaUploadedFile
 from ninja.errors import HttpError
+import threading
 from datetime import datetime
 import traceback
 import os
@@ -8,6 +10,7 @@ import re
 
 
 from django.conf import settings
+from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 from django.views.decorators.csrf import csrf_exempt
 from api.pages.auth_page import router as auth_router
@@ -24,7 +27,7 @@ from services.openlibrary.search_page import (
     SearchByAdvanceSearchtrategy,
     SearchContext,
 )
-from services.semantic_scholar.search_page import scrape_semantic_scholar
+from services.semantic_scholar.search_page import scrape_semantic_scholar, safe_filename
 
 from typing import Optional, List
 from django.views.decorators.csrf import csrf_exempt
@@ -39,12 +42,14 @@ from api.utils.jwt_auth import JWTAuth
 router = Router()
 api = NinjaAPI()
 
+
 @api.get("/test/")
 def test_api(request):
     return {"message": "LibraAI API is working!"}
 
 
 login_page = LoginPage()
+
 
 @api.get("/login")
 def get_login(request):
@@ -107,34 +112,80 @@ def advanced_search_api(
     context = SearchContext(strategy)
     return context.search(page=page)
 
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Response schema for a single research paper
 class ResearchPaperOut(Schema):
-    title:        str
+    title: str
     # link:         str
-    authors:      List[str]
-    venue:        str
-    pub_date:     str
-    tldr:         str
+    authors: List[str]
+    venue: str
+    pub_date: str
+    tldr: str
     # citations:    str
-    pdf_link:     str
+    pdf_link: str
 
-@api.get(
-    "/search/research",
-    response=List[ResearchPaperOut],
-    auth=JWTAuth()
-)
+
+# In-memory set to track running jobs. For production, a more robust solution like Redis is recommended.
+SCRAPING_IN_PROGRESS = set()
+SCRAPING_LOCK = threading.Lock()
+
+def scrape_and_cache_task(query: str):
+    """
+    This function runs in the background to scrape and cache the data.
+    """
+    print(f"✅ Starting background scraping for: {query}")
+    try:
+        # This function blocks until scraping is complete, but it's running in a separate thread.
+        scrape_semantic_scholar(query)
+    except Exception as e:
+        print(f"❌ Scraping failed for '{query}': {e}")
+    finally:
+        # When done (or if it fails), remove the query from the in-progress set.
+        with SCRAPING_LOCK:
+            if query in SCRAPING_IN_PROGRESS:
+                SCRAPING_IN_PROGRESS.remove(query)
+        print(f"✅ Finished background task for: {query}")
+
+
+@api.get("/search/research", response=List[ResearchPaperOut], auth=JWTAuth())
 def research_search_api(request, title: str):
     """
-    Scrape Semantic Scholar for `title` and return up to ~50 matching papers.
+    Scrape Semantic Scholar for `title`.
+
+    - If results are cached, returns them immediately with a 200 OK status.
+    - If not cached, starts a background scraping task and returns a
+      202 Accepted status, telling the client to poll this endpoint again.
     """
-    try:
-        papers = scrape_semantic_scholar(title)
-        return papers
-    except Exception as e:
-        # log and return a 500
-        print("❌ research_search_api failed:", e)
-        raise HttpError(500, f"Failed to fetch research papers: {e}")
+    if not title:
+        raise HttpError(400, "The 'title' query parameter is required.")
+
+    query = title.strip()
+    cache_path = os.path.join("data_cache", "semantic_scholar", safe_filename(query))
+
+    # 1. If the result is already cached, return it.
+    if os.path.exists(cache_path):
+        with open(cache_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        # For Ninja, we return data directly for a 200 OK response.
+        # The ResearchPaperOut schema will validate this.
+        return data
+
+    # 2. If not cached, check if a job is already running.
+    with SCRAPING_LOCK:
+        if query in SCRAPING_IN_PROGRESS:
+            # Tell the client we're still processing.
+            return JsonResponse({"status": "processing"}, status=202)
+
+        # 3. If not cached and not running, start the new background task.
+        SCRAPING_IN_PROGRESS.add(query)
+        # Use a standard Python thread to run the task in the background.
+        thread = threading.Thread(target=scrape_and_cache_task, args=(query,))
+        thread.start()
+
+    # Immediately return a 202 Accepted response.
+    return JsonResponse({"status": "processing"}, status=202)
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Response schema for a single borrowing transaction
@@ -148,6 +199,7 @@ class BorrowingTransactionOut(Schema):
     status: str
     cover_image: Optional[str]
 
+
 # ─────────────────────────────────────────────────────────────────────────────
 @api.get("/borrow-history", response=List[BorrowingTransactionOut], auth=JWTAuth())
 def get_borrow_history(request):
@@ -155,36 +207,39 @@ def get_borrow_history(request):
     Returns all BorrowingTransaction records for the current user,
     ordered by most-recent borrow_date first.
     """
-    # 1) Authentication check 
+    # 1) Authentication check
     print(f"🔒 Authenticated user: {request.user}")
     if not request.user:
         raise HttpError(401, "Unauthorized")
 
-
     # 2) Fetch & serialize
-    qs = BorrowingTransaction.objects.filter(
-        user_id=request.user.id
-    ).order_by("-borrow_date")
+    qs = BorrowingTransaction.objects.filter(user_id=request.user.id).order_by(
+        "-borrow_date"
+    )
 
     result = []
     for tx in qs:
         item: LibraryItem = tx.library_item
-        result.append({
-            "id":            tx.id,
-            "title":         item.title,
-            "authors":       item.authors,
-            "borrow_date":   tx.borrow_date,
-            "due_date":      tx.due_date,
-            "return_date":   tx.return_date,
-            "status":        tx.status,
-            "cover_image":   item.digital_source,  # or item.printed_book.cover_image if you store it there
-        })
+        result.append(
+            {
+                "id": tx.id,
+                "title": item.title,
+                "authors": item.authors,
+                "borrow_date": tx.borrow_date,
+                "due_date": tx.due_date,
+                "return_date": tx.return_date,
+                "status": tx.status,
+                "cover_image": item.digital_source,  # or item.printed_book.cover_image if you store it there
+            }
+        )
 
     return result
+
 
 # -------------------------------
 # 🧑‍💼 USER PROFILE ENDPOINTS
 # -------------------------------
+
 
 @api.get("/user/profile/", auth=JWTAuth())
 def get_user_profile(request):
@@ -193,10 +248,13 @@ def get_user_profile(request):
         "name": user.name,
         "email": user.email,
         "role": user.role,
-        "profile_photo_url": request.build_absolute_uri(user.profile_photo.url)
-        if user.profile_photo
-        else request.build_absolute_uri("/media/profile_photos/default.png")  # fallback default
+        "profile_photo_url": (
+            request.build_absolute_uri(user.profile_photo.url)
+            if user.profile_photo
+            else request.build_absolute_uri("/media/profile_photos/default.png")
+        ),  # fallback default
     }
+
 
 @api.put("/user/profile/", auth=JWTAuth())
 def update_profile_photo(request, profile_photo: NinjaUploadedFile = File(...)):
@@ -205,15 +263,18 @@ def update_profile_photo(request, profile_photo: NinjaUploadedFile = File(...)):
     user.save()
     return {"message": "✅ Profile photo updated successfully."}
 
+
 @api.delete("/user/profile/", auth=JWTAuth())
 def delete_user_account(request):
     user = request.user
     user.delete()
     return {"message": "⚠️ User account deleted permanently."}
 
+
 # ------------------------------
 # Summary Endpoint with Gemini Integration
 # ------------------------------
+
 
 class SummaryRequest(Schema):
     text: str
@@ -223,7 +284,7 @@ class SummaryRequest(Schema):
 @api.post("/summary")
 def generate_summary(request, data: SummaryRequest):
     summarizer = GeminiSummarizer()
-    
+
     if data.text_type == "chapter":
         summary = summarizer.summarize_chapter(data.text)
     else:
@@ -232,11 +293,12 @@ def generate_summary(request, data: SummaryRequest):
     print(f"Generated Summary: {summary}")
     if not summary:
         return {"error": "Failed to generate summary. Please check the input text."}
-    
+
     return {
         "message": "Summary generated successfully.",
         "summary": summary,
     }
+
 
 @api.post("/pdf_assistant/")
 def pdf_assistant(
@@ -244,7 +306,7 @@ def pdf_assistant(
     file: Optional[NinjaUploadedFile] = File(default=None),  # ✅ now truly optional
 ):
     try:
-        pdf_url  = request.POST.get("pdf_url")
+        pdf_url = request.POST.get("pdf_url")
         question = request.POST.get("question")
 
         if not pdf_url or not question:
@@ -261,15 +323,15 @@ def pdf_assistant(
         # ✅ Ask with fallback support
         answer = service.ask_question(file_ref, question, fallback_path=temp_path)
 
-        return {
-            "answer": answer,
-            "fallback_used": False if file else True
-        }
+        return {"answer": answer, "fallback_used": False if file else True}
 
     except Exception as e:
         print("❌ Exception in /pdf_assistant/:")
-        import traceback; traceback.print_exc()
+        import traceback
+
+        traceback.print_exc()
         raise HttpError(500, f"Failed to process: {str(e)}")
+
 
 class TranslateRequest(Schema):
     pdf_url: str
@@ -277,7 +339,7 @@ class TranslateRequest(Schema):
     target_lang: str
     scope: Optional[str] = "page"
     page_number: Optional[int] = 1
-    
+
 
 @api.post("/translate/")
 def translate_text(request, data: TranslateRequest):
@@ -294,6 +356,7 @@ def translate_text(request, data: TranslateRequest):
 
     translated_text = hybrid_translate_single_text(data.text, data.target_lang)
     return {"translation": translated_text}
+
 
 # class TranslateChunksRequest(Schema):
 #     items: List[str]
@@ -317,9 +380,11 @@ def translate_text(request, data: TranslateRequest):
 
 #     return {"translations": translations}
 
+
 class TranslateChunksRequest(Schema):
     items: List[str]
     target_lang: str
+
 
 @csrf_exempt
 @api.post("/translate_chunks/")
@@ -343,6 +408,7 @@ class ReadAloudRequest(Schema):
     pdf_name: str
     page_number: int
 
+
 @api.post("/read_aloud/")
 @csrf_exempt
 def read_aloud(request, data: ReadAloudRequest):
@@ -361,5 +427,6 @@ def read_aloud(request, data: ReadAloudRequest):
 
     return {"message": f"Started reading {data.pdf_name}, page {data.page_number}"}
     return {"message": "Read-aloud feature is currently disabled."}
+
 
 api.add_router("/items", item_router)
