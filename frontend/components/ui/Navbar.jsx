@@ -21,8 +21,8 @@ import { faRobot, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { LuExpand, LuShrink, LuTableOfContents } from "react-icons/lu";
 import { TbRotateClockwise2 } from "react-icons/tb";
 import { CgFileDocument } from "react-icons/cg";
-import { IoLanguage, IoVolumeHigh } from "react-icons/io5";
-import { MdSummarize } from "react-icons/md"; // Add this for summary icon
+import { IoLanguage, IoVolumeHigh, IoPauseSharp } from "react-icons/io5";
+import { MdSummarize } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { BiFullscreen } from "react-icons/bi";
 import { motion, AnimatePresence } from "framer-motion";
@@ -34,9 +34,8 @@ import SummaryDrawer from "./SummaryDrawer";
 import axios from "axios";
 import { getCookie } from "@/lib/csrf";
 import TranslateDrawer from "./TranslateDrawer";
-import AskMeModal from "./AskMeModal"
+import AskMeModal from "./AskMeModal";
 import { pdfjs } from "react-pdf";
-
 
 // Custom Tooltip (shows below, with gradient background and dark text)
 const Tooltip = ({ text, children, offsetX = 0 }) => (
@@ -90,7 +89,7 @@ const Navbar = ({
   handleFullScreen,
   pdfDoc,
   toc,
-  fileUrl
+  fileUrl,
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -118,10 +117,11 @@ const Navbar = ({
   const [isTranslateDrawerOpen, setTranslateDrawerOpen] = useState(false);
   const [translating, setTranslating] = useState(false);
   const [translation, setTranslation] = useState("");
-  const [reading, setReading] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const moreRef = useRef(null);
   const [hasNotification, setHasNotification] = useState(false);
+  const [readingState, setReadingState] = useState("idle"); // 'idle', 'loading', 'playing', 'paused'
+  const audioRef = useRef(null);
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_API_URL}/test/`, {
@@ -142,6 +142,34 @@ const Navbar = ({
     console.log("Navbar component mounted");
   }, []);
 
+  // Cleanup audio resources on component unmount
+  useEffect(() => {
+    return () => {
+      const audio = audioRef.current;
+      if (audio) {
+        audio.pause();
+        // Revoke the Blob URL to prevent memory leaks
+        if (audio.src.startsWith('blob:')) {
+            URL.revokeObjectURL(audio.src);
+        }
+        audio.src = "";
+        audioRef.current = null;
+      }
+      setReadingState("idle");
+    };
+  }, []);
+
+  // Stop playback when the page or file changes
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      if (audioRef.current.src.startsWith('blob:')) {
+        URL.revokeObjectURL(audioRef.current.src);
+      }
+      setReadingState("idle");
+    }
+  }, [pageNumber, fileUrl]);
+
   useEffect(() => {
     setMounted(true);
     const token = localStorage.getItem("token");
@@ -161,7 +189,7 @@ const Navbar = ({
         });
       } catch (error) {
         console.error("Failed to fetch user profile:", error);
-        handleLogout(true); // Logout if fetching profile fails
+        handleLogout(true);
       }
     };
 
@@ -171,11 +199,11 @@ const Navbar = ({
         if (decoded.exp * 1000 > Date.now()) {
           fetchUserProfile(token);
         } else {
-          handleLogout(true); // Token expired
+          handleLogout(true);
         }
       } catch (e) {
         console.error("Invalid token:", e);
-        handleLogout(true); // Invalid token format
+        handleLogout(true);
       }
     }
   }, [pathname]);
@@ -248,7 +276,6 @@ const Navbar = ({
             </Link>
           </Tooltip>
 
-          {/* Download Icon */}
           <Tooltip text="Download PDF">
             <Link href="/downloads">
               <button
@@ -263,7 +290,6 @@ const Navbar = ({
               </button>
             </Link>
           </Tooltip>
-          {/* Profile icon + user name */}
           <Link
             href="/user-profile"
             className="relative flex items-center gap-2 group transition-all duration-300"
@@ -280,7 +306,6 @@ const Navbar = ({
             />
           </Link>
 
-          {/* Logout button */}
           <button
             onClick={handleLogout}
             className="text-red-500 hover:text-red-700 text-lg font-medium"
@@ -302,14 +327,9 @@ const Navbar = ({
           />
         </Link>
       )}
-
-      {/* <span
-        className={`w-px h-6 mx-1 ${darkMode ? "bg-gray-400" : "bg-gray-600}"}`}
-      /> */}
     </>
   );
 
-  // Simulate bot response (replace with real API call as needed)
   const handleAskSubmit = async (e) => {
     e.preventDefault();
     if (!askInput.trim()) return;
@@ -362,7 +382,7 @@ const Navbar = ({
       const content = await page.getTextContent();
       const items = content.items;
 
-      items.sort((a, b) => b.transform[5] - a.transform[5]); // top-to-bottom
+      items.sort((a, b) => b.transform[5] - a.transform[5]);
 
       const lines = [];
       let currentLine = [],
@@ -485,8 +505,8 @@ const Navbar = ({
   }
 
   const handleSummaryClick = () => {
-    setSummary(""); // Reset
-    setLoadingSummary(false); // Ensure it's false at open
+    setSummary("");
+    setLoadingSummary(false);
     setIsSummaryDrawerOpen(true);
   };
 
@@ -555,7 +575,6 @@ const Navbar = ({
         text = await extractChapterText(pdfDoc, toc, chapterIdx);
       }
 
-      // 🔥 Split original text into paragraphs using double newlines
       const paragraphs = text
         .split(/\n{2,}/g)
         .map((p) => p.trim())
@@ -583,7 +602,6 @@ const Navbar = ({
         translatedParas.push(data.translation.trim());
       }
 
-      // ✅ Join paragraphs with real breaks so UI can format them
       setTranslation(translatedParas.join("\n\n"));
     } catch (err) {
       console.error(err);
@@ -594,7 +612,7 @@ const Navbar = ({
   };
 
   const openTranslateDrawer = () => {
-    setTranslation(""); // 1️⃣ clear old translation
+    setTranslation("");
     setTranslating(false);
     setTranslateDrawerOpen(true);
   };
@@ -625,47 +643,128 @@ const Navbar = ({
     toast.success("Copied to clipboard!");
   };
 
-  const handleReadAloud = async () => {
-    if (!pdfDoc) {
-      console.error("PDF not loaded yet");
+  /**
+   * ✅ COMPLETE AND CORRECTED FUNCTION FOR STREAMING AUDIO
+   * This function handles the entire lifecycle of the read-aloud feature.
+   */
+  const handleReadAloudToggle = async () => {
+    // 1. Check if the document is ready
+    if (!pdfDoc || !fileUrl) {
+      toast.error("📄 Document not ready.");
       return;
     }
 
-    setReading(true);
-    try {
-      // Extract file name from URL, e.g. "/pdf_viewer/ikigai.pdf"
-      const parts = window.location.pathname.split("/");
-      const pdf_name = parts[parts.length - 1];
+    // 2. Handle PAUSE action if audio is currently playing
+    if (readingState === "playing") {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        setReadingState("paused");
+        toast("Playback paused.", { icon: "⏸️" });
+      }
+      return;
+    }
 
-      // await axios.post(
-      //   `${process.env.NEXT_PUBLIC_API_URL}/read_aloud`,
-      //   {
-      //     pdf_name,
-      //     page_number: pageNumber,
-      //   },
-      //   { withCredentials: true }
-      // );
+    // 3. Handle RESUME action if audio is paused
+    if (readingState === "paused") {
+      if (audioRef.current) {
+        audioRef.current
+          .play()
+          .then(() => {
+            setReadingState("playing");
+            toast("Resuming playback...", { icon: "▶️" });
+          })
+          .catch((err) => {
+            console.error("Resume playback failed:", err);
+            toast.error("Failed to resume playback.");
+            setReadingState("idle"); // Reset on failure
+          });
+      }
+      return;
+    }
 
-      await axios.post(
-        `${process.env.NEXT_PUBLIC_API_URL}/read_aloud/`,
-        {
-          pdf_name,
-          page_number: pageNumber,
-        },
-        {
+    // 4. Handle START new audio stream if idle
+    if (readingState === "idle") {
+      setReadingState("loading");
+      const toastId = toast.loading(`Connecting to audio stream...`);
+
+      try {
+        // Use `fetch` for streaming responses as it's more reliable than axios for this purpose.
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/read_aloud/`, {
+          method: 'POST',
           headers: {
             "Content-Type": "application/json",
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
-          withCredentials: true,
-        }
-      );
+          body: JSON.stringify({ pdf_url: fileUrl, page_number: pageNumber }),
+        });
 
-      toast.success(`Reading page ${pageNumber} aloud…`);
-    } catch (err) {
-      console.error("Read‑aloud failed:", err);
-      toast.error("Failed to start read‑aloud");
-    } finally {
-      setReading(false);
+        // If the response is not OK, it means an error occurred on the backend before the stream started.
+        if (!response.ok) {
+            const errData = await response.json(); // Try to parse error from backend
+            throw new Error(errData.error || `HTTP error! Status: ${response.status}`);
+        }
+        
+        toast.success("Stream connected! Playing audio.", { id: toastId });
+
+        // Collect the entire streamed response into a single Blob.
+        const audioBlob = await response.blob();
+        
+        // Create a temporary, in-memory URL for the Blob.
+        const audioUrl = URL.createObjectURL(audioBlob);
+
+        // If there's an old audio object, revoke its URL to free up memory.
+        if (audioRef.current && audioRef.current.src.startsWith('blob:')) {
+            URL.revokeObjectURL(audioRef.current.src);
+        }
+
+        // Create a new Audio object with the Blob URL.
+        const audio = new Audio(audioUrl);
+        audioRef.current = audio;
+
+        // Play the audio.
+        audio.play().then(() => {
+            setReadingState("playing");
+        }).catch(err => {
+            console.error("Autoplay failed:", err);
+            setReadingState("idle");
+            toast.error("Playback failed to start.");
+        });
+
+        // Set up event listener for when the audio finishes playing.
+        audio.onended = () => {
+            setReadingState("idle");
+            URL.revokeObjectURL(audioUrl); // IMPORTANT: Clean up the Blob URL to prevent memory leaks.
+            toast("Playback finished.", { icon: "✅" });
+        };
+
+        // Set up event listener for any playback errors.
+        audio.onerror = () => {
+            setReadingState("idle");
+            URL.revokeObjectURL(audioUrl); // IMPORTANT: Clean up on error as well.
+            toast.error("Error playing audio stream.");
+        };
+
+      } catch (err) {
+        console.error("Read-aloud failed:", err);
+        toast.error(`❌ Failed to start stream: ${err.message}`, { id: toastId });
+        setReadingState("idle");
+      }
+    }
+  };
+
+
+  const ReadAloudIcon = () => {
+    switch (readingState) {
+      case "loading":
+        return (
+          <IoVolumeHigh size={20} className="animate-spin text-yellow-500" />
+        );
+      case "playing":
+        return <IoPauseSharp size={20} className="text-red-500" />;
+      case "paused":
+        return <IoVolumeHigh size={20} className="text-green-500" />;
+      default:
+        return <IoVolumeHigh size={20} />;
     }
   };
 
@@ -733,7 +832,6 @@ const Navbar = ({
                   <span className="block" aria-hidden="true">
                     {child.name}
                   </span>
-                  {/* underline on hover */}
                   <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current group-hover:w-full transition-all duration-300" />
                 </Link>
               ))}
@@ -769,17 +867,14 @@ const Navbar = ({
                     ${
                       darkMode
                         ? "bg-[#E7F0FD] text-gray-900"
-                        // : "bg-[rgba(30,41,57,0.2)] text-white"
-                      : "bg-gray-900 text-white"
+                        : "bg-gray-900 text-white"
                     }
       `}
       >
-        {/* PDF VIEWER NAVBAR */}
         {isPdfViewer ? (
           <>
             {/* Left Section */}
             <div className="flex flex-1 items-center gap-1 sm:gap-2 lg:gap-4">
-              {/* Table of Contents Button */}
               {!showToc ? (
                 <Tooltip text="Table of Contents" offsetX={8}>
                   <button
@@ -801,7 +896,6 @@ const Navbar = ({
               )}
               <h1 className="text-lg sm:text-xl font-bold truncate">LibraAI</h1>
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Summary */}
               <Tooltip text="Summary">
                 <button
                   onClick={handleSummaryClick}
@@ -812,7 +906,6 @@ const Navbar = ({
               </Tooltip>
 
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Translate */}
               <Tooltip text="Translate">
                 <button
                   title="Translate"
@@ -824,21 +917,19 @@ const Navbar = ({
               </Tooltip>
 
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Read Aloud */}
+              {/* Read Aloud Button */}
               <Tooltip text="Read Aloud">
                 <button
                   title="Read Aloud"
                   className="p-1.5 rounded-full cursor-pointer"
-                  onClick={handleReadAloud}
-                  disabled={reading}
+                  onClick={handleReadAloudToggle}
+                  disabled={readingState === "loading"}
                 >
-                  <IoVolumeHigh size={20} />
+                  <ReadAloudIcon />
                 </button>
               </Tooltip>
 
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Ask Me */}
-              {/* Ask Me Button */}
               <button
                 type="button"
                 className="flex items-center gap-1 text-base font-medium bg-transparent border-0 cursor-pointer hover:underline focus:outline-none"
@@ -874,7 +965,6 @@ const Navbar = ({
                   {isExpanded ? <LuShrink size={20} /> : <LuExpand size={20} />}
                 </button>
                 <div className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600"></div>
-                {/* Next/Previous Buttons */}
                 <button
                   title="Previous Page"
                   className="p-1.5 rounded-full hover:bg-gray-600 dark:hover:bg-gray-700"
@@ -923,13 +1013,11 @@ const Navbar = ({
             </div>
             {/* Right Section */}
             <div className="flex items-center gap-4">
-              {/* Download Icon */}
               <Tooltip text="Download PDF">
                 <button
                   className="p-1.5 rounded-full hover:bg-gray-600 dark:hover:bg-gray-700"
                   title="Download PDF"
                   onClick={() => {
-                    // replace with your actual PDF path or dynamic variable
                     const pdfUrl = "/pdfs/your-document.pdf";
                     window.open(pdfUrl, "_blank");
                   }}
@@ -939,7 +1027,6 @@ const Navbar = ({
               </Tooltip>
               <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600" />
 
-              {/* Search Icon */}
               <Tooltip text="Search">
                 <button
                   className="p-1.5 rounded-full"
@@ -949,7 +1036,6 @@ const Navbar = ({
                 </button>
               </Tooltip>
               <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Fullscreen Icon */}
               <Tooltip text="Full Screen">
                 <button
                   className="p-1.5 rounded-full"
@@ -959,7 +1045,6 @@ const Navbar = ({
                 </button>
               </Tooltip>
               <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Toggle Theme */}
               <button
                 className="p-2 bg-gray-200 rounded-full shadow-md cursor-pointer hover:shadow-lg dark:bg-gray-800 dark:text-white"
                 onClick={toggleDarkMode}
@@ -980,7 +1065,6 @@ const Navbar = ({
                 {menuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
             </div>
-            {/* PDF Search Box (floating, only for /pdf_viewer) */}
             {showPdfSearch && (
               <div
                 className="fixed top-[5.2rem] right-2 sm:right-8 left-2 sm:left-auto z-50
@@ -994,14 +1078,14 @@ const Navbar = ({
                   onChange={(e) => setSearchTerm(e.target.value)}
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
-                      handlePdfSearch(); // <-- This should call the prop from page.js
+                      handlePdfSearch();
                     }
                   }}
                   placeholder="Search in PDF..."
                   className="flex-1 px-2 py-1 text-sm text-gray-900 bg-transparent outline-none dark:text-white"
                 />
                 <button
-                  onClick={handlePdfSearch} // <-- This should call the prop from page.js
+                  onClick={handlePdfSearch}
                   className="text-blue-600 transition-transform dark:text-blue-300 hover:scale-110"
                   title="Search"
                 >
@@ -1039,18 +1123,17 @@ const Navbar = ({
             )}
           </>
         ) : (
-          // NON-PDF VIEWER NAVBAR
           <>
             <div className="flex items-center gap-4 z-10">
               <Link href="/" className="flex items-center">
                 <img
                   src={
                     darkMode
-                      ? "/LibraAI_Light_Logo.png" // Light logo for dark mode
-                      : "/LibraAI_Dark_Logo.png" // Dark logo for light mode
+                      ? "/LibraAI_Light_Logo.png"
+                      : "/LibraAI_Dark_Logo.png"
                   }
                   alt="LibraAI Logo"
-                  className="h-10 w-auto" // Sets height to 40px, width adjusts automatically
+                  className="h-10 w-auto"
                 />
               </Link>
               <button
@@ -1088,7 +1171,6 @@ const Navbar = ({
           </>
         )}
 
-        {/* Mobile Menu for non-pdf-viewer */}
         {!isPdfViewer && (
           <AnimatePresence>
             {menuOpen && (
@@ -1121,14 +1203,13 @@ const Navbar = ({
           </AnimatePresence>
         )}
       </motion.div>
-      
-     <AskMeModal 
-        isOpen={askMeOpen} 
-        onClose={() => setAskMeOpen(false)} 
-        fileUrl={fileUrl} 
+
+      <AskMeModal
+        isOpen={askMeOpen}
+        onClose={() => setAskMeOpen(false)}
+        fileUrl={fileUrl}
       />
 
-      {/* Summary Drawer */}
       <SummaryDrawer
         isOpen={isSummaryDrawerOpen}
         toggleDrawer={() => setIsSummaryDrawerOpen((prev) => !prev)}
@@ -1138,7 +1219,6 @@ const Navbar = ({
         onGenerateSummary={handleGenerateSummary}
       />
 
-      {/* Translate Sidebar */}
       <TranslateDrawer
         isOpen={isTranslateDrawerOpen}
         toggleDrawer={() => setTranslateDrawerOpen(false)}

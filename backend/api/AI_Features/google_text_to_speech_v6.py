@@ -249,6 +249,41 @@ class TextToSpeechPlayer:
             print(f"▶ Reading page {page_number}, chunk {idx+1}/{len(chunks)} ({lang})")
             self.play_audio(resp.audio_content)
 
+    
+    def stream_page_audio(self, page_number: int):
+        """
+        A generator that synthesizes audio for a page and yields the audio
+        content for each chunk in real-time.
+        """
+        try:
+            text = self.extract_page_text(page_number)
+            if not text.strip():
+                print(f"⚠️ No text found on page {page_number}. Stopping stream.")
+                return # Stop the generator if no text
+
+            chunks = self.chunk_text(text)
+            print(f"▶️ Streaming audio for page {page_number} in {len(chunks)} chunks...")
+
+            for idx, chunk in enumerate(chunks):
+                lang = self.detect_language(chunk)
+                voice = self.get_voice(lang)
+                synthesis_input = texttospeech.SynthesisInput(ssml=f"<speak><p><s>{chunk}</s></p></speak>")
+                
+                response = self.tts_client.synthesize_speech(
+                    input=synthesis_input,
+                    voice=voice,
+                    audio_config=self.audio_config,
+                )
+                
+                print(f"  > Streaming chunk {idx+1}/{len(chunks)}")
+                yield response.audio_content # 👈 Yield the raw audio bytes
+
+        except Exception as e:
+            print(f"❌ Error during audio stream generation: {e}")
+            # In a streaming context, we can't easily return an error HTTP status.
+            # Logging is crucial. The client will experience a broken stream.
+            return
+
 
 # --- Entry (for testing locally) ---
 if __name__ == "__main__":

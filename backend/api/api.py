@@ -11,7 +11,7 @@ import re
 
 
 from django.conf import settings
-from django.http import JsonResponse
+from django.http import JsonResponse, StreamingHttpResponse 
 from django.shortcuts import get_object_or_404
 from django.views.decorators.csrf import csrf_exempt
 from api.pages.auth_page import router as auth_router
@@ -548,9 +548,10 @@ def translate_chunks(request, data: TranslateChunksRequest):
 
     return {"translations": translations}
 
+# --- Read Aloud Endpoint ---
 
 class ReadAloudRequest(Schema):
-    pdf_name: str
+    pdf_url: str
     page_number: int
 
 
@@ -558,20 +559,40 @@ class ReadAloudRequest(Schema):
 @csrf_exempt
 def read_aloud(request, data: ReadAloudRequest):
     """
-    Streams TTS audio for a single PDF page back to the client (via server-side playback).
+    Streams TTS audio for a single PDF page directly to the client.
     """
-    pdf_path = os.path.join(settings.BASE_DIR, "api", "AI_Features", data.pdf_name)
-    if not os.path.exists(pdf_path):
-        raise HttpError(404, f"PDF not found: {data.pdf_name}")
-
-    player = TextToSpeechPlayer(pdf_path=pdf_path)
     try:
-        player.play_page(data.page_number)
-    except Exception as e:
-        raise HttpError(500, f"Read-aloud failed: {e}")
+        print(f"🔊 Streaming request for URL: {data.pdf_url}, Page: {data.page_number}")
 
-    return {"message": f"Started reading {data.pdf_name}, page {data.page_number}"}
-    return {"message": "Read-aloud feature is currently disabled."}
+        # --- DYNAMIC PATH LOGIC (remains the same) ---
+        filename = os.path.basename(data.pdf_url)
+        if not filename:
+            # Can't raise HttpError in a stream, but we can return an error response before starting
+            return JsonResponse({"error": "Invalid 'pdf_url' format."}, status=400)
+
+        pdf_path = os.path.join(settings.BASE_DIR, 'downloads', filename)
+        print(f"🗺️  Resolved read-aloud file path: {pdf_path}")
+
+        if not os.path.exists(pdf_path):
+            return JsonResponse({"error": f"PDF file '{filename}' not found."}, status=404)
+        
+        # --- END DYNAMIC PATH LOGIC ---
+        
+        player = TextToSpeechPlayer(pdf_path=pdf_path)
+        
+        # ✅ Call the new generator function
+        audio_generator = player.stream_page_audio(data.page_number)
+
+        # ✅ Return a StreamingHttpResponse
+        # This tells Django to send the data chunk by chunk as it comes from the generator.
+        response = StreamingHttpResponse(audio_generator, content_type="audio/mpeg")
+        return response
+
+    except Exception as e:
+        # This will catch errors that happen before the stream starts.
+        print(f"❌ Read-aloud failed before stream could start: {e}")
+        traceback.print_exc()
+        return JsonResponse({"error": f"Read-aloud failed: {str(e)}"}, status=500)
 
 
 api.add_router("/items", item_router)
