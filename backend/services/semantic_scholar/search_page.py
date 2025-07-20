@@ -14,7 +14,7 @@ def safe_filename(query: str) -> str:
 
 def scrape_semantic_scholar(query: str):
     # Custom cache path
-    cache_dir = os.path.join("backend", "data_cache", "semantic_scholar")
+    cache_dir = os.path.join("data_cache", "semantic_scholar")
     os.makedirs(cache_dir, exist_ok=True)
 
     filename = safe_filename(query)
