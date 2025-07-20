@@ -19,6 +19,7 @@ from api.pages.auth_page import AuthSchema, LoginPage
 from api.models.models_transactions import BorrowingTransaction
 from api.models.models_items import LibraryItem
 from api.models.models_users import LibraryUser
+from api.models.models_downloads import Download
 from services.openlibrary.search_page import (
     SearchByBookStrategy,
     SearchByAuthorStrategy,
@@ -186,6 +187,45 @@ def research_search_api(request, title: str):
     # Immediately return a 202 Accepted response.
     return JsonResponse({"status": "processing"}, status=202)
 
+# ─── Response schema for a single download record ──────────────────────────────
+class DownloadOut(Schema):
+    id: int
+    file_name: str
+    file_size: str
+    downloaded_at: datetime
+
+# ─── List all downloads for current user ────────────────────────────────────────
+@api.get("/downloads", response=List[DownloadOut], auth=JWTAuth())
+def get_downloads(request):
+    if not request.user:
+        raise HttpError(401, "Unauthorized")
+    qs = Download.objects.filter(user=request.user).order_by("-downloaded_at")
+    return [
+        {
+            "id": d.id,
+            "file_name": d.file_name,
+            "file_size": d.file_size,
+            "downloaded_at": d.downloaded_at,
+        }
+        for d in qs
+    ]
+
+# ─── Delete a single download by ID ───────────────────────────────────────────
+@api.delete("/downloads/{download_id}", auth=JWTAuth())
+def delete_download(request, download_id: int):
+    if not request.user:
+        raise HttpError(401, "Unauthorized")
+    d = get_object_or_404(Download, id=download_id, user=request.user)
+    d.delete()
+    return {"message": "Download record deleted."}
+
+# ─── Clear all download history for current user ──────────────────────────────
+@api.delete("/downloads", auth=JWTAuth())
+def clear_downloads(request):
+    if not request.user:
+        raise HttpError(401, "Unauthorized")
+    Download.objects.filter(user=request.user).delete()
+    return {"message": "All download history cleared."}
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Response schema for a single borrowing transaction

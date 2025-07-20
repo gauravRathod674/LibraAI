@@ -2,35 +2,46 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaFilePdf, FaTimes, FaTrash } from "react-icons/fa";
+import axios from "axios";
 
-// Using your project's established imports
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/Footer";
 import { useTheme } from "../context/ThemeContext";
 
-// Mock Data for initial PDF downloads
-const initialPdfs = [
-  { id: 1, name: "React_Best_Practices.pdf", size: "2.5 MB" },
-  { id: 2, name: "TailwindCSS_for_Beginners.pdf", size: "5.1 MB" },
-  { id: 3, name: "JavaScript_Advanced_Concepts.pdf", size: "3.8 MB" },
-  { id: 4, name: "NextJS_Routing_Guide.pdf", size: "1.2 MB" },
-];
-
 export default function DownloadsPage() {
   const { darkMode } = useTheme();
-  const [downloads, setDownloads] = useState(initialPdfs);
+  const [downloads, setDownloads] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const API = process.env.NEXT_PUBLIC_API_URL;
 
-  // Function to handle cancellation of a single download
-  const handleCancelDownload = (id) => {
-    setDownloads(prevDownloads => prevDownloads.filter(pdf => pdf.id !== id));
-  };
+  // Fetch download history on component mount
+  useEffect(() => {
+    const fetchDownloads = async () => {
+      try {
+        const res = await axios.get(`${API}/downloads`, {
+          withCredentials: true,
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
+          },
+        });
 
-  // Function to clear all download history
-  const handleClearHistory = () => {
-    setDownloads([]);
-  };
+        const mapped = res.data.map((d) => ({
+          id: d.id,
+          name: d.file_name,
+          size: d.file_size,
+        }));
+        setDownloads(mapped);
+      } catch (err) {
+        console.error("Failed to fetch downloads:", err);
+        // Optionally, set an error state here to show in the UI
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchDownloads();
+  }, [API]);
 
-  // Animated background effect from the NotificationPage
+  // Animated background effect
   useEffect(() => {
     const canvas = document.getElementById("backgroundCanvas");
     if (!canvas) return;
@@ -43,7 +54,6 @@ export default function DownloadsPage() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
     };
-    
     resizeCanvas();
 
     class Particle {
@@ -57,7 +67,6 @@ export default function DownloadsPage() {
       draw() {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-        // Particle color theme from NotificationPage
         ctx.fillStyle = darkMode
           ? "rgba(117,246,255,0.4)"
           : "rgba(100,149,237,0.4)";
@@ -73,31 +82,58 @@ export default function DownloadsPage() {
     }
 
     for (let i = 0; i < numParticles; i++) particles.push(new Particle());
-    
+
     const animate = () => {
       animId = requestAnimationFrame(animate);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      particles.forEach(p => p.update());
-    }
-    
+      particles.forEach((p) => p.update());
+    };
     animate();
 
-    window.addEventListener('resize', resizeCanvas);
+    window.addEventListener("resize", resizeCanvas);
 
     return () => {
-        cancelAnimationFrame(animId);
-        window.removeEventListener('resize', resizeCanvas);
-    }
+      cancelAnimationFrame(animId);
+      window.removeEventListener("resize", resizeCanvas);
+    };
   }, [darkMode]);
+
+  // Delete one download from history
+  const handleCancelDownload = async (id) => {
+    try {
+      await axios.delete(`${API}/downloads/${id}`, {
+        withCredentials: true,
+        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+      });
+      setDownloads((prevDownloads) => prevDownloads.filter((pdf) => pdf.id !== id));
+    } catch (err) {
+      console.error("Failed to delete download:", err);
+    }
+  };
+
+  // Clear all download history
+  const handleClearHistory = async () => {
+    try {
+      await axios.delete(`${API}/downloads`, {
+        withCredentials: true,
+        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+      });
+      setDownloads([]);
+    } catch (err) {
+      console.error("Failed to clear history:", err);
+    }
+  };
 
   return (
     <div
       className={`relative min-h-screen flex flex-col justify-between transition-all duration-500 ${
-        // Theme logic from NotificationPage
         darkMode ? "bg-white text-black" : "bg-gray-900 text-white"
       }`}
     >
-      <canvas id="backgroundCanvas" className="absolute inset-0 w-full h-full z-0"/>
+      <canvas
+        id="backgroundCanvas"
+        className="absolute inset-0 w-full h-full z-0"
+      />
       <Navbar />
       <main className="z-10 w-full px-4 flex flex-col items-center flex-grow">
         <motion.div
@@ -105,31 +141,33 @@ export default function DownloadsPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className={`mt-24 sm:mt-32 w-full max-w-2xl backdrop-blur-lg rounded-2xl shadow-[0_0_20px_rgba(187,139,255,0.25),0_0_20px_rgba(117,246,255,0.15)] border border-white/10 transition-all ${
-            // Container theme from NotificationPage
             darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"
           }`}
         >
           <div className="flex justify-between items-center px-6 pt-6">
             <h1 className="text-3xl font-extrabold">Downloads</h1>
-            {downloads.length > 0 && (
-                <button
-                    onClick={handleClearHistory}
-                    className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition ${
-                        darkMode 
-                        ? "bg-red-100 text-red-600 hover:bg-red-200"
-                        : "bg-red-500/20 text-red-300 hover:bg-red-500/40"
-                    }`}
-                >
-                    <FaTrash />
-                    <span>Delete History</span>
-                </button>
+            {!loading && downloads.length > 0 && (
+              <button
+                onClick={handleClearHistory}
+                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition ${
+                  darkMode
+                    ? "bg-red-100 text-red-600 hover:bg-red-200"
+                    : "bg-red-500/20 text-red-300 hover:bg-red-500/40"
+                }`}
+              >
+                <FaTrash />
+                <span>Delete History</span>
+              </button>
             )}
           </div>
 
-          {/* Downloads List */}
-          <div className="mt-6 px-6 pb-6 space-y-3">
-            {downloads.length > 0 ? (
-              downloads.map(pdf => (
+          <div className="mt-6 px-6 pb-6 space-y-3 min-h-[150px]">
+            {loading ? (
+              <div className="flex justify-center items-center h-full pt-10">
+                 <p className="text-gray-500">Loading downloads...</p>
+              </div>
+            ) : downloads.length > 0 ? (
+              downloads.map((pdf) => (
                 <motion.div
                   key={pdf.id}
                   layout
@@ -142,7 +180,9 @@ export default function DownloadsPage() {
                       : "bg-gray-800/70 text-white"
                   }`}
                 >
-                  <div className={`text-2xl ${darkMode ? 'text-blue-600' : 'text-cyan-300'}`}><FaFilePdf /></div>
+                  <div className={`text-2xl ${darkMode ? "text-blue-600" : "text-cyan-300"}`}>
+                    <FaFilePdf />
+                  </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-medium break-words">{pdf.name}</p>
                     <p className="text-xs mt-1 text-gray-500 dark:text-gray-400">
@@ -152,7 +192,7 @@ export default function DownloadsPage() {
                   <button
                     onClick={() => handleCancelDownload(pdf.id)}
                     className={`p-2 rounded-full transition ${
-                        darkMode 
+                      darkMode
                         ? "text-gray-500 hover:bg-gray-200 hover:text-black"
                         : "text-gray-400 hover:bg-gray-700 hover:text-white"
                     }`}
