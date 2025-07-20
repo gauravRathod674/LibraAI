@@ -247,20 +247,18 @@ const Navbar = ({
 
           {/* Download Icon */}
           <Tooltip text="Download PDF">
-            <button
-              className={`p-1.5 rounded-full ${
-                darkMode
-                  ? "bg-[#E7F0FD] text-gray-900"
-                  : "bg-gray-900 text-white"
-              }`}
-              title="Download PDF"
-              onClick={() => {
-                const pdfUrl = "/pdfs/your-document.pdf";
-                window.open(pdfUrl, "_blank");
-              }}
-            >
-              <Download size={27} className={`hover:text-blue-400`} />
-            </button>
+            <Link href="/downloads">
+              <button
+                className={`p-1.5 cursor-pointer rounded-full ${
+                  darkMode
+                    ? "bg-[#E7F0FD] text-gray-900"
+                    : "bg-gray-900 text-white"
+                }`}
+                title="Download PDF"
+              >
+                <Download size={27} className={`hover:text-blue-400`} />
+              </button>
+            </Link>
           </Tooltip>
           {/* Profile icon + user name */}
           <Link
@@ -769,7 +767,7 @@ const Navbar = ({
                       darkMode
                         ? "bg-[#E7F0FD] text-gray-900"
                         : "bg-[rgba(30,41,57,0.2)] text-white"
-                        // : "bg-gray-900 text-white"
+                      // : "bg-gray-900 text-white"
                     }
       `}
       >
