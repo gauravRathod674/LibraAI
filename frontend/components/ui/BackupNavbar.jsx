@@ -14,8 +14,7 @@ import {
   ChevronRight,
   BookMarked,
   Bell,
-  Download
-
+  Download,
 } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
@@ -35,7 +34,9 @@ import SummaryDrawer from "./SummaryDrawer";
 import axios from "axios";
 import { getCookie } from "@/lib/csrf";
 import TranslateDrawer from "./TranslateDrawer";
+import AskMeModal from "./AskMeModal"
 import { pdfjs } from "react-pdf";
+
 
 // Custom Tooltip (shows below, with gradient background and dark text)
 const Tooltip = ({ text, children, offsetX = 0 }) => (
@@ -89,7 +90,7 @@ const Navbar = ({
   handleFullScreen,
   pdfDoc,
   toc,
-  
+  fileUrl
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -144,20 +145,37 @@ const Navbar = ({
   useEffect(() => {
     setMounted(true);
     const token = localStorage.getItem("token");
+
+    const fetchUserProfile = async (authToken) => {
+      try {
+        const { data } = await axios.get(
+          `${process.env.NEXT_PUBLIC_API_URL}/user/profile/`,
+          {
+            headers: { Authorization: `Bearer ${authToken}` },
+            withCredentials: true,
+          }
+        );
+        setUser({
+          username: data.name,
+          profile_photo: data.profile_photo_url,
+        });
+      } catch (error) {
+        console.error("Failed to fetch user profile:", error);
+        handleLogout(true); // Logout if fetching profile fails
+      }
+    };
+
     if (token) {
       try {
         const decoded = jwtDecode(token);
         if (decoded.exp * 1000 > Date.now()) {
-          setUser({
-            username: decoded.username,
-            profile_photo:
-              localStorage.getItem("profile_photo") || "/profile_photo.png",
-          });
+          fetchUserProfile(token);
         } else {
-          handleLogout(true);
+          handleLogout(true); // Token expired
         }
-      } catch {
-        handleLogout(true);
+      } catch (e) {
+        console.error("Invalid token:", e);
+        handleLogout(true); // Invalid token format
       }
     }
   }, [pathname]);
@@ -173,38 +191,37 @@ const Navbar = ({
   }, [moreOpen]);
 
   useEffect(() => {
-  if (pathname === "/notification") {
-    setHasNotification(false);
-  } else {
-    setHasNotification(true);
-  }
-}, [pathname]);
+    if (pathname === "/notification") {
+      setHasNotification(false);
+    } else {
+      setHasNotification(true);
+    }
+  }, [pathname]);
 
   const navLinks = [
-  { name: "Home", path: "/" },
-  {
-    name: "My Books",
-    children: [
-      { name: "Book Details", path: "/book-detail" },
-      { name: "Borrow History", path: "/borrow-history" },
-      { name: "Transactions", path: "/transaction" },
-    ],
-  },
-  {
-    name: "Search",
-    children: [
-      { name: "Search Page", path: "/search" },
-      { name: "Research", path: "/research" },
-      { name: "Genres", path: "/genres" },
-      { name: "PDF Viewer", path: "/pdf_viewer" },
-    ],
-  },
-];
-
+    { name: "Home", path: "/" },
+    {
+      name: "My Books",
+      children: [
+        { name: "Book Details", path: "/book-detail" },
+        { name: "Borrow History", path: "/borrow-history" },
+        { name: "Transactions", path: "/transaction" },
+      ],
+    },
+    {
+      name: "Search",
+      children: [
+        { name: "Search Page", path: "/search" },
+        { name: "Research", path: "/research" },
+        { name: "Genres", path: "/genres" },
+        { name: "PDF Viewer", path: "/pdf_viewer" },
+      ],
+    },
+  ];
 
   const handleLogout = (isAutoLogout = false) => {
     localStorage.removeItem("token");
-    localStorage.removeItem("user"); 
+    localStorage.removeItem("user");
     setUser(null);
     if (!isAutoLogout) {
       router.push("/login");
@@ -218,70 +235,77 @@ const Navbar = ({
   const UserStatus = () => (
     <>
       {user ? (
-      <div className="flex items-center gap-2 sm:gap-4">
-        {/* Profile icon + user name */}
-        <Link
-          href="/user-profile"
-          className="relative flex items-center gap-2 group transition-all duration-300"
-        >
-          <img
-            src={user.profile_photo}
-            alt="Profile"
-            className="w-8 h-8 rounded-full object-cover"
-          />  
-          <span className="text-lg font-medium">{user.username}</span>
-          <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
-                          group-hover:w-full transition-all duration-300" />
-        </Link>
-
-        {/* Logout button */}
-        <button
-          onClick={handleLogout}
-          className="text-red-500 hover:text-red-700 text-lg font-medium"
-        >
-          Logout
-        </button>
-      </div>
-    ) : (
-      <Link
-        href="/login"
-        className={`relative group text-lg font-medium transition-all duration-300 ${
-          darkMode ? "text-gray-900" : "text-white"
-        }`}
-      >
-        Login
-        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
-                        group-hover:w-full transition-all duration-300" />
-      </Link>
-    )}
-
-    <Tooltip text="Notifications">
-    <Link href="/notification" className="relative">
-      <Bell className="w-5 h-5 sm:w-6 sm:h-6 hover:text-blue-400 transition" />
-      {hasNotification && (
-        <span
-          className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-600 rounded-full
+        <div className="flex items-center gap-2 sm:gap-4">
+          <Tooltip text="Notifications">
+            <Link href="/notification" className="relative">
+              <Bell className="w-5 h-5 sm:w-6 sm:h-6 hover:text-blue-400 transition" />
+              {hasNotification && (
+                <span
+                  className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-600 rounded-full
                     ring-2 ring-white dark:ring-gray-900"
-        />
+                />
+              )}
+            </Link>
+          </Tooltip>
+
+          {/* Download Icon */}
+          <Tooltip text="Download PDF">
+            <Link href="/downloads">
+              <button
+                className={`p-1.5 cursor-pointer rounded-full ${
+                  darkMode
+                    ? "bg-[#E7F0FD] text-gray-900"
+                    : "bg-gray-900 text-white"
+                }`}
+                title="Download PDF"
+              >
+                <Download size={27} className={`hover:text-blue-400`} />
+              </button>
+            </Link>
+          </Tooltip>
+          {/* Profile icon + user name */}
+          <Link
+            href="/user-profile"
+            className="relative flex items-center gap-2 group transition-all duration-300"
+          >
+            <img
+              src={user.profile_photo}
+              alt="Profile"
+              className="w-8 h-8 rounded-full object-cover"
+            />
+            <span className="text-lg font-medium">{user.username}</span>
+            <span
+              className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
+                          group-hover:w-full transition-all duration-300"
+            />
+          </Link>
+
+          {/* Logout button */}
+          <button
+            onClick={handleLogout}
+            className="text-red-500 hover:text-red-700 text-lg font-medium"
+          >
+            Logout
+          </button>
+        </div>
+      ) : (
+        <Link
+          href="/login"
+          className={`relative group text-lg font-medium transition-all duration-300 ${
+            darkMode ? "text-gray-900" : "text-white"
+          }`}
+        >
+          Login
+          <span
+            className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current
+                        group-hover:w-full transition-all duration-300"
+          />
+        </Link>
       )}
-    </Link>
-    </Tooltip>
 
-
-    {/* Download Icon */}
-    <Tooltip text="Download PDF">
-      <button
-        className={`p-1.5 rounded-full ${darkMode ? "bg-[#E7F0FD] text-gray-900 hover:bg-gray-300" : "bg-gray-900 text-white           hover:bg-gray-700"}`}
-        title="Download PDF"
-        onClick={() => {
-          const pdfUrl = "/pdfs/your-document.pdf";
-          window.open(pdfUrl, "_blank");
-        }}
-      >
-        <Download size={27} />
-      </button>
-    </Tooltip>
-    <span className={`w-px h-6 mx-1 ${darkMode ? "bg-gray-400" :"bg-gray-600}"}`}/>
+      {/* <span
+        className={`w-px h-6 mx-1 ${darkMode ? "bg-gray-400" : "bg-gray-600}"}`}
+      /> */}
     </>
   );
 
@@ -668,58 +692,57 @@ const Navbar = ({
   }, [askInput, askMeOpen]);
 
   function Dropdown({ link }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
-      className="cursor-pointer"
-    >
-      <div className="flex items-center space-x-1 group">
-        <span>{link.name}</span>
-        <ChevronRight
-          size={16}
-          className={`transition-transform ${
-            open ? "rotate-90" : "rotate-0"
-          }`}
-        />
-      </div>
+    const [open, setOpen] = useState(false);
+    return (
+      <div
+        onMouseEnter={() => setOpen(true)}
+        onMouseLeave={() => setOpen(false)}
+        className="cursor-pointer"
+      >
+        <div className="flex items-center space-x-1 group">
+          <span>{link.name}</span>
+          <ChevronRight
+            size={16}
+            className={`transition-transform ${
+              open ? "rotate-90" : "rotate-0"
+            }`}
+          />
+        </div>
 
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.15 }}
-            className={`absolute top-full left-0 mt-2 w-44 rounded-md shadow-lg overflow-hidden z-20
-              ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
+        <AnimatePresence>
+          {open && (
+            <motion.div
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.15 }}
+              className={`absolute top-full left-0 mt-2 w-44 rounded-md shadow-lg overflow-hidden z-20
+              ${
+                darkMode
+                  ? "bg-[#E7F0FD] text-gray-900"
+                  : "bg-gray-900 text-white"
+              }
               `}
-          >
-            {link.children.map((child) => (
-              <Link
-                key={child.name}
-                href={child.path}
-                className="relative block px-4 py-2 text-lg font-medium transition-all duration-300 group"
-              >
-                <span
-                  className="block"
-                  aria-hidden="true"
+            >
+              {link.children.map((child) => (
+                <Link
+                  key={child.name}
+                  href={child.path}
+                  className="relative block px-4 py-2 text-lg font-medium transition-all duration-300 group"
                 >
-                  {child.name}
-                </span>
-                {/* underline on hover */}
-                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current group-hover:w-full transition-all duration-300" />
-              </Link>
-            ))}
-          </motion.div>
-
-                  )}
-      </AnimatePresence>
-    </div>
-  );
-}
-
+                  <span className="block" aria-hidden="true">
+                    {child.name}
+                  </span>
+                  {/* underline on hover */}
+                  <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-current group-hover:w-full transition-all duration-300" />
+                </Link>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    );
+  }
 
   if (!mounted) {
     return (
@@ -743,14 +766,19 @@ const Navbar = ({
                     px-2 sm:px-4 md:px-6 lg:px-8 xl:px-12 py-3
                     flex items-center justify-between
                     bg-opacity-90 backdrop-blur-lg
-                    ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}
+                    ${
+                      darkMode
+                        ? "bg-[#E7F0FD] text-gray-900"
+                        // : "bg-[rgba(30,41,57,0.2)] text-white"
+                      : "bg-gray-900 text-white"
+                    }
       `}
       >
         {/* PDF VIEWER NAVBAR */}
         {isPdfViewer ? (
           <>
             {/* Left Section */}
-            <div className="flex flex-1 items-center gap-1 sm:gap-2 lg:gap-4">
+            <div className="flex flex-1 items-center justify-start gap-1 sm:gap-1 lg:gap-2">
               {/* Table of Contents Button */}
               {!showToc ? (
                 <Tooltip text="Table of Contents" offsetX={8}>
@@ -771,8 +799,32 @@ const Navbar = ({
                   <LuTableOfContents size={20} />
                 </button>
               )}
-              <h1 className="text-lg sm:text-xl font-bold truncate">LibraAI</h1>
+              {/* Logo */}
+              <Link href="/" className="flex items-center">
+                <img
+                  src={
+                    darkMode
+                      ? "/LibraAI_Light_Logo.png" // Light logo for dark mode
+                      : "/LibraAI_Dark_Logo.png" // Dark logo for light mode
+                  }
+                  alt="LibraAI Logo"
+                  className="h-10 w-auto" // Sets height to 40px, width adjusts automatically
+                />
+              </Link>              
+                {/* Toggle Theme */}
+              <button
+                className="p-1.5 bg-gray-200 rounded-full shadow-md cursor-pointer hover:shadow-lg dark:bg-gray-800 dark:text-white"
+                onClick={toggleDarkMode}
+                title="Toggle Theme"
+              >
+                {darkMode ? (
+                  <Sun className="w-3 h-3 sm:w-6 sm:h-6 text-yellow-500" />
+                ) : (
+                  <Moon className="w-3 h-3 sm:w-6 sm:h-6 text-gray-800" />
+                )}
+              </button>
               <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
+
               {/* Summary */}
               <Tooltip text="Summary">
                 <button
@@ -807,21 +859,8 @@ const Navbar = ({
                   <IoVolumeHigh size={20} />
                 </button>
               </Tooltip>
-
-              <span className="w-px h-6 mx-2 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Ask Me */}
-              {/* Ask Me Button */}
-              <button
-                type="button"
-                className="flex items-center gap-1 text-base font-medium bg-transparent border-0 cursor-pointer hover:underline focus:outline-none"
-                onClick={() => {
-                  setAskMeOpen(true);
-                }}
-                style={{ background: "none" }}
-              >
-                Ask Me
-              </button>
             </div>
+
             {/* Center Section */}
             <div className="flex justify-center flex-1">
               <div
@@ -894,7 +933,21 @@ const Navbar = ({
               </div>
             </div>
             {/* Right Section */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-1 items-center justify-end gap-1 sm:gap-2 lg:gap-3">
+              {/* Ask Me */}
+              {/* Ask Me Button */}
+              <button
+                type="button"
+                className="flex items-center gap-1 text-base font-medium bg-transparent border-0 cursor-pointer hover:underline focus:outline-none"
+                onClick={() => {
+                  setAskMeOpen(true);
+                }}
+                style={{ background: "none" }}
+              >
+                Ask Me
+              </button>
+              <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600" />
+
 
               {/* Download Icon */}
               <Tooltip text="Download PDF">
@@ -911,7 +964,7 @@ const Navbar = ({
                 </button>
               </Tooltip>
               <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600" />
-          
+
               {/* Search Icon */}
               <Tooltip text="Search">
                 <button
@@ -932,28 +985,38 @@ const Navbar = ({
                 </button>
               </Tooltip>
               <span className="w-px h-6 mx-1 bg-gray-400 dark:bg-gray-600"></span>
-              {/* Toggle Theme */}
-              <button
-                className="p-2 bg-gray-200 rounded-full shadow-md cursor-pointer hover:shadow-lg dark:bg-gray-800 dark:text-white"
-                onClick={toggleDarkMode}
-                title="Toggle Theme"
-              >
-                {darkMode ? (
-                  <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
-                ) : (
-                  <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
-                )}
-              </button>
-              <UserStatus />
+            
               <button
                 className="sm:hidden p-2"
-                onClick={() => setMenuOpen(open => !open)}
+                onClick={() => setMenuOpen((open) => !open)}
                 aria-label="Toggle menu"
               >
                 {menuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
 
+              {/* Compact Profile + Logout */}
+              {user && (
+                <div className="flex items-center gap-2 ml-4">
+                  {/* Avatar */}
+                  <Link href="/user-profile">
+                    <img
+                      src={user.profile_photo}
+                      alt="Profile"
+                      className="w-8 h-8 rounded-full object-cover cursor-pointer"
+                    />
+                  </Link>
+                  {/* Logout */}
+                  <button
+                    onClick={handleLogout}
+                    className="text-red-500 hover:text-red-700 text-lg font-medium"
+                    title="Logout"
+                  >
+                    Logout
+                  </button>
+                </div>
+                )}
             </div>
+            
             {/* PDF Search Box (floating, only for /pdf_viewer) */}
             {showPdfSearch && (
               <div
@@ -1015,19 +1078,29 @@ const Navbar = ({
         ) : (
           // NON-PDF VIEWER NAVBAR
           <>
-            <div className="flex items-center gap-2 z-10">
-            <h1 className="text-xl font-bold">LibraAI</h1>
-            <button
-              className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white"
-              onClick={toggleDarkMode}
-            >
-              {darkMode ? (
-                <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
-              ) : (
-                <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
-              )}
-            </button>
-          </div>
+            <div className="flex items-center gap-4 z-10">
+              <Link href="/" className="flex items-center">
+                <img
+                  src={
+                    darkMode
+                      ? "/LibraAI_Light_Logo.png" // Light logo for dark mode
+                      : "/LibraAI_Dark_Logo.png" // Dark logo for light mode
+                  }
+                  alt="LibraAI Logo"
+                  className="h-10 w-auto" // Sets height to 40px, width adjusts automatically
+                />
+              </Link>
+              <button
+                className="p-2 bg-gray-200 rounded-full shadow-md hover:shadow-lg cursor-pointer dark:bg-gray-800 dark:text-white"
+                onClick={toggleDarkMode}
+              >
+                {darkMode ? (
+                  <Sun className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-500" />
+                ) : (
+                  <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800" />
+                )}
+              </button>
+            </div>
 
             <div className="z-10 flex items-center gap-6">
               <div className="hidden md:flex items-center gap-6 text-lg font-medium">
@@ -1038,15 +1111,15 @@ const Navbar = ({
                     ) : (
                       <Link href={link.path} className="relative group">
                         {link.name}
-                        <span className="absolute left-0 -bottom-1 w-0 h-0.5
-                                        bg-current group-hover:w-full transition-all duration-300" />
+                        <span
+                          className="absolute left-0 -bottom-1 w-0 h-0.5
+                                        bg-current group-hover:w-full transition-all duration-300"
+                        />
                       </Link>
                     )}
                   </div>
                 ))}
               </div>
-
-              
               <UserStatus />
             </div>
           </>
@@ -1062,204 +1135,35 @@ const Navbar = ({
                 exit={{ opacity: 0, y: -12 }}
                 transition={{ duration: 0.2 }}
                 className={`sm:hidden absolute top-full left-0 w-full max-h-[60vh] overflow-y-auto bg-opacity-90 backdrop-blur-lg
-                  ${darkMode ? "bg-[#E7F0FD] text-gray-900" : "bg-gray-900 text-white"}`}
+                  ${
+                    darkMode
+                      ? "bg-[#E7F0FD] text-gray-900"
+                      : "bg-gray-900 text-white"
+                  }`}
               >
                 <div className="flex flex-col items-center py-4 space-y-4">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.name}
-                    href={link.path}
-                    onClick={() => setMenuOpen(false)}
-                    className="text-lg font-medium transition-all duration-300 hover:underline"
-                  >
-                    {link.name}
-                  </Link>
-                ))}
+                  {navLinks.map((link) => (
+                    <Link
+                      key={link.name}
+                      href={link.path}
+                      onClick={() => setMenuOpen(false)}
+                      className="text-lg font-medium transition-all duration-300 hover:underline"
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
                 </div>
               </motion.div>
             )}
           </AnimatePresence>
         )}
       </motion.div>
-      {askMeOpen && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 backdrop-blur-md">
-          <div
-            className={`w-full sm:w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2
-                        h-[80vh] sm:h-[75vh] md:h-[70vh]
-                        rounded-2xl mx-2 sm:mx-auto flex flex-col shadow-lg ${
-              darkMode
-                ? "bg-white text-gray-900 border border-gray-200"
-                : "bg-[#1e293b] text-white border border-[#334155]"
-            }`}
-          >
-            {/* Header */}
-            <div
-              className={`flex items-center justify-between px-4 py-3 rounded-t-2xl ${
-                darkMode
-                  ? "bg-gradient-to-r from-[#a78bfa] to-[#818cf8] text-white"
-                  : "bg-gradient-to-r from-[#4f46e5] to-[#6366f1] text-white"
-              }`}
-            >
-              <h2 className="flex items-center gap-2 text-lg font-bold">
-                <FontAwesomeIcon icon={faRobot} />
-                Nexus Chatbot
-              </h2>
-              <button
-                className="text-xl transition hover:text-red-500"
-                onClick={() => setAskMeOpen(false)}
-                aria-label="Close"
-              >
-                <X size={24} />
-              </button>
-            </div>
-
-            {/* Chat Body */}
-            <div
-              className={`flex-1 overflow-y-auto p-4 space-y-5 ${
-                darkMode ? "bg-[#f8fafc]" : "bg-[#101828]"
-              }`}
-            >
-              {isLoading && (
-                <motion.div
-                  className={`text-sm italic text-center animate-pulse ${
-                    darkMode ? "text-gray-600" : "text-gray-300"
-                  }`}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                >
-                  {/* 🤖 Generating response... */}
-                </motion.div>
-              )}
-
-              {askMessages.map((msg, index) => (
-                <div
-                  key={index}
-                  className={`flex ${
-                    msg.from === "user" ? "justify-end" : "justify-start"
-                  }`}
-                >
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.3 }}
-                    className={`relative max-w-xs md:max-w-md px-4 py-2 rounded-lg text-base break-words shadow-sm ${
-                      msg.from === "user"
-                        ? darkMode
-                          ? "bg-indigo-100 text-indigo-800"
-                          : "bg-[#4f46e5] text-white"
-                        : darkMode
-                        ? "bg-[#E7F0FD] text-gray-900"
-                        : "bg-[#2b3c6e] text-gray-300"
-                    }`}
-                  >
-                    <ReactMarkdown
-                      components={{
-                        h2: ({ node, ...props }) => (
-                          <h2
-                            className="mt-2 mb-1 font-bold text-blue-500"
-                            {...props}
-                          />
-                        ),
-                        ul: ({ node, ...props }) => (
-                          <ul className="ml-5 space-y-1 list-disc" {...props} />
-                        ),
-                        li: ({ node, ...props }) => (
-                          <li className="leading-snug" {...props} />
-                        ),
-                        strong: ({ node, ...props }) => (
-                          <strong
-                            className="font-semibold text-indigo-500"
-                            {...props}
-                          />
-                        ),
-                      }}
-                    >
-                      {msg.text}
-                    </ReactMarkdown>
-
-                    {/* Tools below the bot message */}
-                    {msg.from === "bot" && (
-                      <div className="flex gap-2 mt-2">
-                        <button onClick={() => handleSpeak(msg.text)}>
-                          <Volume2
-                            size={16}
-                            className={`${
-                              isSpeaking
-                                ? "animate-pulse text-red-500"
-                                : "text-gray-500"
-                            } hover:text-indigo-400`}
-                          />
-                        </button>
-                        <button onClick={() => handleCopy(msg.text)}>
-                          <ClipboardCopy
-                            size={16}
-                            className="text-gray-500 hover:text-indigo-400"
-                          />
-                        </button>
-                      </div>
-                    )}
-                  </motion.div>
-                </div>
-              ))}
-
-              {/* Inline loading message box styled like bot message */}
-              {isLoading && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className={`flex ${
-                    darkMode ? "justify-start" : "justify-start"
-                  }`}
-                >
-                  <div
-                    className={`max-w-xs md:max-w-md px-4 py-2 rounded-lg text-base italic animate-pulse ${
-                      darkMode
-                        ? "bg-[#E7F0FD] text-gray-600"
-                        : "bg-[#2b3c6e] text-gray-300"
-                    }`}
-                  >
-                    🤖 Generating response...
-                  </div>
-                </motion.div>
-              )}
-            </div>
-
-            {/* Input Section */}
-            <div
-              className={`p-4 rounded-b-2xl ${
-                darkMode
-                  ? "bg-[#f1f5f9] border-t border-gray-200"
-                  : "bg-[#1e293b] border-t border-[#334155]"
-              }`}
-            >
-              <div className="flex items-center gap-3">
-                <input
-                  ref={askInputRef}
-                  type="text"
-                  value={askInput}
-                  onChange={(e) => setAskInput(e.target.value)}
-                  placeholder="Type your question here..."
-                  className={`flex-1 px-2 py-1 sm:px-4 sm:py-2 rounded-full text-sm sm:text-base outline-none ${
-                    darkMode
-                      ? "bg-white text-gray-900 placeholder-gray-400"
-                      : "bg-[#0f172a] text-white placeholder-gray-400"
-                  }`}
-                />
-                <button
-                  onClick={handleAskSubmit}
-                  className={`px-2 py-1 sm:px-4 sm:py-2 rounded-full text-sm sm:text-base font-semibold transition ${
-                    darkMode
-                      ? "bg-indigo-500 text-white hover:bg-indigo-600"
-                      : "bg-[#6366f1] text-white hover:bg-[#4f46e5]"
-                  }`}
-                >
-                  Send
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      
+     <AskMeModal 
+        isOpen={askMeOpen} 
+        onClose={() => setAskMeOpen(false)} 
+        fileUrl={fileUrl} 
+      />
 
       {/* Summary Drawer */}
       <SummaryDrawer
