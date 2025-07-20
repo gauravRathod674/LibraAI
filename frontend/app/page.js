@@ -160,7 +160,7 @@ export default function Home() {
           visible: { transition: { staggerChildren: 0.08 } },
         }}
       >
-        {["Welcome", "to", "Nexus", "Library"].map((word, index) => (
+        {["Welcome", "to", "Libra", "AI"].map((word, index) => (
           <motion.span
             key={index}
             className="inline-block"
