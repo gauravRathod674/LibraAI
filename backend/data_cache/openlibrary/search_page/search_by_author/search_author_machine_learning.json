@@ -1,0 +1,65 @@
+{
+  "query": "machine learning",
+  "page_1": {
+    "total_hits": "35 hitsRelevanceRelevanceWork CountRandom",
+    "authors": [
+      {
+        "author_name": "Machine Learning",
+        "author_url": "https://openlibrary.org/authors/OL3039500A",
+        "image_src": "https://covers.openlibrary.org/a/olid/OL3039500A-M.jpg",
+        "about": "6 booksabout Machine learning, Congresses,\n           includingMachine Learning Proceedings 1993",
+        "books": [
+          {
+            "title": "Machine Learning Proceedings 1993",
+            "book_url": "https://openlibrary.org/works/OL8856023W/Machine_Learning_Proceedings_1993?edition=key%3A/books/OL12089784M",
+            "image_src": "https://covers.openlibrary.org/b/id/5172292-M.jpg",
+            "author": "Machine Learning",
+            "first_published": "First published in 1993",
+            "editions": "2 editions"
+          },
+          {
+            "title": "Machine learning: proceedings of the Twelfth International Conference on Machine Learning [held in] Tahoe City, California, July 9-12, 1995",
+            "book_url": "https://openlibrary.org/works/OL8856024W/Machine_Learning_Proceedings_1995?edition=key%3A/books/OL22412566M",
+            "image_src": "https://covers.openlibrary.org/b/id/5172198-M.jpg",
+            "author": "Machine Learning",
+            "first_published": "First published in 1995",
+            "editions": "2 editions"
+          },
+          {
+            "title": "Machine Learning Proceedings 1989",
+            "book_url": "https://openlibrary.org/works/OL8856019W/Machine_Learning_Proceedings_1989?edition=key%3A/books/OL8606378M",
+            "image_src": "https://covers.openlibrary.org/b/id/4823724-M.jpg",
+            "author": "Machine Learning",
+            "first_published": "First published in 1989",
+            "editions": "1 edition"
+          },
+          {
+            "title": "Machine Learning Proceedings 1990",
+            "book_url": "https://openlibrary.org/works/OL8856020W/Machine_Learning_Proceedings_1990?edition=key%3A/books/OL8606393M",
+            "image_src": "https://covers.openlibrary.org/b/id/1881379-M.jpg",
+            "author": "Machine Learning",
+            "first_published": "First published in 1990",
+            "editions": "1 edition"
+          },
+          {
+            "title": "Machine Learning Proceedings 1991 (Ml91)",
+            "book_url": "https://openlibrary.org/works/OL8856021W/Machine_Learning_Proceedings_1991_(Ml91)?edition=key%3A/books/OL8606406M",
+            "image_src": "https://openlibrary.org/images/icons/avatar_book-sm.png",
+            "author": "Machine Learning",
+            "first_published": "First published in 1991",
+            "editions": "1 edition"
+          },
+          {
+            "title": "Machine Learning Proceedings 1992 (Ml92)",
+            "book_url": "https://openlibrary.org/works/OL8856022W/Machine_Learning_Proceedings_1992_(Ml92)?edition=key%3A/books/OL8606417M",
+            "image_src": "https://covers.openlibrary.org/b/id/4823387-M.jpg",
+            "author": "Machine Learning",
+            "first_published": "First published in 1992",
+            "editions": "1 edition"
+          }
+        ],
+        "total_pages": 1
+      }
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
+// 1. Import useSearchParams to read the URL
+import { useRouter, useSearchParams } from "next/navigation";
 
 import Navbar from "@/components/ui/Navbar";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/Tabs";
@@ -9,7 +10,6 @@ import Book from "@/components/ui/Book";
 import AuthorCard from "@/components/ui/Author";
 import GenreCard from "@/components/ui/Genre";
 import FilterSidebar from "@/components/ui/FilterSidebar";
-// import ResultsHeader from "@/components/ui/ResultsHeader";
 import Footer from "@/components/ui/Footer";
 import SearchInsideCard from "@/components/ui/SearchInsideCard";
 import { useTheme } from "@/app/context/ThemeContext";
@@ -54,6 +54,8 @@ const TABS = [
 const SearchPage = () => {
   const { darkMode } = useTheme();
   const router = useRouter();
+  // 2. Initialize useSearchParams
+  const searchParams = useSearchParams();
 
   const [searchTerm, setSearchTerm] = useState("");
   const [activeSection, setActiveSection] = useState("Books");
@@ -65,16 +67,17 @@ const SearchPage = () => {
   const [loading, setLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
 
-  // Fetch dynamic results
-  const fetchResults = async () => {
-    if (!searchTerm.trim() || activeSection === "Advanced Search") return;
+  // Fetch dynamic results - now takes the query as an argument
+  const fetchResults = async (query) => {
+    if (!query || activeSection === "Advanced Search") return;
 
     setHasSearched(true);
     setLoading(true);
+    setSubmittedSearchTerm(query);
 
     const config = MODE_MAP[activeSection] || MODE_MAP["Books"];
     const url = new URL(`http://127.0.0.1:8000${config.endpoint}`);
-    url.searchParams.set("q", searchTerm);
+    url.searchParams.set("q", query);
     Object.entries(config.params).forEach(([k, v]) =>
       url.searchParams.set(k, v)
     );
@@ -82,15 +85,11 @@ const SearchPage = () => {
     try {
       const res = await fetch(url.toString());
       const data = await res.json();
-      console.log(data);
-      // setResults(Array.isArray(data?.pages?.page_1) ? data.pages.page_1 : []);
       let resultsData = [];
 
       if (activeSection === "Authors") {
         resultsData = data?.page_1?.authors || [];
-      } else if (activeSection === "Books") {
-        resultsData = data?.pages?.page_1 || [];
-      } else if (activeSection === "Search Inside") {
+      } else if (activeSection === "Books" || activeSection === "Search Inside") {
         resultsData = data?.pages?.page_1 || [];
       }
 
@@ -102,34 +101,39 @@ const SearchPage = () => {
       setLoading(false);
     }
   };
-
+  
+  // 3. This useEffect handles the initial search from the URL
   useEffect(() => {
-    if (
-      (activeSection === "Books" || activeSection === "Authors") &&
-      hasSearched
-    )
-      fetchResults();
+    const queryFromUrl = searchParams.get('q');
+    const modeFromUrl = searchParams.get('mode');
+
+    if (queryFromUrl) {
+      setSearchTerm(queryFromUrl);
+      // Find the tab that corresponds to the mode
+      const tabForMode = Object.keys(MODE_MAP).find(key => MODE_MAP[key].params.mode === modeFromUrl);
+      if (tabForMode) {
+        setActiveSection(tabForMode);
+      }
+      fetchResults(queryFromUrl);
+    }
+  }, [searchParams]); // Rerun when URL params change
+
+  // This useEffect handles searches when the tab is changed
+  useEffect(() => {
+    if (submittedSearchTerm && hasSearched) {
+      fetchResults(submittedSearchTerm);
+    }
   }, [activeSection]);
 
   // Filter dynamic results (Books)
   const filteredBooks = useMemo(() => {
-    const q = searchTerm.toLowerCase();
-    return results.filter((item) => {
-      const title = (item.title || "").toLowerCase();
-      const auth = (item.author || "").toLowerCase();
-      const mSearch = title.includes(q) || auth.includes(q);
-      const mRating = (parseFloat(item.rating) || 0) >= rating;
-      const mAuthor =
-        !activeFilters.author || activeFilters.author.includes(item.author);
-      const mYear =
-        !year || parseInt(item.firstPublished || "0") >= parseInt(year || "0");
-      return mSearch && mRating && mAuthor && mYear;
-    });
-  }, [results, searchTerm, rating, year, activeFilters]);
+    // No client-side filtering needed if the API does it all
+    return results;
+  }, [results]);
 
   // Filter static tabs
   const staticFiltered = useMemo(() => {
-    const q = searchTerm.trim().toLowerCase();
+    const q = submittedSearchTerm.trim().toLowerCase();
     return {
       Authors: STATIC_SECTIONS.Authors.filter((item) =>
         (item.author || "").toLowerCase().includes(q)
@@ -150,27 +154,23 @@ const SearchPage = () => {
           p.description.toLowerCase().includes(q)
       ),
     };
-  }, [searchTerm]);
+  }, [submittedSearchTerm]);
 
   const handleSearch = () => {
     if (!searchTerm.trim()) return;
-    setHasSearched(true);
-    setSubmittedSearchTerm(searchTerm); 
-
-    // Only set to "Books" if current section is "Advanced Search"
-    if (activeSection === "Advanced Search") {
-      setActiveSection("Books");
-    }
-
+    
+    // Update URL
     const config = MODE_MAP[activeSection] || MODE_MAP["Books"];
     const params = new URLSearchParams({
       q: searchTerm,
       ...config.params,
     });
-
     router.push(`/search?${params.toString()}`);
-    fetchResults();
+
+    // Trigger the search
+    fetchResults(searchTerm);
   };
+
   return (
     <div
       className={`relative min-h-screen flex flex-col transition-all duration-500 ${
@@ -272,15 +272,6 @@ const SearchPage = () => {
                     </div>
                   ) : (
                     <>
-                      {/* <ResultsHeader
-                        totalHits={
-                          tab === "Books"
-                            ? filteredBooks.length
-                            : staticFiltered[tab]?.length
-                        }
-                        darkMode={darkMode}
-                      /> */}
-
                       {!loading ? (
                         <section className="flex flex-col lg:flex-row gap-6 w-full">
                           <div
@@ -331,11 +322,11 @@ const SearchPage = () => {
                               />
                             )}
 
-                            {(tab === "Books" && filteredBooks.length === 0) ||
+                            {(tab === "Books" && filteredBooks.length === 0 && hasSearched && !loading) ||
                             (tab !== "Books" &&
                               staticFiltered[tab]?.length === 0) ? (
                               <p className="text-center text-gray-500">
-                                No results found for “{searchTerm}”
+                                No results found for “{submittedSearchTerm}”
                               </p>
                             ) : null}
                           </div>

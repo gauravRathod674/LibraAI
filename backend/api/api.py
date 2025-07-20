@@ -30,6 +30,7 @@ from services.openlibrary.search_page import (
     SearchContext,
 )
 from services.semantic_scholar.search_page import scrape_semantic_scholar, safe_filename
+from services.openlibrary.homepage_content import get_homepage_data
 
 from typing import Optional, List
 from django.views.decorators.csrf import csrf_exempt
@@ -49,7 +50,22 @@ api = NinjaAPI()
 def test_api(request):
     return {"message": "LibraAI API is working!"}
 
-
+@api.get("/homepage/content")
+def get_homepage_content(request, force_refresh: bool = False):
+    """
+    Fetches dynamic homepage content (Trending, Classics, Books We Love)
+    from the OpenLibrary scraper, utilizing the cache.
+    Set force_refresh=true to bypass the cache.
+    """
+    try:
+        # This function already handles caching, as seen in homepage_content.py
+        data = get_homepage_data(force_refresh=force_refresh)
+        return data
+    except Exception as e:
+        # Handle potential errors during scraping or file access
+        raise HttpError(500, f"Failed to retrieve homepage data: {str(e)}")
+    
+    
 login_page = LoginPage()
 
 

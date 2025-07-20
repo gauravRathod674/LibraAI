@@ -10,6 +10,7 @@ import Footer from "@/components/ui/Footer";
 import FeaturedBooks from "@/components/ui/FloatBooks";
 import { useTheme } from "./context/ThemeContext";
 import LovedBooks from "@/components/ui/LovedBooks";
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const { darkMode } = useTheme();
@@ -27,11 +28,63 @@ export default function Home() {
     "Brave New World",
   ]);
 
+  // 1. ADD STATE FOR DYNAMIC BOOKS AND LOADING STATUS
+  const [homepageBooks, setHomepageBooks] = useState({
+    trending_books: [],
+    classic_books: [],
+    books_we_love: [],
+  });
+  const [isLoading, setIsLoading] = useState(true);
+
+  const router = useRouter();
+
   const filteredBooks = useMemo(() => {
     return books.filter((book) =>
       book.toLowerCase().includes(searchTerm.toLowerCase())
     );
   }, [searchTerm]);
+
+  const handleSearch = () => {
+    // Proceed only if the search term is not empty
+    if (searchTerm.trim()) {
+      // Construct the URL and encode the search term to handle spaces and special characters
+      const url = `/search?q=${encodeURIComponent(
+        searchTerm.trim()
+      )}&mode=everything`;
+      // Redirect to the new URL
+      router.push(url);
+    }
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleSearch();
+    }
+  };
+
+  // 2. FETCH DYNAMIC DATA FROM THE BACKEND API
+  useEffect(() => {
+    const fetchHomepageData = async () => {
+      try {
+        // This assumes your Next.js app is set up to proxy /api requests to your Django backend
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_API_URL}/homepage/content`
+        );
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        setHomepageBooks(data);
+      } catch (error) {
+        console.error("Failed to fetch homepage books:", error);
+        // You could set some error state here to show a message to the user
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchHomepageData();
+  }, []); // Empty dependency array ensures this runs only once on mount
 
   useEffect(() => {
     const canvas = document.getElementById("backgroundCanvas");
@@ -133,6 +186,7 @@ export default function Home() {
           type="text"
           value={searchTerm || ""}
           onChange={(e) => setSearchTerm(e.target.value)}
+          onKeyDown={handleKeyDown} // 4. ADD KEYDOWN HANDLER FOR 'ENTER' KEY
           placeholder="Search books, articles..."
           className={`w-full p-3 rounded-full shadow-md focus:outline-none transition-all duration-300 ${
             darkMode
@@ -142,6 +196,7 @@ export default function Home() {
         />
 
         <button
+          onClick={handleSearch} // 5. ADD ONCLICK HANDLER TO THE BUTTON
           className="absolute right-2 top-1/2 transform -translate-y-1/2 px-4 py-2 text-white rounded-full shadow-md hover:shadow-lg transition-transform hover:scale-105"
           style={{
             background:
@@ -229,12 +284,24 @@ export default function Home() {
 
       <FeaturedBooks darkMode={darkMode} />
 
-      <TrendingBooks darkMode={darkMode} />
+      {/* 3. PASS DYNAMIC DATA AND LOADING STATE AS PROPS */}
+      <TrendingBooks
+        darkMode={darkMode}
+        books={homepageBooks.trending_books}
+        isLoading={isLoading}
+      />
 
-      <ClassicBooks darkMode={darkMode} />
+      <ClassicBooks
+        darkMode={darkMode}
+        books={homepageBooks.classic_books}
+        isLoading={isLoading}
+      />
 
-      <LovedBooks darkMode={darkMode} />
-
+      <LovedBooks
+        darkMode={darkMode}
+        books={homepageBooks.books_we_love}
+        isLoading={isLoading}
+      />
       {/* Join the Community Section */}
       <section className="relative w-full py-16 px-6 z-10 flex justify-center items-center">
         <div
