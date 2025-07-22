@@ -13,74 +13,447 @@
     "subjects": [
         {
             "name": "Habit",
-            "url": "https://openlibrary.org/subjects/habit"
+            "url": "/subjects/habit"
         },
         {
             "name": "Habit breaking",
-            "url": "https://openlibrary.org/subjects/habit_breaking"
+            "url": "/subjects/habit_breaking"
         },
         {
             "name": "Behavior modification",
-            "url": "https://openlibrary.org/subjects/behavior_modification"
+            "url": "/subjects/behavior_modification"
         },
         {
             "name": "Self-actualization (psychology)",
-            "url": "https://openlibrary.org/subjects/self-actualization_(psychology)"
+            "url": "/subjects/self-actualization_(psychology)"
         },
         {
             "name": "Business",
-            "url": "https://openlibrary.org/subjects/business"
+            "url": "/subjects/business"
         },
         {
             "name": "psychology",
-            "url": "https://openlibrary.org/subjects/psychology"
+            "url": "/subjects/psychology"
         },
         {
             "name": "Personal Growth",
-            "url": "https://openlibrary.org/subjects/personal_growth"
+            "url": "/subjects/personal_growth"
         },
         {
             "name": "New York Times bestseller",
-            "url": "https://openlibrary.org/subjects/new_york_times_bestseller"
+            "url": "/subjects/new_york_times_bestseller"
         },
         {
             "name": "BUSINESS & ECONOMICS / Organizational Behavior",
-            "url": "https://openlibrary.org/subjects/business_&_economics__organizational_behavior"
+            "url": "/subjects/business_&_economics__organizational_behavior"
         },
         {
             "name": "PSYCHOLOGY / Social Psychology",
-            "url": "https://openlibrary.org/subjects/psychology__social_psychology"
+            "url": "/subjects/psychology__social_psychology"
         },
         {
             "name": "SELF-HELP / Personal Growth / General.",
-            "url": "https://openlibrary.org/subjects/self-help__personal_growth__general."
+            "url": "/subjects/self-help__personal_growth__general."
         },
         {
             "name": "Self-help / personal growth / general",
-            "url": "https://openlibrary.org/subjects/self-help__personal_growth__general"
+            "url": "/subjects/self-help__personal_growth__general"
         },
         {
             "name": "Lebensführung",
-            "url": "https://openlibrary.org/subjects/lebensführung"
+            "url": "/subjects/lebensführung"
         },
         {
             "name": "Gewohnheit",
-            "url": "https://openlibrary.org/subjects/gewohnheit"
+            "url": "/subjects/gewohnheit"
         },
         {
             "name": "Änderung",
-            "url": "https://openlibrary.org/subjects/änderung"
+            "url": "/subjects/änderung"
         },
         {
             "name": "Erfolg",
-            "url": "https://openlibrary.org/subjects/erfolg"
+            "url": "/subjects/erfolg"
         },
         {
             "name": "Gabriela Moya",
-            "url": "https://openlibrary.org/subjects/person:gabriela_moya"
+            "url": "/subjects/person:gabriela_moya"
         }
     ],
     "book_url": "https://openlibrary.org/books/OL27918581M/Atomic_Habits",
-    "you_might_also_like": [],
+    "editions": [
+        {
+            "image_src": "//covers.openlibrary.org/b/id/15103841-S.jpg",
+            "title": "Die 1%-Methode: Minimale Veränderung, maximale Wirkung",
+            "url": "/books/OL33000520M/Die_1_-Methode",
+            "year": "Apr 27",
+            "publisher": "2020",
+            "language": "perfect paperback in German"
+        },
+        {
+            "image_src": "//covers.openlibrary.org/b/id/15087154-S.jpg",
+            "title": "Hábitos Atômicos: um Método Fácil e Comprovado de Criar Bons Hábitos e se Livrar dos Maus",
+            "url": "/books/OL40216430M/Hábitos_Atômicos",
+            "year": "Oct 27",
+            "publisher": "2019",
+            "language": "paperback in Portuguese"
+        },
+        {
+            "image_src": "//covers.openlibrary.org/b/id/15102424-S.jpg",
+            "title": "Atomic Habits: The life-changing million copy bestseller",
+            "url": "/books/OL27918581M/Atomic_Habits",
+            "year": "2018",
+            "publisher": "Random House Business",
+            "language": "Paperback in English"
+        },
+        {
+            "image_src": "//covers.openlibrary.org/b/id/15073719-S.jpg",
+            "title": "Hábitos Atómicos",
+            "url": "/books/OL51155019M/Hábitos_Atómicos",
+            "year": "2016",
+            "publisher": "Paidos",
+            "language": "in Spanish"
+        }
+    ],
+    "edition_notes": "",
+    "published_in": "",
+    "other_titles": [],
+    "translation_of": "",
+    "translated_from": "",
+    "edition_identifiers": {
+        "open_library": "OL27918581M",
+        "isbn_10": "1847941834"
+    },
+    "work_identifiers": [
+        "OL17930368W"
+    ],
+    "source_records": [
+        {
+            "name": "Habit",
+            "url": "/subjects/habit"
+        },
+        {
+            "name": "Habit breaking",
+            "url": "/subjects/habit_breaking"
+        },
+        {
+            "name": "Behavior modification",
+            "url": "/subjects/behavior_modification"
+        },
+        {
+            "name": "Self-actualization (psychology)",
+            "url": "/subjects/self-actualization_(psychology)"
+        },
+        {
+            "name": "Business",
+            "url": "/subjects/business"
+        },
+        {
+            "name": "psychology",
+            "url": "/subjects/psychology"
+        },
+        {
+            "name": "Personal Growth",
+            "url": "/subjects/personal_growth"
+        },
+        {
+            "name": "New York Times bestseller",
+            "url": "/subjects/new_york_times_bestseller"
+        },
+        {
+            "name": "BUSINESS & ECONOMICS / Organizational Behavior",
+            "url": "/subjects/business_&_economics__organizational_behavior"
+        },
+        {
+            "name": "PSYCHOLOGY / Social Psychology",
+            "url": "/subjects/psychology__social_psychology"
+        },
+        {
+            "name": "SELF-HELP / Personal Growth / General.",
+            "url": "/subjects/self-help__personal_growth__general."
+        },
+        {
+            "name": "Self-help / personal growth / general",
+            "url": "/subjects/self-help__personal_growth__general"
+        },
+        {
+            "name": "Lebensführung",
+            "url": "/subjects/lebensführung"
+        },
+        {
+            "name": "Gewohnheit",
+            "url": "/subjects/gewohnheit"
+        },
+        {
+            "name": "Änderung",
+            "url": "/subjects/änderung"
+        },
+        {
+            "name": "Erfolg",
+            "url": "/subjects/erfolg"
+        },
+        {
+            "name": "Gabriela Moya",
+            "url": "/subjects/person:gabriela_moya"
+        },
+        {
+            "name": "1. The Surprising Power of Atomic Habits Page 13",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/13"
+        },
+        {
+            "name": "2. How Your Habits Shape Your Identity (and Vice Versa) Page 29",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/29"
+        },
+        {
+            "name": "3. How to Build Better Habits in 4 Simple Steps Page 43",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/43"
+        },
+        {
+            "name": "4. The Man Who Didn't Look Right Page 59",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/59"
+        },
+        {
+            "name": "5. The Best Way to Start a New Habit Page 69",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/69"
+        },
+        {
+            "name": "6. Motivation Is Overrated; Environment Often Matters More Page 81",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/81"
+        },
+        {
+            "name": "7. The Secret to Self-Control Page 91",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/91"
+        },
+        {
+            "name": "8. How to Make a Habit Irresistible Page 101",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/101"
+        },
+        {
+            "name": "9. The Role of Family and Friends in Shaping Your Habits Page 113",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/113"
+        },
+        {
+            "name": "10. How to Find and Fix the Causes of Your Bad Habits Page 125",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/125"
+        },
+        {
+            "name": "11. Walk Slowly, but Never Backward Page 141",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/141"
+        },
+        {
+            "name": "12. The Law of Least Effort Page 149",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/149"
+        },
+        {
+            "name": "13. How to Stop Procrastinating by Using the Two-Minute Rule Page 159",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/159"
+        },
+        {
+            "name": "14. How to Make Good Habits Inevitable and Bad Habits Impossible Page 169",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/169"
+        },
+        {
+            "name": "15. The Cardinal Rule of Behavior Change Page 183",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/183"
+        },
+        {
+            "name": "16. How to Stick with Good Habits Every Day Page 195",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/195"
+        },
+        {
+            "name": "17. How an Accountability Partner Can Change Everything Page 205",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/205"
+        },
+        {
+            "name": "18. The Truth About Talent (When Genes Matter and When They Don't) Page 217",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/217"
+        },
+        {
+            "name": "19. The Goldilocks Rule: How to Stay Motivated in Life and Work Page 229",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/229"
+        },
+        {
+            "name": "20. The Downside of Creating Good Habits Page 239",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/239"
+        },
+        {
+            "name": "Conclusion: The Secret to Results That Last Page 251",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/251"
+        },
+        {
+            "name": "What Should You Read Next? Page 257",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/257"
+        },
+        {
+            "name": "Little Lessons from the Four Laws Page 259",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/259"
+        },
+        {
+            "name": "How to Apply These Ideas to Business Page 265",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/265"
+        },
+        {
+            "name": "How to Apply These Ideas to Parenting Page 267",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/267"
+        },
+        {
+            "name": "Acknowledgments Page 269",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/269"
+        },
+        {
+            "name": "Notes Page 273",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/273"
+        },
+        {
+            "name": "Index Page 299",
+            "url": "//archive.org/details/atomichabitseasy0000clea/page/299"
+        },
+        {
+            "name": "BF335",
+            "url": "/explore?jumpTo=lcc%3ABF335"
+        },
+        {
+            "name": "729a66f87a5a6ceb910e60038fca86f8",
+            "url": "https://annas-archive.org/md5/729a66f87a5a6ceb910e60038fca86f8"
+        },
+        {
+            "name": "Better World Books",
+            "url": "https://www.betterworldbooks.com/"
+        },
+        {
+            "name": "record",
+            "url": "/show-records/bwb:9781847941831"
+        },
+        {
+            "name": "Promise Item",
+            "url": "https://archive.org/details/bwb_daily_pallets_2022-10-31"
+        },
+        {
+            "name": "Internet Archive",
+            "url": "//archive.org/details/atomichabitseasy0000clea"
+        },
+        {
+            "name": "item record",
+            "url": "/show-records/ia:atomichabitseasy0000clea"
+        },
+        {
+            "name": "GoodReads",
+            "url": "https://www.goodreads.com/book/show/40121378-atomic-habits"
+        }
+    ],
+    "first_sentence": "",
+    "work_description": "",
+    "table_of_contents": [
+        "Introduction: My Story",
+        "The Fundamentals: Why Tiny Changes Make a Big Difference",
+        "1. The Surprising Power of Atomic Habits",
+        "2. How Your Habits Shape Your Identity (and Vice Versa)",
+        "3. How to Build Better Habits in 4 Simple Steps",
+        "The 1st Law: Make It Obvious",
+        "4. The Man Who Didn't Look Right",
+        "5. The Best Way to Start a New Habit",
+        "6. Motivation Is Overrated; Environment Often Matters More",
+        "7. The Secret to Self-Control",
+        "The 2nd Law: Make It Attractive",
+        "8. How to Make a Habit Irresistible",
+        "9. The Role of Family and Friends in Shaping Your Habits",
+        "10. How to Find and Fix the Causes of Your Bad Habits",
+        "The 3rd Law: Make It Easy",
+        "11. Walk Slowly, but Never Backward",
+        "12. The Law of Least Effort",
+        "13. How to Stop Procrastinating by Using the Two-Minute Rule",
+        "14. How to Make Good Habits Inevitable and Bad Habits Impossible",
+        "The 4th Law: Make It Satisfying",
+        "15. The Cardinal Rule of Behavior Change",
+        "16. How to Stick with Good Habits Every Day",
+        "17. How an Accountability Partner Can Change Everything",
+        "Advanced Tactics: How to Go from Being Merely Good to Being Truly Great",
+        "18. The Truth About Talent (When Genes Matter and When They Don't)",
+        "19. The Goldilocks Rule: How to Stay Motivated in Life and Work",
+        "20. The Downside of Creating Good Habits",
+        "Conclusion: The Secret to Results That Last",
+        "Appendix",
+        "What Should You Read Next?",
+        "Little Lessons from the Four Laws",
+        "How to Apply These Ideas to Business",
+        "How to Apply These Ideas to Parenting",
+        "Acknowledgments",
+        "Notes",
+        "Index"
+    ],
+    "you_might_also_like": [
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14635756-M.jpg",
+            "title": "Ulysses",
+            "book_url": "https://openlibrary.org/books/OL51746364M",
+            "read_url": "https://openlibrary.org/books/OL51746364M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14634156-M.jpg",
+            "title": "The Blithedale Romance",
+            "book_url": "https://openlibrary.org/books/OL51733545M",
+            "read_url": "https://openlibrary.org/books/OL51733545M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14634190-M.jpg",
+            "title": "Phineas Redux",
+            "book_url": "https://openlibrary.org/books/OL51733574M",
+            "read_url": "https://openlibrary.org/books/OL51733574M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14634317-M.jpg",
+            "title": "Trilby",
+            "book_url": "https://openlibrary.org/books/OL51733701M",
+            "read_url": "https://openlibrary.org/books/OL51733701M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14634385-M.jpg",
+            "title": "He Knew He Was Right",
+            "book_url": "https://openlibrary.org/books/OL51733849M",
+            "read_url": "https://openlibrary.org/books/OL51733849M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14855638-M.jpg",
+            "title": "Mendings",
+            "book_url": "https://openlibrary.org/books/OL38491554M",
+            "read_url": "https://openlibrary.org/borrow/ia/mendings00swee?ref=ol"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Power of Music",
+            "book_url": "https://openlibrary.org/books/OL39673638M",
+            "read_url": "https://openlibrary.org/borrow/ia/0ea743b8-e4f2-4259-bad8-a8fc5d3838a0?ref=ol"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Spiritual Growth for Real Life Transformation",
+            "book_url": "https://openlibrary.org/books/OL39580946M",
+            "read_url": "https://openlibrary.org/borrow/ia/watchwhereyoupoi0000jone?ref=ol"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Letters on the Autonomy Project",
+            "book_url": "https://openlibrary.org/books/OL38491177M",
+            "read_url": "https://openlibrary.org/borrow/ia/1809f10a-d0e3-4481-8f96-cca7f240d656?ref=ol"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Workplace Innovation",
+            "book_url": "https://openlibrary.org/books/OL37937108M",
+            "read_url": "https://openlibrary.org/books/OL37937108M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Psychology, Communication, and the Canadian Workplace",
+            "book_url": "https://openlibrary.org/books/OL37937160M",
+            "read_url": "https://openlibrary.org/books/OL37937160M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Cultivating Your Leadership Capabilities",
+            "book_url": "https://openlibrary.org/books/OL37937228M",
+            "read_url": "https://openlibrary.org/books/OL37937228M/-/borrow?action=read"
+        }
+    ],
     "more_by_author": []
 }

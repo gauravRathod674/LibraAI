@@ -1,13 +1,13 @@
 {
-    "image_src": "//covers.openlibrary.org/b/id/15105189-M.jpg",
+    "image_src": "//covers.openlibrary.org/b/id/14943851-M.jpg",
     "title": "The 48 laws of power",
     "authors": [
         "Robert Greene"
     ],
     "rating_out_of_5": "",
-    "description": "Amoral, cunning, ruthless, and instructive, this piercing work distills three thousand years of the history of power into 48 well-explicated laws. It outlines the laws of power in their unvarnished essence, synthesizing the philosophies of Machiavelli, Sun-tzu, Carl von Clausewitz, and other great thinkers. Some laws teach the need for prudence, the virtue of stealth, and many demand the total absence of mercy, but like it or not, all have applications in real life. Illustrated through the tactics of Queen Elizabeth I, Henry Kissinger, P. T. Barnum, and other famous figures who have wielded--or been victimized by--power, these laws will fascinate any reader interested in gaining, observing, or defending against ultimate control.--From publisher description.",
-    "publish_date": "2000",
-    "publisher": "Penguin Books",
+    "description": "Amoral, cunning, ruthless, and instructive, this multi-million-copy New York Times bestseller is the definitive manual for anyone interested in gaining, observing, or defending against ultimate control – from the author of The Laws of Human Nature.",
+    "publish_date": "1998",
+    "publisher": "Penguin",
     "language": "English",
     "pages": "452",
     "subjects": [
@@ -176,7 +176,7 @@
             "url": "/subjects/time:ao_longo_de_toda_história"
         }
     ],
-    "book_url": "https://openlibrary.org/works/OL1968368W/The_48_Laws_of_Power",
+    "book_url": "https://openlibrary.org/books/OL25418275M/The_48_laws_of_power",
     "editions": [
         {
             "image_src": "//covers.openlibrary.org/b/id/15105189-S.jpg",
@@ -211,18 +211,14 @@
             "language": "Hardcover in Indonesian - 1st ed."
         }
     ],
-    "edition_notes": "Originally published: [New York] : Viking, 1998. \"A Joost Elffers production.\" Includes bibliographical references (p. 431-432) and index.",
-    "published_in": "New York",
-    "other_titles": [
-        "Forty-eight laws of power., Power."
-    ],
-    "translation_of": "English",
-    "translated_from": "Hindi",
+    "edition_notes": "",
+    "published_in": "",
+    "other_titles": [],
+    "translation_of": "",
+    "translated_from": "",
     "edition_identifiers": {
-        "open_library": "OL16120130M",
-        "isbn_10": "0140280197",
-        "oclc": "45062606",
-        "goodreads": "1303"
+        "open_library": "OL25418275M",
+        "isbn_10": "0140280197"
     },
     "work_identifiers": [
         "OL1968368W"
@@ -393,157 +389,98 @@
             "url": "/subjects/time:ao_longo_de_toda_história"
         },
         {
-            "name": "Hindi",
-            "url": "/languages/hin"
-        },
-        {
-            "name": "303.3",
-            "url": "/explore?jumpTo=ddc%3A303.3"
-        },
-        {
-            "name": "BD438 .G74 2000",
-            "url": "/explore?jumpTo=lcc%3ABD438%20.G74%202000"
-        },
-        {
-            "name": "45062606",
-            "url": "https://www.worldcat.org/oclc/45062606?tab=details"
-        },
-        {
-            "name": "1303",
-            "url": "https://www.goodreads.com/book/show/1303"
+            "name": "Q126124243",
+            "url": "https://www.wikidata.org/wiki/Q126124243"
         },
         {
             "name": "Q574219",
             "url": "https://www.wikidata.org/wiki/Q574219"
         },
         {
-            "name": "Oregon Libraries",
-            "url": "//archive.org/details/marc_oregon_summit_records"
-        },
-        {
-            "name": "MARC record",
-            "url": "/show-records/marc_oregon_summit_records/catalog_files/osu_bibs.mrc:1514608833:3863"
-        },
-        {
-            "name": "marc_cca",
-            "url": "//archive.org/details/marc_cca"
-        },
-        {
-            "name": "MARC record",
-            "url": "/show-records/marc_cca/b10621386.out:32510289:924"
-        },
-        {
             "name": "Internet Archive",
-            "url": "//archive.org/details/48lawsofpower00gree"
+            "url": "//archive.org/details/48lawsofpow00gree"
         },
         {
             "name": "item record",
-            "url": "/show-records/ia:48lawsofpower00gree"
-        },
-        {
-            "name": "Internet Archive",
-            "url": "//archive.org/details/isbn_9780670881468"
-        },
-        {
-            "name": "item record",
-            "url": "/show-records/ia:isbn_9780670881468"
-        },
-        {
-            "name": "marc_openlibraries_sanfranciscopubliclibrary",
-            "url": "//archive.org/details/marc_openlibraries_sanfranciscopubliclibrary"
-        },
-        {
-            "name": "MARC record",
-            "url": "/show-records/marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:225564625:21698"
-        },
-        {
-            "name": "Internet Archive",
-            "url": "//archive.org/details/lawspower00gree_305"
-        },
-        {
-            "name": "item record",
-            "url": "/show-records/ia:lawspower00gree_305"
-        },
-        {
-            "name": "amazon.com",
-            "url": "https://www.amazon.com/?tag=internetarchi-20"
-        },
-        {
-            "name": "record",
-            "url": "/show-records/amazon:0140280197"
-        },
-        {
-            "name": "Better World Books",
-            "url": "https://www.betterworldbooks.com/"
-        },
-        {
-            "name": "record",
-            "url": "/show-records/bwb:9780140280197"
-        },
-        {
-            "name": "Harvard University",
-            "url": "//archive.org/details/harvard_bibliographic_metadata"
-        },
-        {
-            "name": "record",
-            "url": "/show-records/harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:783705944:4099"
+            "url": "/show-records/ia:48lawsofpow00gree"
         }
     ],
     "first_sentence": "\"Nicolas Fouquet, Louis XIV's finance minister in the first years of his reign, was a generous man who loved lavish parties, pretty women, and poetry.\"",
     "work_description": "Amoral, cunning, ruthless, and instructive, this piercing work distills three thousand years of the history of power in to forty-eight well explicated laws. As attention--grabbing in its design as it is in its content, this bold volume outlines the laws of power in their unvarnished essence, synthesizing the philosophies of Machiavelli, Sun-tzu, Carl von Clausewitz, and other great thinkers. Some laws teach the need for prudence (\"Law 1: Never Outshine the Master\"), the virtue of stealth (\"Law 3: Conceal Your Intentions\"), and many demand the total absence of mercy (\"Law 15: Crush Your Enemy Totally\"), but like it or not, all have applications in real life. Illustrated through the tactics of Queen Elizabeth I, Henry Kissinger, P. T. Barnum, and other famous figures who have wielded--or been victimized by--power, these laws will fascinate any reader interested in gaining, observing, or defending against ultimate control.",
-    "table_of_contents": [
-        "Preface -- -- law 1.",
-        "Never outshine the master -- -- law 2.",
-        "Never put too much trust in friends, learn how to use enemies -- -- law 3.",
-        "Conceal your intentions -- -- law 4.",
-        "Always say less than necessary -- -- law 5.",
-        "So much depends on reputation - guard it with your life -- -- law 6.",
-        "Court attention at all cost -- -- law 7.",
-        "Get others to do the work for you, but always take the credit -- -- law 8.",
-        "Make other people come to you - use bait if necessary -- -- law 9.",
-        "Win through your actions, never through argument -- -- law 10.",
-        "Infection : avoid the unhappy and the unlucky -- -- law 11.",
-        "Learn to keep people dependent on you -- -- law 12.",
-        "Use selective honesty and generosity to disarm your victim -- -- law 13.",
-        "When asking for help, appeal to people's self-interest, never to their mercy or gratitude -- -- law 14.",
-        "Pose as a friend, work as a spy -- -- law 15.",
-        "Crush your enemy totally -- -- law 16.",
-        "Use absence to increase respect and honor -- -- law 17.",
-        "Keep others in suspended terror : cultivate an air of unpredictability -- -- law 18.",
-        "Do not build fortresses to protect yourself - isolation is dangerous -- -- law 19.",
-        "Know who you're dealing with - do not offend the wrong person -- -- law 20.",
-        "Do not commit to anyone -- -- law 21.",
-        "Play a sucker to catch a sucker - seem dumber than your mark -- -- law 22.",
-        "Use the surrender tactic : transform weakness into power -- -- law 23.",
-        "Concentrate your forces -- -- law 24.",
-        "Play the perfect courtier -- -- law 25.",
-        "Re-create yourself -- -- law 26.",
-        "Keep your hands clean -- -- law 27.",
-        "Play on people's need to believe to create a cultlike following -- -- law 28.",
-        "Enter action with boldness -- -- law 29.",
-        "Plan all the way to the end -- -- law 30.",
-        "Make your accomplishments seem effortless -- -- law 31.",
-        "Control the options : get others to play with the cards you deal -- -- law 32.",
-        "Play to people's fantasies -- -- law 33.",
-        "Discover each man's thumbscrew -- -- law 34.",
-        "Be royal in your own fashion : act like a king to be treated like one -- -- law 35.",
-        "Master the art of timing -- -- law 36.",
-        "Disdain things you cannot have : ignoring them is the best revenge -- -- law 37.",
-        "Create compelling spectacles -- -- law 38.",
-        "Think as you like but behave like others -- -- law 39.",
-        "Stir up waters to catch fish -- -- law 40.",
-        "Despise the free lunch -- -- law 41.",
-        "Avoid stepping into a great man's shoes -- -- law 42.",
-        "Strike the shepherd and the sheep will scatter -- -- law 43.",
-        "Work on the hearts and minds of others -- -- law 44.",
-        "Disarm and infuriate with the mirror effect -- -- law 45.",
-        "Preach the need for change, but never reform too much at once -- -- law 46.",
-        "Never appear to perfect -- -- law 47.",
-        "Do not go past the mark you aimed for; in victory, learn when to stop -- -- law 48.",
-        "Assume formlessness --",
-        "Selected bibliography --",
-        "Index."
+    "table_of_contents": [],
+    "you_might_also_like": [
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14847726-M.jpg",
+            "title": "Trans Technologies",
+            "book_url": "https://openlibrary.org/books/OL57951487M",
+            "read_url": "https://openlibrary.org/borrow/ia/haimson2025?ref=ol"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14858213-M.jpg",
+            "title": "Imperialism and World Politics, Part 3 of 4",
+            "book_url": "https://openlibrary.org/books/OL58383701M",
+            "read_url": "https://openlibrary.org/books/OL58383701M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14844561-M.jpg",
+            "title": "Introduction to AI Safety, Ethics, and Society",
+            "book_url": "https://openlibrary.org/books/OL57790023M",
+            "read_url": "https://openlibrary.org/books/OL57790023M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14635756-M.jpg",
+            "title": "Ulysses",
+            "book_url": "https://openlibrary.org/books/OL51746364M",
+            "read_url": "https://openlibrary.org/books/OL51746364M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14634279-M.jpg",
+            "title": "Essays",
+            "book_url": "https://openlibrary.org/books/OL51733651M",
+            "read_url": "https://openlibrary.org/books/OL51733651M/-/borrow?action=read"
+        },
+        {
+            "image_src": "https://covers.openlibrary.org/b/id/14831020-M.jpg",
+            "title": "Soldier's Paradise",
+            "book_url": "https://openlibrary.org/books/OL50634269M",
+            "read_url": "https://openlibrary.org/borrow/ia/soldiersparadise00daly?ref=ol"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Artificial Intelligence - Intelligent Art?",
+            "book_url": "https://openlibrary.org/books/OL50631521M",
+            "read_url": "https://openlibrary.org/books/OL50631521M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Responsible Use of AI in Military Systems",
+            "book_url": "https://openlibrary.org/books/OL57795094M",
+            "read_url": "https://openlibrary.org/books/OL57795094M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "AI for Everyone",
+            "book_url": "https://openlibrary.org/books/OL58030084M",
+            "read_url": "https://openlibrary.org/books/OL58030084M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Multidisciplinary Perspectives on Artificial Intelligence and the Law",
+            "book_url": "https://openlibrary.org/books/OL57486341M",
+            "read_url": "https://openlibrary.org/books/OL57486341M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "AI for Teachers - An Open Handbook",
+            "book_url": "https://openlibrary.org/books/OL57947993M",
+            "read_url": "https://openlibrary.org/books/OL57947993M/-/borrow?action=read"
+        },
+        {
+            "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "title": "Artificial Intelligence Index Report 2024",
+            "book_url": "https://openlibrary.org/books/OL57461961M",
+            "read_url": "https://openlibrary.org/books/OL57461961M/-/borrow?action=read"
+        }
     ],
-    "you_might_also_like": [],
     "more_by_author": []
 }
