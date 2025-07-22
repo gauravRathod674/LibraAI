@@ -161,6 +161,8 @@ export default function TranslateDrawer({
   const [scope, setScope] = useState("page");
   const [query, setQuery] = useState("");
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [showCopied, setShowCopied] = useState(false);
+
 
   const filteredLanguages = languages.filter((lang) =>
     lang.name.toLowerCase().includes(query.toLowerCase())
@@ -237,11 +239,29 @@ export default function TranslateDrawer({
     // If the text is an array (from paragraphs), join it. Otherwise, use it as is.
     const textToCopy = Array.isArray(txt) ? txt.join("\n\n") : txt;
     navigator.clipboard.writeText(textToCopy);
-    toast.success("Copied to clipboard!");
+    setShowCopied(true);
+    setTimeout(() => setShowCopied(false), 3000);
   };
 
   return (
     <AnimatePresence>
+      {showCopied && (
+        <motion.div
+          key="translate-copy-banner"
+          className="fixed left-1/2 z-[999] px-4 py-2 rounded-lg bg-indigo-600 text-white shadow-2xl transform -translate-x-1/2"
+          style={{ top: "4.5rem", minWidth: "200px", maxWidth: "90vw" }}
+          initial={{ x: "100vw",    opacity: 0,   scale: 0.8 }}
+          animate={{ x: 0,           opacity: 1,   scale: 1   }}
+          exit   ={{ x: "-100vw",    opacity: 0,   scale: 0.8 }}
+          transition={{
+            x:       { type: "spring", stiffness: 300, damping: 30 },
+            opacity: { duration: 0.3 },
+            scale:   { duration: 0.3 },
+          }}
+        >
+          Translation copied successfully!
+        </motion.div>
+      )}
       {isOpen && (
         <>
           <motion.div
